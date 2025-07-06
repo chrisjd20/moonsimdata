@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Moon Yoyo Animation</title>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+  <style>
+    body { margin: 0; background: #111; }
+    #game-container { margin: 40px auto; display: block; width: 251px; }
+  </style>
+</head>
+<body>
+  <div id="game-container"></div>
+  <script>
+    const config = {
+      type: Phaser.AUTO,
+      width: 251,
+      height: 200,
+      backgroundColor: "#111",
+      parent: 'game-container',
+      scene: {
+        preload: preload,
+        create: create
+      }
+    };
+
+    function preload() {
+      this.load.spritesheet('moon_yoyo', 'spritesheet_1to50_251x200.png', {
+        frameWidth: 251,
+        frameHeight: 200,
+        endFrame: 49  // 50 frames: 0 to 49
+      });
+    }
+
+    function create() {
+      this.anims.create({
+        key: 'moon_yoyo_anim',
+        frames: this.anims.generateFrameNumbers('moon_yoyo', { start: 0, end: 49 }),
+        frameRate: 24, // or whatever speed you like
+        yoyo: true,
+        repeat: -1
+      });
+
+      this.add.sprite(251/2, 200/2, 'moon_yoyo').play('moon_yoyo_anim');
+    }
+
+    new Phaser.Game(config);
+  </script>
+</body>
+</html>

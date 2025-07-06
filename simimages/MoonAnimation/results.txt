@@ -1,0 +1,6 @@
+└─$ python3 sprite_sheet_maker_v2.py
+Saved spritesheet_905x720.png (12 cols x 12 rows, 140 frames)
+Saved spritesheet_503x400.png (12 cols x 12 rows, 140 frames)
+Saved spritesheet_251x200.png (12 cols x 12 rows, 140 frames)
+Saved spritesheet_126x100.png (12 cols x 12 rows, 140 frames)
+All sprite sheets generated!

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phaser 3 Sprite Sheet Animation</title>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+  <style>
+    body { margin: 0; background: #111; }
+    #game-container { margin: 40px auto; display: block; width: 251px; }
+  </style>
+</head>
+<body>
+  <div id="game-container"></div>
+  <script>
+    const config = {
+      type: Phaser.AUTO,
+      width: 251,
+      height: 200,
+      backgroundColor: "#111",
+      parent: 'game-container',
+      scene: {
+        preload: preload,
+        create: create
+      }
+    };
+
+    function preload() {
+      this.load.spritesheet('moon_anim', 'spritesheet_251x200.png', {
+        frameWidth: 251,
+        frameHeight: 200,
+        endFrame: 86  // 87 frames total, 0-indexed
+      });
+    }
+
+    function create() {
+      this.anims.create({
+        key: 'moon_loop',
+        frames: this.anims.generateFrameNumbers('moon_anim', { start: 0, end: 86 }),
+        frameRate: 24, // adjust for your desired animation speed
+        repeat: -1
+      });
+
+      this.add.sprite(251/2, 200/2, 'moon_anim').play('moon_loop');
+    }
+
+    new Phaser.Game(config);
+  </script>
+</body>
+</html>
