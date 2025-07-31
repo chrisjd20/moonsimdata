@@ -1,0 +1,22 @@
+Rising Attack
+High Guard	
+	
+2 /W
+Falling Swing (I or S)	
+	
+1 / 3
+Thrust (P)	
+	
+1 / 2 
+Sweeping Cut (S)	
+	
+2 / 2
+Rising Attack (I, S or P) 	 	
+1 / 1
+Low Guard 	
+	
+W/W
+Damage Type:  
+Choose Impact, Slicing or Piercing
+Opponent Plays
+Deal  / Suffer
