@@ -1,0 +1,31 @@
+Vicious Syd v.2
+Plate Armour: Reduce all non-Magical Dmg suffered by -2.
+Vicious: Each time this model causes one or more Wds to 
+an enemy, it gains 1 energy. Max. 3 times per turn. 
+Short 'n Stabby: If this character deals Piercing Melee Dmg, 
+increase the Dmg dealt by +1.
+Lard Lover: This character gains +2 Melee stat if there is a 
+Giant within 4”.
+             
+Giant Whisperer (1) 8”  
+Move target Giant 1”. 
+             
+Where’d You Come From!? (2) 6”
+X : Place this model anywhere in base contact with target 
+enemy.  
+Catastrophe : The resisting player places this model anywhere 
+within 6”.
+♥ 
+Base:  
+30mm
+mmmmm
+Signature Move on a Rising Attack.
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+5
+4
+Goblin, Soldier

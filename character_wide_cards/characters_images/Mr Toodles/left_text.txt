@@ -1,0 +1,33 @@
+mmmmm  mm
+Signature Move on a Low Guard.
+Melee
+Arcane
+Range
+Evade
+1”
+0
+2
+5
+Faun, Cleric
+♥ 
+Base:  
+30mm
+Mr Toodles  v.2
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy. 
+             
+Goblin Jazz Funk Solo (1) 2” Pulse  – Once per turn.  
+All other models within the pulse move 1” directly away. 
+             
+Healing (2) 8” 
+X : Target restores X+1 Wds. 
+Catastrophe : This model suffers 2 Wds.
+Lullaby (1) 6” – Once per turn.  
+2 or 2 :  Target model must discard half its energy rounding up, 
+then it restores 2 Wds.  
+Catastrophe : This model suffers 2 Wds.
+Blighted Elixir (1) 2” – Once per turn. 
+X : Target is moved X" directly away. 
+X : Target gains X-1 energy. 
+X : Target suffers X Wds. 
+Catastrophe : This model suffers 2 Wds.

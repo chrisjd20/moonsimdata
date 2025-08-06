@@ -1,0 +1,53 @@
+Swash
+Human, Pirate
+Buckler: Enemy characters cannot count Critical Hits 
+against this character.
+Cutlass: If this character deals Slicing Melee Dmg, 
+increase the Dmg dealt by +1.
+Inferiority Complex: If this character deals Melee  
+Dmg to a Noble, increase the Dmg dealt by +1.
+             
+Reload [Shoot Pistol] (2) 
+The named ability can be used again. This ability cannot  
+be used while this model is engaged. 
+             
+Shoot Pistol (1) 8”  – Once per game, unless reloaded m 
+X : Target suffers X+1 Impact Dmg. 
+Catastrophe : This character suffers 3 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  mmm
+Signature Move on a Sweeping Cut.
+Melee
+Arcane
+Range
+Evade
+2”
+0
+5
+3
+Flashing Blades
+Upgrade for Sweeping Cut
+High Guard 
+ 
+W
+Falling Swing 
+ 
+2
+Thrust 
+ 
+0
+Sweeping Cut 
+ 
+0
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Damage Type:  
+Slicing

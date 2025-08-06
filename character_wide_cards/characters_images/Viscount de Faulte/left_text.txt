@@ -1,0 +1,30 @@
+♥ 
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+2”
++1
+3
+0
+Viscount de Faulte
+Signature Move on a Thrust.
+Cavalry Mace: If this character deals Slicing Melee Dmg, 
+reduce the Dmg to W. If this character deals Impact 
+Melee Dmg, increase the Dmg dealt by +1. 
+Concealed Armour: If this character suffers Piercing 
+Dmg, reduce the Dmg suffered by -1.
+Erosion: Enemies within 4” suffer -1 Melee Stat when 
+declaring a Melee Attack action or -2 Melee Stat if 
+targeting this character with a Melee Attack action. 
+Intrusion: After dice are rolled to determine who 
+activates first, this model may spend 1 energy to reroll its 
+die. Once per turn. 
+             
+Fear (2) 4” – Once per turn.  
+Target other character loses 1 energy then a friendly 
+model within 4" of this character gains that much energy. 
+Risen, Animal, Noble
+mmmmm  mmmmm m

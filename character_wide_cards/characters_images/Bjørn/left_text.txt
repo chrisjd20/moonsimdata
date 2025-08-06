@@ -1,0 +1,31 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+0
+4
+2
+Bjørn
+Signature Move on a Falling Swing.
+Bearskin: Reduce non-Piercing Dmg suffered by -1.
+Berserk Fury: Increase all Melee Dmg dealt by half the number 
+of Wds, rounded up, this character has currently suffered. Ignore 
+any Wds suffered during the current action for this Dmg increase.
+Skål: When this character activates, you may flip an Arcane 
+Card. This model suffers X Wds where X is the value of the card. 
+Catastrophe: This character restores all Wds and loses Berserk 
+Fury until end of turn.
+             
+Bear Charge (1) 4" 
+Move this model 3" directly towards target enemy model. The target 
+cannot play Signature Moves until end of this character's activation. 
+             
+Throwing Axe (2) 4” 
+X : Target suffers 2X Impact Dmg. 
+Catastrophe : This character suffers 3 Wds.
+Gnome, Norse, Mercenary
+mmmmm  mmm

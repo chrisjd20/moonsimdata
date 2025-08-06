@@ -1,0 +1,55 @@
+Hell hath no fury...
+Upgrade for High Guard
+Agatha, Tavernfrau v.3
+Deutsche Courage: If a friendly Soldier or Mercenary makes 
+a Melee Attack action while within 6” of this model, you 
+may have them gain 1 energy. Once per turn.
+Concealed Dagger: If this character deals Piercing Melee 
+Dmg, increase the Dmg dealt by +1. If this character plays a 
+Rising Attack increase the Dmg dealt by +1. 
+             
+Enticing Offer (2) 10” 
+2, 2 or 2 : Move target 4” directly towards this model.
+Catastrophe : This character suffers 2 Wds.
+Drink Your Fill (1) 2” - Once per turn.
+X : Target loses X energy.  
+X : Target gains X energy and its Arcane stat is reduced by 
+-X until end of turn.
+X : Target’s Melee stat is increased by +X until end of turn.
+Catastrophe : The target loses possession of up to one  
+Moonstone they are carrying (place it in base contact with 
+them with a depth value of '1').
+♥ 
+Base:  
+30mm
+Signature Move on a High Guard.
+mmmmm  mmm
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W 
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Melee
+Arcane
+Range
+Evade
+1”
+0
+3
+3
+Human
+Deal

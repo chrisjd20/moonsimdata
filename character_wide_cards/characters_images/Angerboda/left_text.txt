@@ -1,0 +1,30 @@
+♥ 
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+2”
++2
+3
+4
+Angerboda
+Signature Move on a Sweeping Cut.
+Frostbite: If this character deals Impact Melee Dmg, 
+increase the Dmg dealt by +2. If at least one friendly model 
+was slain this turn, Melee Dmg dealt by this character 
+cannot be reduced by passive abilities.
+Ice Shard Armour: If this character suffers Piercing or 
+Slicing Dmg, reduce the Dmg suffered by -1.
+              
+Ice in the Veins (1) – Once per turn. 
+Flip an Arcane Card. If the card is X, restore X+1 Wds.
+              
+Eternal Chill (2) 6”
+X : Target suffers X Magical Dmg and gains [Slow: This 
+model's Jog actions are limited to 2"], until end of turn.
+Catastrophe : This character restores 1 Wd. The target 
+restores 2 Wds.
+Risen, Soldier, Giant, Norse
+mmmmm  mmmmm  mm

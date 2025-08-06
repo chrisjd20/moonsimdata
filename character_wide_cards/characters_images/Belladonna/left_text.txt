@@ -1,0 +1,31 @@
+Belladonna
+Faerie, Rogue
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy.
+             
+Faerie Tricks (2) 8"
+Swap places with target friendly Rogue.
+             
+Acid Flask (3) 4”  
+X : Target suffers X+1 Magical Dmg.
+Catastrophe : This model suffers 2 Wds.
+Drop of Nightshade (3) 1”  
+X : Target enemy loses X energy.  
+X : Target enemy suffers X Wds.
+X : Move target enemy up to 2X”. Then you may have the 
+target take a Melee Attack action controlled by you. They 
+count as friendly during the Melee Attack action.
+Catastrophe : The target and this character are both slain.
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-2
+4
+3
+Signature Move on a High Guard.
+mmmmm  m

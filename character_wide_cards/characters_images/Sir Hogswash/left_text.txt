@@ -1,0 +1,30 @@
+Sir Hogswash 
+Hunting Spear: If this character deals Piercing or Slicing 
+Melee Dmg, increase the Dmg dealt by +1. If this 
+character deals Melee Dmg against an Animal, increase 
+the Dmg by +1.
+Sun Shield: If this character suffers Impact or Magical 
+Dmg, reduce the Dmg suffered by -1.
+            
+Utter Swine (1) 6" – Once per turn. 
+You may have another friendly model within 6” suffer 2 
+Wds. If they do then target enemy loses one Arcane Ability 
+of your choice until end of turn.
+Chaaarge!! (2) 6”
+Move this model 4” directly towards target enemy model. 
+If this character’s next action this turn is a Melee Attack 
+against the same target it deals +2 Dmg.
+♥ 
+Base:  
+40mm
+mmmmm  mmmmm
+Signature Move on a Rising Attack.
+Melee
+Arcane
+Range
+Evade
+2”
++1
+4
+0
+Human, Animal, Soldier

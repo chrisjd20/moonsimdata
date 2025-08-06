@@ -1,0 +1,25 @@
+Brunhilde v.3
+Giant, Mercenary, Norse
+Giant-Forged Blades: If this character deals Piercing or 
+Slicing Dmg, increase the Dmg dealt by +2.
+Bodyguard: If a friendly Noble within 4” and LoS 
+suffers Dmg, you may have this character suffer all that 
+Dmg instead. Once per turn.
+Loyalty: If this character takes a Reaction Step it may 
+move 3" directly towards the nearest friendly Noble 
+instead of the normal 1" move.
+             
+Epic Ballads of Giant Heros! (1) 6” Pulse – Once per turn. 
+Other Giants within the pulse gain +1 energy. 
+♥ mmmmm  mmmmm  mmm
+Signature Move on a Falling Swing.
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+2”
++2
+4
+0

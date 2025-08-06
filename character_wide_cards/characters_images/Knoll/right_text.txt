@@ -1,0 +1,25 @@
+Bog Off!
+Upgrade for Thrust
+ 
+End Step Effect: Move the enemy model 1" 
+directly away from this model.
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack 
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal

@@ -1,0 +1,53 @@
+Ribald
+Goblin, Troll
+♥ mmmmm  mmmmm  m
+Signature Move on a High Guard.
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+2”
++2
+2
+3
+Short Fuse
+Upgrade for High Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Slow: This model's Jog actions are limited to 2”.
+Ironclad Knuckles: If this character deals Piercing or 
+Slicing Melee Dmg, reduce the Dmg dealt to W. If this 
+character deals Impact Melee Dmg, increase the Dmg 
+dealt by +2. 
+Ramshackle Armour: Reduce all non-Magical Dmg 
+suffered by -1.
+             
+Fire Cannon! (2) 8”
+X : Target character suffers 3X-1 Impact Dmg then is 
+moved X" directly away.
+Catastrophe : This model suffers 3 Wds. All other 
+models within 2” suffer 3 Magical Dmg then are moved 
+1" directly away.
+End Step Effect: This model suffers 3 Wds.  
+All other models within 2” suffer 3 Magical 
+Dmg then are moved 1" directly away.

@@ -1,0 +1,32 @@
+Morris  v.2
+Pick: If this character deals Slicing Melee Dmg, reduce the 
+Dmg dealt to W. If this character deals Impact Melee Dmg, 
+increase the Dmg dealt by +2.
+Miner: When this model makes a Harvest action, gain 
+possession of the Moonstone regardless of its depth value. 
+This model ignores the Slow Carry rule whilst in possession 
+of exactly one moonstone.
+Tough as Old Boots: At the start of the Replenish Step this 
+model recovers 2 Wds.
+             
+Shove (0) 1” – Once per turn. 
+Move target other model 2” directly away.
+             
+Sink Hole (2) 8”
+X : Target suffers X Wds and gains [Slow: This model's Jog 
+actions are limited to 2"], until end of turn.
+Catastrophe : This character suffers 2 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  mmm
+Signature Move on a Falling Swing.
+Gnome, Militia
+Melee
+Arcane
+Range
+Evade
+1”
+0
+3
+3

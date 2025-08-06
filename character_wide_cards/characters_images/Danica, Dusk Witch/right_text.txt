@@ -1,0 +1,25 @@
+Illusion
+Upgrade for Thrust
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Reduce Dmg suffered to W.
+End Step Effect: Exchange places with a 
+friendly Spirit within 8".

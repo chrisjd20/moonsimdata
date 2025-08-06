@@ -1,0 +1,34 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+2”
+0
+3
+3
+Gremair
+Signature Move on a High Guard.
+Drain Life (2) 4" – Once per turn. 
+Target other friendly character is slain. If the target wasn't 
+a Psychopomp then the next time this character uses 
+Reanimate this turn, reduce its energy cost to (0) and gain 
++2 Arcane Stat for the duration of the action.
+Necrotic Salve (1) 4" – Once per turn. 
+Target friendly character restores 1 Wd. If at least one friendly 
+model was slain this turn, the target also gains +1 energy.  
+             
+Reanimate (3) 
+2, 2 or 2 : Place a friendly slain model in base contact with 
+this model. Restore half its health rounding up. It has no 
+energy but may activate this turn. 
+Catastrophe : This model suffers 4 Wds.
+Summon a Helping Hand (2) 
+This action cannot bring a character into play if it is already in play. 
+1, 1 or 1 : Place a new Familiar Psychopomp in base 
+contact with this character. 
+Catastrophe : This model suffers 3 Wds. 
+Risen, Cleric, Soldier
+mmmmm  mmm

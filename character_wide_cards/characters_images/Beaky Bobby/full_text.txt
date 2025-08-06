@@ -1,0 +1,52 @@
+Beaky Bobby
+Weakling: Reduce all Melee Dmg this character deals 
+by -1. Harvest actions cost this model +1 energy.
+Magic Resistance: Reduce Magical Dmg suffered by -1.
+             
+Stand Back! (1) 2” Pulse  – Once per turn. 
+All other models within the pulse move 1” directly 
+away.
+Foul Gases (2) 2” Pulse
+All models within the pulse suffer 2 Magical Dmg.
+             
+Healing (2) 8”
+X : Target restores X+1 Wds.
+Catastrophe : This model suffers 2 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  mm
+Signature Move on a Thrust.
+Take your medicine
+Upgrade for Thrust
+Damage Type:  
+Magical
+High Guard 
+ 
+3
+Falling Swing 
+ 
+3
+Thrust 
+ 
+3
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+3
+Opponent Plays:
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+2
+5
+Goblin, Wizard
+Deal

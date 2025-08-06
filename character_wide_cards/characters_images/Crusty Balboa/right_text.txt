@@ -1,0 +1,29 @@
+First of the Month!
+Upgrade for Rising Attack
+Damage Type:  
+Impact
+High Guard 
+ 
+2
+Falling Swing 
+ 
+1
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+End Step Effect: If this character has already 
+used the Pinch and Punch abilities this turn 
+then the enemy suffers 2 Wds and cannot take 
+a Melee Attack action targeting this model 
+until end of turn.

@@ -1,0 +1,26 @@
+ Wild Swing
+Upgrade for Falling Swing
+Damage Type:  
+Slicing
+End Step Effect: Move the enemy model 1” 
+directly away from this model.
+High Guard 
+ 
+W
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+3
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+2
+Opponent Plays:
+Deal

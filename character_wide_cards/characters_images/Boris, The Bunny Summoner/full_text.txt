@@ -1,0 +1,59 @@
+Herd Master: This character gains +1 energy during the 
+Replenish Step for each friendly Murder Bunny in play. 
+Shepherd's Crook: If this character deals Slicing or Piercing 
+Melee Dmg, reduce the Dmg dealt to W. If this character 
+deals Impact Melee Dmg, increase the Dmg dealt by +1. 
+             
+Summon a Murder Bunny (3)
+2, 2 or 2 : Place a new friendly Murder Bunny in base contact 
+with this character.
+Catastrophe: This character suffers 3 Wds.
+Summon the Jackalope (5)
+This action can only be taken if there is no friendly Jackalope in play.
+3, 3 or 3 : This character suffers 3 Wds. Place a new 
+Jackalope in base contact. It has no energy but is considered 
+a permanent additional character in your troupe and may 
+activate this turn.
+Catastrophe: This character suffers 3 Wds. Place a new 
+friendly Murder Bunny in base contact.
+♥ 
+Base:  
+30mm
+Signature Move on a Thrust.
+Melee
+Arcane
+Range
+Evade
+2”
+0
+2
+4
+Faun, Wizard
+mmmmm  mmm
+Rabbit Punch
+Upgrade for Thrust
+High Guard 
+ 
+0
+Falling Swing 
+ 
+1
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+1
+Opponent Plays:
+Deal
+This attack deals +1 Dmg for each Animal 
+within 4".
+Damage Type:  
+Impact
+Boris, The Bunny Summoner v.2

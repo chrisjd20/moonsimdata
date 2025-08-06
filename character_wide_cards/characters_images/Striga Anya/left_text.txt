@@ -1,0 +1,31 @@
+♥ 
+Base:  
+30mm
+Signature Move on a Low Guard.
+Melee
+Arcane
+Range
+Evade
+1”
++1
+5
+0
+Spirit
+mmmmm  mm
+Summoned Being: You cannot choose this character for your 
+Troupe.
+Supernatural Strength: Increase all Melee Dmg dealt by +2. 
+Melee Dmg caused by this character counts as Magical instead 
+of the listed type.
+Blood Drinker: If an enemy is slain during a round of melee 
+by this character, then this character gains +3 energy. 
+             
+Replace Necklace (4)  
+This character gains +1 energy. Then it is Removed from Play 
+and replaced by Anya Bartol. Anya Bartol gains energy and 
+suffers Wds equal to those already on this character along 
+with all Moonstones it's carrying and any stat modifications 
+or abilities it has gained. Continue Striga Anya's activation 
+with Anya Bartol; she may not Jog if Striga Anya already did 
+this turn.
+Striga Anya v.2

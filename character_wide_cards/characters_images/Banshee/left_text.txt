@@ -1,0 +1,34 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-2
+4
+4
+Banshee
+Signature Move on a Rising Attack.
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy.
+Exsanguinating Claws: If this character deals Slicing or Piercing 
+Melee Dmg, increase the Dmg dealt by +1.
+Leech: At the end of the Discard Step this model restores 1 Wd 
+for each Wd lost by enemies within 6" during that Discard Step.
+Weeping Miasma: Whilst this model is in play, friendly Faeries treat 
+enemies with at least one Bleed as gaining +1 to their Evade Stat.
+             
+Ghastly Scream (4) 6"
+X : Move target enemy X" directly away. If the enemy is in 
+possession of at least one Moonstone it loses possession of one 
+Moonstone it is carrying before moving. Place it in base contact 
+with the enemy at depth '1'.
+Catastrophe : This character suffers 2 Wds.
+Ear Splitting Screech (3) 6"
+X : Target suffers X-1 Wds and gains [Bleed: During the Discard 
+Step, this character suffers 1 Wd then loses this ability.].
+Catastrophe : This character suffers 2 Wds.
+Faerie, Spirit
+mmmmm  m

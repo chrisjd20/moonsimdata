@@ -1,0 +1,35 @@
+Gnome, Rogue, Norse 
+♥ 
+Base:  
+30mm
+mmmmm  mmm
+Signature Move on a Falling Swing.
+Melee
+Arcane
+Range
+Evade
+1”
+0
+4
+3
+Loci, Nordic Shipwright  v.3
+Hammer: If this character deals Piercing or Slicing Melee Dmg, 
+reduce the Dmg dealt to W. If this character deals Impact Melee 
+Dmg, increase the Dmg dealt by +1. 
+Favour of the Old Gods: When this character suffers Dmg you 
+may flip the top card of the Arcane Deck and reduce the Dmg 
+suffered by -X where X is the value on the flipped card. Catastrophe 
+reduces the Dmg suffered by 0. Once per turn.
+Trickster: When this model successfully bluffs, after resolving the 
+effect you may reveal the bluff and gain +3 energy. Once per turn.
+             
+ 
+Verdant Growth (2)  
+X : Place a 50mm Diameter Wooded Patch within 3X" and LoS on 
+open ground. This remains in place until end of game. A maximum of 3 
+Wooded Patches may be placed by this troupe, if a fourth is placed you 
+must choose and remove a Wooded Patch you created earlier this game. 
+Catastrophe : This model suffers 2 Wds.
+One with the Wind (2) 8”   
+X : Move target model X+1". 
+Catastrophe : This model suffers 2 Wds.

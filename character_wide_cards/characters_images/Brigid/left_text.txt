@@ -1,0 +1,32 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-2
+3
+4
+Brigid
+Signature Move on a Low Guard.
+Feeble: Reduce all Melee Dmg this character deals by -2. 
+Harvest actions cost this model +1 energy.
+Spirits of the Fallen: Once per turn this model may use an 
+Arcane Ability printed on a friendly slain model, ignoring 
+any once per game restrictions, paying its cost as normal.
+             
+Reload [Faerie Fire Pistol] (2) 
+The named ability can be used again. This ability cannot be 
+used while this model is engaged.
+             
+Faerie Fire Pistol (1) 8”  – Once per game, unless reloaded m. 
+X : Target suffers X Magical Dmg.
+Catastrophe : This character suffers 2 Wds.
+Poor Unfortunate Souls (3) 6”  – Once per turn. 
+X : Target character restores X Wds then loses X Energy.
+X : Target other Pirate gains X Energy then suffers X Wds.
+Catastrophe : This character suffers 3 Wds.
+Faerie, Pirate
+mmmmm  m

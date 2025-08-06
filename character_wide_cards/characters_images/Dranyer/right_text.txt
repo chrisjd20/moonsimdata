@@ -1,0 +1,28 @@
+Duplicity
+Upgrade for Low Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+If there is a model within 4" that did not participate 
+in this round of melee and shares a keyword with this 
+character, reduce Dmg suffered to W.
+End Step Effect: Swap positions with a model within 4" 
+that did not participate in this round of melee and shares 
+a keyword with this character.

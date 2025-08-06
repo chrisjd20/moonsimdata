@@ -1,0 +1,56 @@
+Gloom v.2
+Faun, Wizard
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy.
+Slow: This model's Jog actions are limited to 2”.
+Gnarled Staff: If this character deals Slicing or Piercing 
+Melee Dmg, reduce the Dmg dealt to W. If this character 
+deals Impact Melee Dmg increase the Dmg dealt by +1.
+             
+Whisper to the Wild Things (2) 8”
+Move target Animal 3”. 
+             
+Shadow Walk (2)
+X : Place this model within 2X”.
+Catastrophe : The resisting player may place this model within 6". 
+Smothering Darkness (3) 6”  
+X : Target suffers X+1 Magical Dmg and gets -1 Evade Stat 
+until end of turn.  
+Catastrophe : This model suffers 1 Wd and the target gets -2 
+Evade Stat until end of turn.
+Melee
+Arcane
+Range
+Evade
+2”
+0
+2
+4
+mmmmm  mm
+♥ 
+Signature Move on a Low Guard.
+Slip into Shadows
+Upgrade for Low Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+End Step Effect: Place this model within 4".
+Base:  
+30mm

@@ -1,0 +1,29 @@
+Foxglove
+Faerie,         Rogue, Wizard
+Weakling: Reduce all Melee Dmg this character deals 
+by -1. Harvest actions cost this model +1 energy.
+Trickster: When this model successfully bluffs, after 
+resolving the effect you may reveal the bluff and gain +3 
+energy. Once per turn.
+             
+Shelter of the Shadowglade (3) 6”  
+X : Target gains [Protection: The first time this 
+character would suffer Dmg, reduce that Dmg to W], 
+until end of turn.
+Catastrophe : This model suffers 2 Wds.
+Atrophy (3) 6”  
+X : Target suffers 2X Magical Dmg.  
+Catastrophe : This model suffers 2 Wds.
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-2
+3
+3
+Signature Move on a Low Guard.
+mmmmm  m

@@ -1,0 +1,28 @@
+Strong Arm
+Upgrade for Falling Swing
+High Guard 
+ 
+0
+Falling Swing 
+ 
+1
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+3
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+2
+Opponent Plays:
+Deal
+Damage Type:  
+Impact
+Damage from this attack cannot be reduced by 
+passive abilities.
+End Step Effect: You may move the enemy  
+model 1".

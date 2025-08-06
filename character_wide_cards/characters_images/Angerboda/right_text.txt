@@ -1,0 +1,29 @@
+Cleave
+Upgrade for Sweeping Cut
+Damage Type:  
+Impact
+High Guard 
+ 
+W
+Falling Swing 
+ 
+2
+Thrust 
+ 
+0
+Sweeping Cut 
+ 
+0
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+If the enemy suffered 1 or more Wds during this round 
+of Melee, the next time the enemy would restore Wds 
+this turn, reduce Wds restored to W. If the enemy has 
+an ability which restores or otherwise regains Wds after 
+being reduced to 0 Wds, it does not and is slain instead.

@@ -1,0 +1,34 @@
+♥ 
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+2”
++2
+2
+4
+Barnakelle
+Signature Move on a Thrust.
+Rusty Anchor: If this character deals Impact Melee Dmg, 
+increase the Dmg dealt by +2. 
+Bedeviled Seas: At the start of the Replenish Step this model 
+gains +1 energy if there is a Water Feature within 4".
+Rise From The Deep: When this character uses Reanimate it 
+may place the model entering play within a Water Feature within 
+4" instead of base contact. When this model or another friendly 
+model enters play via Reanimate within a Water Feature it gains +1 
+energy and may Jog freely over Water Features until end of turn.
+             
+Reanimate (3)
+2, 2 or 2 : Place a friendly slain model in base contact with 
+this model. Restore half its health rounding up. It has no energy 
+but may activate this turn.
+Catastrophe : This model suffers 4 Wds.
+Dead Troll's Finger (2) 4”  – Once per turn.
+X : Target Pirate or Troll gains X energy and suffers -X Arcane 
+Stat until end of turn.
+Catastrophe : This character suffers 3 Wds.
+Troll, Spirit, Pirate
+mmmmm  mmmmm  mm

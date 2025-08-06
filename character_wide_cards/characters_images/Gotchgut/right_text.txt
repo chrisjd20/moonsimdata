@@ -1,0 +1,28 @@
+Kick to the Guts
+Upgrade for Rising Attack
+End Step Effect: If the enemy suffered 1 or 
+more Wds during this round of Melee, then it 
+loses 1 energy and is moved 1” directly away 
+from this model.
+High Guard 
+ 
+0
+Falling Swing 
+ 
+1
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Damage Type:  
+Impact

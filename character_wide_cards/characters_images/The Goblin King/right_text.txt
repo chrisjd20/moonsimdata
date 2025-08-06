@@ -1,0 +1,26 @@
+Grovel, Peasant!
+Upgrade for Falling swing
+This attack deals +1 Dmg to Goblins.  
+Reduce all Dmg suffered from Goblins to W.
+High Guard 
+ 
+0
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+4
+Opponent Plays:
+Deal
+Damage Type:  
+Impact

@@ -1,0 +1,61 @@
+♥ 
+Base:  
+30mm
+Signature Move on a Low Guard.
+Melee
+Arcane
+Range
+Evade
+1”
+0
+2
+5
+Faun, Cultist, Cleric
+mmmmm  mm
+Mistform
+Upgrade for Low Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Reduce Dmg suffered by -2.
+Expel: Whenever any character suffers a Catastrophe, after resolving 
+the action, draw an Arcane card for each Catastrophe suffered. Look, 
+then place it face down besides this character card. At any point you 
+can add the removed card to your Arcane or Arcane Resist Hand. 
+If you do then at the end of the action, or if this character is slain, 
+shuffle the card back into the Arcane Deck. This character can hold 
+a maximum number of cards at any time equal to the current turn 
+number; if an additional card is drawn, choose a card to shuffle back 
+into the Arcane Deck.
+             
+Verdant Growth (2) 
+X : Place a 50mm Diameter Wooded Patch within 3X" and LoS 
+on open ground. This remains in place until end of game. A 
+maximum of 3 Wooded Patches may be placed by this troupe, if 
+a fourth is placed you must choose and remove a Wooded Patch 
+you created earlier this game.
+Catastrophe : This model suffers 2 Wds.
+Malachite Ritual (3) 8” 
+Whilst resolving, ignore passive abilities of other characters. 
+X : Target within 2” of a Tree or Wooded Patch gains X energy.
+X : Target non-Spirit heals X+1 Wds.
+X : Target suffers X Wds. Spirits suffer an additional 1 Wd.
+Catastrophe : This model and Spirits within 6" suffer 2 Wds.
+Raegan,  Leshavult Priestess v.2

@@ -1,0 +1,32 @@
+♥ 
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+1”
+0
+3
+4
+Olim
+Signature Move on a Low Guard.
+Valhalla!!: When another friendly Norse or a friendly 
+Young Jack within 6" starts a Jog action, it may move +2", 
+provided the move ends with the character engaging an 
+enemy. (Models with Slow are still limited to 2" as normal).
+Look of Innocence: When an enemy targets this character 
+with an action, the active enemy model must discard 1 
+energy or the action is cancelled.
+             
+Fortunate (1) - Once Per Turn. 
+Look at the top 3 cards of the Arcane Deck. Put any 
+number on the top of the deck in any order and put the 
+remainder on the bottom of the deck in any order. 
+             
+Buttermilk Elixir (2) 6” 
+X : Target restores X+1 Wds. 
+X : Target Norse or Gnome gains +1 energy. 
+Catastrophe : This character suffers 3 Wds.
+Gnome, Animal, Norse, Noble
+mmmmm  mm

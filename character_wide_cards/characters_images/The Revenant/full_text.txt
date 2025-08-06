@@ -1,0 +1,58 @@
+♥ 
+Base:  
+30mm
+Signature Move on a Thrust.
+Melee
+Arcane
+Range
+Evade
+1”
+0
+3
+4
+Human, Noble, Spirit
+mmmmm  mm
+Destiny Fulfilled
+Upgrade for Thrust
+End Step Effect: If the enemy is slain, this 
+character is Removed from Play.
+High Guard 
+ 
+1
+Falling Swing 
+ 
+3
+Thrust 
+ 
+4
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+2
+Opponent Plays:
+Deal
+Damage Type:  
+Piercing
+Undying: Each time this character would be slain, instead 
+restore all Wds. Then, if this character was in possession of 
+any Moonstones, it drops one of them as if it were slain.
+Seen It All Before: If this character is attacker or defender 
+in a round of melee, before each player selects their combat 
+card, your opponent must reveal their hand.
+             
+Visions of the Future (2) 8" – Once per turn. 
+Target other friendly character immediately suffers one 
+Catastrophe printed on their card. If it requires a target, you 
+may choose any target that meets the ability’s requirements.
+              
+Eternal Chill (2) 6”
+X : Target suffers X Magical Dmg and gains Slow until end 
+of turn.
+Catastrophe: This character restores 1 Wd. The target restores 
+2 Wds.
+The Revenant  v.2 

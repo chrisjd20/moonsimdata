@@ -1,0 +1,54 @@
+♥ 
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+1”
+0
+2
+3
+Serif
+Signature Move on a Low Guard.
+Slow: This model's Jog actions are limited to 2".
+Pavise: Reduce all non-Melee Dmg suffered by -2.
+A Skele-tonne of Bolts: When a friendly model is slain, 
+this character may immediately use Ancient Crossbow 
+without spending energy after the current action is 
+resolved. This is done before models may take reaction 
+steps. Once per turn.
+             
+Ancient Crossbow (2) 12" 
+This ability cannot be used while this model is engaged. 
+X : Target suffers X+1 Piercing Dmg. 
+Catastrophe : This model suffers 2 Wds and loses the A 
+Skele-tonne of Bolts ability until end of turn.
+End Step Effect: Move the enemy 2" directly 
+away.
+Shield Slam
+Upgrade for Low Guard
+Damage Type:  
+Impact
+High Guard 
+ 
+1
+Falling Swing 
+ 
+2
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+0
+Opponent Plays:
+Deal
+Risen, Soldier
+mmmmm  mm

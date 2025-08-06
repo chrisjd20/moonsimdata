@@ -1,0 +1,61 @@
+Silvertongue v.2
+Feeble: Reduce all Melee Dmg this character deals by -2.  
+Harvest actions cost this model +1 energy.
+Faerie Mischief: Whenever a friendly Faerie within 6” bluffs 
+successfully, you may reveal the card and this character gains 2 
+energy and restores all Wds.
+Concealed Dagger: If this character deals Piercing Melee Dmg, 
+increase the Dmg dealt by +1. If this character plays a Rising Attack 
+increase the Dmg dealt by +1. 
+             
+Mind Control (3) 6”
+Target model immediately takes any action available to them 
+that would normally have an energy cost of (1). This action is 
+controlled by you even if the target is an enemy (they count as a 
+friendly model for the duration of the action).
+             
+Whispered Secrets (2) 6”– Once per turn.  
+X : Target friendly Faerie gains X energy and restores 1 Wd. 
+Catastrophe : This character suffers 2 Wds.
+♥ 
+Base:  
+30mm
+Signature Move on a Rising Attack.
+Melee
+Arcane
+Range
+Evade
+1”
+-2
+4
+5
+Faerie, Rogue
+mmmmm  m
+Threats & Promises
+Upgrade for Rising Attack
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Reduce Dmg suffered by -3. 
+ 
+End Step Effect: The enemy character gains 3 energy 
+and may not target this model with an action for the 
+remainder of the turn. This effect takes place even if 
+the enemy is outside this character's Melee Range.

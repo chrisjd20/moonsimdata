@@ -1,0 +1,32 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+2
+0
+Psychopomp, Animal, Soldier
+m
+Brave Sir Pidge
+Thrall: This character can only enter play when summoned. 
+It does not activate and can never gain energy. Instead, 
+while the character that summoned it is active, this 
+character can take actions, including Jog, by discarding 
+the required energy on the character that summoned it. 
+Reaction Steps and Go For It's can be taken in the same way.
+Summoner's Delight: If the character that summoned this 
+model is Slain or Removed from Play then this character is 
+immediately considered to be Slain.
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy.
+Plate Armour: Reduce all non-Magical Dmg suffered by -2. 
+             
+A Noble Challenge (1) 1" – Once per turn. 
+This character makes a Melee Attack action with +3 Melee 
+Stat against target enemy character. If the target of this 
+action is a Noble reduce Dmg suffered by this character to 
+W for the duration of the action.

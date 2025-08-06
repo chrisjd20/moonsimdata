@@ -1,0 +1,57 @@
+Corn Cutter
+Upgrade for Rising Attack
+Damage Type:  
+Slicing
+End Step Effect: Deal 2 Slicing Dmg to all 
+models within 2” that did not participate in 
+this round of melee. This does not count as 
+Melee Dmg.
+High Guard 
+ 
+2
+Falling Swing 
+ 
+1
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Fritz v.3
+Great Sword: If this character deals Slicing Melee Dmg, 
+increase the Dmg dealt by +3. If this character deals 
+Impact or Piercing Melee Dmg, increase the Dmg dealt 
+by +1. 
+             
+Intimidate (1) 4” 
+Target Human or Goblin suffers -2 Arcane stat and 
+gains [Predictable Combatant: During a round of 
+combat, before each player selects their combat card, 
+you must reveal your hand to your opponent.] until end 
+of the turn.
+Stand Back! (1) 2” Pulse  – Once per turn. 
+All other models within the pulse move 1” directly 
+away.
+♥ 
+Base:  
+30mm
+mmmmm  mmmm
+Signature Move on a Rising Attack.
+Melee
+Arcane
+Range
+Evade
+2”
++1
+4
+0
+Human, Mercenary, Soldier

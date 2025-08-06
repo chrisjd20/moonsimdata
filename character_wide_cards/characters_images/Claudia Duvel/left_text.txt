@@ -1,0 +1,31 @@
+Claudia Duvel
+Human, Rogue
+Sure Footed: This character may Jog over Water Features and 
+Wooded Patches and pays 1 less energy for Traverse actions.
+Brace of Pistols: This character may use the [Reload] ability 
+without paying the energy cost. Once per game. m
+             
+Robbery (2) 1” – Once per turn.
+Target model with less Wds remaining than this character, 
+loses possession of one Moonstone and this character gains 
+possession of that Moonstone.
+Reload [Shoot Pistol] (2) 
+The named ability can be used again. This ability cannot be 
+used while this model is engaged.
+             
+Shoot Pistol (1) 8”  – Once per game, unless reloaded m. 
+X : Target suffers X+1 Impact Dmg.
+Catastrophe : This character suffers 3 Wds.
+♥ 
+Base:  
+30mm
+Signature Move on a Sweeping Cut.
+mmmmm  mmm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+4
+3

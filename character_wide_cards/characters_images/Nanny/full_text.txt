@@ -1,0 +1,59 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
++1
+3
+4
+Nanny
+Signature Move on a Falling Swing.
+You Protect Me Like the Babe: Reduce all Dmg this character 
+would suffer by -1 for each friendly Babeling within 6". 
+             
+Milkies (2) 6" 
+X : Target friendly character restores X Wds. 
+X : Target friendly character gains +1 energy. 
+Catastrophe : The target suffers 2 Wds.
+Summon the Nursery (1) – Once per turn.  
+This action cannot bring a character into play if it is already in play. 
+1 : Place a new Sprog in base contact with this character. 
+1 : Place a new Pookie in base contact with this character. 
+1 : Place a new Urchin in base contact with this character. 
+Catastrophe: This model and Babelings within 6" suffer 2 Wds.
+Lullaby (1) 6” – Once per turn. 
+2 or 2 :  Target model must discard half its energy 
+rounding up, then it restores 2 Wds.  
+Catastrophe : This model suffers 2 Wds. 
+Nap Time!
+Upgrade for Falling Swing
+High Guard 
+ 
+W
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+2
+Opponent Plays:
+Deal
+Risen
+Damage Type:  
+Impact
+mmmmm  mmmm
+End Step Effect: If the enemy suffered 1 or more 
+Wds during this round of Melee, they lose 1 
+energy.

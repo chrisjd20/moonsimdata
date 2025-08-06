@@ -1,0 +1,59 @@
+Peggy
+Slow: This model's Jog actions are limited to 2”.
+Cutlass: If this character deals Slicing Melee Dmg, increase the 
+Dmg dealt by +1.
+Treasure Map: Immediately after models have been deployed 
+but before turn 1 begins, you may have a friendly Pirate  take a 
+free bonus Jog action.
+             
+X Marks The Spot (2) 8" 
+Target Moonstone or enemy in possession of a Moonstone. 
+All friendly Pirates within 4" of the target move 1" directly 
+towards it.
+Reload [Shoot Pistol] (2) 
+The named ability can be used again. This ability cannot be used 
+while this model is engaged. 
+             
+Shoot Pistol (1) 8”  – Once per game, unless reloaded m. 
+X : Target suffers X+1 Impact Dmg.
+Catastrophe : This character suffers 3 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  mmm
+Signature Move on a Thrust.
+Melee
+Arcane
+Range
+Evade
+2”
+0
+3
+4
+Human, Pirate
+Run 'em Through
+Upgrade for Thrust
+High Guard 
+ 
+1
+Falling Swing 
+ 
+3
+Thrust 
+ 
+4
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+1
+Opponent Plays:
+Deal
+Damage Type:  
+Piercing
+End Step Effect: Move 2" directly towards the 
+enemy model.

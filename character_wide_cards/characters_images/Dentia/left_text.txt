@@ -1,0 +1,33 @@
+Dentia
+Faerie, Rogue
+Base:  
+30mm
+♥ 
+Signature Move on a Thrust.
+Melee
+Arcane
+Range
+Evade
+1”
+-2
+4
+4
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy. 
+The Bigger They Are...: During a round of melee with an 
+enemy that has Evade Stat of +1 or higher, this character 
+ignores Weakling, deals +X Melee Dmg and reduces all Melee 
+Dmg suffered by -X, where X is the Evade Stat of the enemy.
+Faerie Mischief: Whenever a friendly Faerie within 
+6” bluffs successfully, you may reveal the card and this 
+character gains 2 energy and restores all Wds.
+Sedatives: Whilst this model is in play, the first time each 
+enemy gains Weakling in a turn, they lose 1 energy.
+             
+Sleepy Time (3) 6" – Once per turn.
+This attack is not modified by Evade Stat.
+X : Target gains Weakling until end of turn.
+X : Target with Weakling or Feeble loses all energy and gains 
++X Evade Stat until end of turn. 
+Catastrophe : This character suffers 2 Wds. 
+mmmmm  m

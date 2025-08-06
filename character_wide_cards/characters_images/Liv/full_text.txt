@@ -1,0 +1,58 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+0
+2
+4
+Liv
+Signature Move on a Low Guard.
+Reading the Runes: When this character activates, you may 
+guess a card (colour and number, or Catastrophe) then flip an 
+Arcane Card. If you guessed correctly, apply the following effect: 
+X : Choose a friendly Norse model within 8" to gain 
+[Protection: The first time this character would suffer Dmg, 
+reduce that Dmg to W], until end of turn. 
+X : Choose a model within 8" to restore X+1 Wds. 
+X : Choose a model within 8" to suffer X Magical Dmg. 
+Catastrophe : All models within 2" suffer 2 Magical Dmg. 
+Manipulate the Runes: After resolving an Arcane action this 
+model initiated but before shuffling the Arcane Deck, you may 
+set aside any cards from your hand that weren't played. After 
+shuffling the Arcane Deck, put any number of the set aside 
+cards on the top of the deck in any order and put the remainder 
+on the bottom of the deck in any order. Once per turn. 
+             
+Runes of Power (1) 8” 
+X : Target restores X Wds. 
+X : Target suffers X-1 Magical Dmg. 
+Catastrophe : This character suffers 2 Wds.
+Rune Shield
+Upgrade for Low Guard
+Opponent Plays:
+Deal
+Gnome, Norse, Cleric
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Reduce Dmg suffered by -2.
+mmmmm  mmm

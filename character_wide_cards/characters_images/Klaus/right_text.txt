@@ -1,0 +1,27 @@
+Flail Around Madly
+Upgrade for Sweeping Cut
+Damage Type:  
+Impact
+End Step Effect: This character suffers 1 
+Impact Dmg. This does not count as Melee 
+Dmg.
+High Guard 
+ 
+0
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+1
+Opponent Plays:
+Deal

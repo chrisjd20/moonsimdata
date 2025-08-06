@@ -1,0 +1,26 @@
+Betrayal
+Upgrade for High Guard
+High Guard 
+ 
+2
+Falling Swing 
+ 
+1
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Damage Type:  
+Impact, Slicing or Piercing
+End Step Effect: Move this model 1" directly 
+towards the enemy.

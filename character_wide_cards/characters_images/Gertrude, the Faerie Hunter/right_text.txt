@@ -1,0 +1,27 @@
+Spin-Kick
+Upgrade for Sweeping Cut
+Damage Type:  
+Impact
+High Guard 
+ 
+1
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+0
+Opponent Plays:
+Deal
+End Step Effect: Move the enemy model 1”. 
+You may immediately play the Reload ability 
+even if engaged, and without spending energy.

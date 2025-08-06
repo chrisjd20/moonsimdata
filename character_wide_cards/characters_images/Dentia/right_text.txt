@@ -1,0 +1,29 @@
+Extraction
+Upgrade for Thrust
+Damage Type: 
+Impact
+High Guard	
+	
+0
+Falling Swing	
+	
+2
+Thrust	
+	
+1
+Sweeping Cut	
+	
+W
+Rising Attack 	
+	
+1
+Low Guard 	
+	
+1
+Opponent Plays:
+Deal
+Damage from this attack cannot be reduced by 
+enemy passive abilities.
+End Step Effect: If the enemy suffered 1 or 
+more Wds during this round of melee, then this 
+character gains +1 Melee Stat until end of game.

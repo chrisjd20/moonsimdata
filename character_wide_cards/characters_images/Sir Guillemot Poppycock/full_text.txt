@@ -1,0 +1,56 @@
+Sir GuillemotPoppycock
+Human,    Noble
+Warhammer: If this character deals Slicing or Piercing 
+Melee Dmg, reduce the Dmg to W. If this character deals 
+Impact Melee Dmg, increase the Dmg dealt by +2.
+Plate Armour: Reduce all non-Magical Dmg suffered by -2.
+Ornithophobia: Whenever a Goblin character ends a 
+move engaged by this model, for the first time this turn, 
+it must discard 1 energy, if able.
+The Governor: Friendly Soldiers within 6” gain +1
+Melee stat.
+             
+Yell Out Commands (1) 6”  
+Move target friendly non-Noble 1”. If the target is a 
+friendly Soldier move it 2” instead. You may only target 
+each character once per turn.
+♥ 
+Base:  
+30mm
+mmmmm  mmmm
+Signature Move on a Sweeping Cut.
+Melee
+Arcane
+Range
+Evade
+2”
++1
+4
+0
+Knee Smasher
+Upgrade for Sweeping Cut
+Damage Type:  
+Impact
+High Guard 
+ 
+2
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+End Step Effect: If the enemy suffered 1 or
+more Wds during this round of Melee then it 
+cannot take a Jog action until end of turn.

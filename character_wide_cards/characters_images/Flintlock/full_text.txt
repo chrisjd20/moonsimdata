@@ -1,0 +1,55 @@
+Flintlock v.2
+Dagger: If this character deals Piercing Melee Dmg, 
+increase the Dmg dealt by +1. 
+             
+Reload [Shoot Musket] (2)
+The named ability can be used again. This ability cannot be 
+used while this model is engaged.
+Take Aim (1) - Once per turn.
+Increase this character's Arcane stat by +1 until end of turn.
+“Look out!” (1) 6”
+Target friendly character's Evade stat is reduced by -1 until 
+end of turn.
+             
+Shoot Musket (1) 12” - Once per game, unless reloaded m. 
+X : Target suffers X+2 Impact Dmg.
+Catastrophe : This model suffers 2 Wds and the Reload 
+ability cannot be used for the remainder of the game.
+Base:  
+30mm
+♥ mmmmm  mmm
+Signature Move on a High Guard.
+Reduce Dmg suffered by -1. 
+ 
+End Step Effect: This model may move 2”.
+Tactical Retreat
+Upgrade for High Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Melee
+Arcane
+Range
+Evade
+1”
+0
+3
+3
+Human, Soldier
+Deal

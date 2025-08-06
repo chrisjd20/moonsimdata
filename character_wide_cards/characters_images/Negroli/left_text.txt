@@ -1,0 +1,30 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+2”
+0
+5
+4
+Negroli
+Signature Move on a Falling Swing.
+Ancient Armour: Reduce all Dmg suffered by -1.
+Longsword: If this character deals Slicing or Piercing Melee 
+Dmg, increase the Dmg dealt by +1.   
+A Bone to Pick with You: Friendly Soldiers and Risen within 
+6" gain +1 Arcane Stat if targeting an enemy character that is 
+not at full health and +1 Melee Stat if involved in a round of 
+melee with an enemy character that is not at full health.   
+             
+Summon Reinforcements (2) 
+This action cannot bring a character into play if it is already in play. 
+1 or 1 : Place a new Soldier Psychopomp in base contact 
+with this character. 
+Catastrophe : This character suffers 3 Wds or, if there is a 
+friendly Psychopomp within 6", you may choose a friendly 
+Psychopomp within 6" to be slain instead.
+Risen, Soldier, Noble
+mmmmm  mmm

@@ -1,0 +1,54 @@
+Bristlenose v.2
+Troll
+Melee
+Arcane
+Range
+Evade
+2”
++2
+3
+3
+Amphibious: This character may Jog freely over 
+Water Feature terrain and gains +2 energy during the 
+Replenish Step if any part of its base is within a Water 
+Feature.
+Razor Claws: If this character deals Impact or Piercing 
+Melee Dmg, increase the Dmg dealt by +1. If this 
+character deals Slicing Melee Dmg, increase the Dmg 
+dealt by +3. 
+Scaly Skin: Reduce non-Impact Dmg suffered by -1.
+             
+Vomit (2) 4”
+X : Target character suffers X+1 Magical Dmg.
+Catastrophe : This models suffers 3 Wds. 
+♥ mmmmm  mmmmm  mm 
+Signature Move on a Rising Attack.
+End Step Effect: If the enemy is slain, and 
+this character is not slain, then this character 
+recovers all Wds and all energy.
+Insatiable Hunger
+Upgrade for Rising Attack
+Damage Type:  
+Magical
+High Guard 
+ 
+2
+Falling Swing 
+ 
+3
+Thrust 
+ 
+3
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Base:  
+40mm

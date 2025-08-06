@@ -1,0 +1,57 @@
+Doug, the Flatulent v.2
+Lance: If this character deals Slicing Melee Dmg, reduce 
+the Dmg dealt to W. If this character deals Piercing 
+Dmg, increase the Dmg dealt by +1.
+Jousting Shield: Reduce Piercing and Impact Dmg 
+suffered by -1.
+Digger: When this model takes a Harvest action, flip an 
+Arcane Card and reduce the Depth Value by X, where X 
+is the value of the card. Catastrophe: All models within a 
+3” pulse suffer 2 Magical Dmg.
+            
+Foul Gases (2) 2” Pulse
+All models within the pulse suffer 2 Magical Dmg.
+Chaaarge!! (2) 6”
+Move this model 4” directly towards target enemy 
+model. If this character’s next action this turn is a Melee 
+Attack against the same target it deals +2 Dmg.
+♥ 
+Base:  
+40mm
+mmmmm  mmm
+Signature Move on a Rising Attack.
+Ankle Biter
+Upgrade for Rising Attack
+Damage Type:  
+Impact
+This attack deals W damage against models 
+which are further than 1” away. 
+High Guard 
+ 
+3
+Falling Swing 
+ 
+3
+Thrust 
+ 
+3
+Sweeping Cut 
+ 
+3
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+W
+Opponent Plays:
+Melee
+Arcane
+Range
+Evade
+3”
+0
+4
+0
+Goblin, Soldier, Animal
+Deal

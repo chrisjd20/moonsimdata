@@ -1,0 +1,25 @@
+Sink to the Deep
+Upgrade for Low Guard
+High Guard	
+	
+W
+Falling Swing	
+	
+W
+Thrust	
+	
+W
+Sweeping Cut	
+	
+W
+Rising Attack 	
+	
+W
+Low Guard 	
+	
+W
+Opponent Plays:
+Deal
+Reduce Dmg suffered by -1. 
+If there is at least one friendly slain non-Thrall 
+character, instead reduce Dmg suffered to W.

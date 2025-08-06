@@ -1,0 +1,30 @@
+Lacerate
+Upgrade for Rising Attack
+High Guard	
+	
+2
+Falling Swing	
+	
+1
+Thrust	
+	
+2
+Sweeping Cut	
+	
+2
+Rising Attack 	
+	
+1
+Low Guard 	
+	
+W
+Opponent Plays:
+Deal
+Damage Type: 
+Slicing or Magical
+Reduce Dmg suffered by -2 if the enemy has at least 
+one Bleed.
+End Step Effect: If the enemy suffered 1 or more Wds 
+during this round of melee, the enemy model gains 
+[Bleed: During the Discard Step, this character suffers 1 
+Wd then loses this ability.].

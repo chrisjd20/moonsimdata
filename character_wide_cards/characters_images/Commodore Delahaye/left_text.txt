@@ -1,0 +1,36 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+2”
+-1
+3
+3
+Commodore Delahae
+Signature Move on a Thrust.
+Worlds Old & New: If your faction is 
+, when this model is 
+deployed place a 50mm Water Feature within 6" and LoS on open 
+ground. If your faction is 
+, when a friendly Pirate within 6" Jogs 
+it may ignore the effects of Slow (and Slow Carry). Once per turn. 
+Cutlass: If this model deals Slicing Melee Dmg, increase the 
+Dmg dealt by +1. 
+             
+Old Pirate Curse (1) 8" – Once per turn.
+Target without The Black Spot gains [The Black Spot: Enemy 
+Pirates gain +1 Arcane Stat when targeting this character with 
+an action. This character suffers 1 Wd during the Discard Step.], 
+until end of game. Then other enemies with The Black Spot lose it.
+Reload [Shoot Pistol] (2) 
+The named ability can be used again. This ability cannot be used 
+while this model is engaged.
+             
+Shoot Pistol (1) 8”  – Once per game, unless reloaded m. 
+X : Target suffers X+1 Impact Dmg.
+Catastrophe : This character suffers 3 Wds.
+Spirit, Pirate
+mmmmm  mm

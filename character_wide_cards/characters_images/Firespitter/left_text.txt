@@ -1,0 +1,30 @@
+Firespitter
+Slow: This model's Jog actions are limited to 2”.
+Predictable Combatant: During a round of combat, before 
+each player selects their combat card, you must reveal your 
+hand to your opponent.
+Ramshackle Armour: Reduce all non-Magical Dmg 
+suffered by -1.
+             
+Two Goblins Walk into a Tavern (2) 8”
+Two other target Goblins each gain +1 energy and +2 Evade 
+stat until end of turn. You must choose two different targets.
+             
+Fireblast (2) 8”
+X : Target character suffers 2X Magical Dmg.
+Catastrophe : This ability cannot be used for the remainder of 
+the game. All models within a 3” pulse suffer 4 Magical Dmg.
+This ability cannot be used while this model is engaged.
+♥ mmmmm  mmm
+Signature Move on a Low Guard.
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+1”
++1
+2
+5
+Goblin, Soldier

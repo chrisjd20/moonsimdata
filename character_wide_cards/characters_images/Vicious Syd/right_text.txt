@@ -1,0 +1,28 @@
+Groin Tickler
+Upgrade for Rising Attack
+Damage Type:  
+Piercing
+Damage from this attack cannot be reduced by 
+passive abilities.
+End Step Effect: You may place this model anywhere 
+in base contact with the enemy model.
+High Guard 
+ 
+2
+Falling Swing 
+ 
+3
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+0
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal

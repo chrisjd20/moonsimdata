@@ -1,0 +1,29 @@
+Young Jack v.2
+Ancestral Sword: If this character deals Slicing Melee 
+Dmg, increase the Dmg dealt by +2. If this character 
+deals Piercing Melee Dmg, increase the Dmg dealt by +1.
+Ancestral Shield: Reduce all Dmg suffered by -1.
+             
+Lucky (1) – Once per turn.
+Look at the top 5 cards of the Arcane Deck. Put  any 
+number on the top of the deck in any order and put the 
+remainder on the bottom of the deck in any order.
+             
+Magic Brew (1) – Once per turn.  
+X : This model restores X Wds. 
+X : This model gains X energy. 
+Catastrophe : This model suffers 3 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  mm
+Signature Move on a Low Guard.
+Gnome, Noble, Militia
+Melee
+Arcane
+Range
+Evade
+1”
+0
+4
+2

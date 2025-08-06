@@ -1,0 +1,56 @@
+Seasick Stu v.4
+Harpoon: If this character deals Impact or Slicing Melee 
+Dmg, reduce the Dmg dealt by -1. If this character deals 
+Piercing Melee Dmg, increase the Dmg dealt by +1.
+             
+Bawdy Jokes (2) 4” Pulse – Once per turn. 
+All Goblins within the pulse are moved 1” directly towards 
+this model. Then, all other Goblins within 1” gain +1 energy. 
+             
+Rough Tides (2) 6”
+X : Move other target model X” directly away.  
+Catastrophe : This model suffers 1 Wd and loses all energy.
+Seasick (2) 6”
+X : Target loses X energy.
+Catastrophe : This model suffers 2 Wds and loses all energy.
+♥ 
+Base:  
+30mm
+mmmmm  mm
+Signature Move on a Thrust.
+It’s a big’un!
+Upgrade for Thrust
+Damage Type:  
+Piercing
+End Step Effect: If the enemy suffered 1 or 
+more Wds during this round of Melee, it 
+cannot take a Jog action until end of turn.
+High Guard 
+ 
+0
+Falling Swing 
+ 
+3
+Thrust 
+ 
+3
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+1
+Opponent Plays:
+Melee
+Arcane
+Range
+Evade
+3”
+-1
+2
+4
+Goblin, Pirate
+Deal

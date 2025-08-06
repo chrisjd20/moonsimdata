@@ -1,0 +1,26 @@
+Thrash
+Upgrade for Falling Swing
+Damage Type:  
+Impact or Slicing
+Opponent Plays:
+Deal
+End Step Effect: Move this model 2” directly 
+towards the enemy.
+High Guard 
+ 
+0
+Falling Swing 
+ 
+0
+Thrust 
+ 
+0
+Sweeping Cut 
+ 
+0
+Rising Attack  
+ 
+0
+Low Guard  
+ 
+0

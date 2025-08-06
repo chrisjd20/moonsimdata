@@ -1,0 +1,24 @@
+Diving Attack
+Upgrade for Falling Swing
+Damage Type:  
+Piercing
+High Guard 
+ 
+W
+Falling Swing 
+ 
+3
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+3
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+0
+Opponent Plays:
+Deal

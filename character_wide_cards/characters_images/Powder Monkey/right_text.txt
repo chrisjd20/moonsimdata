@@ -1,0 +1,25 @@
+Drunken Monkey Stance
+Upgrade for Low Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+1
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Damage Type:  
+Piercing
+End Step Effect: Move this character 1".

@@ -1,0 +1,34 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+2
+3
+Jobie
+Signature Move on a Low Guard.
+The Bright Side of Death: Immediately after models have been 
+deployed but before turn 1 begins, friendly characters with 
+Reanimate gain [Reanimate Jobie (0): Place a friendly slain Jobie 
+in base contact with this model. Restore all it's health. It gains +2 
+energy. It may activate this turn. A friendly Jobie may only enter 
+play via Reanimate Jobie once per turn], until end of game.
+             
+A Cunning Plan (1) 
+This model may place one Moonstone it is in possession of, within 
+2" of itself at depth value of ‘1’. Then it is immediately slain.
+That's Mine, This is Mine... (3) 
+This model gains possession of one Moonstone it is in base 
+contact with, regardless of its depth value or enemy engagements. 
+             
+Second Hand Pistol (2) 6" 
+X : Target other model and this character suffer X Impact Dmg. 
+Catastrophe : This character is slain, then the target loses 
+possession of one Moonstone they are carrying. Place it in base 
+contact with the target at depth value of ‘1’.
+mmmmm
+Goblin, Rogue

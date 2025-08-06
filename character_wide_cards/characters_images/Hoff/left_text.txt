@@ -1,0 +1,33 @@
+Hoff
+Felling Axe: If this character deals Piercing Melee Dmg, 
+reduce the Dmg dealt to W. If this character deals Impact 
+Melee Dmg, increase the Dmg dealt by +2. 
+Guerilla Tactician: Other friendly Fauns within 6" gain +1 
+Melee Stat and [Swift: When making a Reaction Step while 
+engaged by an enemy, this model may move 2” instead of the 
+usual 1”. Once per turn.]
+             
+Furious Charge (1) 4”
+Move this model 3” directly towards target enemy model. If 
+this character’s next action this turn is a Melee Attack against 
+the same target then it deals +1 Dmg.
+             
+Hunting Horn (1) 8” – Once per turn. 
+This ability cannot be used while this model is engaged.
+X : Move target other friendly Faun X+1".
+Catastrophe : The target is moved up to 3" by the resisting 
+player. 
+Base:  
+30mm
+mmmmm  mmmm
+Signature Move on a Falling Swing.
+Melee
+Arcane
+Range
+Evade
+2”
+0
+4
+4
+Faun, Soldier
+♥ 

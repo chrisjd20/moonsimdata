@@ -1,0 +1,26 @@
+Impale
+Upgrade for Thrust
+Damage Type:  
+Piercing
+End Step Effect: Move this model 1" directly 
+towards the enemy.
+High Guard 
+ 
+1
+Falling Swing 
+ 
+3
+Thrust 
+ 
+4
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+2
+Opponent Plays:
+Deal

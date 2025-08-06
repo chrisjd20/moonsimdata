@@ -1,0 +1,28 @@
+Mercy Kill
+Upgrade for Falling Swing
+End Step Effect: If the enemy is slain, this 
+character gains 1 energy.
+This attack deals +2 Dmg if the enemy has  
+4 Wds or fewer remaining.
+High Guard 
+ 
+W
+Falling Swing 
+ 
+0
+Thrust 
+ 
+0
+Sweeping Cut 
+ 
+3
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+2
+Opponent Plays:
+Deal
+Damage Type:  
+Piercing

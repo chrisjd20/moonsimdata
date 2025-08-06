@@ -1,0 +1,29 @@
+Vespa 
+Stinger: If this character deals Piercing Melee 
+Dmg, increase the Dmg dealt by +2.
+            
+Antagonise (1) 6"
+Target gains +1 Melee Stat and +1 Evade Stat until 
+end of turn.
+Out of Reach (1)
+This character cannot be targeted by a Melee 
+Attack action and does not benefit from cover 
+until end of turn.
+             
+Throw Javelin (2) 6”
+X : Target suffers X Piercing Dmg.
+Catastrophe : This character suffers 1 Wd.
+♥ 
+Base:  
+40mm
+mmmmm  mmm
+Signature Move on a Falling Swing.
+Melee
+Arcane
+Range
+Evade
+2”
+0
+3
+4
+Faerie, Animal, Soldier

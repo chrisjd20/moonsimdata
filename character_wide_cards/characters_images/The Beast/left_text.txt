@@ -1,0 +1,30 @@
+Razor Claws: If this character deals Slicing Melee Dmg, 
+increase the Dmg dealt by +2. If this character deals Impact 
+or Piercing Melee Dmg, increase the Dmg dealt by +1.
+Awake the Beast: The first time an enemy targets this 
+character with a Melee Attack Action or an Arcane Action in a 
+turn, this character restores 1 Wd and gains +2 energy.
+Quite Terrifying: Whenever a non-Giant, non-Troll enemy 
+character ends a move engaged by this model, for the first 
+time this turn, it must discard 1 energy, if able.
+              
+Intimidate (1) 4” 
+Target Human or Goblin suffers -2 Arcane Stat and gains 
+[Predictable Combatant: During a round of combat, before 
+each player selects their combat card, you must reveal your 
+hand to your opponent.] until end of the turn.
+♥ 
+Base:  
+30mm
+Signature Move on a High Guard.
+Melee
+Arcane
+Range
+Evade
+2”
++1
+5
+0
+Human, Noble, Animal
+mmmmm  mmmm
+The Beast 

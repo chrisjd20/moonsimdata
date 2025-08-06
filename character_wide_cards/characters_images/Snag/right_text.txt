@@ -1,0 +1,29 @@
+Hex
+Upgrade for Rising Attack.
+High Guard 
+ 
+0
+Falling Swing 
+ 
+0
+Thrust 
+ 
+0
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+1
+Opponent Plays:
+Deal
+Damage Type:  
+Magical
+End Step Effect: If the enemy suffered no Wds 
+during this round of melee, the enemy model gains 
+[Deadwood Cursed: During the Discard Step, this 
+character and all models friendly to this character 
+within 3" suffer 1 Wd.], until this character is slain.

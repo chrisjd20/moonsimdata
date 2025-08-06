@@ -1,0 +1,55 @@
+The Mortician
+Goblin, Wizard
+Base:  
+30mm
+End Step Effect: Enemy characters cannot 
+target this model with actions until this model 
+next performs an action or the end of turn, 
+whichever comes first.
+Play Dead
+Upgrade for Low Guard
+♥ mmmmm  mm
+Signature Move on a Low Guard.
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+2
+4
+Slow: This model's Jog actions are limited to 2”.
+Spirit Link: During the Replenish Step, this character 
+gains +1 energy for each friendly slain character.
+             
+Healing (2) 8” 
+X : Target restores X+1 Wds. 
+Catastrophe : This model suffers 2 Wds.
+Rigor Mortis (3) 6” 
+2, 2 or 2 : Target discards all energy and suffers 1 Wd. 
+Catastrophe : This model suffers 4 Wds.
+Reanimate (3) 
+2, 2 or 2 : Place a friendly slain model in base contact 
+with this model. Restore half its health rounding up. It 
+has no energy but may activate this turn. 
+Catastrophe : This model suffers 4 Wds.
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal

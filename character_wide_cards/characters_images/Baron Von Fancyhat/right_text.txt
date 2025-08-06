@@ -1,0 +1,24 @@
+Master Strike
+Upgrade for Falling Swing
+Damage Type:  
+Slicing
+High Guard 
+ 
+W
+Falling Swing 
+ 
+0
+Thrust 
+ 
+1 
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+2
+Opponent Plays:
+Deal

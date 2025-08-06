@@ -1,0 +1,56 @@
+Old Calders
+Longsword: If this character deals Slicing or Piercing 
+Melee Dmg, increase the Dmg dealt by +1.
+Quilted Armour: Reduce Slicing Dmg suffered by -1.
+Sage Advice: Friendly models within 4” may ignore 
+Catastrophe effects.
+Seen It All Before: If this character is attacker or defender 
+in a round of melee, before each player selects their 
+combat card, your opponent must reveal their hand.
+             
+“Look out!” (1) 6”
+Target friendly character’s Evade stat is reduced by -1 
+until end of turn.
+             
+Field Medic (1) 4”
+X : Target Soldier or Noble restores X Wds.
+Catastrophe : This model suffers 2 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  mmm
+Melee
+Arcane
+Range
+Evade
+2”
+0
+3
+4
+Human, Soldier
+Reduce Dmg suffered by -1. 
+ 
+End Step Effect: This model may move 2”.
+Tactical Retreat
+Upgrade for High Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Signature Move on a High Guard.

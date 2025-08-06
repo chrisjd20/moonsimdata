@@ -1,0 +1,26 @@
+Rabbit Punch
+Upgrade for Thrust
+High Guard 
+ 
+0
+Falling Swing 
+ 
+1
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+1
+Opponent Plays:
+Deal
+This attack deals +1 Dmg for each Animal 
+within 4".
+Damage Type:  
+Impact

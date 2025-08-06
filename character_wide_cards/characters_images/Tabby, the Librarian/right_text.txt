@@ -1,0 +1,27 @@
+Shhhhh!
+Upgrade for Thrust
+Damage Type:  
+Impact
+End Step Effect: If the enemy suffered 1 or 
+more Wds during this round of Melee then it 
+must discard 1 energy, if able.
+High Guard 
+ 
+1
+Falling Swing 
+ 
+1
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+1
+Opponent Plays:
+Deal

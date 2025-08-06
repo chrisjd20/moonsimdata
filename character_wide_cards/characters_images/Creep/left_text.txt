@@ -1,0 +1,30 @@
+Creep
+Concealed Dagger: If this character deals Piercing Melee 
+Dmg, increase the Dmg dealt by +1. If this character plays a 
+Rising Attack increase the Dmg dealt by +1. 
+             
+Victimise (2) 8"
+Target gets +2 Evade Stat until end of turn.
+             
+Vitality Draw (2) 8” – Once per turn.
+X : Target loses X energy. A friendly model within 8" and 
+LoS of this model gains that much energy.
+Catastrophe : This model suffers 3 Wds.
+Incubus (2) 8” 
+X : Target enemy suffers X Wds. A friendly model within 8" 
+and LoS of this model restores that many Wds.
+Catastrophe : This model suffers 3 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  mm
+Signature Move on a Low Guard.
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+2
+3
+Human,     Rogue

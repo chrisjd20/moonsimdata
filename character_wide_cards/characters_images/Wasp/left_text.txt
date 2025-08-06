@@ -1,0 +1,30 @@
+Wasp v.2
+Weakling: Reduce all Melee Dmg this character deals by 
+-1. Harvest actions cost this model +1 energy.
+Spiteful: When this model causes 1 or more Wds to an 
+enemy, it restores 1 Wd.
+Javelin: If this character deals Piercing Melee Dmg, 
+increase the Dmg dealt by +2.
+Buckler: Enemy characters cannot count Critical Hits 
+against this character.
+             
+Rage (3) 8”
+Target Faerie loses Weakling until end of turn.
+             
+Throw Javelin (2) 6”
+X : Target suffers X Piercing Dmg.
+Catastrophe : This character suffers 1 Wd.
+♥ 
+Base:  
+30mm
+mmmmm  m
+Signature Move on a Falling Swing.
+Melee
+Arcane
+Range
+Evade
+2”
+-2
+5
+3
+Faerie, Soldier

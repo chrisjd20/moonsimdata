@@ -1,0 +1,56 @@
+Spank
+Upgrade for Sweeping Cut
+Friar Flavious
+Natural Padding: Reduce Impact Dmg suffered by -2. 
+Bludgeon: If this character deals Slicing or Piercing Melee Dmg, 
+reduce the Dmg to W. If this character deals Impact Melee 
+Dmg, increase the Dmg dealt by +1.
+Divine Intervention: When an enemy targets this character 
+with an Arcane Ability, or uses an Arcane Ability within 
+4” of this model, if your resist hand includes two or more 
+Catastrophe cards, you may reveal them to cancel the ability 
+and inflict the catastrophe result on the active character.
+Spiteful: When this model causes 1 or more Wds to an enemy, 
+it restores 1 Wd. 
+             
+Healing (2) 8”
+X : Target restores X+1 Wds.
+Catastrophe : This model suffers 2 Wds.
+♥ 
+Base:  
+30mm
+Signature Move on a Sweeping Cut.
+mmmmm  mmmm
+High Guard 
+ 
+0
+Falling Swing 
+ 
+0
+Thrust 
+ 
+0 
+Sweeping Cut 
+ 
+0
+Rising Attack  
+ 
+0
+Low Guard  
+ 
+W
+Opponent Plays:
+Melee
+Arcane
+Range
+Evade
+2”
++1
+4
+3
+Human, Cleric
+Deal
+End Step Effect: If this character was not slain 
+then it restores 1 Wd.
+Damage Type:  
+Impact

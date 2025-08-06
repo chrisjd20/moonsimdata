@@ -1,0 +1,29 @@
+Jayda
+Dagger: If this character deals Piercing Melee Dmg, 
+increase the Dmg dealt by +1. 
+Swift: When making a Reaction Step while engaged by 
+an enemy, this model may move 2” instead of the usual 
+1”. Once per turn.
+Sure Footed: This character may Jog over Water 
+Features and Wooded Patches and pays 1 less energy 
+for Traverse actions.
+             
+Shoot Bow (3) 10”
+This ability cannot be used while this model is engaged. 
+X : Target suffers X+1 Piercing Dmg. 
+Catastrophe : This ability cannot be used for the 
+remainder of the game. 
+Base:  
+30mm
+mmmmm  mm
+Signature Move on a Falling Swing.
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+4
+4
+Faun, Soldier
+♥ 

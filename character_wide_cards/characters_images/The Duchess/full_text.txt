@@ -1,0 +1,61 @@
+♥ 
+Base:  
+30mm
+mmmmm  mm
+Signature Move on a Rising Attack.
+Melee
+Arcane
+Range
+Evade
+1”
+0
+3
+4
+Human, Noble
+Threats & Promises
+Upgrade for Rising Attack
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+The Duchess v.2
+Concealed Dagger: If this character deals Piercing Melee Dmg, 
+increase the Dmg dealt by +1. If this character plays a Rising 
+Attack increase the Dmg dealt by +1. 
+Network of Spies: Gain +1 to your initiative roll each turn.
+Strength from Suffering: Whenever another character suffers 
+Wds from a Catastrophe effect, this character restores that 
+many Wds.
+Foreboding: When an enemy targets this character with an 
+action, the active enemy model must suffer 1 Wd or the action 
+is cancelled. If the active enemy model is slain by this, the 
+action is also cancelled.
+             
+Succubus (3) 8”
+X : Target other character suffers X Wds. Then, for each Wd 
+lost, choose a friendly model within 8" and LoS of this model to 
+restore 1 Wd and gain 1 energy. The same friendly model may 
+be chosen multiple times.
+Catastrophe : This model suffers 3 Wds.
+Reduce Dmg suffered by -3. 
+ 
+End Step Effect: The enemy character gains 3 energy 
+and may not target this model with an action for the 
+remainder of the turn. This effect takes place even if 
+the enemy is outside this character's Melee Range.

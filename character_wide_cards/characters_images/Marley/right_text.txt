@@ -1,0 +1,26 @@
+End Step Effect: Move the enemy 2" directly away. If 
+the enemy is in possession of at least one Moonstone, 
+it loses possession of one Moonstone before moving. 
+Place it in base contact with the enemy at depth '1'.
+Boooo!
+Upgrade for High Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal

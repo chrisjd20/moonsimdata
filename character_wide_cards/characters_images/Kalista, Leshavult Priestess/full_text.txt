@@ -1,0 +1,55 @@
+♥ 
+Base:  
+30mm
+Signature Move on a Low Guard.
+Melee
+Arcane
+Range
+Evade
+1”
+0
+3
+5
+Human, Cultist, Cleric
+mmmmm  mmm
+Slip into Shadows
+Upgrade for Low Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+End Step Effect: Place this model within 4".
+Dagger: If this character deals Piercing Melee Dmg, 
+increase the Dmg dealt by +1.
+Joy of Entropy: Whenever another character within 4" is 
+slain, this character gains +1 energy.
+Conductor: Other friendly Cultists and Spirits within 4" 
+gain +1 Arcane Stat.
+             
+Paroxysm (4) 3” Pulse – Once per game. m
+All other models within 3" suffer 4 Magical Dmg then are 
+moved 3" directly away.
+             
+Leshavit's Caress (3) 8”
+X : Target restores X+1 Wds and gains [Protection: The first 
+time this character would suffer Dmg, reduce that Dmg to 
+W], until end of turn.
+Catastrophe : This character suffers 2 Wds. All other models 
+within 6" suffer 1 Wd.
+Kalista, Leshavult Priestess v.3 

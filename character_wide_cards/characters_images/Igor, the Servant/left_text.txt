@@ -1,0 +1,36 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+2
+3
+Igor, the Servant
+Signature Move on a High Guard.
+Strength from Beyond: If at least one friendly model was slain 
+this turn, this character gains +2 Arcane Stat until end of turn. 
+             
+Eternal Servitude (2) 4" 
+X : Target Human or Noble gains +1 energy. 
+X : Target Risen or Noble restores X Wds. 
+X : Target Elrich or Noble restores X Wds or gains +1 energy. 
+Catastrophe : This model suffers 3 Wds.
+Summon the Forgotten King (3) 
+This action can only be taken if your chosen faction is 
+ and 
+there is no friendly Echo of the Forgotten King in play. 
+3, 3 or 3 : Place a new Echo of the Forgotten King in base 
+contact; it is considered a permanent additional character in 
+your troupe and may activate this turn. Then this model is slain. 
+Catastrophe : This model suffers 3 Wds.
+Reanimate (3) 
+2, 2 or 2 : Place a friendly slain model in base contact with 
+this model. Restore half its health rounding up. It has no 
+energy but may activate this turn. 
+Catastrophe : This model suffers 4 Wds.
+Spirit
+mmmmm  mm

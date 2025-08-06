@@ -1,0 +1,26 @@
+Cut Purse
+Upgrade for Sweeping Cut
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Reduce Dmg suffered by -2. 
+End Step Effect: If this character was not 
+slain then it may take possession of up to one 
+Moonstone carried by the enemy.

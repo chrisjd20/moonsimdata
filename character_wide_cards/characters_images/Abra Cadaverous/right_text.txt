@@ -1,0 +1,28 @@
+End Step Effect: If this character is the attacker 
+and causes 1 or more Wds during this round of 
+Melee, reduce the energy cost of its next action 
+this turn to (0) if it is a Melee Attack action.
+Frenzy
+Upgrade for Rising Attack
+High Guard 
+ 
+1
+Falling Swing 
+ 
+0
+Thrust 
+ 
+0
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+0
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Damage Type:  
+Slicing

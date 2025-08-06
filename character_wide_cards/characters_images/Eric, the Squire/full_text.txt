@@ -1,0 +1,52 @@
+End Step Effect: If this model is not slain, 
+swap the positions of this model and a friendly 
+model within 4”.
+Eric, the Squire
+Squire: Other friendly Soldiers within 4” get +1 Melee 
+stat. Friendly Nobles within 4” get +2 Melee stat.
+Leather Jerkin: Reduce Slicing and Piercing Dmg 
+suffered by -1.
+             
+My Hero (2) 4”
+Target Soldier gains 1 energy or, target Noble gains 2 
+energy.
+             
+Field Medic (1) 4”
+X : Target Soldier or Noble restores X Wds.
+Catastrophe : This model suffers 2 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  mm
+Signature Move on a Low Guard.
+You’ll Regret That
+Upgrade for Low Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+3
+3
+Human, Soldier
+Deal

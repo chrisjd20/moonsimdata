@@ -1,0 +1,27 @@
+Pay Up!
+Upgrade for High Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+End Step Effect: If this character was not slain 
+it may take possession of up to one Moonstone 
+carried by the enemy. The enemy character 
+may spend 1 energy to cancel this effect. If 
+they do, this model gains 1 energy.

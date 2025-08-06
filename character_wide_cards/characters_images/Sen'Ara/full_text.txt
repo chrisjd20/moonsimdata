@@ -1,0 +1,61 @@
+♥ 
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+3
+4
+Sen'Ara
+Signature Move on a Sweeping Cut.
+Oceanic: This model's Jog actions are limited to 2" but may be 
+made freely over Water Features.
+Summon from the Depths: When this model is deployed or enters 
+play, you may place a new friendly Aquatic Psychopomp in base 
+contact. If deployed, this must be in the deployment zone as normal. 
+This cannot bring a character into play if it is already in play.
+             
+Merfolk Magic (2) 10" – Once per turn.
+Place this model within target Water Feature. This ability may 
+only be used if this model is within a Water Feature. 
+             
+Torrential Surge (2) 
+X : Place a 50mm Diameter Water Feature within 3X" and LoS 
+on open ground. This remains in place until end of game. A 
+maximum of 3 Water Features may be placed by this troupe, if 
+a fourth is placed you must choose and remove a Water Feature 
+you created earlier this game. 
+Catastrophe : This model suffers 2 Wds. 
+Siren Song (3) 12" 
+X : Move target X+2" directly towards this model. Then, if the 
+target is within 4" of a Water Feature it suffers 4 Magical Dmg. 
+Catastrophe : The resisting player may move this model 2".
+Vicious Claws
+Upgrade for Sweeping Cut
+High Guard 
+ 
+W
+Falling Swing 
+ 
+3
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Spirit, Merfolk 
+Damage Type:  
+Slicing
+mmmmm  mm

@@ -1,0 +1,62 @@
+♥ 
+Base:  
+30mm
+Signature Move on a Sweeping Cut.
+Melee
+Arcane
+Range
+Evade
+2”
+0
+2
+4
+Human, Cultist, Cleric
+Thwack!
+Upgrade for Sweeping Cut
+ 
+End Step Effect: The opponent suffers -1 
+Melee Stat until end of turn.
+High Guard 
+ 
+W
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+1
+Rising Attack 
+ 
+2
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+mmmmm  mm
+Damage Type:  
+Impact
+Slightly Maddening: You may make one opponent re-roll their 
+die when determining who activates first. Once per game m.
+Look at the Shiny Thing: If this character is in possession of one 
+or more Moonstones during the Replenish Step, you may have 
+another friendly character within 4" and LoS gain +1 energy.
+             
+Plant the Placard (2) 6” Pulse – Once per turn.  
+Move all other friendly characters within the pulse up to 1". This 
+character cannot take Jog or Step actions, or make a Reaction Step 
+until end of turn.
+             
+Bell Ringer (2) 4” Pulse
+X : All friendly characters within the pulse restore X Wds. 
+Catastrophe : All characters within the pulse suffer 1 Wd.
+The End is Nigh (4)
+X : Choose a model within 3" and LoS of this character. Then 
+choose another model within 3X" and LoS of this character. Place 
+the first model within 3" of the second model. 
+Catastrophe : This character's controller must choose either to 
+have him suffer 4 Wds, or be Removed from Play.
+Brother Daniel v.2

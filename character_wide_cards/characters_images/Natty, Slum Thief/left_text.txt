@@ -1,0 +1,34 @@
+Human,       Rogue
+♥ 
+Base:  
+30mm
+mmmmm  m
+Melee
+Arcane
+Range
+Evade
+1”
+-[#]
+3
+4
+Signature Move on a Sweeping Cut.
+Natty, Slum Thief v.2
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy.
+Concealed Dagger: If this character deals Piercing Melee Dmg, 
+increase the Dmg dealt by +1. If this character plays a Rising 
+Attack increase the Dmg dealt by +1. 
+Look of Innocence: When an enemy targets this character with 
+an action, the active enemy model must discard 1 energy or the 
+action is cancelled.
+Disappear in a Crowd: This character’s Evade Stat is -[#], where 
+[#] is the number of other models within 3”, excluding the 
+originator of the ability.
+Swift: When making a Reaction Step while engaged by an enemy, 
+this model may move 2” instead of the usual 1”. Once per turn.
+             
+Slingshot (2) 6”
+X : Target suffers X Impact Dmg.
+Catastrophe : This character loses the Look of Innocence and 
+Disappear in a Crowd abilities and is Evade Stat +1 until end 
+of turn.

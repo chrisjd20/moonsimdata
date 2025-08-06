@@ -1,0 +1,56 @@
+Gradock v.2
+Quilted Armour: Reduce Slicing Dmg suffered by -1.
+Tough as Old Boots: At the start of the Replenish Step this 
+model recovers 2 Wds.
+Smell a Lie: Enemy models targeting this model, or a model 
+within 2”, must reveal the arcane card as it is played.
+Sage Advice: Friendly models within 4” may ignore 
+Catastrophe effects.
+             
+Forgetfulness (1) 8”
+Remove one Arcane or Active Ability from target character 
+until the end of the turn. 
+             
+Snare Traps (2) 14” 
+This attack is not modified by Evade Stat or Cover.
+X : Targets suffers X Piercing Dmg.
+Catastrophe : This character suffers 2 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  mmm
+Signature Move on a High Guard.
+The Old Slip-Step
+Upgrade for High Guard
+Damage Type:  
+Impact
+End Step Effect: This model may move 1”.
+High Guard 
+ 
+W
+Falling Swing 
+ 
+1
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Gnome, Militia
+Melee
+Arcane
+Range
+Evade
+1”
+0
+4
+2

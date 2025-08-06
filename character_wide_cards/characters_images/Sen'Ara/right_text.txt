@@ -1,0 +1,24 @@
+Vicious Claws
+Upgrade for Sweeping Cut
+High Guard 
+ 
+W
+Falling Swing 
+ 
+3
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Damage Type:  
+Slicing

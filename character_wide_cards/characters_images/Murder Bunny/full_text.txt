@@ -1,0 +1,34 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+2
+0
+Animal
+mmmm
+Murder Bunny v.2
+No Signature Move.
+Thrall [Boris, the Bunny Summoner]: This character can only 
+enter play when summoned by the named friendly character. It 
+does not activate and can never gain energy. Instead, while the 
+named friendly character is active, this character can take actions, 
+including Jog, by discarding the required energy on the named 
+friendly character. Reaction Steps and Go For It's can be taken in 
+the same way.
+Back in the Burrow: You can have up to 3 friendly Murder 
+Bunny's in play at a time, if a fourth is summoned you must 
+choose one friendly Murder Bunny to be Removed from Play. If 
+Boris the Bunny Summoner is Slain or Removed from Play then 
+this character is immediately considered to be Slain.
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy.
+Razor Incisors: If this character plays a Rising Attack, increase 
+the Dmg dealt by +2.
+Hippity: You may move freely over intervening obstacles and 
+models during a Jog action provided bases do not overlap at the 
+end of the move.

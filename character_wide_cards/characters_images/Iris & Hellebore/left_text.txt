@@ -1,0 +1,30 @@
+Iris & Hellebore
+Faerie, Noble
+Base:  
+40mm
+♥ 
+Signature Move on a Rising Attack.
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+5
+0
+Weakling: Reduce all Melee Dmg this character deals 
+by -1. Harvest actions cost this model +1 energy.
+Storm of Fae Blades: If this character deals Slicing or 
+Piercing Melee Dmg, increase the Dmg dealt by +2. 
+Dance in Concert: When another friendly Faerie 
+within 6" makes a Reaction Step whilst engaged by an 
+enemy model, this character may spend the energy 
+instead of the Faerie performing the Reaction Step.
+Perfect Form: After a friendly Faerie within 6" reveals 
+a Melee Card, it may discard 1 energy then swap the 
+revealed card with a Melee Card in hand. Once per game m.
+             
+Perplex (3) 6" 
+Target loses 1 energy. Then another friendly Faerie 
+within 6" of the target gains that much energy.
+mmmmm  mm

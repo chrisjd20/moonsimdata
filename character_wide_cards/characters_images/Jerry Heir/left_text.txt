@@ -1,0 +1,34 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+3
+4
+Jerry Heir
+Signature Move on a Low Guard.
+Summon Intermission Snacks: When this model is 
+deployed or enters play, you may place a new friendly Food 
+Psychopomp in base contact. If deployed, this must be in the 
+deployment zone as normal. This cannot bring a character into 
+play if it is already in play.
+Stage Roll: When an enemy targets this character with an 
+Arcane Ability you may reveal a X from your resist hand before 
+any cards are played. After resolving the current action, this 
+model may move X" where X is the value of the revealed card.
+Swift: When making a Reaction Step while engaged by an 
+enemy, this model may move 2” instead of the usual 1”. Once 
+per turn. 
+             
+Stage Fright (3) 8"  
+2, 2 or 2 : Target enemy without Frightened gains 
+[Frightened: At the start of the Discard Step, the player that 
+used Stage Fright flips an Arcane Card then moves this model 
+up to X+1". Catastrophe: Move 0"], until this character is slain. 
+Catastrophe : This model suffers 2 Wds.
+Spirit
+mmmmm  mmm

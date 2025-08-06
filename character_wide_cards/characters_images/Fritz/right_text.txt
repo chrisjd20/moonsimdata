@@ -1,0 +1,28 @@
+Corn Cutter
+Upgrade for Rising Attack
+Damage Type:  
+Slicing
+End Step Effect: Deal 2 Slicing Dmg to all 
+models within 2” that did not participate in 
+this round of melee. This does not count as 
+Melee Dmg.
+High Guard 
+ 
+2
+Falling Swing 
+ 
+1
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal

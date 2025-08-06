@@ -1,0 +1,24 @@
+End Step Effect: Move the enemy model 2” 
+directly away from this model.
+Gut Barge
+Upgrade for Thrust
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal

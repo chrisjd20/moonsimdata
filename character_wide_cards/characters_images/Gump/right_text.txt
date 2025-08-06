@@ -1,0 +1,27 @@
+Rooted
+Upgrade for Low Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+This model cannot move or be moved and has its 
+Melee Range increased to 3" until end of the current 
+activation.
+End Step Effect: If this character was not slain then 
+it restores 1 Wd.

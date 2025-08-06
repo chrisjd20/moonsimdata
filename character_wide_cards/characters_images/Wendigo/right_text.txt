@@ -1,0 +1,27 @@
+End Step Effect: If the enemy is slain, and 
+this character is not slain, then this character 
+recovers all Wds and all energy.
+Insatiable Hunger
+Upgrade for Rising Attack
+Damage Type:  
+Magical
+High Guard 
+ 
+2
+Falling Swing 
+ 
+3
+Thrust 
+ 
+3
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal

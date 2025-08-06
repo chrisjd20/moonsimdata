@@ -1,0 +1,33 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+0
+2
+4
+Ruwt
+Signature Move on a Rising Attack.
+Woodspirit: This character may Jog over Wooded Patches. Friendly 
+Treefolk within 12" ignore Wooded Patches and other friendly 
+Treefolk for determining cover when using Arcane Abilities.
+We are Ruwt: Each time this character would be slain, it may instead 
+drop any Moonstones as if it were slain and restore half it's health 
+rounding up if it can be placed within a Wooded Patch created 
+earlier this game within 12". Then remove the Wooded Patch. 
+New Growth: When this character uses an Arcane Ability it may 
+suffer 3 Wds instead of paying the energy cost. If this reduces it to 
+0 Wds the Arcane Ability is cancelled. Once per turn. 
+             
+Verdant Growth (2) 
+X : Place a 50mm Diameter Wooded Patch within 3X" and LoS 
+on open ground. This remains in place until end of game. A 
+maximum of 3 Wooded Patches may be placed by this troupe, if 
+a fourth is placed you must choose and remove a Wooded Patch 
+you created earlier this game. 
+Catastrophe : This character suffers 2 Wds.
+Treefolk,   Spirit
+mmmmm  mm

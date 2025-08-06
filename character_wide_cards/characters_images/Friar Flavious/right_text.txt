@@ -1,0 +1,26 @@
+Spank
+Upgrade for Sweeping Cut
+High Guard 
+ 
+0
+Falling Swing 
+ 
+0
+Thrust 
+ 
+0 
+Sweeping Cut 
+ 
+0
+Rising Attack  
+ 
+0
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+End Step Effect: If this character was not slain 
+then it restores 1 Wd.
+Damage Type:  
+Impact

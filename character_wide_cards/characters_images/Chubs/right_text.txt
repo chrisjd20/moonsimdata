@@ -1,0 +1,27 @@
+Love Potion
+Upgrade for Low Guard
+End Step Effect: Choose a character you control. 
+Move the enemy 3" directly towards that character. 
+The enemy cannot target that character with an 
+action until end of turn.
+Reduce Melee Dmg suffered by -1.
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal

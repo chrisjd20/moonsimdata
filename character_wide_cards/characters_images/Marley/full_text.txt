@@ -1,0 +1,62 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+2
+3
+Marley
+Signature Move on a High Guard.
+Resonance: Friendly Spirits within 8" have a resist hand of +2 
+cards when targeted by an enemy Arcane Ability. 
+Slip through the Deadlands: Friendly Spirits within 8" gain 
+[Blink: When making a Step action, this model may be placed 
+within 1" of itself instead of moving 1". Once per turn].
+Incorporeal Form: When this character activates it may discard 
+1 energy. If it does, this character reduces all non-Magical Dmg 
+suffered to W and may ignore other models and terrain during Jog 
+actions but cannot take Harvest actions, until end of turn. 
+             
+Horror (3) 8" 
+If at least one friendly model was slain this turn resolve this attack 
+with +2 Arcane Stat. 
+2, 2 or 2 : Target gains [Horrified: During the Discard Step, 
+this character suffers 2 Wds.], until this character is slain. 
+Catastrophe : This model suffers 2 Wds.
+Reanimate (3) 
+2, 2 or 2 : Place a friendly slain model in base contact with this 
+model. Restore half its health rounding up. It has no energy but 
+may activate this turn. 
+Catastrophe : This model suffers 4 Wds.
+End Step Effect: Move the enemy 2" directly away. If 
+the enemy is in possession of at least one Moonstone, 
+it loses possession of one Moonstone before moving. 
+Place it in base contact with the enemy at depth '1'.
+Boooo!
+Upgrade for High Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Spirit
+mmmmm  mm

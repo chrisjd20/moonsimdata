@@ -1,0 +1,60 @@
+Crusty Balboa
+Animal, Goblin, Pirate
+Base:  
+40mm
+♥ mmmmm  mmmm
+Signature Move on a Rising Attack.
+Melee
+Arcane
+Range
+Evade
+2”
++1
+3
+4
+Claw and Hook: If this character deals Impact Melee Dmg, 
+increase the Dmg dealt by +1.
+Barnacle Encrusted Shell: Reduce all non-Magical Dmg 
+suffered by -1.
+             
+“Look out!” (1) 6”
+Target friendly character’s Evade stat is reduced by -1 until 
+end of turn.
+             
+Pinch (2) 2"  
+3, 3 or 3 : Target loses possession of one Moonstone they are 
+carrying and this model gains possession of that Moonstone.
+Catastrophe : This model suffers 3 Wds.
+Punch (1) 2" 
+2 or 2 : Target suffers 2 Impact Dmg. If this character has already 
+used the Pinch ability this turn, increase this Dmg by +1.
+Catastrophe : This model suffers 2 Wds.
+First of the Month!
+Upgrade for Rising Attack
+Damage Type:  
+Impact
+High Guard 
+ 
+2
+Falling Swing 
+ 
+1
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+End Step Effect: If this character has already 
+used the Pinch and Punch abilities this turn 
+then the enemy suffers 2 Wds and cannot take 
+a Melee Attack action targeting this model 
+until end of turn.

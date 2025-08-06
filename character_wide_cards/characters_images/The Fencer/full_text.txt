@@ -1,0 +1,56 @@
+The Fencer v.3
+Weakling: Reduce all Melee Dmg this character deals by 
+-1. Harvest actions cost this model +1 energy.
+Needle: If this character deals Piercing Melee Dmg, 
+increase the Dmg dealt by +1.
+Volta: Reduce Piercing Dmg suffered by -2.
+Swift: When making a Reaction Step while engaged by an 
+enemy, this model may move 2” instead of the usual 1”. 
+Once per turn.
+Spiteful: When this model causes 1 or more Wds to an 
+enemy, it restores 1 Wd.
+             
+Enfeeble (3) 4” 
+X :  Reduce all Melee Dmg dealt by target by -X until the 
+end of the turn. 
+Catastrophe : The target gains +1 energy.
+♥ 
+Base:  
+30mm
+mmmmm  m
+Signature Move on a Thrust.
+Needlepoint
+Upgrade for Thrust
+Damage Type:  
+Piercing
+Damage from this attack cannot be reduced 
+by passive abilities.
+High Guard 
+ 
+1
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+2
+Opponent Plays:
+Melee
+Arcane
+Range
+Evade
+1”
+-2
+6
+5
+Faerie, Rogue
+Deal

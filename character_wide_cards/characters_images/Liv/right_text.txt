@@ -1,0 +1,23 @@
+Rune Shield
+Upgrade for Low Guard
+Opponent Plays:
+Deal
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Reduce Dmg suffered by -2.

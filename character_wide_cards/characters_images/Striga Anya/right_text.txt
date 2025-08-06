@@ -1,0 +1,30 @@
+Regain Control
+Upgrade for Low Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+End Step Effect: If this character was not slain then it is 
+Removed from Play and replaced with Anya Bartol. Anya 
+Bartol gains energy and suffers Wds equal to those already 
+on this character along with all Moonstones it's carrying 
+and any stat modifications or abilities it has gained. If this 
+character was the active character, continue the current 
+activation with Anya Bartol; she may not Jog if Striga Anya 
+already did this turn.

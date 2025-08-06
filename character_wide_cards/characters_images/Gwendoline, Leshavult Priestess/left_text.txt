@@ -1,0 +1,31 @@
+Feeble: Reduce all Melee Dmg this character deals by -2. 
+Harvest actions cost this model +1 energy.
+             
+Scry (4) 
+Draw the top card of the Arcane Deck, look then place it 
+face down besides this character card. At any point you can 
+add the card to your Arcane or Arcane Resist Hand. If you 
+do then at the end of the action, or if this character is slain, 
+shuffle the card back into the Arcane Deck.
+             
+Rejuvenate (3) 8”  
+X : Target friendly model restores X+1 Wds, then move it X".
+Catastrophe : The target suffers 2 Wds.
+Ethereal Allure (3) 8”
+X : Move target X+2" directly towards this character. 
+Catastrophe : This model suffers 2 Wds.
+♥ 
+Base:  
+30mm
+Signature Move on a High Guard.
+Melee
+Arcane
+Range
+Evade
+1”
+-2
+2
+5
+Faerie, Cultist
+mmmmm  m
+Gwendoline, Leshavult Priestess v.2 

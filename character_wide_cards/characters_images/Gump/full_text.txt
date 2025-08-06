@@ -1,0 +1,57 @@
+Rooted
+Upgrade for Low Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+This model cannot move or be moved and has its 
+Melee Range increased to 3" until end of the current 
+activation.
+End Step Effect: If this character was not slain then 
+it restores 1 Wd.
+♥ 
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+2”
++2
+3
+4
+Gum
+Woodfoot: This character may Jog over Wooded Patches.
+Ponderous: This character cannot take Reaction Steps.
+Knotted Branches: If this character deals Impact Melee 
+Dmg, increase the Dmg dealt by +2.
+Bark Skin: If this character suffers Piercing or Slicing 
+Dmg, reduce the Dmg suffered by -1.
+Forest: After this character suffers Dmg, it may restore 1 
+Wd for each Wooded Patch within 4". Once per turn.  
+             
+Call of the Woods (2) 8” 
+X : Move target enemy X+2" directly towards any friendly 
+Treefolk. Then the target suffers 1 Wd for each Wooded 
+Patch within 4" of it. 
+Catastrophe : This model cannot move or be moved and 
+has its Melee Range increased to 3" until end of turn. 
+Treefolk, Spirit
+mmmmm  mmmmm  mm
+Signature Move on a Low Guard.

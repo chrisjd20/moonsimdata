@@ -1,0 +1,25 @@
+Base:  
+40mm
+Tough Skin: Reduce all Dmg suffered by -1.
+Granite Fists: If this character deals Impact Melee 
+Dmg, increase the Dmg dealt by +2.
+Calcify: Models engaged by this character during the 
+Replenish Step generate -1 energy.
+             
+Stone Song (1) 6”
+This ability is not modified by Cover.
+X : Decrease target Moonstone's depth value by X, to a 
+a minimum of 1. 
+Catastrophe : The resisting player sets the depth value 
+of the target Moonstone to a number of their choice.
+♥ mmmmm  mmmmm  mm
+Signature Move on a Thrust.
+Melee
+Arcane
+Range
+Evade
+2”
++2
+2
+3
+TrollBoulder v.4

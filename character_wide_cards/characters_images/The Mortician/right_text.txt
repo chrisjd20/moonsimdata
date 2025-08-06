@@ -1,0 +1,26 @@
+End Step Effect: Enemy characters cannot 
+target this model with actions until this model 
+next performs an action or the end of turn, 
+whichever comes first.
+Play Dead
+Upgrade for Low Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal

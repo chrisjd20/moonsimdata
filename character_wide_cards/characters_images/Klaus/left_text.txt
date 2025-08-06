@@ -1,0 +1,34 @@
+♥ 
+Base:  
+30mm
+Signature Move on a Sweeping Cut.
+Melee
+Arcane
+Range
+Evade
+2”
+0
+3
+0
+Faun, Cultist
+mmmmm  mmm
+Flail: If this character deals Slicing or Piercing Melee Dmg, reduce the 
+Dmg dealt to W. If this character deals Impact Melee Dmg increase 
+the Dmg dealt by +2. If this character plays a High Guard or Low 
+Guard during Melee then it suffers 2 Wds during the End Step.
+Egged-On: This character gains +1 Melee Stat for each other friendly 
+Cultist within 6".
+Kinship [Raegan, Leshavult Priestess]: If the friendly named 
+character is within 6" during the Replenish Step, this character gains 
+[Protection: The first time this character would suffer Dmg each turn, 
+reduce that Dmg to W], until end of turn.
+Tubthumping: The first time this game this character is reduced 
+to 0 health boxes remaining, flip an Arcane Card. If the result is a 
+Catastrophe, then this character is slain, otherwise it remains in play 
+with X health boxes remaining, where X is the value on the flipped card. 
+            
+Hold my Beer (4) 4" Pulse
+All characters within the Pulse suffer 1 Catastrophe printed on their 
+card. The Klaus player chooses the catastrophe if a character has 
+several, the targets if required and the order in which all effects occur.
+Klaus v.2

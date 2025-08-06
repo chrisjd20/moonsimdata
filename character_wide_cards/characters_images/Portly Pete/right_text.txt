@@ -1,0 +1,28 @@
+Crowd Control
+Upgrade for Thrust
+Damage Type:  
+Impact
+High Guard 
+ 
+W
+Falling Swing 
+ 
+1
+Thrust 
+ 
+0
+Sweeping Cut 
+ 
+0
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+This attack deals W damage against models 
+which are further than 1” away. 
+End Step Effect: If the enemy is within 1" it is 
+moved 1" directly away from this model.

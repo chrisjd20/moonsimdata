@@ -1,0 +1,32 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+1
+0
+Psychopomp, Food
+mm
+Teacake of Torment
+Thrall: This character can only enter play when summoned. 
+It does not activate and can never gain energy. Instead, 
+while the character that summoned it is active, this 
+character can take actions, including Jog, by discarding 
+the required energy on the character that summoned it. 
+Reaction Steps and Go For It's can be taken in the same way.
+Summoner's Delight: If the character that summoned this 
+model is Slain or Removed from Play then this character is 
+immediately considered to be Slain.
+Feeble: Reduce all Melee Dmg this character deals by -2. 
+Harvest actions cost this model +1 energy. 
+             
+Eat Me! (1) 2" 
+Target friendly character restores 2 Wds then this model 
+suffers 1 Wd.
+Leave to Rise until Doubled in Size (1) 
+This character restores 1 Wd. This character cannot take 
+actions until end of turn.

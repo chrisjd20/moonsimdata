@@ -1,0 +1,34 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+1
+0
+Psychopomp, Babeling
+mm
+Sprog
+No Signature Move.
+Thrall: This character can only enter play when summoned. 
+It does not activate and can never gain energy. Instead, 
+while the character that summoned it is active, this 
+character can take actions, including Jog, by discarding 
+the required energy on the character that summoned it. 
+Reaction Steps and Go For It's can be taken in the same way.
+Summoner's Delight: If the character that summoned this 
+model is Slain or Removed from Play then this character is 
+immediately considered to be Slain.
+Feeble: Reduce all Melee Dmg this character deals by -2. 
+Harvest actions cost this model +1 energy.
+I Want My Nanny!!: When an enemy character declares this 
+model as a target of an action, you may interupt the action to 
+move this model 2" directly towards a friendly Nanny. If you 
+do, the enemy must complete the action if possible and may 
+not choose a new target. Once per turn. 
+             
+He Pushed Me! (1) 2" – Once per turn. 
+Move target other model 1" directly away.

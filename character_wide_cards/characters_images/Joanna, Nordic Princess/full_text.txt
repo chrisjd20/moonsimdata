@@ -1,0 +1,59 @@
+Joanna, Nordic Princess v.3
+Gnome, Noble, Norse
+Glaive: If this character deals Slicing or Piercing Melee 
+Dmg, increase the Dmg dealt by +1. 
+Älskling: Reduce all Dmg this character would suffer by 
+-1 for each other friendly Gnome or Animal within 4”, to 
+a maximum of -3.
+             
+Pixie-Elf Elixir (2) – Once per turn. 
+X : This character gains X+1 energy.
+Catastrophe : This character suffers 3 Wds.
+Revenge of the Forest Friends (2) 18”
+This attack is not modified by Cover.
+X : Target within 3” of a Tree or Wooded Patch terrain 
+suffers X Magical Dmg.
+Catastrophe : Target gains [Protection: The first time 
+this character would suffer Dmg, reduce that Dmg to W], 
+until end of turn.
+♥ 
+Base:  
+30mm
+mmmmm  mm
+Signature Move on a Sweeping Cut.
+Melee
+Arcane
+Range
+Evade
+2”
+0
+5
+3
+Valkyrie Cyclone
+Upgrade for Sweeping Cut
+High Guard 
+ 
+0
+Falling Swing 
+ 
+2
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+0
+Opponent Plays:
+Deal
+Damage Type:  
+Slicing
+End Step Effect: Deal 2 Slicing Dmg to all 
+models within 2” that did not participate in 
+this round of melee. This does not count as 
+Melee Dmg.

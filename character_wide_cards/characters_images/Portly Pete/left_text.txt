@@ -1,0 +1,32 @@
+Portly Pete
+Goblin, Soldier
+Base:  
+30mm
+♥ 
+Signature Move on a Thrust.
+Melee
+Arcane
+Range
+Evade
+2”
+0
+3
+0
+Asleep on the Job: This model may not be chosen to be the 
+player's first activation unless it is the only model which can 
+activate. When this character activates it gets +1 Melee Stat and 
+reduces it's Evade Stat by -1 until end of turn.
+Halbird: If this character deals Piercing or Impact Melee Dmg, 
+increase the Dmg dealt by +1.
+Ramshackle Armour: Reduce all non-Magical Dmg suffered 
+by -1.
+Secret Stash: This character cannot lose possession of a 
+Moonstone due to an enemy model unless slain.
+Goblin City Guard: If a Goblin in possession of a Moonstone 
+within 4" and LoS suffers Dmg, you may have this character 
+suffer all that Dmg instead. Once per turn.
+             
+Stand to Attention! (2) 4" - Once per turn.
+Target other friendly Goblin gains +1 energy. If the target is a 
+Soldier it may also move 2".
+mmmmm  mmm

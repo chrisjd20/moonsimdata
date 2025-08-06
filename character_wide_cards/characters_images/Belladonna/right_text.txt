@@ -1,0 +1,24 @@
+Drop of Delirium
+Upgrade for High Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+End Step Effect: Move the enemy model 2”, 
+then it loses 1 energy and suffers 1 Wd.

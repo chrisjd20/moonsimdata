@@ -1,0 +1,31 @@
+Tough as Old Boots: At the start of the Replenish Step this 
+model recovers 2 Wds.
+Recluse: At the start of the Replenish Step this model gains 
++1 energy if there are no other models within 3".
+Old Staff: If this character deals Piercing or Impact Melee 
+Dmg, increase the Dmg dealt by +1.
+             
+Healing (2) 8”  
+X : Target restores X+1 Wds.
+Catastrophe : This model suffers 2 Wds.
+Trollish Remedies (3) 8” - Once Per Turn. 
+X : Target restores 3X-1 Wds.
+X : Target Troll gains [Tough as Old Boots: At the start of the 
+Replenish Step this model recovers 2 Wds.], until end of game.
+X : Target suffers X Wds, then gains +1 energy.  
+Catastrophe : The target suffers 2 Wds and loses 1 energy.
+♥ 
+Base:  
+40mm
+Signature Move on a Thrust.
+Melee
+Arcane
+Range
+Evade
+3”
++2
+2
+4
+Troll, Wizard
+mmmmm  mmmmm  mm
+Knoll

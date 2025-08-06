@@ -1,0 +1,56 @@
+Rending Claws: If this character deals Melee Dmg, increase 
+the Dmg dealt by +1. Melee Dmg from this character counts as 
+Magical instead of the listed type.
+Sure Footed: This character may Jog over Water Features and 
+Wooded Patches and pays 1 less energy for Traverse actions.
+Quite Terrifying: Whenever a non-Giant, non-Troll enemy 
+character ends a move engaged by this model, for the first 
+time this turn, it must discard 1 energy, if able.
+             
+Mind Control (3) 6”
+Target model immediately takes any action available to them 
+that would normally have an energy cost of (1). This action is 
+controlled by you even if the target is an enemy (they count as a 
+friendly model for the duration of the action).
+♥ 
+Base:  
+40mm
+Signature Move on a Rising Attack.
+Melee
+Arcane
+Range
+Evade
+1”
+0
+4
+0
+Faun, Spirit
+mmmmm  mmm
+Wendigo
+End Step Effect: If the enemy is slain, and 
+this character is not slain, then this character 
+recovers all Wds and all energy.
+Insatiable Hunger
+Upgrade for Rising Attack
+Damage Type:  
+Magical
+High Guard 
+ 
+2
+Falling Swing 
+ 
+3
+Thrust 
+ 
+3
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal

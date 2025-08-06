@@ -1,0 +1,23 @@
+Gotchgut  v.2
+Ramshackle Armour: Reduce all non-Magical Dmg 
+suffered by -1.
+Brute Strength: Increase all Melee Dmg dealt by +2.
+Bodyguard: If a friendly Noble within 4” and LoS 
+suffers Dmg, you may have this character suffer all that 
+Dmg instead. Once per turn.
+             
+Ooga-booga! (1) 4”
+Move target enemy Goblin 2” directly away.
+♥ mmmmm  mmmmm  mmmm
+Signature Move on a Rising Attack.
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+2”
++2
+3
+0
+Giant, Mercenary

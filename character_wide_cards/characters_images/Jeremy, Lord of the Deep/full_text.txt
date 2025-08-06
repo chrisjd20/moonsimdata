@@ -1,0 +1,32 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+1
+0
+Psychopomp, Animal, Aquatic
+mm
+Jerem, Lord of the Deep
+No Signature Move.
+Thrall: This character can only enter play when summoned. 
+It does not activate and can never gain energy. Instead, 
+while the character that summoned it is active, this character 
+can take actions, including Jog, by discarding the required 
+energy on the character that summoned it. Reaction Steps 
+and Go For It's can be taken in the same way.
+Summoner's Delight: If the character that summoned this 
+model is Slain or Removed from Play then this character is 
+immediately considered to be Slain.
+Feeble: Reduce all Melee Dmg this character deals by -2. 
+Harvest actions cost this model +1 energy.
+Waterfoot: This character may Jog freely over Water Features. 
+           
+Behold my Splashy Fury! (1) 2" – Once per turn. 
+This ability may only be used if this model is within a Water 
+Feature. 
+Target character suffers 2 Magical Dmg.

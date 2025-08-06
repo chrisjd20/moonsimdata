@@ -1,0 +1,31 @@
+Fraya v.2 
+Feeble: Reduce all Melee Dmg this character deals by -2. 
+Harvest actions cost this model +1 energy.
+Trickster: When this model successfully bluffs, after 
+resolving the effect you may reveal the bluff and gain +3 
+energy. Once per turn.
+             
+Healing (2) 8”
+X : Target restores X+1 Wds.
+Catastrophe : This model suffers 2 Wds.
+Fizzle-Pop (2) 6”
+X : Target suffers X Magical Dmg then is moved 1” directly away. 
+Catastrophe : This model suffers 2 Wds.
+Dizzly Spell (2) 6”
+X : Target loses one Active Ability of your choice until end 
+of turn.
+Catastrophe : This model suffers 1 Wd.
+♥ 
+Base:  
+30mm
+mmmmm
+Signature Move on a High Guard.
+Melee
+Arcane
+Range
+Evade
+1”
+-2
+2
+5
+Faerie, Wizard

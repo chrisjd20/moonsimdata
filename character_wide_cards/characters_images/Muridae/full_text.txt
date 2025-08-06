@@ -1,0 +1,62 @@
+Muridae  v.3
+Gnome, Rogue
+Dagger: If this character deals Piercing Melee Dmg, increase the 
+Dmg dealt by +1.
+Flea Infested Pelt: Reduce Magical and Slicing Dmg suffered by -1.
+Honour Amongst Thieves: Friendly Rogues within 6" gain +1 
+Arcane Stat.
+             
+Sneaking (1) 
+This character gets -2 Evade Stat until end of turn.
+Squeaking (1) 6" 
+Move target enemy 1". Reaction Steps cannot be declared in 
+response to this action.
+Robbery (2) 1” - Once per turn. 
+Target model with less Wds remaining than this character, loses 
+possession of one Moonstone and this character gains possession 
+of that Moonstone.
+Sewer Rat (1) - Once per game m.
+You may only play this ability if Muridae is inside a building. 
+This character is Removed From Play. At the start of the next 
+Replenish Step, return this character to play inside any building.
+♥ 
+Base:  
+30mm
+mmmmm  mmm
+Signature Move on a Sweeping Cut.
+Melee
+Arcane
+Range
+Evade
+1”
+0
+4
+0
+Hamstring
+Upgrade for Sweeping Cut
+High Guard 
+ 
+1
+Falling Swing 
+ 
+2
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+0
+Opponent Plays:
+Deal
+Damage Type:  
+Slicing
+End Step Effect: If the enemy suffered 1 or 
+more Wds during this round of Melee, they 
+gain Slow and cannot take Step Actions or 
+Reaction Steps until end of turn.

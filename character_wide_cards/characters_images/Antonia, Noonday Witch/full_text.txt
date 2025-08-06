@@ -1,0 +1,53 @@
+Link to the Past: If a friendly Danica, Dusk Witch is in 
+play then this character gains +1 Arcane Stat. 
+             
+Healing (2) 8” 
+X : Target restores X+1 Wds. 
+Catastrophe : This model suffers 2 Wds.
+Candy Apples (3) 8” 
+X : Move target 2X" directly towards this character. Then, if 
+the target is within 2" of this character they suffer 4 Wds. 
+Catastrophe : All models within 4" suffer 2 Magical Dmg.
+Visions of the Present (3) 6" 
+3 or 3 : Target suffers an amount of Wds equal to the 
+number of Wds they have currently suffered. 
+Catastrophe : This character suffers an amount of Wds 
+equal to the number of Wd's they have currently suffered.
+♥ 
+Base:  
+30mm
+Signature Move on a Falling Swing.
+Melee
+Arcane
+Range
+Evade
+1”
+0
+3
+4
+Spirit
+mmmmm  mmm
+Antonia, Noonday Witch v.2 
+Deception
+Upgrade for Falling Swing
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Reduce Dmg suffered by -2.

@@ -1,0 +1,32 @@
+♥ 
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+2”
++2
+4
+3
+Snag
+Signature Move on a Rising Attack.
+Woodfoot: This character may Jog over Wooded Patches. 
+Splintered Branches: If this character deals Impact or Piercing 
+Melee Dmg, increase the Dmg dealt by +1.
+Accursed: When an enemy targets this character with an arcane 
+action you may reveal a X from your resist hand before any 
+cards are played. After resolving the current action, the enemy 
+model suffers X-1 Wds where X is the value of the revealed card.
+Vengeance: If a friendly character is slain or reduced to 0 Wds, 
+the first time this model uses an Arcane Ability this turn it 
+doesn't need to spend any energy. 
+             
+Deadwood Curse (3) 8" 
+X : Target gains [Deadwood Cursed: During the Discard Step, 
+this character and all models friendly to this character within 3" 
+suffer 1 Wd.], until this character is slain. 
+Catastrophe : This character suffers 2 Wds. All other models 
+within 3" suffer 2 Wds.
+Treefolk, Spirit
+mmmmm  mmmmm  m

@@ -1,0 +1,56 @@
+Jackalope v.2
+Animal
+Razor Sharp Antlers: If this character deals Piercing 
+Melee Dmg increase the Dmg dealt by +2.
+Burrowing Claws: The first time each turn this 
+character performs a Harvest action, you may reduce 
+the depth value by 2, instead of 1.
+Fluffy: Reduce Impact Dmg suffered by -1.
+Hippity: You may move freely over intervening 
+obstacles and models during Jog actions provided bases 
+do not overlap at the end of the move.
+             
+Hop (2) – Once per turn. 
+Move this model 4". You may move freely over 
+intervening obstacles and models provided bases do not 
+overlap at the end of the move.
+Melee
+Arcane
+Range
+Evade
+2”
++1
+3
+0
+mmmmm  mmmmm 
+Base:  
+40mm
+Signature Move on a Rising Attack.
+Gore
+Upgrade for Rising Attack
+Damage Type:  
+Piercing
+High Guard 
+ 
+2
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+0
+Opponent Plays:
+Deal
+End Step Effect: Move the enemy model 1”.
+♥ 
+This attack deals W damage against models 
+which are further than 1” away. 

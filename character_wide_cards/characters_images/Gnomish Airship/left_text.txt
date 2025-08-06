@@ -1,0 +1,36 @@
+Gnomish Airship  v.2
+Gnome, Machine, Militia
+Up, Up & Away: This character may move freely over all terrain 
+and other models during Jog and Step actions, provided it does 
+not end the move with the base overlapping another model or 
+barrier terrain. It cannot take the Harvest action or the Melee 
+Attack action, cannot be targeted by Melee Attack actions and 
+does not engage enemy models or become engaged by enemy 
+models. It does not block LoS, provide Cover, or suffer from 
+Falling. When targeted by Arcane actions, this character does 
+not benefit from Cover. 
+              
+Reload [Bolt Thrower] (2)
+The named ability can be used again.  
+             
+Bolt Thrower (1) 10” – Once per game, unless reloaded m. 
+This attack is not modified by Cover.
+X : Target suffers X+2 Piercing Dmg then is moved 1" directly away.
+Catastrophe : This model suffers 2 Wds and this action cannot be 
+used for the remainder of the game.
+Dropping Bombs (2) 2” Pulse 
+X : All other models within the pulse suffer X+1 Magical Dmg then 
+are moved X" directly away.
+Catastrophe : This model suffers 4 Wds.
+♥ 
+Base:  
+40mm
+mmmmm  mmm
+Melee
+Arcane
+Range
+Evade
++1
+3
+-
+-

@@ -1,0 +1,29 @@
+Crushing Pressure
+Upgrade for Thrust
+High Guard	
+	
+1
+Falling Swing	
+	
+1
+Thrust	
+	
+1
+Sweeping Cut	
+	
+1
+Rising Attack 	
+	
+1
+Low Guard 	
+	
+1
+Opponent Plays:
+Deal
+Damage Type: 
+Impact
+This attack deals W damage against models 
+which are further than 1” away. 
+End Step Effect: If the enemy suffered 1 or 
+more Wds during this round of melee, they 
+must discard 1 energy.

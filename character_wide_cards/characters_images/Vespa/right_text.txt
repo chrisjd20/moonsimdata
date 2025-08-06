@@ -1,0 +1,24 @@
+Strike from Above
+Upgrade for Falling Swing
+Damage Type:  
+Piercing
+High Guard 
+ 
+W
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+0
+Opponent Plays:
+Deal

@@ -1,0 +1,60 @@
+Eric, the Enlightened
+Enchanted Javelin: If this character deals Piercing Melee Dmg, 
+increase the Dmg dealt by +2. Whenever this character deals any 
+Piercing Dmg it may deal the same amount of Magical Dmg instead.
+Woodland Animal: This character may Jog over Wooded 
+Patches and gains +1 energy during the Replenish Step if any 
+part of its base is within a Wooded Patch.
+Leshavit's Shield: If this character would suffer Dmg, you may 
+reduce that Dmg to W. Once per game. m 
+             
+Enchanted Bladestorm (2) 6” 
+This attack is not modified by Evade Stat or Cover and may only 
+be used if this model has the Enchanted Javelin ability. 
+X : Target suffers X+1 Piercing Dmg. After resolving this action, 
+this model loses Enchanted Javelin until end of turn. 
+X : This character may discard 2 energy. If it does, all other 
+models within 4" suffer X+1 Piercing Dmg then are moved X" 
+directly away. Then, after resolving this action, this model loses 
+Enchanted Javelin until end of game. m 
+Catastrophe : If this character has the Enchanted Javelin ability, 
+the target gains it and this model loses it, both until end of turn.
+♥ 
+Base:  
+40mm
+mmmmm  mmmmm  
+Signature Move on a Sweeping Cut.
+Melee
+Arcane
+Range
+Evade
+2”
++1
+4
+3
+Human, Animal, Cultist
+Swinging Antlers
+Upgrade for Sweeping Cut
+Damage Type:  
+Impact
+High Guard 
+ 
+0
+Falling Swing 
+ 
+3
+Thrust 
+ 
+0
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+1
+Opponent Plays:
+Deal
+End Step Effect: Move the enemy model 1”.

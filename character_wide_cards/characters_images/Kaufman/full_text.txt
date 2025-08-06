@@ -1,0 +1,56 @@
+Kaufman  v.2
+Shower of Gold (2) 6"
+Target a single point on the board within 6" and LoS of this model. All 
+other models within 4" of the chosen spot move 2" directly towards 
+that point. The Kaufman player chooses the order of the moves.
+Money Bag (2) 6"
+Place a 30mm diameter Bag of Gold token within 6" and LoS of 
+this model. The token remains in play but is immediately removed 
+if any model is in base contact with it. Whenever another model 
+takes a Jog or Step action while within 6"and LoS of a Bag of Gold 
+token, it may not end the move further from the nearest Bag of 
+Gold token than it began.
+             
+A Generous Offer (1) 2” – Once per turn. 
+This attack is not modified by Evade Stat.
+2 or 2 :  Target model loses possession of one Moonstone it is 
+carrying and this character gains possession of that Moonstone. 
+Catastrophe : This model suffers 2 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  mmmm
+Signature Move on a Thrust.
+Melee
+Arcane
+Range
+Evade
+1”
++1
+2
+4
+Human,        Noble
+End Step Effect: Move the enemy model 2” 
+directly away from this model.
+Gut Barge
+Upgrade for Thrust
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal

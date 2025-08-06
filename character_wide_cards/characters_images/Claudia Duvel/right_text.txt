@@ -1,0 +1,27 @@
+Stand & Deliver
+Upgrade for Sweeping Cut
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+End Step Effect: If this character was not slain, and 
+the enemy is in possession of a Moonstone, then 
+they must choose: Suffer 3 Wds or, lose possession 
+of one Moonstone and this character gains 
+possession of that Moonstone.

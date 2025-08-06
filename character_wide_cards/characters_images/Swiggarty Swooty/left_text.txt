@@ -1,0 +1,30 @@
+Swiggarty Swooty v.2
+Goblin, Pirate
+Base:  
+30mm
+♥ mmmmm  mm
+Signature Move on a Rising Attack.
+Melee
+Arcane
+Range
+Evade
+2”
+-1
+3
+3
+Luv'a da booty: If a friendly Pirate makes a Melee Attack 
+action while within 6” of this model, you may have them gain 
++1 energy for each Moonstone that this character is in 
+possession of. Once per turn.
+             
+Reload [Shoot Pistol] (2)
+The named ability can be used again. This ability cannot be 
+used while this model is engaged.
+             
+Shoot Pistol (1) 8”  – Once per game, unless reloaded m. 
+X : Target suffers X+1 Impact Dmg.
+Catastrophe : This character suffers 3 Wds.
+Plunder (1) 2"
+2, 2 or 2 : Target loses 1 Passive Ability of your choice 
+until the end of turn and this model gains that ability.
+Catastrophe : The resisting player may move this model 2".

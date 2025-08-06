@@ -1,0 +1,31 @@
+Billy v.2
+Arming Sword: If this character deals Slicing Melee Dmg, 
+increase the Dmg dealt by +1. 
+Quilted Armour: Reduce Slicing Dmg suffered by -1.
+             
+Ramming Speed (3) 6”
+Move this model 6” directly towards target enemy model. If 
+base contact is made with the target, flip an arcane card. The 
+target suffers X+1 Impact Dmg then is moved X” directly 
+away, where X is the value of the flipped card.
+Catastrophe: The target model suffers no damage and may 
+move up to 3”.
+             
+High-ho Silver (2)
+X or X : Move this model 2X”.
+Catastrophe : This model cannot move or be moved until 
+end of turn.
+♥ 
+Base:  
+30mm
+mmmmm  mmm
+Signature Move on a Falling Swing.
+Gnome, Militia, Animal
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+4
+4

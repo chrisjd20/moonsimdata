@@ -1,0 +1,66 @@
+♥ 
+Base:  
+30mm
+Signature Move on a High Guard.
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+2
+4
+Human,     Noble
+mmmmm  mm
+Lose Control
+Upgrade for High Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy. 
+Look of Innocence: When an enemy targets this character with 
+an action, the active enemy model must discard 1 energy or the 
+action is cancelled.
+Swift: When making a Reaction Step while engaged by an enemy, 
+this model may move 2” instead of the usual 1”. Once per turn.
+             
+ 
+Remove Necklace (4)  
+This character gains +4 energy. Then it is Removed from Play 
+and replaced by Striga Anya. Striga Anya gains energy and suffers 
+Wds equal to those already on this character along with all 
+Moonstones this character is carrying and any stat modifications 
+or abilities it has gained. Continue Anya Bartol's activation with 
+Striga Anya; it may not Jog if Anya Bartol already did this turn. 
+             
+ 
+Healing (2) 8” 
+X : Target restores X+1 Wds. 
+Catastrophe : This model suffers 2 Wds.
+Anya Bartol v.2
+End Step Effect: If this character was not slain then it is 
+Removed from Play and replaced with Striga Anya. Striga 
+Anya gains energy and suffers Wds equal to those already on 
+this character along with all Moonstones she was carrying 
+and any stat modifications or abilities she has gained. If this 
+character was the active character, continue the current 
+activation with Striga Anya; it may not Jog if Anya Bartol 
+already did this turn.

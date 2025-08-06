@@ -1,0 +1,61 @@
+♥ 
+Base:  
+40mm
+Melee
+Arcane
+Range
+Evade
+2”
++1
+4
+5
+Abra Cadaverous
+Signature Move on a Rising Attack.
+Claws and Stick: If this character deals Slicing or Impact 
+Melee Dmg, increase the Dmg dealt by +2.
+Fashion from Flesh: When this model causes 1 or more Wds to 
+an enemy in a round of melee, it may summon a new friendly 
+Psychopomp as a bonus End Step Effect. Place the new friendly 
+Psychopomp in base contact with this model. This cannot bring 
+a character into play if it is already in play. If the enemy is slain 
+this character may instead reduce the energy cost of the next 
+Arcane Ability it uses this turn to (0). Once per turn. 
+          
+Spare Parts (2) 4" 
+X : Target restores X Wds. 
+Catastrophe : This model suffers 3 Wds.
+Reanimate (3) 
+2, 2 or 2 : Place a friendly slain model in base contact with 
+this model. Restore half its health rounding up. It has no 
+energy but may activate this turn. 
+Catastrophe : This model suffers 4 Wds.
+End Step Effect: If this character is the attacker 
+and causes 1 or more Wds during this round of 
+Melee, reduce the energy cost of its next action 
+this turn to (0) if it is a Melee Attack action.
+Frenzy
+Upgrade for Rising Attack
+High Guard 
+ 
+1
+Falling Swing 
+ 
+0
+Thrust 
+ 
+0
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+0
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Spirit
+mmmmm  mmmmm
+Damage Type:  
+Slicing

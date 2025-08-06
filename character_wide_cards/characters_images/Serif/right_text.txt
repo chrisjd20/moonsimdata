@@ -1,0 +1,26 @@
+End Step Effect: Move the enemy 2" directly 
+away.
+Shield Slam
+Upgrade for Low Guard
+Damage Type:  
+Impact
+High Guard 
+ 
+1
+Falling Swing 
+ 
+2
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+0
+Opponent Plays:
+Deal

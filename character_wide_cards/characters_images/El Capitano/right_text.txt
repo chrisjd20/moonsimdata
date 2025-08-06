@@ -1,0 +1,26 @@
+Jolly Roger
+Upgrade for Rising Attack
+Damage Type:  
+Piercing
+Damage from this attack cannot be reduced by 
+passive abilities.
+High Guard 
+ 
+1
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+0
+Opponent Plays:
+Deal

@@ -1,0 +1,60 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+3
+4
+Morag
+Signature Move on a High Guard.
+Slow: This model's Jog actions are limited to 2".
+Eclipse: When an enemy targets this character with an 
+Arcane Ability you may reveal a 2 or 2 from your resist hand 
+before any cards are played. If you do, this character reduces 
+all Dmg suffered to W whilst resolving the current action. 
+             
+Reclaim Life (0) 4" – Once per turn. 
+Target friendly character suffers 2 Wds or, if at least one 
+friendly model was slain or reduced to 0 Wds this turn, it 
+may restore 2 Wds instead. 
+             
+Shadow Stride (2) 
+X or X : Place this model within X+1". 
+Catastrophe : This character suffers 3 Wds.
+Hunting Ritual (3) 8" 
+This attack is not modified by Evade Stat. 
+3, 3 or 3 : Target suffers an amount of Wds equal to half the 
+number of Wds they currently have remaining, rounded up. 
+Catastrophe : The target may be moved 4" by the resisting player.
+Shadow Form
+Upgrade for High Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Faun, Spirit
+mmmmm  mm
+Reduce Dmg suffered by -1. 
+ 
+If the enemy has 4 Wds or fewer remaining, 
+instead reduce Dmg suffered to W.

@@ -1,0 +1,32 @@
+Quack
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy.
+Premonition: If an enemy character declares this model as 
+a target of an action, you may interrupt the action to make a 
+reaction step by discarding 1 energy. If you do, the enemy must 
+complete the action if possible and may not choose a new target.
+             
+Foresight (1)  10” - Once per turn. 
+Target Human gains +2 Arcane stat until end of turn.
+             
+Healing (2) 8”
+X : Target restores X+1 Wds.
+Catastrophe : This model suffers 2 Wds.
+Blinding Powder (1) 4”
+X : Reduce target’s Melee and Arcane stats by 2X until the end 
+of turn.
+Catastrophe : This model loses all energy.
+♥ 
+Base:  
+30mm
+mmmmm  mm
+Signature Move on a Low Guard.
+Melee
+Arcane
+Range
+Evade
+1”
+0
+2
+5
+Human, Wizard, Cleric

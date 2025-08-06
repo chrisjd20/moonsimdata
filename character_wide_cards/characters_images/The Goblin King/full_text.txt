@@ -1,0 +1,58 @@
+♥ 
+Base:  
+30mm
+mmmmm  mm
+Grovel, Peasant!
+Upgrade for Falling swing
+This attack deals +1 Dmg to Goblins.  
+Reduce all Dmg suffered from Goblins to W.
+Goblin, Noble
+Signature Move on a Falling Swing.
+Melee
+Arcane
+Range
+Evade
+2”
+0
+3
+0
+High Guard 
+ 
+0
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+2
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+4
+Opponent Plays:
+Deal
+Damage Type:  
+Impact
+The Goblin King v.2
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy.
+Sceptre of Almighty Power: If this character deals Slicing 
+Melee Dmg, reduce the Dmg dealt to W. If this character 
+deals Impact Melee Dmg, increase the Dmg dealt by +2. 
+Royal Privilege: Whenever this character would suffer Dmg, 
+you may have a friendly Goblin within 4” and LoS suffer all 
+that Dmg instead. Once per turn.
+             
+Rule the Roost (2) 8” - Once per turn 
+Target Goblin suffers 2 Wds, gains 2 energy and activates 
+immediately after this character’s activation ends. If the 
+target has already activated, then this is a bonus activation, 
+otherwise this counts as the target’s activation for the turn.
+Gimme!! (1) 2” 
+Gain possession of one Moonstone carried by target friendly 
+Goblin.

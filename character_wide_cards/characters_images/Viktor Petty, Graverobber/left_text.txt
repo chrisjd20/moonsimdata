@@ -1,0 +1,31 @@
+♥ 
+Base:  
+30mm
+Melee
+Arcane
+Range
+Evade
+2”
+0
+3
+4
+Viktor Petty, Graverobber
+Signature Move on a Low Guard.
+Spade: If this character deals Impact Melee Dmg, increase 
+the Dmg dealt by +1. 
+Gravedigger: The first time each turn this character 
+performs a Harvest action, you may reduce the depth value 
+by 2, instead of 1.
+Keep 'em Fresh: When this model or a friendly Risen model 
+enters play via Reanimate, it may restore 2 Wds. Other friendly 
+models entering play via Reanimate may restore 1 Wd.  
+Guiding Lantern: When a friendly model enters play via 
+Reanimate or Reanimate Jobie it may be placed in base 
+contact with this model instead of the originator. 
+             
+Sink Hole (2) 8” 
+X : Target suffers X Wds and gains [Slow: This model's Jog 
+actions are limited to 2"], until end of turn. 
+Catastrophe : This character suffers 2 Wds.
+Human, Rogue
+mmmmm  mmm

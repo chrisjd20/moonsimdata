@@ -1,0 +1,59 @@
+ShabbaroOn v.3
+Weakling: Reduce all Melee Dmg this character deals by -1. 
+Harvest actions cost this model +1 energy.
+             
+Goblin Mischief (2) 6” Pulse – Once per turn.  
+Deal an Arcane Card to each Goblin within the Pulse. 
+They receive the following effects [ X : Gain +X energy.  
+X : Gain +1 energy. Catastrophe : Suffer 2 Wds], then shuffle the 
+cards back into the Arcane Deck.
+             
+Goblin Luck (2) 8”
+3, 3 or 3 : Target enemy or Goblin immediately suffers one 
+Catastrophe printed on their card. If it requires a target, you 
+may choose any target that meets the ability’s requirements.
+Catastrophe : This character suffers 3 Wds.
+Transconbobulate (3) 8”
+3 or 3 : Restore all wounds and energy of target Goblin, then 
+place it within 8” of this model.  
+Catastrophe : This character suffers 4 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  m
+Signature Move on a High Guard.
+End Step Effect: If this model was the defender 
+and was not slain, restore all wounds and 
+energy and place it within 8” of its current 
+location.
+Fuddlemuddle
+Upgrade for High Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Melee
+Arcane
+Range
+Evade
+1”
+-1
+1
+7
+Goblin, Wizard
+Deal

@@ -1,0 +1,28 @@
+Head Butt
+Upgrade for Falling Swing
+Opponent Plays:
+High Guard 
+ 
+0
+Falling Swing 
+ 
+1
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+1
+Deal
+This attack deals W damage against models 
+which are further than 1” away. 
+End Step Effect: Move the enemy model 1” 
+directly away from this model.
+Damage Type:  
+Impact

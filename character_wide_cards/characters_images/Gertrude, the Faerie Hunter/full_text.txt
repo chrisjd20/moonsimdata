@@ -1,0 +1,55 @@
+Gertrude, the Faerie Hunter
+Human, Mercenary
+Protection Charm: Reduce Magical Dmg suffered  
+by -2.
+             
+Reload [Blunderbuss] (2)
+The named ability can be used again. This ability cannot 
+be used while this model is engaged.
+Natural Order (1) 4” Pulse – Once per turn.
+All models within the pulse suffer 1 Wd for each energy 
+token they have over 3.
+             
+Blunderbuss (1) 4” – Once per game, unless reloaded m. 
+X or X : Target suffers X Impact Dmg.
+Catastrophe : This model suffers 2 Wds.
+♥ 
+Base:  
+30mm
+mmmmm  mmm
+Melee
+Arcane
+Range
+Evade
+1”
+0
+4
+5
+Signature Move on a Sweeping Cut.
+Spin-Kick
+Upgrade for Sweeping Cut
+Damage Type:  
+Impact
+High Guard 
+ 
+1
+Falling Swing 
+ 
+2
+Thrust 
+ 
+2
+Sweeping Cut 
+ 
+1
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+0
+Opponent Plays:
+Deal
+End Step Effect: Move the enemy model 1”. 
+You may immediately play the Reload ability 
+even if engaged, and without spending energy.

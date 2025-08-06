@@ -1,0 +1,29 @@
+Shattering Oathstone
+Upgrade for Falling Swing
+Opponent Plays:
+High Guard 
+ 
+W
+Falling Swing 
+ 
+0
+Thrust 
+ 
+0
+Sweeping Cut 
+ 
+3
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+2
+Deal
+End Step Effect: If this character was slain, 
+all other models within 8", excluding friendly 
+Giants and friendly Nobles, suffer 1 Wd. Other 
+friendly Giants and friendly Nobles within 8" 
+restore all Wds instead. 
+Damage Type:  
+Slicing

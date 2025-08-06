@@ -1,0 +1,60 @@
+Tabby,  the Librarian
+Poking stick: If this character deals Slicing Melee Dmg, 
+reduce the Dmg dealt to W.
+             
+Energy Syphon (0) 8” – Once per turn. 
+Target a friendly model. Flip an Arcane card and redistribute 
+up to X energy from that model to any combination of 
+models within 8”, where X is the value on the card.  
+Catastrophe : The target loses 2 energy and this character 
+suffers 2 Wds.
+             
+Caustic Contract (1) 6”
+X : Target model suffers X-1 Wds, then it gains  
+[Protection: The first time this character would suffer Dmg, 
+reduce that Dmg to W], until end of turn. 
+Catastrophe : This model suffers 2 Wds.
+Librarian's Scorn (1) 6”
+X : Move target X” directly away, then it suffers X-1 Wds. 
+Catastrophe : This model suffers 3 Wds.
+♥ 
+Base:  
+40mm
+mmmmm  mmm
+Signature Move on a Thrust.
+Melee
+Arcane
+Range
+Evade
+3”
++1
+3
+5
+Human, Cleric
+Shhhhh!
+Upgrade for Thrust
+Damage Type:  
+Impact
+End Step Effect: If the enemy suffered 1 or 
+more Wds during this round of Melee then it 
+must discard 1 energy, if able.
+High Guard 
+ 
+1
+Falling Swing 
+ 
+1
+Thrust 
+ 
+1
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+1
+Low Guard  
+ 
+1
+Opponent Plays:
+Deal

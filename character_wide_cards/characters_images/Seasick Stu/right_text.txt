@@ -1,0 +1,27 @@
+It’s a big’un!
+Upgrade for Thrust
+Damage Type:  
+Piercing
+End Step Effect: If the enemy suffered 1 or 
+more Wds during this round of Melee, it 
+cannot take a Jog action until end of turn.
+High Guard 
+ 
+0
+Falling Swing 
+ 
+3
+Thrust 
+ 
+3
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+2
+Low Guard  
+ 
+1
+Opponent Plays:
+Deal

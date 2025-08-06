@@ -1,0 +1,31 @@
+Baron Von Fancyhat
+Longsword: If this character deals Slicing or Piercing Melee 
+Dmg, increase the Dmg dealt by +1.
+Plate Armour: Reduce all non-Magical Dmg suffered  
+by -2.
+             
+Rallying Cry (0) 8” Pulse – Once per game m. 
+Energy on other friendly Humans within the pulse is 
+restored up to the number of blue dots currently remaining 
+on their health bar.
+Reload [Shoot Pistol] (2)
+The named ability can be used again. This ability cannot be 
+used while this model is engaged.
+             
+Shoot Pistol (1) 8”  – Once per game, unless reloaded m. 
+X : Target suffers X+1 Impact Dmg.
+Catastrophe : This character suffers 3 Wds.
+♥ 
+Base:  
+30mm
+Signature Move on a Falling Swing.
+mmmmm  mm
+Melee
+Arcane
+Range
+Evade
+2”
+0
+5
+3
+Human, Noble

@@ -1,0 +1,26 @@
+Destiny Fulfilled
+Upgrade for Thrust
+End Step Effect: If the enemy is slain, this 
+character is Removed from Play.
+High Guard 
+ 
+1
+Falling Swing 
+ 
+3
+Thrust 
+ 
+4
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+3
+Low Guard  
+ 
+2
+Opponent Plays:
+Deal
+Damage Type:  
+Piercing

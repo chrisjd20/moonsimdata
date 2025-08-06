@@ -1,0 +1,57 @@
+Quarrel v.2
+Slow: This model's Jog actions are limited to 2”.
+Dirk: If this character deals Slicing Melee Dmg, increase the 
+Dmg dealt by +1.
+             
+Reload [Shoot Crossbow] (2) 
+The named ability can be used again. This ability cannot be 
+used while this model is engaged. 
+Brothers in Arms (1) 4” 
+Target other friendly Militia gains +1 Arcane stat and +1 Melee 
+stat until end of turn. Then, the target may discard 1 energy 
+to give this character +1 Arcane stat and +1 Melee stat until 
+end of turn.
+             
+Shoot Crossbow (1) 14” – Once per game, unless reloaded ¡. 
+X : Target suffers 2X Piercing Dmg then is moved 1” directly 
+away.
+Catastrophe : The Reload ability cannot be used for the 
+remainder of the game.
+Base:  
+30mm
+♥ mmmmm  mmm
+Signature Move on a High Guard.
+Reduce Dmg suffered by -1. 
+ 
+End Step Effect: This model may move 2”.
+Tactical Retreat
+Upgrade for High Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Gnome, Soldier, Militia
+Melee
+Arcane
+Range
+Evade
+1”
+0
+3
+3

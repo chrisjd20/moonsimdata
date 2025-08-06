@@ -1,0 +1,27 @@
+Topsy Turvy
+Upgrade for Low Guard
+High Guard 
+ 
+W
+Falling Swing 
+ 
+W
+Thrust 
+ 
+W
+Sweeping Cut 
+ 
+W
+Rising Attack  
+ 
+W
+Low Guard  
+ 
+W
+Opponent Plays:
+Deal
+Immediately draw 2 additional Melee Cards. 
+Then, if you have a High Guard in hand, you may 
+discard your current Melee Card and replace it 
+with a High Guard. If you do, resolve the Melee as 
+if you originally played a High Guard.
