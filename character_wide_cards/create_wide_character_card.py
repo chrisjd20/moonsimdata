@@ -10,24 +10,7 @@ from PIL import Image, ImageDraw, ImageFont
 import sys
 
 def get_faction_symbol_filename(faction_string):
-    """
-     # Draw table lines
-    table_height = header_height + (num_moves * row_height)
-    draw_table_lines(draw, table_x, table_start_y, table_width, table_height, 
-                     num_rows + 1, deal_column_x)  # +1 for header row
-    
-    # Position for text after table - reduced padding for better space usage
-    current_y = table_start_y + table_height + 8  # Reduced from 20 to 8
-    
-    # Extra text (if any) - placed after damage table
-    extra_text = signature_move.get('extraText', '')
-    if extra_text and extra_text.strip():
-        lines = wrap_text_to_lines(extra_text.strip(), body_font_medium, line_width, draw)
-        for line in lines:
-            draw_medium_weight_text(draw, (bg_x + margin, current_y), line, body_font_medium, dark_gray)
-            current_y += 20  # Adjusted for larger body font
-        current_y += 6  # Reduced extra spacing after extra text (was 10)tring from JSON to corresponding faction symbol filename
-    """
+    """Convert faction string from JSON to corresponding faction symbol filename"""
     if not faction_string:
         return None
     
@@ -169,6 +152,63 @@ def wrap_text_to_lines(text, font, max_width, draw):
     
     return lines
 
+def wrap_text_with_nulls_to_lines(text, font, max_width, draw):
+    """Wrap text to fit within max_width, handling ∅ characters specially."""
+    if not text or not text.strip():
+        return []
+    
+    lines = []
+    words = text.split()
+    current_line = ""
+    
+    for word in words:
+        # Test if adding this word would exceed the width
+        test_line = current_line + (" " if current_line else "") + word
+        # Replace ∅ with space for width calculation
+        test_line_for_measurement = test_line.replace('∅', ' ')
+        bbox = draw.textbbox((0, 0), test_line_for_measurement, font=font)
+        text_width = bbox[2] - bbox[0]
+        
+        if text_width <= max_width:
+            current_line = test_line
+        else:
+            # Current line is full, save it and start new line with current word
+            if current_line:
+                lines.append(current_line)
+                current_line = word
+            else:
+                # Single word is too long, add it anyway
+                lines.append(word)
+                current_line = ""
+    
+    # Add the last line if it has content
+    if current_line:
+        lines.append(current_line)
+    
+    return lines
+
+def draw_yellow_highlight(draw, x, y, width, height):
+    """Draw a yellow circle highlight with dark yellow border."""
+    # Create a circular highlight
+    highlight_color = (255, 255, 0, 180)  # Yellow with transparency
+    border_color = (204, 204, 0, 255)     # Dark yellow border
+    
+    # Calculate circle center and radius - adjusted positioning
+    center_x = x + width // 2 + 8         # Shifted more to the right (was +2, now +8)
+    center_y = y + height // 2 + 3        # Shifted up a bit more (was +8, now +3)
+    radius = int(11 * 1.5)  # Make it 1.5x bigger again (was 9, now 13.5 -> 14)
+    
+    # Draw dark yellow border circle (slightly larger)
+    border_radius = radius + 2
+    draw.ellipse([center_x - border_radius, center_y - border_radius, 
+                  center_x + border_radius, center_y + border_radius], 
+                 fill=border_color)
+    
+    # Draw yellow circle
+    draw.ellipse([center_x - radius, center_y - radius, 
+                  center_x + radius, center_y + radius], 
+                 fill=highlight_color)
+
 def draw_medium_weight_text(draw, position, text, font, fill):
     """Draw text with slightly heavier weight by drawing multiple times with tiny offsets."""
     x, y = position
@@ -176,6 +216,46 @@ def draw_medium_weight_text(draw, position, text, font, fill):
     offsets = [(0, 0), (0.5, 0), (0, 0.5), (0.5, 0.5)]
     for dx, dy in offsets:
         draw.text((x + dx, y + dy), text, fill=fill, font=font)
+
+def draw_text_with_large_nulls(draw, position, text, font, fill):
+    """Draw text with ∅ characters replaced by larger symbols at the correct positions."""
+    x, y = position
+    
+    if '∅' not in text:
+        # No null characters, draw normally
+        draw_medium_weight_text(draw, position, text, font, fill)
+        return
+    
+    # Create a larger font for the ∅ character (30% bigger)
+    font_size = font.size if hasattr(font, 'size') else 18
+    large_null_font = get_font(int(font_size * 1.3), bold=True)
+    
+    # Split text by ∅ characters and track positions
+    parts = text.split('∅')
+    current_x = x
+    
+    for i, part in enumerate(parts):
+        if part:  # Draw the text part
+            draw_medium_weight_text(draw, (current_x, y), part, font, fill)
+            # Calculate width of this part to advance position
+            bbox = draw.textbbox((0, 0), part, font=font)
+            part_width = bbox[2] - bbox[0]
+            current_x += part_width
+        
+        # Draw the ∅ character if this isn't the last part
+        if i < len(parts) - 1:
+            # Calculate vertical offset to center the larger ∅ with the text baseline
+            null_bbox = draw.textbbox((0, 0), '∅', font=large_null_font)
+            text_bbox = draw.textbbox((0, 0), 'A', font=font)  # Use 'A' as reference
+            
+            # Adjust Y position to align baselines
+            y_offset = (text_bbox[3] - text_bbox[1] - (null_bbox[3] - null_bbox[1])) // 2
+            
+            draw_medium_weight_text(draw, (current_x, y + y_offset-2), '∅', large_null_font, fill)
+            
+            # Advance position by the width of the ∅ character
+            null_width = null_bbox[2] - null_bbox[0]
+            current_x += null_width
 
 def draw_table_lines(draw, table_x, table_y, table_width, table_height, num_rows, deal_x):
     """Draw grey table lines around the moves section (adapted from add_card_text.py)."""
@@ -198,7 +278,7 @@ def draw_table_lines(draw, table_x, table_y, table_width, table_height, num_rows
     draw.line([deal_column_left, table_y, deal_column_left, table_y + table_height], 
               fill=line_color, width=line_width)
 
-def draw_signature_move_card(draw, signature_move, bg_x, bg_y, bg_width, bg_height):
+def draw_signature_move_card(draw, signature_move, bg_x, bg_y, bg_width, bg_height, character_data):
     """Draw signature move card text overlay on the background area."""
     if not signature_move or not signature_move.get('name'):
         # No signature move - draw placeholder text
@@ -217,8 +297,9 @@ def draw_signature_move_card(draw, signature_move, bg_x, bg_y, bg_width, bg_heig
                  fill=(0, 0, 0, 255), font=font, anchor="mm")
         return
     
-    # Define fonts - increased sizes
-    subtitle_font = get_font(22, bold=False)  # Increased from 18
+    # Define fonts - updated for consistency and clarity
+    subtitle_font = get_font(22, bold=False)  # For 'Upgrade for' and 'Damage Type:' labels
+    value_font = get_font(22, bold=True)      # For values after those labels
     body_font = get_font(18)  # Increased from 16 for extraText/endStepEffect
     move_font = get_font(18, bold=True)
     cost_font = get_font(18, bold=True)
@@ -242,30 +323,53 @@ def draw_signature_move_card(draw, signature_move, bg_x, bg_y, bg_width, bg_heig
     draw.text((bg_x + margin, current_y), title, fill=black, font=title_font)
     current_y += 55  # Increased spacing for larger title (was 40)
     
-    # Upgrade For information (right after title) - with bold upgrade type
+    # Upgrade For information (right after title) - unified font logic
     upgrade_for = signature_move.get('upgradeFor')
     upgrade_for_text = get_upgrade_for_text(upgrade_for)
     if upgrade_for_text:
-        # Draw "Upgrade for " in regular font, then the type in bold
         upgrade_prefix = "Upgrade for "
-        draw.text((bg_x + margin, current_y), upgrade_prefix, fill=dark_gray, font=info_font)
-        
-        # Calculate width of prefix to position the bold text
-        prefix_bbox = draw.textbbox((0, 0), upgrade_prefix, font=info_font)
+        draw.text((bg_x + margin, current_y), upgrade_prefix, fill=black, font=subtitle_font)
+        prefix_bbox = draw.textbbox((0, 0), upgrade_prefix, font=subtitle_font)
         prefix_width = prefix_bbox[2] - prefix_bbox[0]
-        
-        # Draw the upgrade type in bold
-        draw.text((bg_x + margin + prefix_width, current_y), upgrade_for_text, fill=dark_gray, font=info_bold_font)
-        current_y += 26  # Increased spacing (was 22)
-    
-    # Damage Type information (after upgrade for) - larger fonts
+        draw.text((bg_x + margin + prefix_width, current_y), upgrade_for_text, fill=black, font=value_font)
+        current_y += 26
+
+    # Damage Type information (after upgrade for) - type on line below
     damage_type = signature_move.get('damageType')
     damage_type_text = get_damage_type_text(damage_type)
     if damage_type_text:
         current_y += 5
         draw.text((bg_x + margin, current_y), "Damage Type:", fill=black, font=subtitle_font)
-        current_y += 26  # Increased spacing (was 22)
-        draw.text((bg_x + margin, current_y), damage_type_text, fill=black, font=damage_type_font)
+        current_y += 26  # Move to next line for the type
+        
+        # Handle " or " specially - make only damage types bold, not the " or "
+        if " or " in damage_type_text:
+            # Split by " or " and draw each part with appropriate formatting
+            parts = damage_type_text.split(" or ")
+            current_x = bg_x + margin
+            
+            for i, part in enumerate(parts):
+                # Draw the damage type in bold
+                draw.text((current_x, current_y), part, fill=black, font=value_font)
+                
+                # Calculate width to advance position
+                bbox = draw.textbbox((0, 0), part, font=value_font)
+                part_width = bbox[2] - bbox[0]
+                current_x += part_width
+                
+                # Draw " or " in regular font if not the last part
+                if i < len(parts) - 1:
+                    regular_font = get_font(22, bold=False)  # Same size as value_font but not bold
+                    draw.text((current_x, current_y), " or ", fill=black, font=regular_font)
+                    
+                    # Calculate width of " or " to advance position
+                    or_bbox = draw.textbbox((0, 0), " or ", font=regular_font)
+                    or_width = or_bbox[2] - or_bbox[0]
+                    current_x += or_width
+        else:
+            # No " or " in text, draw normally in bold
+            draw.text((bg_x + margin, current_y), damage_type_text, fill=black, font=value_font)
+        
         current_y += 32  # Increased spacing (was 28)
     
     # Set table to start at 35% from the top of the background area
@@ -281,7 +385,7 @@ def draw_signature_move_card(draw, signature_move, bg_x, bg_y, bg_width, bg_heig
     # Calculate space needed for table with larger text
     num_moves = len(moves)
     row_height = 44  # Doubled from 22 to accommodate larger text
-    header_height = 50  # Doubled from 25 to accommodate larger text
+    header_height = 44  # Adjusted to match font size and vertical centering
     table_content_height = header_height + (num_moves * row_height)
     
     # Set table to start at 25% from top of background area
@@ -299,37 +403,64 @@ def draw_signature_move_card(draw, signature_move, bg_x, bg_y, bg_width, bg_heig
     deal_column_x = table_x + move_column_width + (deal_column_width // 2)
     
     # Draw table header with "Opponent Plays" and "Deal" - smaller, non-bold fonts
-    header_y = table_start_y
+    header_y = table_start_y - 4 # manually adjust by 4
     
     # "Opponent Plays" replaces "Move" in the left column - smaller and not bold
-    opponent_plays_font = get_font(20, bold=False)  # Smaller and not bold
-    deal_header_font = get_font(20, bold=False)  # Smaller and not bold
-    draw.text((move_column_x, header_y), "Opponent Plays", fill=black, font=opponent_plays_font)
+    opponent_plays_font = get_font(24, bold=False)  # Smaller and not bold
+    deal_header_font = get_font(24, bold=False)  # Smaller and not bold
+
+    manual_deal_col_x_offset = 8
+    deal_col_y_manual_adjust = -2
     
     # Center "Deal" in its column
     deal_bbox = draw.textbbox((0, 0), "Deal", font=deal_header_font)
     deal_width = deal_bbox[2] - deal_bbox[0]
+    deal_text_height = deal_bbox[3] - deal_bbox[1]
+    deal_y_centered = header_y + (header_height - deal_text_height) // 2
+    draw.text((move_column_x, deal_y_centered), "Opponent Plays", fill=black, font=opponent_plays_font)
     deal_x_centered = deal_column_x - (deal_width // 2)
-    draw.text((deal_x_centered, header_y), "Deal", fill=black, font=deal_header_font)
-    
+    draw.text((deal_x_centered + manual_deal_col_x_offset, deal_y_centered), "Deal", fill=black, font=deal_header_font)
     current_y = header_y + header_height
+
+    # Draw moves in table with bold fonts, center Deal values horizontally and vertically
+    move_name_font = get_font(26, bold=True)
+    damage_value_font = get_font(32, bold=True)
     
-    # Draw moves in table with slightly smaller fonts but still bold
-    move_name_font = get_font(26, bold=True)  # Reduced from 32
-    damage_value_font = get_font(28, bold=True)  # Reduced from 36
+    # Get yellow circle moves from character data
+    yellow_circle_moves = character_data.get('yellowCircleMoves', [])
     
     for move_name, damage in moves:
         damage_text = str(damage) if damage is not None else "∅"
         
-        # Draw move name (bold)
-        draw.text((move_column_x, current_y), move_name, fill=black, font=move_name_font)
+        # Check if this move should have a yellow circle highlight
+        should_highlight = move_name in yellow_circle_moves
         
-        # Center damage value in deal column (bold)
+        # Vertically center text in row
+        move_bbox = draw.textbbox((0, 0), move_name, font=move_name_font)
+        move_text_height = move_bbox[3] - move_bbox[1]
+        move_y_centered = current_y + (row_height - move_text_height) // 2
+        draw.text((move_column_x, move_y_centered), move_name, fill=black, font=move_name_font)
+        
         damage_bbox = draw.textbbox((0, 0), damage_text, font=damage_value_font)
         damage_width = damage_bbox[2] - damage_bbox[0]
+        damage_text_height = damage_bbox[3] - damage_bbox[1]
+        damage_y_centered = current_y + (row_height - damage_text_height) // 2
         damage_x_centered = deal_column_x - (damage_width // 2)
-        draw.text((damage_x_centered, current_y), damage_text, fill=black, font=damage_value_font)
         
+        # Draw yellow highlight behind the damage value if needed
+        if should_highlight:
+            yoff = 1
+            xoff = -5.5
+            if damage_text == "∅":
+                xoff = -3
+                yoff = 1
+            highlight_x = damage_x_centered + manual_deal_col_x_offset - (damage_width // 2) + xoff
+            highlight_y = damage_y_centered + deal_col_y_manual_adjust + yoff
+            highlight_width = damage_width + 16
+            highlight_height = damage_text_height + 4
+            draw_yellow_highlight(draw, highlight_x, highlight_y, highlight_width, highlight_height)
+        
+        draw.text((damage_x_centered + manual_deal_col_x_offset, damage_y_centered+deal_col_y_manual_adjust), damage_text, fill=black, font=damage_value_font)
         current_y += row_height
     
     # Draw table lines
@@ -347,17 +478,32 @@ def draw_signature_move_card(draw, signature_move, bg_x, bg_y, bg_width, bg_heig
     extra_text = signature_move.get('extraText', '')
     end_effect = signature_move.get('endStepEffect', '')
     
+    # Add periods if missing and process ∅ characters
+    if extra_text and extra_text.strip():
+        extra_text = extra_text.strip()
+        if not extra_text.endswith('.'):
+            extra_text += '.'
+    
+    if end_effect and end_effect.strip():
+        end_effect = end_effect.strip()
+        if not end_effect.endswith('.'):
+            end_effect += '.'
+    
     # First, get rough line counts to estimate needed space
     temp_font = get_font(18, bold=False)  # Use default size for initial estimation
     rough_lines = []
     
     if extra_text and extra_text.strip():
-        rough_extra_lines = wrap_text_to_lines(extra_text.strip(), temp_font, line_width, draw)
+        # Replace ∅ with spaces for line wrapping calculation
+        extra_text_for_wrapping = extra_text.replace('∅', ' ')
+        rough_extra_lines = wrap_text_with_nulls_to_lines(extra_text, temp_font, line_width, draw)
         rough_lines.extend(rough_extra_lines)
-    
+
     if end_effect and end_effect.strip():
         rough_lines.append("End Step Effect:")  # Header
-        rough_end_lines = wrap_text_to_lines(end_effect.strip(), temp_font, line_width, draw)
+        # Replace ∅ with spaces for line wrapping calculation
+        end_effect_for_wrapping = end_effect.replace('∅', ' ')
+        rough_end_lines = wrap_text_with_nulls_to_lines(end_effect, temp_font, line_width, draw)
         rough_lines.extend(rough_end_lines)
     
     # Get appropriate font and line spacing based on available height
@@ -366,9 +512,9 @@ def draw_signature_move_card(draw, signature_move, bg_x, bg_y, bg_width, bg_heig
         
         # Now re-wrap text with the final font for accurate line breaks
         if extra_text and extra_text.strip():
-            final_extra_lines = wrap_text_to_lines(extra_text.strip(), body_font_final, line_width, draw)
+            final_extra_lines = wrap_text_with_nulls_to_lines(extra_text, body_font_final, line_width, draw)
             for line in final_extra_lines:
-                draw_medium_weight_text(draw, (bg_x + margin, current_y), line, body_font_final, dark_gray)
+                draw_text_with_large_nulls(draw, (bg_x + margin, current_y), line, body_font_final, dark_gray)
                 current_y += line_spacing
             current_y += 6  # Reduced extra spacing after extra text
         
@@ -376,9 +522,9 @@ def draw_signature_move_card(draw, signature_move, bg_x, bg_y, bg_width, bg_heig
             draw.text((bg_x + margin, current_y), "End Step Effect:", fill=black, font=end_step_header_font)
             current_y += 24  # Increased from 22 to 24 for more spacing
             
-            final_end_lines = wrap_text_to_lines(end_effect.strip(), body_font_final, line_width, draw)
+            final_end_lines = wrap_text_with_nulls_to_lines(end_effect, body_font_final, line_width, draw)
             for line in final_end_lines:
-                draw_medium_weight_text(draw, (bg_x + margin, current_y), line, body_font_final, dark_gray)
+                draw_text_with_large_nulls(draw, (bg_x + margin, current_y), line, body_font_final, dark_gray)
                 current_y += line_spacing
 
 def resize_image_keep_aspect(image, max_width, max_height):
@@ -513,7 +659,7 @@ def create_wide_character_card(character_name, characters_images_dir, output_dir
             overlay_draw = ImageDraw.Draw(overlay)
             
             # Draw signature move card on the overlay
-            draw_signature_move_card(overlay_draw, signature_move, 0, 0, background_resized.width, background_resized.height)
+            draw_signature_move_card(overlay_draw, signature_move, 0, 0, background_resized.width, background_resized.height, character_data)
             
             # Composite the overlay onto the background area of the canvas
             background_with_text = Image.alpha_composite(
