@@ -34,4 +34,8 @@ Filename ranges (the `<range>` suffix) indicate which character names are inside
 
 All PNGs used to build these PDFs are in `../generated_wide_cards_with_left_text/`.
 
+---
+
+![Demo: official card (left), tarot size in sleeve (middle), scaled-up version (right)](./demo.jpg)
+
 
