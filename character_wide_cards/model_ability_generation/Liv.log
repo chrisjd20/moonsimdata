@@ -1,0 +1,15 @@
+Character: Liv
+Image: /home/admusr/github/moonsimdata/characters/Liv/stat-Liv.webp
+
+RAW RESPONSE:
+Runes of Power:
+  cost: 1
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target restores X Wds."
+    - "rX: Target suffers X-1 Magical Dmg."
+  catastrophe: This character suffers 2 Wds.

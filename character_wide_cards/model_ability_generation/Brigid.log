@@ -1,0 +1,34 @@
+Character: Brigid
+Image: /home/admusr/github/moonsimdata/characters/Brigid/Brigid.webp
+
+RAW RESPONSE:
+Reload [Faerie Fire Pistol]:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: The named ability can be used again. This ability cannot be used while this model is engaged.
+  arcaneOutcomes: null
+  catastrophe: null
+Faerie Fire Pistol:
+  cost: 1
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per game, unless reloaded ◯.
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers X Magical Dmg."
+  catastrophe: This character suffers 2 Wds.
+Poor Unfortunate Souls:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target character restores X Wds then loses X Energy."
+    - "rX: Target other Pirate gains X Energy then suffers X Wds."
+  catastrophe: This character suffers 3 Wds.

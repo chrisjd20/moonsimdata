@@ -1,0 +1,31 @@
+Character: Kavanagh, the Jongler
+Image: /home/admusr/github/moonsimdata/characters/Kavanagh, the Jongler/Kavanaugh.webp
+
+RAW RESPONSE:
+Roley-Poley:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move 2” then reduce this character's Evade Stat by -2 until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Black Comedy:
+  cost: 0
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target other friendly character suffers 2 Wds and gains +1 energy.
+  arcaneOutcomes: null
+  catastrophe: null
+Juggling Fate:
+  cost: 4
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Gain +2 energy. Draw the top 3 cards of the Arcane Deck, look then place them face down: one on the top of the deck, one on the bottom of the deck and one besides this character card. At any point you can add the removed card to your Arcane or Arcane Resist Hand. If you do then at the end of the action, or if this character is slain, shuffle the card back into the Arcane Deck.
+  arcaneOutcomes: null
+  catastrophe: null

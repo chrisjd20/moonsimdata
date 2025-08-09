@@ -1,0 +1,25 @@
+Character: Antonia, Noonday Witch
+Image: /home/admusr/github/moonsimdata/characters/Antonia, Noonday Witch/Antonia.webp
+
+RAW RESPONSE:
+Candy Apples:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "pX: Move target 2X” directly towards this character. Then, if the target is within 2” of this character they suffer 4 Wds."
+  catastrophe: All models within 4” suffer 2 Magical Dmg.
+Visions of the Present:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "b3: Target suffers an amount of Wds equal to the number of Wds they have currently suffered."
+    - "p3: Target suffers an amount of Wds equal to the number of Wds they have currently suffered."
+  catastrophe: This character suffers an amount of Wds equal to the number of Wds they have currently suffered.

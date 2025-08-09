@@ -1,0 +1,13 @@
+Character: Viscount de Faulte
+Image: /home/admusr/github/moonsimdata/characters/Viscount de Faulte/ViscountDeFaulte.webp
+
+RAW RESPONSE:
+"Fear (2)":
+  cost: 2
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target other character loses 1 energy then a friendly model within 4” of this character gains that much energy.
+  arcaneOutcomes: null
+  catastrophe: null

@@ -1,0 +1,13 @@
+Character: The Revenant
+Image: /home/admusr/github/moonsimdata/characters/The Revenant/TheRevenant.webp
+
+RAW RESPONSE:
+Visions of the Future:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target other friendly character immediately suffers one Catastrophe printed on their card. If it requires a target, you may choose any target that meets the ability's requirements.
+  arcaneOutcomes: null
+  catastrophe: null

@@ -1,0 +1,33 @@
+Character: Gwendoline, Leshavult Priestess
+Image: /home/admusr/github/moonsimdata/characters/Gwendoline, Leshavult Priestess/Gwendoline.webp
+
+RAW RESPONSE:
+Scry:
+  cost: 4
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Draw the top card of the Arcane Deck; look then place it face down besides this character card. At any point you can add the card to your Arcane or Arcane Resist Hand. If you do then at the end of the action, or if this character is slain, shuffle the card back into the Arcane Deck.
+  arcaneOutcomes: null
+  catastrophe: null
+Rejuvenate:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target friendly model restores X+1 Wds, then move it X”."
+  catastrophe: The target suffers 2 Wds.
+Ethereal Allure:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Move target X+2” directly towards this character."
+  catastrophe: This model suffers 2 Wds.

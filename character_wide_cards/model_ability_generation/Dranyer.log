@@ -1,0 +1,26 @@
+Character: Dranyer
+Image: /home/admusr/github/moonsimdata/characters/Dranyer/stat-Dranyer.webp
+
+RAW RESPONSE:
+Mimic:
+  cost: 0
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Choose another model within 8”, this model gains one of its keywords until end of turn."
+    - "rX: This character, or a model within 4” which shares a keyword with this character, gains +1 energy."
+  catastrophe: This character suffers 2 Wds.
+Cunning:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target restores X+1 Wds, then if the target shares a keyword with this character move it X-1”."
+    - "rX: Target suffers X Magical Dmg, then if the target shares a keyword with this character move it X”."
+  catastrophe: This character suffers 3 Wds.

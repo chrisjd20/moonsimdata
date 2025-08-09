@@ -1,0 +1,13 @@
+Character: Iris & Hellebore
+Image: /home/admusr/github/moonsimdata/characters/Iris & Hellebore/IrisAndHellebore.webp
+
+RAW RESPONSE:
+Perplex:
+  cost: 3
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target loses 1 energy. Then another friendly Faerie within 6” of the target gains that much energy.
+  arcaneOutcomes: null
+  catastrophe: null

@@ -1,0 +1,22 @@
+Character: The Goblin King
+Image: /home/admusr/github/moonsimdata/characters/The Goblin King/ThegoblinKing.webp
+
+RAW RESPONSE:
+Rule the Roost:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target Goblin suffers 2 Wds, gains 2 energy and activates immediately after this character's activation ends. If the target has already activated, then this is a bonus activation, otherwise this counts as the target's activation for the turn.
+  arcaneOutcomes: null
+  catastrophe: null
+"Gimme!!":
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Gain possession of one Moonstone carried by target friendly Goblin.
+  arcaneOutcomes: null
+  catastrophe: null

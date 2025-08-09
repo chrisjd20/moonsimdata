@@ -1,0 +1,33 @@
+Character: Morag
+Image: /home/admusr/github/moonsimdata/characters/Morag/stat-Morag.webp
+
+RAW RESPONSE:
+Reclaim Life:
+  cost: 0
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target friendly character suffers 2 Wds or, if at least one friendly model was slain or reduced to 0 Wds this turn, it may restore 2 Wds instead.
+  arcaneOutcomes: null
+  catastrophe: null
+Shadow Stride:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX,rX: Place this model within X+1”."
+  catastrophe: This character suffers 3 Wds.
+Hunting Ritual:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This attack is not modified by Evade Stat.
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,b3,r3: Target suffers an amount of Wds equal to half the number of Wds they currently have remaining, rounded up."
+  catastrophe: The target may be moved 4” by the resisting player.

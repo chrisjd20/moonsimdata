@@ -1,0 +1,33 @@
+Character: Butterfingers
+Image: /home/admusr/github/moonsimdata/characters/Butterfingers/Butterfingers.webp
+
+RAW RESPONSE:
+Clumsy Cluts:
+  cost: 2
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target gains Weakling until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Fizzle-Pop:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Magical Dmg then is moved 1” directly away."
+  catastrophe: This model suffers 2 Wds.
+Butterfingers:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,b3,r3: Target loses possession of 1 Moonstone they are carrying. Place it in base contact with the target with a depth value of '1'."
+  catastrophe: This model discards all energy.

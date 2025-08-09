@@ -1,0 +1,13 @@
+Character: Brunhilde
+Image: /home/admusr/github/moonsimdata/characters/Brunhilde/Brunhilde.webp
+
+RAW RESPONSE:
+"Epic Ballads of Giant Heros!":
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: Other Giants within the pulse gain +1 energy.
+  arcaneOutcomes: null
+  catastrophe: null

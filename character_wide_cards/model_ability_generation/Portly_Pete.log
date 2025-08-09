@@ -1,0 +1,13 @@
+Character: Portly Pete
+Image: /home/admusr/github/moonsimdata/characters/Portly Pete/stat-PortlyPete.webp
+
+RAW RESPONSE:
+Stand to Attention!:
+  cost: 2
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target other friendly Goblin gains +1 energy. If the target is a Soldier it may also move 2”.
+  arcaneOutcomes: null
+  catastrophe: null

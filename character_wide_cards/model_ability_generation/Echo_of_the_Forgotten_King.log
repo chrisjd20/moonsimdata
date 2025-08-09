@@ -1,0 +1,23 @@
+Character: Echo of the Forgotten King
+Image: /home/admusr/github/moonsimdata/characters/Echo of the Forgotten King/EchoOfTheForgottenKing.webp
+
+RAW RESPONSE:
+Fleeting Presence:
+  cost: 0
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This action may only be used whilst this model is active and may not be removed from this card by any abilities. This model suffers 2 Wds. Then, if this character wasn't slain, it may immediately take an action available to it costing (1) or (2) energy without spending energy.
+  arcaneOutcomes: null
+  catastrophe: null
+Terrorblast:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers X+1 Magical Dmg or X+2 Magical Dmg if the target is not at full health."
+  catastrophe: This character suffers an amount of Wds equal to the number of Wds it has currently suffered.

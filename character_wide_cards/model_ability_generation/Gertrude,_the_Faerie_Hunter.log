@@ -1,0 +1,13 @@
+Character: Gertrude, the Faerie Hunter
+Image: /home/admusr/github/moonsimdata/characters/Gertrude, the Faerie Hunter/Gertrude.webp
+
+RAW RESPONSE:
+Natural Order:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: All models within the pulse suffer 1 Wd for each energy token they have over 3.
+  arcaneOutcomes: null
+  catastrophe: null

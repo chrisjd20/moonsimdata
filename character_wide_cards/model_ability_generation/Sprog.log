@@ -1,0 +1,13 @@
+Character: Sprog
+Image: /home/admusr/github/moonsimdata/characters/Sprog/stat-Sprog.webp
+
+RAW RESPONSE:
+He Pushed Me!:
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Move target other model 1” directly away.
+  arcaneOutcomes: null
+  catastrophe: null

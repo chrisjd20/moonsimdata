@@ -1,0 +1,16 @@
+Character: Terrible Musician
+Image: /home/admusr/github/moonsimdata/characters/Terrible Musician/TerribleMusician.webp
+
+RAW RESPONSE:
+Dreadful Din:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target model suffers -1 Melee Stat until end of turn."
+    - "bX: Target model suffers -1 Arcane Stat until end of turn."
+    - "rX: Move target model X” directly away."
+  catastrophe: The resisting player may move this model 2”.

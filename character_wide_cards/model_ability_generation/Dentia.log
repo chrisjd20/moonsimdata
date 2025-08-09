@@ -1,0 +1,15 @@
+Character: Dentia
+Image: /home/admusr/github/moonsimdata/characters/Dentia/stat-Dentia.webp
+
+RAW RESPONSE:
+Sleepy Time:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn. This attack is not modified by Evade Stat.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target gains Weakling until end of turn."
+    - "rX: Target with Weakling or Feeble loses all energy and gains +X Evade Stat until end of turn."
+  catastrophe: This character suffers 2 Wds.

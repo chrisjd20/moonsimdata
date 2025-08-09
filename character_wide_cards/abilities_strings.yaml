@@ -1,0 +1,2234 @@
+
+Rally Cry:
+  cost: 0
+  range: 8
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per game ◯.
+  activatedText: Energy on other friendly Humans within the pulse is restored up to the number of blue dots currently remaining on their health bar.
+  arcaneOutcomes: null
+Shoot Pistol:
+  cost: 1
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per game, unless reloaded ◯.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+1 Impact Dmg." # green x
+  catastrophe: This character suffers 3 Wds.
+Reload [Shoot Pistol]:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: The named ability can be used again. This ability cannot be used while this model is engaged.
+  arcaneOutcomes: null
+My Hero:
+  cost: 2
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target Soldier gains 1 energy or, target Noble gains 2 energy.
+  arcaneOutcomes: null
+Field Medic:
+  cost: 1
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target Soldier or Noble restores X Wds." # blue x
+  catastrophe: This model suffers 2 Wds.
+
+Reload [Shoot Musket]:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: The named ability can be used again. This ability cannot be used while this model is engaged.
+  arcaneOutcomes: null
+
+Take Aim:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Increase this character's Arcane stat by +1 until end of turn.
+  arcaneOutcomes: null
+
+"Look out?":
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target friendly character's Evade stat is reduced by -1 until end of turn.
+  arcaneOutcomes: null
+
+Shoot Musket:
+  cost: 1
+  range: 12
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per game, unless reloaded ◯.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+2 Impact Dmg." # green x
+  catastrophe: This model suffers 2 Wds and the Reload ability cannot be used for the remainder of the game.
+
+Foresight:
+  cost: 1
+  range: 10
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target Human gains +2 Arcane stat until end of turn.
+  arcaneOutcomes: null
+
+Healing:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target restores X+1 Wds." # blue x
+  catastrophe: This model suffers 2 Wds.
+
+Blinding Powder:
+  cost: 1
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Reduce target's Melee and Arcane stats by 2X until end of turn." # blue x (treating as arcane scaling)
+  catastrophe: This model loses all energy.
+
+Intimidate:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: "Target Human or Goblin suffers -2 Arcane stat and gains [Predictable Combatant: During a round of combat, before each player selects their combat card, you must reveal your hand to your opponent.] until end of turn."
+  arcaneOutcomes: null
+
+"Stand Back!":
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: All other models within the pulse move 1” directly away.
+  arcaneOutcomes: null
+
+Enticing Offer:
+  cost: 2
+  range: 10
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Move target 4” directly towards this model."
+  catastrophe: This character suffers 2 Wds.
+
+Drink Your Fill:
+  cost: 1
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target loses X energy."
+    - "bX: Target gains X energy and its Arcane stat is reduced by X until end of turn."
+    - "rX: Target's Melee stat is increased by +X until end of turn."
+  catastrophe: The target loses possession of up to one Moonstone they are carrying (place it in base contact with them with a depth value of '1').
+
+"Mother's Love":
+  cost: 1
+  range: 10
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Move 2” directly towards target Gnome, then the target moves 2” directly towards this model and restores 2 Wds.
+  arcaneOutcomes: null
+
+"Mother's Wrath":
+  cost: 1
+  range: 3
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per game ◯.
+  activatedText: Other friendly Gnomes within the pulse gain 1 energy. Enemy models within the pulse suffer 2 Wds.
+  arcaneOutcomes: null
+
+Reload [Shoot Crossbow]:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: The named ability can be used again. This ability cannot be used while this model is engaged.
+  arcaneOutcomes: null
+
+Brothers in Arms:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target other friendly Militia gains +1 Arcane stat and +1 Melee stat until end of turn. Then, the target may discard 1 energy to give this character +1 Arcane stat and +1 Melee stat until end of turn.
+  arcaneOutcomes: null
+
+Shoot Crossbow:
+  cost: 1
+  range: 14
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per game, unless reloaded ◯.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers 2X Piercing Dmg then is moved 1” directly away." # green x
+  catastrophe: The Reload ability cannot be used for the remainder of the game.
+
+Ramming Speed:
+  cost: 3
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move this model 6” directly towards target enemy model. If base contact is made with the target, flip an arcane card. The target suffers X+1 Impact Dmg then is moved X” directly away, where X is the value of the flipped card.
+  arcaneOutcomes: null
+  catastrophe: The target model suffers no damage and may move up to 3”.
+
+High-ho Silver:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX,rX: Move this model 2X”."
+  catastrophe: This model cannot move or be moved until end of turn.
+
+Lucky:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Look at the top 5 cards of the Arcane Deck. Put any number on the top of the deck in any order and put the remainder on the bottom of the deck in any order.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Magic Brew:
+  cost: 1
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: This model restores X Wds."
+    - "rX: This model gains X energy."
+  catastrophe: This model suffers 3 Wds.
+
+Shove:
+  cost: 0
+  range: 1
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Move target other model 2” directly away.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Sink Hole:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target suffers X Wds and gains [Slow: This model's Jog actions are limited to 2\"], until end of turn."
+  catastrophe: This character suffers 2 Wds.
+
+Forgetfulness:
+  cost: 1
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Remove one Arcane or Active Ability from target character until the end of the turn.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Snare Traps:
+  cost: 2
+  range: 14
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  arcaneSubText: This attack is not modified by Evade Stat or Cover.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Piercing Dmg."
+  catastrophe: This character suffers 2 Wds.
+
+Two Goblins Walk into a Tavern:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Two other target Goblins each gain +1 energy and +2 Evade stat until end of turn. You must choose two different targets.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Fireblast:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This ability cannot be used while this model is engaged.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target character suffers 2X Magical Dmg."
+  catastrophe: This ability cannot be used for the remainder of the game. All models within a 3” pulse suffer 4 Magical Dmg.
+
+Foul Gases:
+  cost: 2
+  range: 2
+  type: activated
+  isPulse: true
+  textToRightInItalics: null
+  activatedText: All models within the pulse suffer 2 Magical Dmg.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Chaaarge!!:
+  cost: 2
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move this model 4” directly towards target enemy model. If this character's next action this turn is a Melee Attack against the same target it deals +2 Dmg.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Spare Parts:
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target restores X Wds."
+  catastrophe: This model suffers 3 Wds.
+Reanimate:
+  cost: 3
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Place a friendly slain model in base contact with this model. Restore half its health rounding up. It has no energy but may activate this turn."
+  catastrophe: This model suffers 4 Wds.
+
+Ice in the Veins:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Flip an Arcane Card. If the card is blue, restore X+1 Wds.
+  arcaneOutcomes: null
+  catastrophe: null
+Eternal Chill:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target suffers X Magical Dmg and gains [Slow: This model's Jog actions are limited to 2\"], until end of turn."
+  catastrophe: This character restores 1 Wd. The target restores 2 Wds.
+
+Candy Apples:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Move target 2X” directly towards this character. Then, if the target is within 2” of this character they suffer 4 Wds."
+  catastrophe: All models within 4” suffer 2 Magical Dmg.
+Visions of the Present:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "b3,r3: Target suffers an amount of Wds equal to the number of Wds they have currently suffered."
+  catastrophe: This character suffers an amount of Wds equal to the number of Wds they have currently suffered.
+
+Remove Necklace:
+  cost: 4
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This character gains +4 energy. Then it is Removed from Play and replaced by Striga Anya. Striga Anya gains energy and suffers Wds equal to those already on this character along with all Moonstones this character is carrying and any stat modifications or abilities it has gained. Continue Anya Bartol's activation with Striga Anya; it may not Jog if Anya Bartol already did this turn.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Ghastly Scream:
+  cost: 4
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Move target enemy X” directly away. If the enemy is in possession of at least one Moonstone it loses possession of one Moonstone it is carrying before moving. Place it in base contact with the enemy at depth '1'."
+  catastrophe: This character suffers 2 Wds.
+Ear Splitting Screech:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target suffers X-1 Wds and gains [Bleed: During the Discard Step, this character suffers 1 Wd then loses this ability.]."
+  catastrophe: This character suffers 2 Wds.
+
+"Dead Troll's Finger":
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target Pirate or Troll gains X energy and suffers -X Arcane stat until end of turn."
+  catastrophe: This character suffers 3 Wds.
+
+Faerie Tricks:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Swap places with target friendly Rogue.
+  arcaneOutcomes: null
+  catastrophe: null
+Acid Flask:
+  cost: 3
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target suffers X+1 Magical Dmg."
+  catastrophe: This model suffers 2 Wds.
+Drop of Nightshade:
+  cost: 3
+  range: 1
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target enemy loses X energy."
+    - "bX: Target enemy suffers X Wds."
+    - "rX: Move target enemy up to 2X”. Then you may have the target take a Melee Attack action controlled by you. They count as friendly during the Melee Attack action."
+  catastrophe: The target and this character are both slain.
+
+Bear Charge:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move this model 3” directly towards target enemy model. The target cannot play Signature Moves until end of this character's activation.
+  arcaneOutcomes: null
+  catastrophe: null
+Throwing Axe:
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers 2X Impact Dmg."
+  catastrophe: This character suffers 3 Wds.
+
+Reload [Blunderbuss]:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: The named ability can be used again. This ability cannot be used while this model is engaged.
+  arcaneOutcomes: null
+  catastrophe: null
+Suckerpunch:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target Goblin's next Melee Attack this turn deals +2 Dmg.
+  arcaneOutcomes: null
+  catastrophe: null
+Blunderbuss:
+  cost: 1
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per game, unless reloaded ◯.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX,bX: Target suffers X Impact Dmg."
+  catastrophe: This model suffers 2 Wds.
+"You'll never get this! Nah-na-na-na!":
+  cost: 2
+  range: 10
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Move target enemy model 2X” directly towards this model."
+  catastrophe: Target model is moved by your opponent 4”.
+
+Rallying Cry:
+  cost: 0
+  range: 8
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per game ◯.
+  activatedText: Energy on other friendly Humans within the pulse is restored up to the number of blue dots currently remaining on their health bar.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Stone Song:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This ability is not modified by Cover.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Decrease target Moonstone's depth value by X, to a minimum of 1."
+  catastrophe: The resisting player sets the depth value of the target Moonstone to a number of their choice.
+
+Reload [Faerie Fire Pistol]:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: The named ability can be used again. This ability cannot be used while this model is engaged.
+  arcaneOutcomes: null
+  catastrophe: null
+Faerie Fire Pistol:
+  cost: 1
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per game, unless reloaded ◯.
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers X Magical Dmg."
+  catastrophe: This character suffers 2 Wds.
+Poor Unfortunate Souls:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target character restores X Wds then loses X Energy."
+    - "rX: Target other Pirate gains X Energy then suffers X Wds."
+  catastrophe: This character suffers 3 Wds.
+
+Vomit:
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target character suffers X+1 Magical Dmg."
+  catastrophe: This model suffers 3 Wds.
+
+Plant the Placard:
+  cost: 2
+  range: 6
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: Move all other friendly characters within the pulse up to 1”. This character cannot take Jog or Step actions, or make a Reaction Step until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Bell Ringer:
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: true
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: All friendly characters within the pulse restore X Wds."
+  catastrophe: All characters within the pulse suffer 1 Wd.
+The End is Nigh:
+  cost: 4
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Choose a model within 3” and LoS of this character. Then choose another model within 3X” and LoS of this character. Place the first model within 3” of the second model."
+  catastrophe: This character's controller must choose either to have him suffer 4 Wds, or be Removed from Play.
+
+"Epic Ballads of Giant Heros!":
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: Other Giants within the pulse gain +1 energy.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Clumsy Cluts:
+  cost: 2
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target gains Weakling until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Fizzle-Pop:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Magical Dmg then is moved 1” directly away."
+  catastrophe: This model suffers 2 Wds.
+Butterfingers:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,b3,r3: Target loses possession of 1 Moonstone they are carrying. Place it in base contact with the target with a depth value of '1'."
+  catastrophe: This model discards all energy.
+
+Stocked to the Gills:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: "Target Pirate with the Reload [...] ability may immediately use the Reload [...] ability without spending energy."
+  arcaneOutcomes: null
+  catastrophe: null
+Junk Toss:
+  cost: 1
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Piercing Dmg."
+    - "bX: Target suffers 1 Wd then is moved X” directly away."
+    - "rX: Target cannot take the Jog action until end of turn."
+  catastrophe: This model suffers 4 Wds.
+Gone Fishin':
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Resolve this action with +2 Arcane Stat if there is a Water Feature within 4” of this model.
+  arcaneOutcomes:
+    - "bX: Target restores X Wds."
+  catastrophe: This model suffers 3 Wds.
+
+Rouse:
+  cost: 3
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target Faun or Animal restores 1 Wd and gains +2 energy.
+  arcaneOutcomes: null
+  catastrophe: null
+Misdirection:
+  cost: 4
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move target enemy model 3”.
+  arcaneOutcomes: null
+  catastrophe: null
+Shoot Shortbow:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This ability cannot be used while this model is engaged.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Piercing Dmg."
+  catastrophe: This ability cannot be used for the remainder of the game.
+
+Robbery:
+  cost: 2
+  range: 1
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target model with less Wds remaining than this character, loses possession of one Moonstone and this character gains possession of that Moonstone.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Old Pirate Curse:
+  cost: 1
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: "Target without The Black Spot gains [The Black Spot: Enemy Pirates gain +1 Arcane Stat when targeting this character with an action. This character suffers 1 Wd during the Discard Step], until end of game. Then other enemies with The Black Spot lose it."
+  arcaneOutcomes: null
+  catastrophe: null
+
+Victimise:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target gets +2 Evade Stat until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Vitality Draw:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target loses X energy. A friendly model within 8” and LoS of this model gains that much energy."
+  catastrophe: This model suffers 3 Wds.
+Incubus:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target enemy suffers X Wds. A friendly model within 8” and LoS of this model restores that many Wds."
+  catastrophe: This model suffers 3 Wds.
+
+Sleepy Time:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  arcaneSubText: This attack is not modified by Evade Stat.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target gains Weakling until end of turn."
+    - "rX: Target with Weakling or Feeble loses all energy and gains +X Evade Stat until end of turn."
+  catastrophe: This character suffers 2 Wds.
+
+Feed on Fear:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target loses X energy. Then distribute that much energy amongst Faerie(s) within 6” of the target."
+  catastrophe: This character suffers 2 Wds.
+Horrifying Visions:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers X+1 Magical Dmg."
+  catastrophe: This model suffers 3 Wds.
+
+Mimic:
+  cost: 0
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Choose another model within 8”, this model gains one of its keywords until end of turn."
+    - "rX: This character, or a model within 4” which shares a keyword with this character, gains +1 energy."
+  catastrophe: This character suffers 2 Wds.
+Cunning:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target restores X+1 Wds, then if the target shares a keyword with this character move it X-1”."
+    - "rX: Target suffers X Magical Dmg, then if the target shares a keyword with this character move it X”."
+  catastrophe: This character suffers 3 Wds.
+
+Fleeting Presence:
+  cost: 0
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This action may only be used whilst this model is active and may not be removed from this card by any abilities. This model suffers 2 Wds. Then, if this character wasn't slain, it may immediately take an action available to it costing (1) or (2) energy without spending energy.
+  arcaneOutcomes: null
+  catastrophe: null
+Terrorblast:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers X+1 Magical Dmg or X+2 Magical Dmg if the target is not at full health."
+  catastrophe: This character suffers an amount of Wds equal to the number of Wds it has currently suffered.
+
+Hit:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: This character's next Melee Attack this turn deals +2 Dmg.
+  arcaneOutcomes: null
+  catastrophe: null
+Run:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move target friendly engaged model 3”.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Enchanted Bladestorm:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  arcaneSubText: This attack is not modified by Evade Stat or Cover and may only be used if this model has the Enchanted Javelin ability.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+1 Piercing Dmg. After resolving this action, this model loses Enchanted Javelin until end of turn."
+    - "rX: This character may discard 2 energy. If it does, all other models within 4” suffer X+1 Piercing Dmg then are moved X” directly away. Then, after resolving this action, this model loses Enchanted Javelin until end of game."
+  catastrophe: If this character has the Enchanted Javelin ability, the target gains it and this model loses it, both until end of turn.
+
+Share the Knowledge:
+  cost: 2
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target model gains +1 Arcane Stat until end of turn."
+  catastrophe: The target's Arcane Stat is reduced by -2 until end of turn.
+
+"Look out!":
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target friendly character's Evade stat is reduced by -1 until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Shelter of the Shadowglade:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn."
+  catastrophe: This model suffers 2 Wds.
+Atrophy:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers 2X Magical Dmg."
+  catastrophe: This model suffers 2 Wds.
+
+Dizzly Spell:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target loses one Active Ability of your choice until end of turn."
+  catastrophe: This model suffers 1 Wd.
+
+Natural Order:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: All models within the pulse suffer 1 Wd for each energy token they have over 3.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Whisper to the Wild Things:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move target Animal 3”.
+  arcaneOutcomes: null
+  catastrophe: null
+Shadow Walk:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Place this model within 2X”."
+  catastrophe: The resisting player may place this model within 6”.
+Smothering Darkness:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers X+1 Magical Dmg and gets -1 Evade Stat until end of turn."
+  catastrophe: This model suffers 1 Wd and the target gets -2 Evade Stat until end of turn.
+
+Sticky Tongue:
+  cost: 2
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target with Evade Stat -1 or lower, suffers 1 Impact Dmg and is moved 4” directly towards this model.
+  arcaneOutcomes: null
+  catastrophe: null
+Peashooter:
+  cost: 1
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  arcaneSubText: This attack is not modified by Cover.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Impact Dmg."
+  catastrophe: This model suffers 2 Wds.
+
+"Ooga-booga!":
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move target enemy Goblin 2” directly away.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Wyrm Hole:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This model must be in base contact with an item of Obstacle terrain to use this ability. Lose possession of any Moonstones this character is in possession of (place them in base contact with a depth value of 1), then place this model in base contact with any item of Obstacle terrain on the board.
+  arcaneOutcomes: null
+  catastrophe: null
+Bug Spray:
+  cost: 2
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  arcaneSubText: This attack is not modified by Evade Stat or Cover.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target suffers X Magical Dmg."
+  catastrophe: This model suffers 2 Wds.
+
+Call of the Woods:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Move target enemy X+2” directly towards any friendly Treefolk. Then the target suffers 1 Wd for each Wooded Patch within 4” of it."
+  catastrophe: This model cannot move or be moved and has its Melee Range increased to 3” until end of turn.
+
+Scry:
+  cost: 4
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Draw the top card of the Arcane Deck; look then place it face down besides this character card. At any point you can add the card to your Arcane or Arcane Resist Hand. If you do then at the end of the action, or if this character is slain, shuffle the card back into the Arcane Deck.
+  arcaneOutcomes: null
+  catastrophe: null
+Rejuvenate:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target friendly model restores X+1 Wds, then move it X”."
+  catastrophe: The target suffers 2 Wds.
+Ethereal Allure:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Move target X+2” directly towards this character."
+  catastrophe: This model suffers 2 Wds.
+
+Passage of the Seasons:
+  cost: 2
+  range: 10
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Place this model within target Wooded Patch. This ability may only be used if this model is within a Wooded Patch.
+  arcaneOutcomes: null
+  catastrophe: null
+Verdant Growth:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Place a 50mm Diameter Wooded Patch within 3X” and LoS on open ground. This remains in place until end of game. A maximum of 3 Wooded Patches may be placed by this troupe, if a fourth is placed you must choose and remove a Wooded Patch you created earlier this game."
+  catastrophe: This model suffers 2 Wds.
+Wither:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers X+1 Magical Dmg."
+  catastrophe: This model suffers 3 Wds.
+
+Furious Charge:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move this model 3” directly towards target enemy model. If this character's next action this turn is a Melee Attack against the same target then it deals +1 Dmg.
+  arcaneOutcomes: null
+  catastrophe: null
+Hunting Horn:
+  cost: 1
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn. This ability cannot be used while this model is engaged.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Move target other friendly Faun X+1”."
+  catastrophe: The target is moved up to 3” by the resisting player.
+
+Perplex:
+  cost: 3
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target loses 1 energy. Then another friendly Faerie within 6” of the target gains that much energy.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Hop:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Move this model 4”. You may move freely over intervening obstacles and models provided bases do not overlap at the end of the move.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Shoot Bow:
+  cost: 3
+  range: 10
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This ability cannot be used while this model is engaged.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+1 Piercing Dmg."
+  catastrophe: This ability cannot be used for the remainder of the game.
+
+"Behold my Splashy Fury!":
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn. This ability may only be used if this model is within a Water Feature.
+  activatedText: Target character suffers 2 Magical Dmg.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Stage Fright:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Target enemy without Frightened gains [Frightened: At the start of the Discard Step, the player that used Stage Fright flips an Arcane Card then moves this model up to X+1”. Catastrophe: Move 0”], until this character is slain."
+  catastrophe: This model suffers 2 Wds.
+
+Pixie-Elf Elixir:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: This character gains X+1 energy."
+  catastrophe: This character suffers 3 Wds.
+Revenge of the Forest Friends:
+  cost: 2
+  range: 18
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  arcaneSubText: This attack is not modified by Cover.
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target within 3” of a Tree or Wooded Patch terrain suffers X Magical Dmg."
+  catastrophe: "Target gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn."
+
+Paroxysm:
+  cost: 4
+  range: 3
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per game ◯.
+  activatedText: All other models within 3” suffer 4 Magical Dmg then are moved 3” directly away.
+  arcaneOutcomes: null
+  catastrophe: null
+Leshavit's Caress:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target restores X+1 Wds and gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn."
+  catastrophe: This character suffers 2 Wds. All other models within 6” suffer 1 Wd.
+
+Roley-Poley:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move 2” then reduce this character's Evade Stat by -2 until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Black Comedy:
+  cost: 0
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target other friendly character suffers 2 Wds and gains +1 energy.
+  arcaneOutcomes: null
+  catastrophe: null
+Juggling Fate:
+  cost: 4
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: "Gain +2 energy. Draw the top 3 cards of the Arcane Deck, look then place them face down: one on the top of the deck, one on the bottom of the deck and one besides this character card. At any point you can add the removed card to your Arcane or Arcane Resist Hand. If you do then at the end of the action, or if this character is slain, shuffle the card back into the Arcane Deck."
+  arcaneOutcomes: null
+  catastrophe: null
+
+Hold my Beer:
+  cost: 4
+  range: 4
+  type: activated
+  isPulse: true
+  textToRightInItalics: null
+  activatedText: All characters within the Pulse suffer 1 Catastrophe printed on their card. The Klaus player chooses the catastrophe if a character has several, the targets if required and the order in which all effects occur.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Trollish Remedies:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once Per Turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target restores 3X-1 Wds."
+    - "bX: Target Troll gains [Tough as Old Boots: At the start of the Replenish Step this model restores 2 Wds.], until end of game."
+    - "rX: Target suffers X Wds, then gains +1 energy."
+  catastrophe: The target suffers 2 Wds and loses 1 energy.
+
+"A Little More Oil...":
+  cost: 1
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Increase the range of Lampy's Light by +X” until end of turn."
+  catastrophe: This character loses the Lampy's Light ability until end of turn.
+
+Runes of Power:
+  cost: 1
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target restores X Wds."
+    - "rX: Target suffers X-1 Magical Dmg."
+  catastrophe: This character suffers 2 Wds.
+
+One with the Wind:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Move target model X+1”."
+  catastrophe: This model suffers 2 Wds.
+
+Righteous Fury:
+  cost: 3
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: This character gains +3 energy, +1 Melee Stat, +1 Arcane Stat and +1 to Melee Dmg until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Haul in:
+  cost: 1
+  range: 3
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Move target 2” directly towards this model."
+  catastrophe: This character suffers 3 Wds. Then if this character is not slain all other models within 3” are moved 2” directly towards this model.
+
+Horror:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneSubText: If at least one friendly model was slain this turn resolve this attack with +2 Arcane Stat.
+  arcaneOutcomes:
+    - "g2,b2,r2: Target gains [Horrified: During the Discard Step, this character suffers 2 Wds.], until this character is slain."
+  catastrophe: This model suffers 2 Wds.
+
+Reclaim Life:
+  cost: 0
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target friendly character suffers 2 Wds or, if at least one friendly model was slain or reduced to 0 Wds this turn, it may restore 2 Wds instead.
+  arcaneOutcomes: null
+  catastrophe: null
+Shadow Stride:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX,rX: Place this model within X+1”."
+  catastrophe: This character suffers 3 Wds.
+Hunting Ritual:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  arcaneSubText: This attack is not modified by Evade Stat.
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,b3,r3: Target suffers an amount of Wds equal to half the number of Wds they currently have remaining, rounded up."
+  catastrophe: The target may be moved 4” by the resisting player.
+
+Goblin Jazz Funk Solo:
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: All other models within the pulse move 1” directly away.
+  arcaneOutcomes: null
+  catastrophe: null
+Lullaby:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "b2,r2: Target model must discard half its energy rounding up, then it restores 2 Wds."
+  catastrophe: This model suffers 2 Wds.
+Blighted Elixir:
+  cost: 1
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target is moved X” directly away."
+    - "bX: Target gains X+1 energy."
+    - "rX: Target suffers X Wds."
+  catastrophe: This model suffers 2 Wds.
+
+Sneaking:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This character gets -2 Evade Stat until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Squeaking:
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move target enemy 1”. Reaction Steps cannot be declared in response to this action.
+  arcaneOutcomes: null
+  catastrophe: null
+Sewer Rat:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per game ◯.
+  activatedText: You may only play this ability if Muridae is inside a building. This character is Removed From Play. At the start of the next Replenish Step, return this character to play inside any building.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Slingshot:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Impact Dmg."
+  catastrophe: This character loses the Look of Innocence and Disappear in a Crowd abilities and is Evade Stat +1 until end of turn.
+
+Summon Reinforcements:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This action cannot bring a character into play if it is already in play.
+  activatedText: null
+  arcaneOutcomes:
+    - "g1,r1: Place a new Soldier Psychopomp in base contact with this character."
+  catastrophe: This character suffers 3 Wds or, if there is a friendly Psychopomp within 6”, you may choose a friendly Psychopomp within 6” to be slain instead.
+
+Fortunate:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once Per Turn.
+  activatedText: Look at the top 3 cards of the Arcane Deck. Put any number on the top of the deck in any order and put the remainder on the bottom of the deck in any order.
+  arcaneOutcomes: null
+  catastrophe: null
+Buttermilk Elixir:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target restores X+1 Wds."
+    - "rX: Target Norse or Gnome gains +1 energy."
+  catastrophe: This character suffers 3 Wds.
+
+X Marks The Spot:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target Moonstone or enemy in possession of a Moonstone. All friendly Pirates within 4” of the target move 1” directly towards it.
+  arcaneOutcomes: null
+  catastrophe: null
+
+"He Called me Names!":
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target character suffers -1 Arcane Stat or -1 Melee Stat until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Stand to Attention!:
+  cost: 2
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target other friendly Goblin gains +1 energy. If the target is a Soldier it may also move 2”.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Swig o' Rum:
+  cost: 2
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target restores X+1 Wds and suffers -2 Arcane Stat until end of turn."
+  catastrophe: This model suffers 2 Wds and -2 Arcane Stat until end of turn.
+Black Powder Bomb:
+  cost: 3
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  arcaneSubText: This attack is not modified by Evade Stat.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+1 Magical Dmg. Other models within 2” of the target suffer X Magical Dmg."
+  catastrophe: All models within 2” suffer 2 Wds.
+
+Malachite Ritual:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target within 2” of a Tree or Wooded Patch gains X energy."
+    - "bX: Target non-Spirit heals X+1 Wds."
+    - "rX: Target suffers X Wds. Spirits suffer an additional 1 Wd."
+  arcaneSubText: Whilst resolving, ignore passive abilities of other characters.
+  catastrophe: This model and Spirits within 6” suffer 2 Wds.
+
+Fire Cannon!:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target character suffers 3X-1 Impact Dmg then is moved X” directly away."
+  catastrophe: This model suffers 3 Wds. All other models within 2” suffer 3 Magical Dmg then are moved 1” directly away.
+
+Conductor:
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target friendly Psychopomp immediately takes any action available to them irrespective of energy cost, excluding Jog. Increase the Psychopomp's Melee & Arcane Stat by +1 for each friendly Psychopomp in play for the duration of the action.
+  arcaneOutcomes: null
+  catastrophe: null
+Summon an Encore!:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: This action cannot bring a character into play if it is already in play. Place a new friendly Psychopomp, which was slain earlier this turn, in base contact with this model.
+  arcaneOutcomes: null
+  catastrophe: null
+Psychopomp Parade:
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: Flip an Arcane Card then move all friendly Psychopomps within the pulse up to X”, where X is the value of the card.
+  arcaneOutcomes: null
+  catastrophe: The player to the left may move this model 2”.
+
+Bawdy Jokes:
+  cost: 2
+  range: 4
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: All Goblins within the pulse are moved 1” directly towards this model. Then, all other Goblins within 1” gain +1 energy.
+  arcaneOutcomes: null
+  catastrophe: null
+Rough Tides:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Move other target model X” directly away."
+  catastrophe: This model suffers 1 Wd and loses all energy.
+Seasick:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target loses X energy."
+  catastrophe: This model suffers 2 Wds and loses all energy.
+
+Ancient Crossbow:
+  cost: 2
+  range: 12
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This ability cannot be used while this model is engaged.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+1 Piercing Dmg."
+  catastrophe: This model suffers 2 Wds and loses the A Skele-tonne of Bolts ability until end of turn.
+
+Mind Control:
+  cost: 3
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target model immediately takes any action available to them that would normally have an energy cost of (1). This action is controlled by you even if the target is an enemy (they count as a friendly model for the duration of the action).
+  arcaneOutcomes: null
+  catastrophe: null
+Whispered Secrets:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target friendly Faerie gains X energy and restores 1 Wd."
+  catastrophe: This character suffers 2 Wds.
+
+Yell Out Commands:
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: You may only target each character once per turn.
+  activatedText: Move target friendly non-Noble 1”. If the target is a friendly Soldier move it 2” instead.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Utter Swine:
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: You may have another friendly model within 6” suffer 2 Wds. If they do then target enemy loses one Arcane Ability of your choice until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Deadwood Curse:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target gains [Deadwood Cursed: During the Discard Step, this character and all models friendly to this character within 3” suffer 1 Wd.], until this character is slain."
+  catastrophe: This character suffers 2 Wds. All other models within 3” suffer 2 Wds.
+
+He Pushed Me!:
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Move target other model 1” directly away.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Replace Necklace:
+  cost: 4
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This character gains +1 energy. Then it is Removed from Play and replaced by Anya Bartol. Anya Bartol gains energy and suffers Wds equal to those already on this character along with all Moonstones it's carrying and any stat modifications or abilities it has gained. Continue Striga Anya's activation with Anya Bartol; she may not Jog if Striga Anya already did this turn.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Plunder:
+  cost: 1
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Target loses 1 Passive Ability of your choice until end of turn and this model gains that ability."
+  catastrophe: The resisting player may move this model 2”.
+
+Energy Syphon:
+  cost: 0
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target a friendly model. Flip an Arcane card and redistribute up to X energy from that model to any combination of models within 8”, where X is the value on the card.
+  arcaneOutcomes: null
+  catastrophe: The target loses 2 energy and this character suffers 2 Wds.
+Caustic Contract:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target model suffers X-1 Wds, then it gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn."
+  catastrophe: This model suffers 2 Wds.
+Librarian's Scorn:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Move target X” directly away, then it suffers X-1 Wds."
+  catastrophe: This model suffers 3 Wds.
+
+Eat Me!:
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target friendly character restores 2 Wds then this model suffers 1 Wd.
+  arcaneOutcomes: null
+  catastrophe: null
+Leave to Rise until Doubled in Size:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This character restores 1 Wd. This character cannot take actions until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Vigour:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This character restores 1 Wd.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Dreadful Din:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target model suffers -1 Melee Stat until end of turn."
+    - "bX: Target model suffers -1 Arcane Stat until end of turn."
+    - "rX: Move target model X” directly away."
+  catastrophe: The resisting player may move this model 2”.
+
+Succubus:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target other character suffers X Wds. Then, for each Wd lost, choose a friendly model within 8” and LoS of this model to restore 1 Wd and gain 1 energy. The same friendly model may be chosen multiple times."
+  catastrophe: This model suffers 3 Wds.
+
+Enfeeble:
+  cost: 3
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Reduce all Melee Dmg dealt by target by -X until the end of the turn."
+  catastrophe: The target gains +1 energy.
+
+Rule the Roost:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target Goblin suffers 2 Wds, gains 2 energy and activates immediately after this character's activation ends. If the target has already activated, then this is a bonus activation, otherwise this counts as the target's activation for the turn.
+  arcaneOutcomes: null
+  catastrophe: null
+"Gimme!!":
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Gain possession of one Moonstone carried by target friendly Goblin.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Rigor Mortis:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Target discards all energy and suffers 1 Wd."
+  catastrophe: This model suffers 4 Wds.
+
+Visions of the Future:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target other friendly character immediately suffers one Catastrophe printed on their card. If it requires a target, you may choose any target that meets the ability's requirements.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Rebate:
+  cost: 3
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target other character restores X+2 Wds or moves X+2” directly towards this character, where X is the number of Moonstones the target is in possession of. (For characters without Moonstones X is 0).
+  arcaneOutcomes: null
+  catastrophe: null
+Income Tax:
+  cost: 0
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target enemy character in possession of at least one Moonstone cannot take the Jog or Step Action or take Reaction Steps until end of turn. The enemy character may immediately spend X energy to cancel this effect, where X is the number of Moonstones they are in possession of. If they do, this character gains that much energy.
+  arcaneOutcomes: null
+  catastrophe: null
+
+He Hit Me!:
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target character suffers 1 Wd.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Antagonise:
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target gains +1 Melee Stat and +1 Evade Stat until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Out of Reach:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This character cannot be targeted by a Melee Attack action and does not benefit from cover until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Throw Javelin:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Piercing Dmg."
+  catastrophe: This character suffers 1 Wd.
+
+Giant Whisperer:
+  cost: 1
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move target Giant 1”.
+  arcaneOutcomes: null
+  catastrophe: null
+"Where'd You Come From!?":
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Place this model anywhere in base contact with target enemy."
+  catastrophe: The resisting player places this model anywhere within 6”.
+
+Fear:
+  cost: 2
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target other character loses 1 energy then a friendly model within 4” of this character gains that much energy.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Rage:
+  cost: 3
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target Faerie loses Weakling until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Violent Impulse:
+  cost: 1
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: This character's Melee Attacks deal +X Dmg until end of turn."
+  catastrophe: All characters within 4” deal +1 Melee Dmg until end of turn.
+
+Summon a Murder Bunny:
+  cost: 3
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Place a new friendly Murder Bunny in base contact with this character."
+  catastrophe: This character suffers 3 Wds.
+Summon the Jackalope:
+  cost: 5
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This action can only be taken if there is no friendly Jackalope in play.
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,b3,r3: This character suffers 3 Wds. Place a new Jackalope in base contact. It has no energy but is considered a permanent additional character in your troupe and may activate this turn."
+  catastrophe: This character suffers 3 Wds. Place a new friendly Murder Bunny in base contact.
+
+Pinch:
+  cost: 2
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,b3,r3: Target loses possession of one Moonstone they are carrying and this model gains possession of that Moonstone."
+  catastrophe: This model suffers 3 Wds.
+Punch:
+  cost: 1
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "b2,r2: Target suffers 2 Impact Dmg. If this character has already used the Pinch ability this turn, increase this Dmg by +1."
+  catastrophe: This model suffers 2 Wds.
+
+Reload [Bolt Thrower]:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: The named ability can be used again.
+  arcaneOutcomes: null
+  catastrophe: null
+Bolt Thrower:
+  cost: 1
+  range: 10
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per game, unless reloaded ◯.
+  arcaneSubText: This attack is not modified by Cover.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+2 Piercing Dmg then is moved 1” directly away."
+  catastrophe: This model suffers 2 Wds and this action cannot be used for the remainder of the game.
+Dropping Bombs:
+  cost: 2
+  range: 2
+  type: arcane
+  isPulse: true
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: All other models within the pulse suffer X+1 Magical Dmg then are moved X” directly away."
+  catastrophe: This model suffers 4 Wds.
+
+"A Cunning Plan":
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This model may place one Moonstone it is in possession of, within 2” of itself at depth value of '1'. Then it is immediately slain.
+  arcaneOutcomes: null
+  catastrophe: null
+"That's Mine, This is Mine...":
+  cost: 3
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This model gains possession of one Moonstone it is in base contact with, regardless of its depth value or enemy engagements.
+  arcaneOutcomes: null
+  catastrophe: null
+Second Hand Pistol:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target other model and this character suffer X Impact Dmg."
+  catastrophe: This character is slain, then the target loses possession of one Moonstone they are carrying. Place it in base contact with the target at depth value of '1'.
+
+Goblin Mischief:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Gain +X energy."
+    - "rX: Gain +1 energy."
+  catastrophe: Suffer 2 Wds.
+Goblin Luck:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,b3,r3: Target enemy or Goblin immediately suffers one Catastrophe printed on their card. If it requires a target, you may choose any target that meets the ability's requirements."
+  catastrophe: This character suffers 3 Wds.
+Transconbobulate:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "b3,r3: Restore all wounds and energy of target Goblin, then place it within 8” of this model."
+  catastrophe: This character suffers 4 Wds.
+
+Meddle with Fate:
+  cost: 3
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per game ◯.
+  activatedText: Draw 3 cards from the Arcane Deck for each Spirit in play. You may choose up to 3 of the cards to remove from the deck and place face down besides this character card. For each card removed this character suffers 2 Wds, then shuffle the remaining cards into the deck. If this character is slain, return all removed cards to the deck and shuffle.
+  arcaneOutcomes: null
+
+Puppeteer:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2: Target gains [Puppet: When Danica, Dusk Witch is active within 8” and Line of Sight, she may spend her energy to have this character perform actions available to them, excluding Jog. They count as friendly during the action.], until end of game."
+  catastrophe: This character suffers 4 Wds. The target gains +2 energy.
+
+Visions of the Past:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,r3: Target restores all Wds and all energy."
+  catastrophe: All models within 4” suffer 2 Wds and gain +1 energy.
+Eternal Servitude:
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target Human or Noble gains +1 energy."
+    - "bX: Target Risen or Noble restores X Wds."
+    - "rX: Target Elrich or Noble restores X Wds or gains +1 energy."
+  catastrophe: This model suffers 3 Wds.
+
+Summon the Forgotten King:
+  cost: 3
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This action can only be taken if your chosen faction is Leshavult and there is no friendly Echo of the Forgotten King in play.
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,b3,r3: Place a new Echo of the Forgotten King in base contact; it is considered a permanent additional character in your troupe and may activate this turn. Then this model is slain."
+  catastrophe: This model suffers 3 Wds.
+Drain Life:
+  cost: 2
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target other friendly character is slain. If the target wasn't a Psychopomp then the next time this character uses Reanimate this turn, reduce its energy cost to (0) and gain +2 Arcane Stat for the duration of the action.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Necrotic Salve:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target friendly character restores 1 Wd. If at least one friendly model was slain this turn, the target also gains +1 energy.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Summon a Helping Hand:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This action cannot bring a character into play if it is already in play.
+  activatedText: null
+  arcaneOutcomes:
+    - "g1,b1,r1: Place a new Familiar Psychopomp in base contact with this character."
+  catastrophe: This model suffers 3 Wds.
+Shower of Gold:
+  cost: 2
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target a single point on the board within 6” and LoS of this model. All other models within 4” of the chosen spot move 2” directly towards that point. The Kaufman player chooses the order of the moves.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Money Bag:
+  cost: 2
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Place a 30mm diameter Bag of Gold token within 6” and LoS of this model. The token remains in play but is immediately removed if any model is in base contact with it. Whenever another model takes a Jog or Step action while within 6” and LoS of a Bag of Gold token, it may not end the move further from the nearest Bag of Gold token than it began.
+  arcaneOutcomes: null
+  catastrophe: null
+
+A Generous Offer:
+  cost: 1
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  arcaneSubText: This attack is not modified by Evade Stat.
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2: Target model loses possession of one Moonstone it is carrying and this character gains possession of that Moonstone."
+  catastrophe: This model suffers 2 Wds.
+Milkies:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target friendly character restores X Wds."
+    - "rX: Target friendly character gains +1 energy."
+  catastrophe: The target suffers 2 Wds.
+
+Summon the Nursery:
+  cost: 1
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn. This action cannot bring a character into play if it is already in play.
+  activatedText: null
+  arcaneOutcomes:
+    - "g1: Place a new Sprog in base contact with this character."
+    - "b1: Place a new Pookie in base contact with this character."
+    - "r1: Place a new Urchin in base contact with this character."
+  catastrophe: This model and Babelings within 6” suffer 2 Wds.
+Merfolk Magic:
+  cost: 2
+  range: 10
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Place this model within target Water Feature. This ability may only be used if this model is within a Water Feature.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Torrential Surge:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Place a 50mm Diameter Water Feature within 3” and LoS on open ground. This remains in place until end of game. A maximum of 3 Water Features may be placed by this troupe; if a fourth is placed you must choose and remove a Water Feature you created earlier this game."
+  catastrophe: This model suffers 2 Wds.
+
+Siren Song:
+  cost: 3
+  range: 12
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX,bX,rX: Move target X+2” directly towards this model. Then, if the target is within 4” of a Water Feature it suffers 4 Magical Dmg."
+  catastrophe: The resisting player may move this model 2”.

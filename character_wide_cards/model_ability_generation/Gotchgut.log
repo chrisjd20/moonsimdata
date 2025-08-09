@@ -1,0 +1,13 @@
+Character: Gotchgut
+Image: /home/admusr/github/moonsimdata/characters/Gotchgut/Gotchgut.webp
+
+RAW RESPONSE:
+"Ooga-booga!":
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move target enemy Goblin 2” directly away.
+  arcaneOutcomes: null
+  catastrophe: null

@@ -1,0 +1,22 @@
+Character: El Capitano
+Image: /home/admusr/github/moonsimdata/characters/El Capitano/ElCapitano.webp
+
+RAW RESPONSE:
+Hit:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: This character's next Melee Attack this turn deals +2 Dmg.
+  arcaneOutcomes: null
+  catastrophe: null
+Run:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move target friendly engaged model 3”.
+  arcaneOutcomes: null
+  catastrophe: null

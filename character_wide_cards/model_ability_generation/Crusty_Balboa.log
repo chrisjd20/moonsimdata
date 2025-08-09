@@ -1,0 +1,24 @@
+Character: Crusty Balboa
+Image: /home/admusr/github/moonsimdata/characters/Crusty Balboa/CrustyBalboa.webp
+
+RAW RESPONSE:
+Pinch:
+  cost: 2
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,b3,r3: Target loses possession of one Moonstone they are carrying and this model gains possession of that Moonstone."
+  catastrophe: This model suffers 3 Wds.
+Punch:
+  cost: 1
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "b2,r2: Target suffers 2 Impact Dmg. If this character has already used the Pinch ability this turn, increase this Dmg by +1."
+  catastrophe: This model suffers 2 Wds.

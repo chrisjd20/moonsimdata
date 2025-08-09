@@ -1,0 +1,14 @@
+Character: Jerry Heir
+Image: /home/admusr/github/moonsimdata/characters/Jerry Heir/JerryHeir.webp
+
+RAW RESPONSE:
+Stage Fright:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Target enemy without Frightened gains [Frightened: At the start of the Discard Step, the player that used Stage Fright flips an Arcane Card then moves this model up to X+1”. Catastrophe: Move 0”], until this character is slain."
+  catastrophe: This model suffers 2 Wds.

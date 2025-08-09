@@ -1,0 +1,33 @@
+Character: Tabby, the Librarian
+Image: /home/admusr/github/moonsimdata/characters/Tabby, the Librarian/Tabby.webp
+
+RAW RESPONSE:
+Energy Syphon:
+  cost: 0
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target a friendly model. Flip an Arcane card and redistribute up to X energy from that model to any combination of models within 8”, where X is the value on the card.
+  arcaneOutcomes: null
+  catastrophe: The target loses 2 energy and this character suffers 2 Wds.
+Caustic Contract:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target model suffers X-1 Wds, then it gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to 0], until end of turn."
+  catastrophe: This model suffers 2 Wds.
+Librarian's Scorn:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Move target X” directly away, then it suffers X-1 Wds."
+  catastrophe: This model suffers 3 Wds.

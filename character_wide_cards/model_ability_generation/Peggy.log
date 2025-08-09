@@ -1,0 +1,13 @@
+Character: Peggy
+Image: /home/admusr/github/moonsimdata/characters/Peggy/stat-Peggy.webp
+
+RAW RESPONSE:
+X Marks The Spot:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target Moonstone or enemy in possession of a Moonstone. All friendly Pirates within 4” of the target move 1” directly towards it.
+  arcaneOutcomes: null
+  catastrophe: null

@@ -1,0 +1,24 @@
+Character: Banshee
+Image: /home/admusr/github/moonsimdata/characters/Banshee/stat-Banshee.webp
+
+RAW RESPONSE:
+Ghastly Scream:
+  cost: 4
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Move target enemy X” directly away. If the enemy is in possession of at least one Moonstone it loses possession of one Moonstone it is carrying before moving. Place it in base contact with the enemy at depth '1'."
+  catastrophe: This character suffers 2 Wds.
+Ear Splitting Screech:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target suffers X-1 Wds and gains [Bleed: During the Discard Step, this character suffers 1 Wd then loses this ability.]."
+  catastrophe: This character suffers 2 Wds.

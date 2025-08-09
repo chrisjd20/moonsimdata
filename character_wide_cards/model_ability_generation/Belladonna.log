@@ -1,0 +1,35 @@
+Character: Belladonna
+Image: /home/admusr/github/moonsimdata/characters/Belladonna/Belladonna.webp
+
+RAW RESPONSE:
+Faerie Tricks:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Swap places with target friendly Rogue.
+  arcaneOutcomes: null
+  catastrophe: null
+Acid Flask:
+  cost: 3
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target suffers X+1 Magical Dmg."
+  catastrophe: This model suffers 2 Wds.
+Drop of Nightshade:
+  cost: 3
+  range: 1
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target enemy loses X energy."
+    - "bX: Target enemy suffers X Wds."
+    - "rX: Move target enemy up to 2X”. Then you may have the target take a Melee Attack action controlled by you. They count as friendly during the Melee Attack action."
+  catastrophe: The target and this character are both slain.

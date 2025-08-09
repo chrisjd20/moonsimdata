@@ -1,0 +1,16 @@
+Character: Raegan, Leshavult Priestess
+Image: /home/admusr/github/moonsimdata/characters/Raegan, Leshavult Priestess/Raegan.webp
+
+RAW RESPONSE:
+Malachite Ritual:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Whilst resolving, ignore passive abilities of other characters.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target within 2” of a Tree or Wooded Patch gains X energy."
+    - "bX: Target non-Spirit heals X+1 Wds."
+    - "rX: Target suffers X Wds. Spirits suffer an additional 1 Wd."
+  catastrophe: This model and Spirits within 6” suffer 2 Wds.

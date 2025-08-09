@@ -1,0 +1,23 @@
+Character: Grub
+Image: /home/admusr/github/moonsimdata/characters/Grub/stat-Grub.webp
+
+RAW RESPONSE:
+Wyrm Hole:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This model must be in base contact with an item of Obstacle terrain to use this ability. Lose possession of any Moonstones this character is in possession of (place them in base contact with a depth value of 1), then place this model in base contact with any item of Obstacle terrain on the board.
+  arcaneOutcomes: null
+  catastrophe: null
+Bug Spray:
+  cost: 2
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This attack is not modified by Evade Stat or Cover.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target suffers X Magical Dmg."
+  catastrophe: This model suffers 2 Wds.

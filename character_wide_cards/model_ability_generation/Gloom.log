@@ -1,0 +1,33 @@
+Character: Gloom
+Image: /home/admusr/github/moonsimdata/characters/Gloom/Gloom.webp
+
+RAW RESPONSE:
+Whisper to the Wild Things:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move target Animal 3”.
+  arcaneOutcomes: null
+  catastrophe: null
+Shadow Walk:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Place this model within 2X”."
+  catastrophe: The resisting player may place this model within 6”.
+Smothering Darkness:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers X+1 Magical Dmg and gets -1 Evade Stat until end of turn."
+  catastrophe: This model suffers 1 Wd and the target gets -2 Evade Stat until end of turn.

@@ -1,0 +1,23 @@
+Character: Loubard
+Image: /home/admusr/github/moonsimdata/characters/Loubard/Loubard.webp
+
+RAW RESPONSE:
+Righteous Fury:
+  cost: 3
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: This character gains +3 energy, +1 Melee Stat, +1 Arcane Stat and +1 to Melee Dmg until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Haul in:
+  cost: 1
+  range: 3
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Move target 2” directly towards this model."
+  catastrophe: This character suffers 3 Wds. Then if this character is not slain all other models within 3” are moved 2” directly towards this model.

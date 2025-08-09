@@ -1,0 +1,14 @@
+Character: Negroli
+Image: /home/admusr/github/moonsimdata/characters/Negroli/stat-Negroli.webp
+
+RAW RESPONSE:
+Summon Reinforcements:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This action cannot bring a character into play if it is already in play.
+  activatedText: null
+  arcaneOutcomes:
+    - "g1,r1: Place a new Soldier Psychopomp in base contact with this character."
+  catastrophe: This character suffers 3 Wds or, if there is a friendly Psychopomp within 6”, you may choose a friendly Psychopomp within 6” to be slain instead.

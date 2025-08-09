@@ -1,0 +1,13 @@
+Character: Striga Anya
+Image: /home/admusr/github/moonsimdata/characters/Striga Anya/stat-StrigaAnya.webp
+
+RAW RESPONSE:
+Replace Necklace:
+  cost: 4
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This character gains +1 energy. Then it is Removed from Play and replaced by Anya Bartol. Anya Bartol gains energy and suffers Wds equal to those already on this character along with all Moonstones it's carrying and any stat modifications or abilities it has gained. Continue Striga Anya's activation with Anya Bartol; she may not Jog if Striga Anya already did this turn.
+  arcaneOutcomes: null
+  catastrophe: null

@@ -1,0 +1,13 @@
+Character: Commodore Delahaye
+Image: /home/admusr/github/moonsimdata/characters/Commodore Delahaye/CommodoreDelehaye.webp
+
+RAW RESPONSE:
+Old Pirate Curse:
+  cost: 1
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target without The Black Spot gains [The Black Spot: Enemy Pirates gain +1 Arcane Stat when targeting this character with an action. This character suffers 1 Wd during the Discard Step], until end of game. Then other enemies with The Black Spot lose it.
+  arcaneOutcomes: null
+  catastrophe: null

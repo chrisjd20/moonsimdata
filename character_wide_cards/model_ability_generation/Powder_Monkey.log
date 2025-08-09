@@ -1,0 +1,24 @@
+Character: Powder Monkey
+Image: /home/admusr/github/moonsimdata/characters/Powder Monkey/stat-PowderMonkey.webp
+
+RAW RESPONSE:
+Swig o' Rum:
+  cost: 2
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target restores X+1 Wds and suffers -2 Arcane Stat until end of turn."
+  catastrophe: This model suffers 2 Wds and -2 Arcane Stat until end of turn.
+Black Powder Bomb:
+  cost: 3
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This attack is not modified by Evade Stat.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+1 Magical Dmg. Other models within 2” of the target suffer X Magical Dmg."
+  catastrophe: All models within 2” suffer 2 Wds.

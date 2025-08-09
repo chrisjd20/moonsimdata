@@ -1,0 +1,23 @@
+Character: Hoff
+Image: /home/admusr/github/moonsimdata/characters/Hoff/Hoff.webp
+
+RAW RESPONSE:
+Furious Charge:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move this model 3” directly towards target enemy model. If this character's next action this turn is a Melee Attack against the same target then it deals +1 Dmg.
+  arcaneOutcomes: null
+  catastrophe: null
+Hunting Horn:
+  cost: 1
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn. This ability cannot be used while this model is engaged.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Move target other friendly Faun X+1”."
+  catastrophe: The target is moved up to 3” by the resisting player.

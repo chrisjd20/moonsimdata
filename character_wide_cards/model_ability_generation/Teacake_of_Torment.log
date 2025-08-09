@@ -1,0 +1,22 @@
+Character: Teacake of Torment
+Image: /home/admusr/github/moonsimdata/characters/Teacake of Torment/TeakcakeOfTorment.webp
+
+RAW RESPONSE:
+Eat Me!:
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target friendly character restores 2 Wds then this model suffers 1 Wd.
+  arcaneOutcomes: null
+  catastrophe: null
+Leave to Rise until Doubled in Size:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This character restores 1 Wd. This character cannot take actions until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null

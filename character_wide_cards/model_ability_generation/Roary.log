@@ -1,0 +1,31 @@
+Character: Roary
+Image: /home/admusr/github/moonsimdata/characters/Roary/stat-Roary.webp
+
+RAW RESPONSE:
+Conductor:
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target friendly Psychopomp immediately takes any action available to them irrespective of energy cost, excluding Jog. Increase the Psychopomp's Melee & Arcane Stat by +1 for each friendly Psychopomp in play for the duration of the action.
+  arcaneOutcomes: null
+  catastrophe: null
+Summon an Encore!:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: This action cannot bring a character into play if it is already in play. Place a new friendly Psychopomp, which was slain earlier this turn, in base contact with this model.
+  arcaneOutcomes: null
+  catastrophe: null
+Psychopomp Parade:
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: Flip an Arcane Card then move all friendly Psychopomps within the pulse up to X”, where X is the value of the card.
+  arcaneOutcomes: null
+  catastrophe: The player to the left may move this model 2”.

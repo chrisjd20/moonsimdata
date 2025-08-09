@@ -1,0 +1,33 @@
+Character: Seasick Stu
+Image: /home/admusr/github/moonsimdata/characters/Seasick Stu/SeasickStu.webp
+
+RAW RESPONSE:
+Bawdy Jokes:
+  cost: 2
+  range: 4
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: All Goblins within the pulse are moved 1” directly towards this model. Then, all other Goblins within 1” gain +1 energy.
+  arcaneOutcomes: null
+  catastrophe: null
+Rough Tides:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Move other target model X” directly away."
+  catastrophe: This model suffers 1 Wd and loses all energy.
+Seasick:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target loses X energy."
+  catastrophe: This model suffers 2 Wds and loses all energy.

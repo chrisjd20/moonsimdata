@@ -1,0 +1,13 @@
+Character: Sir Guillemot Poppycock
+Image: /home/admusr/github/moonsimdata/characters/Sir Guillemot Poppycock/Poppycock.webp
+
+RAW RESPONSE:
+Yell Out Commands:
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: You may only target each character once per turn.
+  activatedText: Move target friendly non-Noble 1”. If the target is a friendly Soldier move it 2” instead.
+  arcaneOutcomes: null
+  catastrophe: null

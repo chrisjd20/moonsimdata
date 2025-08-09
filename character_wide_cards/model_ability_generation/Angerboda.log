@@ -1,0 +1,23 @@
+Character: Angerboda
+Image: /home/admusr/github/moonsimdata/characters/Angerboda/stat-Angerboda.webp
+
+RAW RESPONSE:
+Ice in the Veins:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Flip an Arcane Card. If the card is blue, restore X+1 Wds.
+  arcaneOutcomes: null
+  catastrophe: null
+Eternal Chill:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target suffers X Magical Dmg and gains [Slow: This model's Jog actions are limited to 2\"], until end of turn."
+  catastrophe: This character restores 1 Wd. The target restores 2 Wds.

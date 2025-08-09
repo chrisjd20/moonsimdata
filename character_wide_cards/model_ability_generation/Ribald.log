@@ -1,0 +1,14 @@
+Character: Ribald
+Image: /home/admusr/github/moonsimdata/characters/Ribald/Ribald.webp
+
+RAW RESPONSE:
+Fire Cannon!:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target character suffers 3X-1 Impact Dmg then is moved X” directly away."
+  catastrophe: This model suffers 3 Wds. All other models within 2” suffer 3 Magical Dmg then are moved 1” directly away.

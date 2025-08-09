@@ -1,0 +1,13 @@
+Character: Sir Hogswash
+Image: /home/admusr/github/moonsimdata/characters/Sir Hogswash/SirHogswash.webp
+
+RAW RESPONSE:
+Utter Swine:
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: You may have another friendly model within 6” suffer 2 Wds. If they do then target enemy loses one Arcane Ability of your choice until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null

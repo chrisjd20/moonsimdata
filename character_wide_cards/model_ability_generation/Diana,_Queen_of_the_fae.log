@@ -1,0 +1,24 @@
+Character: Diana, Queen of the fae
+Image: /home/admusr/github/moonsimdata/characters/Diana, Queen of the fae/Diana.webp
+
+RAW RESPONSE:
+Feed on Fear:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target loses X energy. Then distribute that much energy amongst Faerie(s) within 6” of the target."
+  catastrophe: This character suffers 2 Wds.
+Horrifying Visions:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers X+1 Magical Dmg."
+  catastrophe: This model suffers 3 Wds.

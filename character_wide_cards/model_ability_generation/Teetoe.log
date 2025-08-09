@@ -1,0 +1,13 @@
+Character: Teetoe
+Image: /home/admusr/github/moonsimdata/characters/Teetoe/TeeToe.webp
+
+RAW RESPONSE:
+Vigour:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This character restores 1 Wd.
+  arcaneOutcomes: null
+  catastrophe: null

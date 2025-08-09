@@ -1,0 +1,23 @@
+Character: Goblin Airship
+Image: /home/admusr/github/moonsimdata/characters/Goblin Airship/stat-GoblinAirship.webp
+
+RAW RESPONSE:
+Sticky Tongue:
+  cost: 2
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target with Evade Stat -1 or lower, suffers 1 Impact Dmg and is moved 4” directly towards this model.
+  arcaneOutcomes: null
+  catastrophe: null
+Peashooter:
+  cost: 1
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This attack is not modified by Cover.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Impact Dmg."
+  catastrophe: This model suffers 2 Wds.

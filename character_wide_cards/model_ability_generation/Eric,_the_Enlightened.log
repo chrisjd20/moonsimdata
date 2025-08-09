@@ -1,0 +1,15 @@
+Character: Eric, the Enlightened
+Image: /home/admusr/github/moonsimdata/characters/Eric, the Enlightened/EricTheEnlightened.webp
+
+RAW RESPONSE:
+Enchanted Bladestorm:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This attack is not modified by Evade Stat or Cover and may only be used if this model has the Enchanted Javelin ability.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+1 Piercing Dmg. After resolving this action, this model loses Enchanted Javelin until end of turn."
+    - "rX: This character may discard 2 energy. If it does, all other models within 4” suffer X+1 Piercing Dmg then are moved X” directly away. Then, after resolving this action, this model loses Enchanted Javelin until end of game."
+  catastrophe: If this character has the Enchanted Javelin ability, the target gains it and this model loses it, both until end of turn.

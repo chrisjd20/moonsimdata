@@ -1,0 +1,14 @@
+Character: Flay, Bearer of Knowledge
+Image: /home/admusr/github/moonsimdata/characters/Flay, Bearer of Knowledge/stat-Flay.webp
+
+RAW RESPONSE:
+Share the Knowledge:
+  cost: 2
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target model gains +1 Arcane Stat until end of turn."
+  catastrophe: The target's Arcane Stat is reduced by -2 until end of turn.

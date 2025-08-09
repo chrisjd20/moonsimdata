@@ -1,0 +1,16 @@
+Character: Knoll
+Image: /home/admusr/github/moonsimdata/characters/Knoll/stat-Knoll.webp
+
+RAW RESPONSE:
+Trollish Remedies:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once Per Turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target restores 3X-1 Wds."
+    - "bX: Target Troll gains [Tough as Old Boots: At the start of the Replenish Step this model restores 2 Wds.], until end of game."
+    - "rX: Target suffers X Wds, then gains +1 energy."
+  catastrophe: The target suffers 2 Wds and loses 1 energy.

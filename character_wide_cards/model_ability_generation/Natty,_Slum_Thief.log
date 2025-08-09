@@ -1,0 +1,14 @@
+Character: Natty, Slum Thief
+Image: /home/admusr/github/moonsimdata/characters/Natty, Slum Thief/Natty.webp
+
+RAW RESPONSE:
+Slingshot:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Impact Dmg."
+  catastrophe: This character loses the Look of Innocence and Disappear in a Crowd abilities and is Evade Stat +1 until end of turn.

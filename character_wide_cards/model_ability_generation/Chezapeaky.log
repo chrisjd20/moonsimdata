@@ -1,0 +1,35 @@
+Character: Chezapeaky
+Image: /home/admusr/github/moonsimdata/characters/Chezapeaky/Chezapeaky.webp
+
+RAW RESPONSE:
+Stocked to the Gills:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target Pirate with the Reload [...] ability may immediately use the Reload [...] ability without spending energy.
+  arcaneOutcomes: null
+  catastrophe: null
+Junk Toss:
+  cost: 1
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Piercing Dmg."
+    - "bX: Target suffers 1 Wd then is moved X” directly away."
+    - "rX: Target cannot take the Jog action until end of turn."
+  catastrophe: This model suffers 4 Wds.
+Gone Fishin':
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Resolve this action with +2 Arcane Stat if there is a Water Feature within 4” of this model.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target restores X Wds."
+  catastrophe: This model suffers 3 Wds.

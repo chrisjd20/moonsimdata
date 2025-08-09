@@ -1,0 +1,14 @@
+Character: Swiggarty Swooty
+Image: /home/admusr/github/moonsimdata/characters/Swiggarty Swooty/SwigartySwooty.webp
+
+RAW RESPONSE:
+Plunder:
+  cost: 1
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Target loses 1 Passive Ability of your choice until end of turn and this model gains that ability."
+  catastrophe: The resisting player may move this model 2”.

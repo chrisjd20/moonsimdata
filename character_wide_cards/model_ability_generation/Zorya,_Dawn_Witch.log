@@ -1,0 +1,14 @@
+Character: Zorya, Dawn Witch
+Image: /home/admusr/github/moonsimdata/characters/Zorya, Dawn Witch/Zorya.webp
+
+RAW RESPONSE:
+Violent Impulse:
+  cost: 1
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: This character's Melee Attacks deal +X Dmg until end of turn."
+  catastrophe: All characters within 4” deal +1 Melee Dmg until end of turn.

@@ -1,0 +1,14 @@
+Character: Gump
+Image: /home/admusr/github/moonsimdata/characters/Gump/stat-Gump.webp
+
+RAW RESPONSE:
+Call of the Woods:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Move target enemy X+2” directly towards any friendly Treefolk. Then the target suffers 1 Wd for each Wooded Patch within 4” of it."
+  catastrophe: This model cannot move or be moved and has its Melee Range increased to 3” until end of turn.

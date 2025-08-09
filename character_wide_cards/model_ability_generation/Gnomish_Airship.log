@@ -1,0 +1,33 @@
+Character: Gnomish Airship
+Image: /home/admusr/github/moonsimdata/characters/Gnomish Airship/GnomishAirship.webp
+
+RAW RESPONSE:
+Reload [Bolt Thrower]:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: The named ability can be used again.
+  arcaneOutcomes: null
+  catastrophe: null
+Bolt Thrower:
+  cost: 1
+  range: 10
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per game, unless reloaded ◯. This attack is not modified by Cover.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+2 Piercing Dmg then is moved 1” directly away."
+  catastrophe: This model suffers 2 Wds and this action cannot be used for the remainder of the game.
+Dropping Bombs:
+  cost: 2
+  range: 2
+  type: arcane
+  isPulse: true
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: All other models within the pulse suffer X+1 Magical Dmg then are moved X” directly away."
+  catastrophe: This model suffers 4 Wds.

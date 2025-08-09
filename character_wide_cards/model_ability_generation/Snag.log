@@ -1,0 +1,14 @@
+Character: Snag
+Image: /home/admusr/github/moonsimdata/characters/Snag/stat-Snag.webp
+
+RAW RESPONSE:
+Deadwood Curse:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target gains [Deadwood Cursed: During the Discard Step, this character and all models friendly to this character within 3” suffer 1 Wd.], until this character is slain."
+  catastrophe: This character suffers 2 Wds. All other models within 3” suffer 2 Wds.

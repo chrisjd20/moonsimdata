@@ -1,0 +1,14 @@
+Character: Boulder
+Image: /home/admusr/github/moonsimdata/characters/Boulder/Boulder.webp
+
+RAW RESPONSE:
+Stone Song:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This ability is not modified by Cover.
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Decrease target Moonstone's depth value by X, to a minimum of 1."
+  catastrophe: The resisting player sets the depth value of the target Moonstone to a number of their choice.

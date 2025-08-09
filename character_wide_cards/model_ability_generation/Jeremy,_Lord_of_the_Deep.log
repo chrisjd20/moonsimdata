@@ -1,0 +1,13 @@
+Character: Jeremy, Lord of the Deep
+Image: /home/admusr/github/moonsimdata/characters/Jeremy, Lord of the Deep/stat-Jeremy.webp
+
+RAW RESPONSE:
+"Behold my Splashy Fury!":
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn. This ability may only be used if this model is within a Water Feature.
+  activatedText: Target character suffers 2 Magical Dmg.
+  arcaneOutcomes: null
+  catastrophe: null

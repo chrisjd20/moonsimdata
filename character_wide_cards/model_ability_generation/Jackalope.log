@@ -1,0 +1,13 @@
+Character: Jackalope
+Image: /home/admusr/github/moonsimdata/characters/Jackalope/Jackalope.webp
+
+RAW RESPONSE:
+Hop:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Move this model 4”. You may move freely over intervening obstacles and models provided bases do not overlap at the end of the move.
+  arcaneOutcomes: null
+  catastrophe: null

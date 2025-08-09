@@ -1,0 +1,14 @@
+Character: The Mortician
+Image: /home/admusr/github/moonsimdata/characters/The Mortician/TheMortician.webp
+
+RAW RESPONSE:
+Rigor Mortis:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Target discards all energy and suffers 1 Wd."
+  catastrophe: This model suffers 4 Wds.

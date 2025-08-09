@@ -1,0 +1,33 @@
+Character: Creep
+Image: /home/admusr/github/moonsimdata/characters/Creep/stat-Creep.webp
+
+RAW RESPONSE:
+Victimise:
+  cost: 2
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target gets +2 Evade Stat until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Vitality Draw:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target loses X energy. A friendly model within 8” and LoS of this model gains that much energy."
+  catastrophe: This model suffers 3 Wds.
+Incubus:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target enemy suffers X Wds. A friendly model within 8” and LoS of this model restores that many Wds."
+  catastrophe: This model suffers 3 Wds.

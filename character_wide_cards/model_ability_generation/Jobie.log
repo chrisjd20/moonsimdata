@@ -1,0 +1,32 @@
+Character: Jobie
+Image: /home/admusr/github/moonsimdata/characters/Jobie/stat-Jobie.webp
+
+RAW RESPONSE:
+"A Cunning Plan":
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This model may place one Moonstone it is in possession of, within 2” of itself at depth value of '1'. Then it is immediately slain.
+  arcaneOutcomes: null
+  catastrophe: null
+"That's Mine, This is Mine...":
+  cost: 3
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This model gains possession of one Moonstone it is in base contact with, regardless of its depth value or enemy engagements.
+  arcaneOutcomes: null
+  catastrophe: null
+Second Hand Pistol:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target other model and this character suffer X Impact Dmg."
+  catastrophe: This character is slain, then the target loses possession of one Moonstone they are carrying. Place it in base contact with the target at depth value of '1'.

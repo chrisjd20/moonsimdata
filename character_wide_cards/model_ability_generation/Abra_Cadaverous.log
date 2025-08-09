@@ -1,0 +1,24 @@
+Character: Abra Cadaverous
+Image: /home/admusr/github/moonsimdata/characters/Abra Cadaverous/AbraCadaverous.webp
+
+RAW RESPONSE:
+Spare Parts:
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target restores X Wds."
+  catastrophe: This model suffers 3 Wds.
+Reanimate:
+  cost: 3
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,p2: Place a friendly slain model in base contact with this model. Restore half its health rounding up. It has no energy but may activate this turn."
+  catastrophe: This model suffers 4 Wds.

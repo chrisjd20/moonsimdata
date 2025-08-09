@@ -1,0 +1,14 @@
+Character: Marley
+Image: /home/admusr/github/moonsimdata/characters/Marley/stat-Marley.webp
+
+RAW RESPONSE:
+Horror:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: If at least one friendly model was slain this turn resolve this attack with +2 Arcane Stat.
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Target gains [Horrified: During the Discard Step, this character suffers 2 Wds.], until this character is slain."
+  catastrophe: This model suffers 2 Wds.

@@ -1,0 +1,22 @@
+Character: The Tax Collector
+Image: /home/admusr/github/moonsimdata/characters/The Tax Collector/stat-TaxCollector.webp
+
+RAW RESPONSE:
+Rebate:
+  cost: 3
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target other character restores X+2 Wds or moves X+2” directly towards this character, where X is the number of Moonstones the target is in possession of. (For characters without Moonstones X is 0).
+  arcaneOutcomes: null
+  catastrophe: null
+Income Tax:
+  cost: 0
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target enemy character in possession of at least one Moonstone cannot take the Jog or Step Action or take Reaction Steps until end of turn. The enemy character may immediately spend X energy to cancel this effect, where X is the number of Moonstones they are in possession of. If they do, this character gains that much energy.
+  arcaneOutcomes: null
+  catastrophe: null

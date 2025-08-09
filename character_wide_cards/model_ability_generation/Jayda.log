@@ -1,0 +1,14 @@
+Character: Jayda
+Image: /home/admusr/github/moonsimdata/characters/Jayda/Jayda.webp
+
+RAW RESPONSE:
+Shoot Bow:
+  cost: 3
+  range: 10
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This ability cannot be used while this model is engaged.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+1 Piercing Dmg."
+  catastrophe: This ability cannot be used for the remainder of the game.

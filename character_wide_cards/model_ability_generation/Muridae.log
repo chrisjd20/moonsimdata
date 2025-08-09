@@ -1,0 +1,31 @@
+Character: Muridae
+Image: /home/admusr/github/moonsimdata/characters/Muridae/Muridae.webp
+
+RAW RESPONSE:
+Sneaking:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This character gets -2 Evade Stat until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Squeaking:
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move target enemy 1”. Reaction Steps cannot be declared in response to this action.
+  arcaneOutcomes: null
+  catastrophe: null
+Sewer Rat:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per game ◯.
+  activatedText: You may only play this ability if Muridae is inside a building. This character is Removed From Play. At the start of the next Replenish Step, return this character to play inside any building.
+  arcaneOutcomes: null
+  catastrophe: null

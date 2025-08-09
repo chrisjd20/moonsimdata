@@ -1,0 +1,24 @@
+Character: Foxglove
+Image: /home/admusr/github/moonsimdata/characters/Foxglove/Foxglove.webp
+
+RAW RESPONSE:
+Shelter of the Shadowglade:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to 0], until end of turn."
+  catastrophe: This model suffers 2 Wds.
+Atrophy:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers 2X Magical Dmg."
+  catastrophe: This model suffers 2 Wds.

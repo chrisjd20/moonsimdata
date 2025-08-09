@@ -1,0 +1,23 @@
+Character: Bjørn
+Image: /home/admusr/github/moonsimdata/characters/Bjørn/stat-Bjorn.webp
+
+RAW RESPONSE:
+Bear Charge:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move this model 3” directly towards target enemy model. The target cannot play Signature Moves until end of this character's activation.
+  arcaneOutcomes: null
+  catastrophe: null
+Throwing Axe:
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers 2X Impact Dmg."
+  catastrophe: This character suffers 3 Wds.

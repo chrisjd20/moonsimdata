@@ -1,0 +1,13 @@
+Character: Claudia Duvel
+Image: /home/admusr/github/moonsimdata/characters/Claudia Duvel/stat-ClaudiaDuvel.webp
+
+RAW RESPONSE:
+Robbery:
+  cost: 2
+  range: 1
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target model with less Wds remaining than this character, loses possession of one Moonstone and this character gains possession of that Moonstone.
+  arcaneOutcomes: null
+  catastrophe: null

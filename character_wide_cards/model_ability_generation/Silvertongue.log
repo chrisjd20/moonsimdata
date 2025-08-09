@@ -1,0 +1,23 @@
+Character: Silvertongue
+Image: /home/admusr/github/moonsimdata/characters/Silvertongue/Silvertongue.webp
+
+RAW RESPONSE:
+Mind Control:
+  cost: 3
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target model immediately takes any action available to them that would normally have an energy cost of (1). This action is controlled by you even if the target is an enemy (they count as a friendly model for the duration of the action).
+  arcaneOutcomes: null
+  catastrophe: null
+Whispered Secrets:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target friendly Faerie gains X energy and restores 1 Wd."
+  catastrophe: This character suffers 2 Wds.

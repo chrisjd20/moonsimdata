@@ -1,0 +1,14 @@
+Character: Serif
+Image: /home/admusr/github/moonsimdata/characters/Serif/stat-Serif.webp
+
+RAW RESPONSE:
+Ancient Crossbow:
+  cost: 2
+  range: 12
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This ability cannot be used while this model is engaged.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+1 Piercing Dmg."
+  catastrophe: This model suffers 2 Wds and loses the A Skele-tonne of Bolts ability until end of turn.

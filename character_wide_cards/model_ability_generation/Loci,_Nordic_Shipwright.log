@@ -1,0 +1,14 @@
+Character: Loci, Nordic Shipwright
+Image: /home/admusr/github/moonsimdata/characters/Loci, Nordic Shipwright/Loci.webp
+
+RAW RESPONSE:
+One with the Wind:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Move target model X+1”."
+  catastrophe: This model suffers 2 Wds.

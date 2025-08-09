@@ -1,0 +1,13 @@
+Character: Flintlock
+Image: /home/admusr/github/moonsimdata/characters/Flintlock/Flintlock.webp
+
+RAW RESPONSE:
+"Look out!":
+  cost: 1
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target friendly character's Evade stat is reduced by -1 until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null

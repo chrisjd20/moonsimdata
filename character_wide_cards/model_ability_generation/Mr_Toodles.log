@@ -1,0 +1,35 @@
+Character: Mr Toodles
+Image: /home/admusr/github/moonsimdata/characters/Mr Toodles/MrToodles.webp
+
+RAW RESPONSE:
+Goblin Jazz Funk Solo:
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: All other models within the pulse move 1” directly away.
+  arcaneOutcomes: null
+  catastrophe: null
+Lullaby:
+  cost: 1
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "b2,r2: Target model must discard half its energy rounding up, then it restores 2 Wds."
+  catastrophe: This model suffers 2 Wds.
+Blighted Elixir:
+  cost: 1
+  range: 2
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target is moved X” directly away."
+    - "bX: Target gains X+1 energy."
+    - "rX: Target suffers X Wds."
+  catastrophe: This model suffers 2 Wds.

@@ -1,0 +1,13 @@
+Character: Klaus
+Image: /home/admusr/github/moonsimdata/characters/Klaus/stat-Klaus.webp
+
+RAW RESPONSE:
+Hold my Beer:
+  cost: 4
+  range: 4
+  type: activated
+  isPulse: true
+  textToRightInItalics: null
+  activatedText: All characters within the Pulse suffer 1 Catastrophe printed on their card. The Klaus player chooses the catastrophe if a character has several, the targets if required and the order in which all effects occur.
+  arcaneOutcomes: null
+  catastrophe: null

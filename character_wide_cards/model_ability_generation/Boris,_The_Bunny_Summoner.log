@@ -1,0 +1,24 @@
+Character: Boris, The Bunny Summoner
+Image: /home/admusr/github/moonsimdata/characters/Boris, The Bunny Summoner/Boris.webp
+
+RAW RESPONSE:
+Summon a Murder Bunny:
+  cost: 3
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g2,b2,r2: Place a new friendly Murder Bunny in base contact with this character."
+  catastrophe: This character suffers 3 Wds.
+Summon the Jackalope:
+  cost: 5
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This action can only be taken if there is no friendly Jackalope in play.
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,b3,r3: This character suffers 3 Wds. Place a new Jackalope in base contact. It has no energy but is considered a permanent additional character in your troupe and may activate this turn."
+  catastrophe: This character suffers 3 Wds. Place a new friendly Murder Bunny in base contact.

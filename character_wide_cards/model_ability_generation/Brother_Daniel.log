@@ -1,0 +1,33 @@
+Character: Brother Daniel
+Image: /home/admusr/github/moonsimdata/characters/Brother Daniel/BrotherDaniel.webp
+
+RAW RESPONSE:
+Plant the Placard:
+  cost: 2
+  range: 6
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: Move all other friendly characters within the pulse up to 1”. This character cannot take Jog or Step actions, or make a Reaction Step until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+Bell Ringer:
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: true
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: All friendly characters within the pulse restore X Wds."
+  catastrophe: All characters within the pulse suffer 1 Wd.
+The End is Nigh:
+  cost: 4
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Choose a model within 3” and LoS of this character. Then choose another model within 3X” and LoS of this character. Place the first model within 3” of the second model."
+  catastrophe: This character's controller must choose either to have him suffer 4 Wds, or be Removed from Play.

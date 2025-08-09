@@ -1,0 +1,13 @@
+Character: Urchin
+Image: /home/admusr/github/moonsimdata/characters/Urchin/stat-Urchin.webp
+
+RAW RESPONSE:
+He Hit Me!:
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target character suffers 1 Wd.
+  arcaneOutcomes: null
+  catastrophe: null

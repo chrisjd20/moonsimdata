@@ -1,0 +1,24 @@
+Character: Olim
+Image: /home/admusr/github/moonsimdata/characters/Olim/stat-Olim.webp
+
+RAW RESPONSE:
+Fortunate:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once Per Turn.
+  activatedText: Look at the top 3 cards of the Arcane Deck. Put any number on the top of the deck in any order and put the remainder on the bottom of the deck in any order.
+  arcaneOutcomes: null
+  catastrophe: null
+Buttermilk Elixir:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Target restores X+1 Wds."
+    - "rX: Target Norse or Gnome gains +1 energy."
+  catastrophe: This character suffers 3 Wds.

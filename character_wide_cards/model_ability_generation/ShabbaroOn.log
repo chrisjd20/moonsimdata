@@ -1,0 +1,37 @@
+Character: ShabbaroOn
+Image: /home/admusr/github/moonsimdata/characters/ShabbaroOn/Shabbaroon.webp
+
+RAW RESPONSE:
+Goblin Mischief:
+  cost: 2
+  range: 6
+  type: arcane
+  isPulse: true
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Gain +X energy."
+    - "rX: Gain +1 energy."
+  catastrophe: Suffer 2 Wds.
+
+Goblin Luck:
+  cost: 2
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "g3,b3,r3: Target enemy or Goblin immediately suffers one Catastrophe printed on their card. If it requires a target, you may choose any target that meets the ability's requirements."
+  catastrophe: This character suffers 3 Wds.
+
+Transconbobulate:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "b3,r3: Restore all wounds and energy of target Goblin, then place it within 8” of this model."
+  catastrophe: This character suffers 4 Wds.

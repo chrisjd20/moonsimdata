@@ -1,0 +1,13 @@
+Character: Pookie
+Image: /home/admusr/github/moonsimdata/characters/Pookie/stat-Pookie.webp
+
+RAW RESPONSE:
+"He Called me Names!":
+  cost: 1
+  range: 2
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Target character suffers -1 Arcane Stat or -1 Melee Stat until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null

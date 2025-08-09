@@ -1,0 +1,13 @@
+Character: Wasp
+Image: /home/admusr/github/moonsimdata/characters/Wasp/Wasp.webp
+
+RAW RESPONSE:
+"Rage (3)":
+  cost: 3
+  range: 8
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target Faerie loses Weakling until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null

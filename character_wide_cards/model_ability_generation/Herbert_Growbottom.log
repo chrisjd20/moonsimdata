@@ -1,0 +1,33 @@
+Character: Herbert Growbottom
+Image: /home/admusr/github/moonsimdata/characters/Herbert Growbottom/HerbertGrowbottom.webp
+
+RAW RESPONSE:
+Passage of the Seasons:
+  cost: 2
+  range: 10
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Place this model within target Wooded Patch. This ability may only be used if this model is within a Wooded Patch.
+  arcaneOutcomes: null
+  catastrophe: null
+Verdant Growth:
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Place a 50mm Diameter Wooded Patch within 3X” and LoS on open ground. This remains in place until end of game. A maximum of 3 Wooded Patches may be placed by this troupe, if a fourth is placed you must choose and remove a Wooded Patch you created earlier this game."
+  catastrophe: This model suffers 2 Wds.
+Wither:
+  cost: 3
+  range: 6
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers X+1 Magical Dmg."
+  catastrophe: This model suffers 3 Wds.

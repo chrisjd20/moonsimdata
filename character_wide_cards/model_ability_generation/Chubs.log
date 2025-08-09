@@ -1,0 +1,32 @@
+Character: Chubs
+Image: /home/admusr/github/moonsimdata/characters/Chubs/Chubs.webp
+
+RAW RESPONSE:
+Rouse:
+  cost: 3
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target Faun or Animal restores 1 Wd and gains +2 energy.
+  arcaneOutcomes: null
+  catastrophe: null
+Misdirection:
+  cost: 4
+  range: 6
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Move target enemy model 3”.
+  arcaneOutcomes: null
+  catastrophe: null
+Shoot Shortbow:
+  cost: 3
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: This ability cannot be used while this model is engaged.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X Piercing Dmg."
+  catastrophe: This ability cannot be used for the remainder of the game.

@@ -1,0 +1,14 @@
+Character: Lampy Darkson
+Image: /home/admusr/github/moonsimdata/characters/Lampy Darkson/LampyDarkson.webp
+
+RAW RESPONSE:
+"A Little More Oil...":
+  cost: 1
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Increase the range of Lampy's Light by +X” until end of turn."
+  catastrophe: This character loses the Lampy's Light ability until end of turn.
