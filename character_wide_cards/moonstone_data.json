@@ -185,7 +185,8 @@
         "relationType": 1
       }
     ],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "51ae6140-30b0-4d7a-8726-fa060964f44d",
@@ -246,7 +247,7 @@
         "range": null,
         "modelId": "51ae6140-30b0-4d7a-8726-fa060964f44d",
         "energyCost": null,
-        "description": " If this character deals Piercing Melee\nDmg, increase the Dmg dealt by +1. If this character plays a\nRising Attack increase the Dmg dealt by +1.",
+        "description": " If this character deals Piercing Melee Dmg, increase the Dmg dealt by +1. If this character plays a Rising Attack increase the Dmg dealt by +1.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -303,7 +304,7 @@
         "range": null,
         "modelId": "51ae6140-30b0-4d7a-8726-fa060964f44d",
         "energyCost": null,
-        "description": "If a friendly Soldier or Mercenary makes\na Melee Attack action while within 6” of this model, you\nmay have them gain 1 energy.",
+        "description": "If a friendly Soldier or Mercenary makes a Melee Attack action while within 6” of this model, you may have them gain 1 energy.",
         "oncePerGame": false,
         "oncePerTurn": true,
         "ArcaneOutcome": []
@@ -330,7 +331,8 @@
       "Falling Swing",
       "Rising Attack",
       "Sweeping Cut"
-    ]
+    ],
+    "version": 3
   },
   {
     "id": "6b22977d-b28c-481a-8f3e-8386a8df2e9f",
@@ -403,7 +405,7 @@
         "range": null,
         "modelId": "6b22977d-b28c-481a-8f3e-8386a8df2e9f",
         "energyCost": 1,
-        "description": "Flip an Arcane Card. If the card is Blue X,  restore X+1 Wds.",
+        "description": "Flip an Arcane Card. If the card is Blue, restore X+1 Wds where X is the value of the card.",
         "oncePerGame": false,
         "oncePerTurn": true,
         "ArcaneOutcome": []
@@ -439,7 +441,8 @@
     "ModelRelations": [],
     "yellowCircleMoves": [
       "Thrust"
-    ]
+    ],
+    "version": 1
   },
   {
     "id": "34d5c62b-824d-4c5b-9703-24934e51df9d",
@@ -583,7 +586,8 @@
     "yellowCircleMoves": [
       "Falling Swing",
       "Rising Attack"
-    ]
+    ],
+    "version": 2
   },
   {
     "id": "54564d71-f101-497c-8515-4dfdd0ac52ca",
@@ -710,7 +714,8 @@
         "relationType": 3
       }
     ],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "28562575-5965-4ffc-a249-276b4ce0bddd",
@@ -858,7 +863,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "4d2baf43-b3e1-45eb-8f10-a6f02d898616",
@@ -994,7 +1000,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "b0b157e2-3c8e-488d-8d91-e1fb8093a053",
@@ -1026,7 +1033,7 @@
         "range": null,
         "modelId": "b0b157e2-3c8e-488d-8d91-e1fb8093a053",
         "energyCost": null,
-        "description": "Reduce all non-Magical Dmg suffered\nby -2.",
+        "description": "Reduce all non-Magical Dmg suffered by -2.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -1038,7 +1045,7 @@
         "range": null,
         "modelId": "b0b157e2-3c8e-488d-8d91-e1fb8093a053",
         "energyCost": null,
-        "description": "If this character deals Slicing or Piercing Melee\nDmg, increase the Dmg dealt by +1.",
+        "description": "If this character deals Slicing or Piercing Melee Dmg, increase the Dmg dealt by +1.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -1050,7 +1057,7 @@
         "range": 8,
         "modelId": "b0b157e2-3c8e-488d-8d91-e1fb8093a053",
         "energyCost": 0,
-        "description": "Energy on other friendly Humans within the pulse is\nrestored up to the number of blue dots currently remaining\non their health bar.",
+        "description": "Energy on other friendly Humans within the pulse is restored up to the number of blue dots currently remaining on their health bar.",
         "oncePerGame": true,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -1062,7 +1069,7 @@
         "range": null,
         "modelId": "b0b157e2-3c8e-488d-8d91-e1fb8093a053",
         "energyCost": 2,
-        "description": "The named ability can be used again. This ability cannot be\nused while this model is engaged.",
+        "description": "The named ability can be used again. This ability cannot be used while this model is engaged.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -1109,7 +1116,8 @@
       "Thrust",
       "Falling Swing",
       "Sweeping Cut"
-    ]
+    ],
+    "version": 1
   },
   {
     "id": "082047de-da92-4608-8fae-9edc1d220d61",
@@ -1228,7 +1236,8 @@
       "risingAttackDamage": 3
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "e6581470-9ac9-46ea-8efb-b8d4379eba11",
@@ -1368,7 +1377,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "788fc810-6d12-4523-b33d-1a18d75b77a8",
@@ -1484,7 +1494,8 @@
       "risingAttackDamage": 3
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "347b5285-98a9-44a7-bb2c-d3f262065529",
@@ -1540,7 +1551,7 @@
         "range": null,
         "modelId": "347b5285-98a9-44a7-bb2c-d3f262065529",
         "energyCost": null,
-        "description": "When this character activates, you may flip an Arcane\nCard. This model suffers X Wds where X is the value of the card. Catastrophe: This character restores all Wds and loses Berserk Fury until end of turn.",
+        "description": "When this character activates, you may flip an Arcane Card. This model suffers X Wds where X is the value of the card. Catastrophe: This character restores all Wds and loses Berserk Fury until end of turn.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -1607,7 +1618,8 @@
       "Thrust",
       "Falling Swing",
       "Rising Attack"
-    ]
+    ],
+    "version": 1
   },
   {
     "id": "b876c0b1-5ba2-4c4b-b05b-eb2eec4adef7",
@@ -1731,7 +1743,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "5b21b3fd-8c44-4aaa-83d8-b8337242d015",
@@ -1870,7 +1883,8 @@
         "relationType": 2
       }
     ],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "ebdc6f24-77ac-4544-b3b4-4d57bfca00e7",
@@ -1902,7 +1916,7 @@
         "range": null,
         "modelId": "ebdc6f24-77ac-4544-b3b4-4d57bfca00e7",
         "energyCost": null,
-        "description": "If this character deals Impact Melee\nDmg, increase the Dmg dealt by +2.",
+        "description": "If this character deals Impact Melee Dmg, increase the Dmg dealt by +2.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -1977,7 +1991,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 4
   },
   {
     "id": "4b1a42ff-4aa6-4ebe-8b73-52c6c62d0931",
@@ -2054,9 +2069,9 @@
         "id": "cd98926e-ca8a-49a3-a449-5c1e90900bb1",
         "name": "A Noble Challenge",
         "pulse": false,
-        "range": null,
+        "range": 1,
         "modelId": "4b1a42ff-4aa6-4ebe-8b73-52c6c62d0931",
-        "energyCost": null,
+        "energyCost": 1,
         "description": "This character makes a Melee Attack action with +3 Melee Stat against target enemy character. If the target of this action is a Noble reduce Dmg suffered by this character to ∅ for the duration of the action.",
         "oncePerGame": false,
         "oncePerTurn": true,
@@ -2079,7 +2094,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "b0de7c86-8cc4-4ad5-81a0-8e9eebf3130f",
@@ -2231,7 +2247,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "f99da925-6af3-4c7a-8c52-0d4aab0ed8af",
@@ -2338,7 +2355,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "f32527b5-6d3d-408e-ba00-8d048737ca7a",
@@ -2475,7 +2493,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "9d66943e-609d-42d3-bd3d-ea1a04a5d461",
@@ -2566,7 +2585,8 @@
       "risingAttackDamage": 3
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 3
   },
   {
     "id": "b97c6f86-e76b-4a6c-b5ad-c013e79bfca4",
@@ -2690,7 +2710,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "b4d7d587-2528-4ecb-bc20-506e872a17ef",
@@ -2831,7 +2852,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "5be00293-fec6-451a-899e-7874790f1d92",
@@ -2967,7 +2989,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "617ae5a9-9851-49b1-9eae-f0aaa59bfbab",
@@ -3087,7 +3110,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "8d7f62eb-c809-477a-9351-d47e24e87f99",
@@ -3207,7 +3231,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "fd93b75d-7ad3-4c10-a4e7-922878c66c5a",
@@ -3331,7 +3356,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "cf29e43e-6827-4e61-96af-07f5698b2f6a",
@@ -3467,7 +3493,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "3e744701-d87b-4dd8-9241-70f80c690f3e",
@@ -3591,7 +3618,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "fdf673a6-6a0c-4d0c-99a3-4b28c227a89c",
@@ -3718,7 +3746,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "0f733a5b-05a2-462e-8916-fceedf34e202",
@@ -3856,7 +3885,8 @@
     "ModelRelations": [],
     "yellowCircleMoves": [
       "Thrust"
-    ]
+    ],
+    "version": 1
   },
   {
     "id": "199f4048-bddf-4c0f-988b-2d52e04724c3",
@@ -3946,7 +3976,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "d26da9de-80aa-4944-a4d9-9c58a20a3fab",
@@ -4057,7 +4088,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "ace8c93d-bfcd-4fcf-80e3-ecdab5880eb9",
@@ -4197,7 +4229,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "014b622a-d049-4a14-b4ae-c959848a93e4",
@@ -4316,7 +4349,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "eec4fb7d-3a4b-4ee3-914e-931589531bad",
@@ -4447,7 +4481,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "8cf109c7-e239-419c-ac98-4cf2eec125d0",
@@ -4479,7 +4514,7 @@
         "range": 6,
         "modelId": "8cf109c7-e239-419c-ac98-4cf2eec125d0",
         "energyCost": 2,
-        "description": "This attack is not modified by Evade Stat or Cover and may only\nbe used if this model has the Enchanted Javelin ability.",
+        "description": "This attack is not modified by Evade Stat or Cover and may only be used if this model has the Enchanted Javelin ability.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": [
@@ -4564,7 +4599,8 @@
     "ModelRelations": [],
     "yellowCircleMoves": [
       "Thrust"
-    ]
+    ],
+    "version": 1
   },
   {
     "id": "593322c1-e3b5-4582-b397-dd1cf9e6999b",
@@ -4625,7 +4661,7 @@
         "range": null,
         "modelId": "593322c1-e3b5-4582-b397-dd1cf9e6999b",
         "energyCost": null,
-        "description": "Other friendly Soldiers within 4” get +1 Melee\nstat. Friendly Nobles within 4” get +2 Melee stat.",
+        "description": "Other friendly Soldiers within 4” get +1 Melee stat. Friendly Nobles within 4” get +2 Melee stat.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -4637,7 +4673,7 @@
         "range": 4,
         "modelId": "593322c1-e3b5-4582-b397-dd1cf9e6999b",
         "energyCost": 2,
-        "description": "Target Soldier gains 1 energy or, target Noble gains 2\nenergy.",
+        "description": "Target Soldier gains 1 energy or, target Noble gains 2 energy.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -4649,7 +4685,7 @@
         "range": null,
         "modelId": "593322c1-e3b5-4582-b397-dd1cf9e6999b",
         "energyCost": null,
-        "description": " Reduce Slicing and Piercing Dmg\nsuffered by -1.\n",
+        "description": " Reduce Slicing and Piercing Dmg suffered by -1.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -4671,7 +4707,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "2755e8c0-3a45-46cc-b050-c7f511a03e66",
@@ -4790,7 +4827,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "c7e297e1-8e3e-4f8e-b5f4-b1be146db893",
@@ -4909,7 +4947,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "cca09e19-94cd-4491-bf78-f8e86c008c95",
@@ -5028,7 +5067,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "419761bb-14fc-4e54-a697-c55ac69aaeb0",
@@ -5091,7 +5131,7 @@
           {
             "id": "94e7bac0-68db-43f6-9461-88b74edc34d3",
             "abilityId": "e36b1395-49aa-4f70-a7ca-4fb39479e6da",
-            "outcomeText": "Target gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to W], until end of turn.",
+            "outcomeText": "Target gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn.",
             "catastropheOutcome": false,
             "cardValueRequirement": 3,
             "cardColourRequirement": 4
@@ -5143,16 +5183,17 @@
       "parryType": 63,
       "damageType": 0,
       "upgradeFor": 5,
-      "thrustDamage": null,
+      "thrustDamage": "?",
       "endStepEffect": "When played, choose a Faerie or Rogue within 6\". This becomes a copy of that character's Signature Move. It is still considered a Low Guard when calculating your opponent's Dmg dealt to you. If there is no Faerie or Rogue characters within 6\" then this card deals ∅ Dmg.",
-      "lowGuardDamage": null,
-      "highGuardDamage": null,
-      "sweepingCutDamage": null,
-      "fallingSwingDamage": null,
-      "risingAttackDamage": null
+      "lowGuardDamage": "?",
+      "highGuardDamage": "?",
+      "sweepingCutDamage": "?",
+      "fallingSwingDamage": "?",
+      "risingAttackDamage": "?"
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "ddae4569-c206-464c-a824-9099aed5a9d2",
@@ -5305,7 +5346,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "babe0916-3f66-43f4-9ca7-d796ec524322",
@@ -5424,7 +5466,8 @@
       "risingAttackDamage": 0
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "1bcebd15-79f8-4f86-820a-4f4976f76f74",
@@ -5503,7 +5546,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 3
   },
   {
     "id": "05c9c9b4-debd-444a-83d6-e99c9f1482fc",
@@ -5610,7 +5654,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "c3bbc45f-c5e3-4521-98a3-e8d8788f2746",
@@ -5758,7 +5803,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "ca161ec3-8c53-4143-8d2e-eeba2325a333",
@@ -5771,8 +5817,8 @@
     "statcardpath": null,
     "signaturemovepath": null,
     "signatureMoveId": "c441de9d-4fb0-4250-8e2c-e3cd86c3412e",
-    "melee": 0,
-    "range": 0,
+    "melee": "-",
+    "range": "-",
     "arcane": 3,
     "evade": 1,
     "baseSize": 1,
@@ -5790,7 +5836,7 @@
         "range": null,
         "modelId": "ca161ec3-8c53-4143-8d2e-eeba2325a333",
         "energyCost": null,
-        "description": "This character may move freely over all terrain and other models during Jog and Step actions, provided it does not end the move with the base overlapping another model or\nbarrier terrain. It cannot take the Harvest action or the Melee Attack action, cannot be targeted by Melee Attack actions and does not engage enemy models or become engaged by enemy models. It does not block LoS, provide Cover, or suffer from Falling. When targeted by Arcane actions, this character does not benefit from Cover.",
+        "description": "This character may move freely over all terrain and other models during Jog and Step actions, provided it does not end the move with the base overlapping another model or barrier terrain. It cannot take the Harvest action or the Melee Attack action, cannot be targeted by Melee Attack actions and does not engage enemy models or become engaged by enemy models. It does not block LoS, provide Cover, or suffer from Falling. When targeted by Arcane actions, this character does not benefit from Cover.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -5883,7 +5929,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "5b319a3d-d166-433c-8ed6-67265bb3eb29",
@@ -5896,8 +5943,8 @@
     "statcardpath": "",
     "signaturemovepath": null,
     "signatureMoveId": "3b7ca26a-eb54-4ae6-8523-704a60ffc04d",
-    "melee": 0,
-    "range": 0,
+    "melee": "-",
+    "range": "-",
     "arcane": 3,
     "evade": 2,
     "baseSize": 1,
@@ -5990,7 +6037,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "c731299b-8f95-4c76-8297-c05ec490e723",
@@ -6080,7 +6128,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "46c6c7be-c12b-443c-91b2-691470a09e1e",
@@ -6211,7 +6260,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "bbd9fd06-68f8-4d7e-bc48-cc140406d81b",
@@ -6358,7 +6408,8 @@
         "relationType": 1
       }
     ],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "ad5e2a3d-29f6-4205-b8ff-238508b6b7d8",
@@ -6431,7 +6482,7 @@
         "range": null,
         "modelId": "ad5e2a3d-29f6-4205-b8ff-238508b6b7d8",
         "energyCost": 2,
-        "description": "This model must be in base contact with an item of Obstacle terrain to use this ability. Lose possession of any Moonstones this character is in possession of (place them\nin base contact with a depth value of 1), then place this model in base contact with any item of Obstacle terrain on the board.",
+        "description": "This model must be in base contact with an item of Obstacle terrain to use this ability. Lose possession of any Moonstones this character is in possession of (place them in base contact with a depth value of 1), then place this model in base contact with any item of Obstacle terrain on the board.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -6453,7 +6504,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "f4e9b54b-bec0-45a0-abc1-99d43007540e",
@@ -6586,7 +6638,8 @@
     "ModelRelations": [],
     "yellowCircleMoves": [
       "Rising Attack"
-    ]
+    ],
+    "version": 1
   },
   {
     "id": "da45d6e6-f44c-4408-9497-8a8f8f3b7c17",
@@ -6710,7 +6763,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "9422ce13-7817-483d-b634-e8e1dcd0f910",
@@ -6846,7 +6900,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "0fe0c1df-68f4-44fb-b5d0-2d38c8fb796c",
@@ -6953,7 +7008,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "43aaf65c-8abc-43dc-8e0e-fed2ba15a917",
@@ -7118,7 +7174,8 @@
         "relationType": 1
       }
     ],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "cc6db759-9762-4058-8970-d13e91f7aeb3",
@@ -7220,7 +7277,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "68d2fdd3-a2b7-44fa-8bc4-842a5a9141ba",
@@ -7323,7 +7381,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "d7cb3777-70c7-4a71-a05e-f5890fa7c9dd",
@@ -7430,7 +7489,8 @@
       "risingAttackDamage": 3
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "efa4e895-a827-4c8c-b047-dad641cba2b3",
@@ -7486,7 +7546,7 @@
         "range": 2,
         "modelId": "efa4e895-a827-4c8c-b047-dad641cba2b3",
         "energyCost": 1,
-        "description": "This ability may only be used if this model is within a Water\nFeature.\nTarget character suffers 2 Magical Dmg.",
+        "description": "This ability may only be used if this model is within a Water Feature. Target character suffers 2 Magical Dmg.",
         "oncePerGame": false,
         "oncePerTurn": true,
         "ArcaneOutcome": [],
@@ -7533,7 +7593,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "f962bc25-6509-4305-b071-d26ba42d7170",
@@ -7565,7 +7626,7 @@
         "range": null,
         "modelId": "f962bc25-6509-4305-b071-d26ba42d7170",
         "energyCost": null,
-        "description": "When an enemy targets this character with an Arcane Ability you may reveal a PX from your resist hand before any cards are played. After resolving the current action, this model may move X\" where X is the value of the revealed card.",
+        "description": "When an enemy targets this character with an Arcane Ability you may reveal any Red card from your resist hand before any cards are played. After resolving the current action, this model may move X\" where X is the value of the revealed card.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -7618,7 +7679,7 @@
         "range": null,
         "modelId": "f962bc25-6509-4305-b071-d26ba42d7170",
         "energyCost": null,
-        "description": " When this model is deployed or enters play, you may place a new friendly Food Psychopomp in base contact. If deployed, this must be in the deployment zone as normal. This cannot bring a character into play if it is already in play.",
+        "description": "When this model is deployed or enters play, you may place a new friendly Food Psychopomp in base contact. (If deployed, this must be in the deployment zone as normal. This cannot bring a character into play if it is already in play.)",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -7650,7 +7711,8 @@
     ],
     "yellowCircleMoves": [
       "Rising Attack"
-    ]
+    ],
+    "version": 1
   },
   {
     "id": "0b7ace83-616b-42f9-ab8e-48ed1a5a32fc",
@@ -7750,7 +7812,7 @@
           {
             "id": "7f01eed2-ee96-4df0-9098-79d441314bef",
             "abilityId": "c1f575e5-8248-42a3-9015-000eec91760e",
-            "outcomeText": "Target gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to W], until end of turn.",
+            "outcomeText": "Target gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn.",
             "catastropheOutcome": true,
             "cardValueRequirement": 0,
             "cardColourRequirement": 0
@@ -7774,7 +7836,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 3
   },
   {
     "id": "ced3a312-6a90-448c-abb9-8f505ad2a06f",
@@ -7881,7 +7944,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "5656cad3-11d7-444b-8ae5-17d7cefc9491",
@@ -7968,7 +8032,7 @@
           {
             "id": "3868f184-77ba-4f92-82fb-1d49b1e2c08f",
             "abilityId": "ca364d61-7ac8-419a-b32b-bf7856094521",
-            "outcomeText": " Target restores X+1 Wds and gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to W], until end of turn.",
+            "outcomeText": " Target restores X+1 Wds and gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn.",
             "catastropheOutcome": false,
             "cardValueRequirement": 3,
             "cardColourRequirement": 4
@@ -8000,7 +8064,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 3
   },
   {
     "id": "9da91dfd-68e5-4f5c-98d9-bc763744490b",
@@ -8095,7 +8160,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "cf031c28-c4f4-4895-b1a6-c809c984c8bb",
@@ -8202,7 +8268,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 3
   },
   {
     "id": "75816018-2182-464d-bc68-fd9e5909da4b",
@@ -8258,7 +8325,7 @@
         "range": null,
         "modelId": "75816018-2182-464d-bc68-fd9e5909da4b",
         "energyCost": null,
-        "description": " If the friendly named character is within 6\" during the Replenish Step, this character gains [Protection: The first time this character would suffer Dmg each turn, reduce that Dmg to W], until end of turn.",
+        "description": " If the friendly named character is within 6\" during the Replenish Step, this character gains [Protection: The first time this character would suffer Dmg each turn, reduce that Dmg to ∅], until end of turn.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -8307,7 +8374,8 @@
     "ModelRelations": [],
     "yellowCircleMoves": [
       "Rising Attack"
-    ]
+    ],
+    "version": 2
   },
   {
     "id": "6c4819b1-9aa8-4689-bb29-9efdecc5d346",
@@ -8459,7 +8527,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "7014eb34-3d8d-490b-b789-704e4490401e",
@@ -8578,12 +8647,14 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "80a11d7f-ee4d-4373-ac2c-44344ce5f78d",
     "name": "Liv",
     "faction": "Commonwealth",
+    "overlayImage": "liv_overlay.png",
     "maxhp": 8,
     "energyblips": "1,2,3",
     "keywords": "Gnome,Norse,Cleric",
@@ -8659,7 +8730,7 @@
         "range": null,
         "modelId": "80a11d7f-ee4d-4373-ac2c-44344ce5f78d",
         "energyCost": null,
-        "description": " When this character activates, you may guess a card (colour and number, or Catastrophe) then flip an Arcane Card. If you guessed correctly, apply the following effect:",
+        "description": "When this character activates, you may guess a card (colour and number, or Catastrophe) then flip an Arcane Card. If you guessed correctly, apply the following effect:\n  \n  \n  \n  \n  \n  \n  .",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": [
@@ -8674,7 +8745,7 @@
           {
             "id": "5133f4b1-2b28-4f52-bab2-c226c5af23c0",
             "abilityId": "45d78cda-a8c0-4277-b82a-544f2010ebef",
-            "outcomeText": "Choose a friendly Norse model within 8\" to gain [Protection: The first time this character would suffer Dmg, reduce that Dmg to W], until end of turn.",
+            "outcomeText": "Choose a friendly Norse model within 8\" to gain [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn.",
             "catastropheOutcome": false,
             "cardValueRequirement": 48,
             "cardColourRequirement": 1
@@ -8714,7 +8785,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "355571fa-9c46-4779-afaa-0b6e52624aae",
@@ -8758,7 +8830,7 @@
         "range": null,
         "modelId": "355571fa-9c46-4779-afaa-0b6e52624aae",
         "energyCost": null,
-        "description": "When this character suffers Dmg you\nmay flip the top card of the Arcane Deck and reduce the Dmg suffered by -X where X is the value on the flipped card. Catastrophe reduces the Dmg suffered by 0",
+        "description": "When this character suffers Dmg you may flip the top card of the Arcane Deck and reduce the Dmg suffered by -X where X is the value on the flipped card. Catastrophe reduces the Dmg suffered by 0",
         "oncePerGame": false,
         "oncePerTurn": true,
         "ArcaneOutcome": []
@@ -8850,7 +8922,8 @@
       "risingAttackDamage": 3
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 3
   },
   {
     "id": "99f443ef-dc99-43e4-b060-1ce0e849c9a0",
@@ -8969,7 +9042,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "1f3c8b13-3b58-49ae-aa05-4c6f66ed06ef",
@@ -9100,7 +9174,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "c1cf0b03-9fb3-4c3c-8cd4-2c6ab03fa190",
@@ -9236,7 +9311,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "3c8cfe38-b441-43d6-98df-5b75439bcffe",
@@ -9268,7 +9344,7 @@
         "range": null,
         "modelId": "3c8cfe38-b441-43d6-98df-5b75439bcffe",
         "energyCost": null,
-        "description": "When an enemy targets this character with an Arcane Ability you may reveal a G2 or P2 from your resist hand before any cards are played. If you do, this character reduces all Dmg suffered to ∅ whilst resolving the current action",
+        "description": "When an enemy targets this character with an Arcane Ability you may reveal a Green 2 or Red 2 from your resist hand before any cards are played. If you do, this character reduces all Dmg suffered to ∅ whilst resolving the current action",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -9372,7 +9448,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "1f89796e-3057-4ac6-884e-ffdaae869948",
@@ -9491,7 +9568,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "d23eb6e6-df16-4045-b28a-e789cff5dd24",
@@ -9660,7 +9738,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "a31f9301-6064-4047-91e2-b3140b6bf486",
@@ -9684,7 +9763,68 @@
     "signatureFileName": "NoSignature.webp",
     "playtestModel": false,
     "compendiumNumber": 96,
-    "Ability": [],
+    "Ability": [
+      {
+        "id": "e0e2d56a-5b1a-4c26-8b0d-6f3f5eea0001",
+        "name": "Thrall [Boris, the Bunny Summoner]",
+        "pulse": false,
+        "range": null,
+        "modelId": "a31f9301-6064-4047-91e2-b3140b6bf486",
+        "energyCost": null,
+        "description": " This character can only enter play when summoned by the named friendly character. It does not activate and can never gain energy. Instead, while the named friendly character is active, this character can take actions, including Jog, by discarding the required energy on the named friendly character. Reaction Steps and Go For It's can be taken in the same way.",
+        "oncePerGame": false,
+        "oncePerTurn": false,
+        "ArcaneOutcome": []
+      },
+      {
+        "id": "e0e2d56a-5b1a-4c26-8b0d-6f3f5eea0002",
+        "name": "Back in the Burrow",
+        "pulse": false,
+        "range": null,
+        "modelId": "a31f9301-6064-4047-91e2-b3140b6bf486",
+        "energyCost": null,
+        "description": " You can have up to 3 friendly Murder Bunny in play at a time; if a fourth is summoned you must choose one friendly Murder Bunny to be Removed from Play. If Boris the Bunny Summoner is Slain or Removed from Play then this character is immediately considered to be Slain.",
+        "oncePerGame": false,
+        "oncePerTurn": false,
+        "ArcaneOutcome": []
+      },
+      {
+        "id": "e0e2d56a-5b1a-4c26-8b0d-6f3f5eea0003",
+        "name": "Weakling",
+        "pulse": false,
+        "range": null,
+        "modelId": "a31f9301-6064-4047-91e2-b3140b6bf486",
+        "energyCost": null,
+        "description": " Reduce all Melee Dmg this character deals by -1. Harvest actions cost this model +1 energy.",
+        "oncePerGame": false,
+        "oncePerTurn": false,
+        "ArcaneOutcome": []
+      },
+      {
+        "id": "e0e2d56a-5b1a-4c26-8b0d-6f3f5eea0004",
+        "name": "Razor Incisors",
+        "pulse": false,
+        "range": null,
+        "modelId": "a31f9301-6064-4047-91e2-b3140b6bf486",
+        "energyCost": null,
+        "description": " If this character plays a Rising Attack, increase the Dmg dealt by +2.",
+        "oncePerGame": false,
+        "oncePerTurn": false,
+        "ArcaneOutcome": []
+      },
+      {
+        "id": "e0e2d56a-5b1a-4c26-8b0d-6f3f5eea0005",
+        "name": "Hippity",
+        "pulse": false,
+        "range": null,
+        "modelId": "a31f9301-6064-4047-91e2-b3140b6bf486",
+        "energyCost": null,
+        "description": " You may move freely over intervening obstacles and models during a Jog action provided bases do not overlap at the end of the move.",
+        "oncePerGame": false,
+        "oncePerTurn": false,
+        "ArcaneOutcome": []
+      }
+    ],
     "SignatureMove": {
       "id": "3b7ca26a-eb54-4ae6-8523-704a60ffc04d",
       "name": "None",
@@ -9701,7 +9841,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "c4a8bd01-08d2-4af9-bbe5-5980bcf86529",
@@ -9828,7 +9969,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 3
   },
   {
     "id": "531297f8-fe91-49a2-a3ee-820aeecac6b2",
@@ -10015,7 +10157,8 @@
         "relationType": 1
       }
     ],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "14aa356c-908a-4e97-a3d8-c59823a3ac74",
@@ -10031,7 +10174,7 @@
     "melee": 3,
     "range": 1,
     "arcane": 4,
-    "evade": 0,
+    "evade": "-[#]",
     "baseSize": 0,
     "headFileName": "Head-Natty-The-Slum-Thief.webp",
     "fullArtFileName": null,
@@ -10146,7 +10289,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "33ef3787-5f30-4b93-8c7c-165f08468edb",
@@ -10268,7 +10412,8 @@
         "relationType": 1
       }
     ],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "04db53c8-46bf-4d7c-9fbe-efe98959bfbe",
@@ -10399,7 +10544,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "2c836ba3-fdc6-4b98-b67a-5e3fd123c997",
@@ -10514,7 +10660,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "52b69c3b-94b6-4a16-877a-991aaa8ddbaa",
@@ -10558,7 +10705,7 @@
         "range": null,
         "modelId": "52b69c3b-94b6-4a16-877a-991aaa8ddbaa",
         "energyCost": null,
-        "description": "If this character deals Slicing Melee Dmg, increase the\nDmg dealt by +1.",
+        "description": "If this character deals Slicing Melee Dmg, increase the Dmg dealt by +1.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -10594,7 +10741,7 @@
         "range": null,
         "modelId": "52b69c3b-94b6-4a16-877a-991aaa8ddbaa",
         "energyCost": 2,
-        "description": "The named ability can be used again. This ability cannot be used\nwhile this model is engaged.",
+        "description": "The named ability can be used again. This ability cannot be used while this model is engaged.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -10645,7 +10792,8 @@
       "risingAttackDamage": 3
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "95a32762-74ce-498d-af9e-35adedef2578",
@@ -10747,7 +10895,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "cde09c48-c3c0-4f01-af85-cbdd56707b63",
@@ -10862,7 +11011,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "cdb923ab-68a2-45f7-b968-fea1bedddd81",
@@ -10986,7 +11136,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "2408ff3e-c926-4b2f-b025-0ed59b3a0458",
@@ -11122,7 +11273,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "887c1786-5a90-4ccb-a330-dd270cfdb5a8",
@@ -11242,7 +11394,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "24192bfb-2cab-42d0-bb27-302c19f7fb7b",
@@ -11370,7 +11523,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "e18c4371-180d-4027-9beb-ea06aca9076c",
@@ -11477,7 +11631,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "ae79052b-8c2a-42fb-a586-2fb55da98aa2",
@@ -11578,7 +11733,8 @@
         "relationType": 1
       }
     ],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "6436abc0-85f9-4cf0-a576-711bf51e53f1",
@@ -11685,7 +11841,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "a2a17fec-e781-43c9-90ea-f342da0ae52c",
@@ -11809,7 +11966,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 4
   },
   {
     "id": "f779e449-852b-4f41-9958-ff5110959d9d",
@@ -11841,7 +11999,7 @@
         "range": null,
         "modelId": "f779e449-852b-4f41-9958-ff5110959d9d",
         "energyCost": null,
-        "description": "When this model is deployed or enters play, you may place a new friendly Aquatic Psychopomp in base contact. If deployed, this must be in the deployment zone as normal. This cannot bring a character into play if it is already in play.",
+        "description": "When this model is deployed or enters play, you may place a new friendly Aquatic Psychopomp in base contact. (If deployed, this must be in the deployment zone as normal. This cannot bring a character into play if it is already in play.)",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -11953,7 +12111,8 @@
         "relationType": 1
       }
     ],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "0a017529-c64e-4082-ae0f-a06405ba41cf",
@@ -12060,11 +12219,13 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "23db2f8f-7c67-474e-8cb1-52b7be9c5404",
     "name": "ShabbaroOn",
+    "overlayImage": "ShabbaroOn_overlay.png",
     "faction": "Dominion",
     "maxhp": 6,
     "energyblips": "1,2,3,6",
@@ -12150,35 +12311,10 @@
         "range": 6,
         "modelId": "23db2f8f-7c67-474e-8cb1-52b7be9c5404",
         "energyCost": 2,
-        "description": "Deal an Arcane Card to each Goblin within the Pulse. They receive the following effects, then shuffle the cards back into the Arcane Deck.",
+        "description": "Deal an Arcane Card to each Goblin within the Pulse.\n  \n  \n  \n  \n  \n  \n  .",
         "oncePerGame": false,
         "oncePerTurn": true,
-        "ArcaneOutcome": [
-          {
-            "id": "03a12527-33c3-4690-8f5a-70519829db2c",
-            "abilityId": "e5aa1775-d54e-483a-a396-f3fe93f09435",
-            "outcomeText": "Suffer 2 Wds.",
-            "catastropheOutcome": true,
-            "cardValueRequirement": 0,
-            "cardColourRequirement": 0
-          },
-          {
-            "id": "47aa11ce-bb65-4352-b53b-2bfb126b2fc3",
-            "abilityId": "e5aa1775-d54e-483a-a396-f3fe93f09435",
-            "outcomeText": " Gain +X energy.",
-            "catastropheOutcome": false,
-            "cardValueRequirement": 48,
-            "cardColourRequirement": 1
-          },
-          {
-            "id": "6abc21a4-2ab1-4e22-ade2-ad7fabc1df07",
-            "abilityId": "e5aa1775-d54e-483a-a396-f3fe93f09435",
-            "outcomeText": "Gain +1 energy.",
-            "catastropheOutcome": false,
-            "cardValueRequirement": 3,
-            "cardColourRequirement": 4
-          }
-        ]
+        "ArcaneOutcome": []
       },
       {
         "id": "252f3d96-3120-488c-98a7-ba28ab374be4",
@@ -12209,7 +12345,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 3
   },
   {
     "id": "bf402f11-d1d1-4459-90e4-8b63bae331cb",
@@ -12328,7 +12465,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "55251217-9566-4372-9052-aecc26c97ec4",
@@ -12355,7 +12493,7 @@
     "Ability": [
       {
         "id": "bc3c3371-7de5-4b3d-ad53-c2a23fdde2bb",
-        "name": "arhammer",
+        "name": "Warhammer",
         "pulse": false,
         "range": null,
         "modelId": "55251217-9566-4372-9052-aecc26c97ec4",
@@ -12430,7 +12568,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "8b1de391-4e10-407b-b0fb-c4f29914ae42",
@@ -12446,7 +12585,7 @@
     "melee": 4,
     "range": 2,
     "arcane": 0,
-    "evade": 0,
+    "evade": 1,
     "baseSize": 1,
     "headFileName": "Head-Sir-Hogswash.webp",
     "fullArtFileName": null,
@@ -12462,7 +12601,7 @@
         "range": null,
         "modelId": "8b1de391-4e10-407b-b0fb-c4f29914ae42",
         "energyCost": null,
-        "description": "If this character deals Piercing or Slicing\nMelee Dmg, increase the Dmg dealt by +1. If this character deals Melee Dmg against an Animal, increase the Dmg by +1.",
+        "description": "If this character deals Piercing or Slicing Melee Dmg, increase the Dmg dealt by +1. If this character deals Melee Dmg against an Animal, increase the Dmg by +1.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -12521,7 +12660,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "843f65fc-1dec-490d-8dd7-2087927f6ef1",
@@ -12565,7 +12705,7 @@
         "range": null,
         "modelId": "843f65fc-1dec-490d-8dd7-2087927f6ef1",
         "energyCost": null,
-        "description": "When an enemy targets this character with an arcane action you may reveal a Green:X from your resist hand before any cards are played. After resolving the current action, the enemy model suffers X-1 Wds where X is the value of the revealed card.",
+        "description": "When an enemy targets this character with an arcane action you may reveal any Green card from your resist hand before any cards are played. After resolving the current action, the enemy model suffers X-1 Wds where X is the value of the revealed card.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -12589,7 +12729,7 @@
         "range": null,
         "modelId": "843f65fc-1dec-490d-8dd7-2087927f6ef1",
         "energyCost": null,
-        "description": "If a friendly character is slain or reduced to - Wds, the fist time this model uses an Arcane Ability this turn it doesn't need to spend any energy.",
+        "description": "If a friendly character is slain or reduced to 0 Wds, the fist time this model uses an Arcane Ability this turn it doesn't need to spend any energy.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -12640,7 +12780,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "0966e873-193e-4426-b4a7-2fb37914f69b",
@@ -12743,7 +12884,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "84aba88d-a34e-4f98-8b27-1a158c8f1f57",
@@ -12842,7 +12984,8 @@
         "relationType": 3
       }
     ],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "05a42b1f-a962-47ad-be9b-b564b4239b0d",
@@ -12965,7 +13108,8 @@
       "Thrust",
       "Falling Swing",
       "Sweeping Cut"
-    ]
+    ],
+    "version": 1
   },
   {
     "id": "d152ceab-9d01-49a7-8173-e7da7bd0d1b2",
@@ -13089,7 +13233,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "b8531ea5-65b3-456c-a661-018b2a10f663",
@@ -13157,7 +13302,7 @@
           {
             "id": "b2348c4b-b691-4048-873a-f0cb8a997d6f",
             "abilityId": "9dea9c78-2ca8-4f4d-b0dd-f81460d2c829",
-            "outcomeText": "Target model suffers X-1 Wds, then it gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to W], until end of turn.",
+            "outcomeText": "Target model suffers X-1 Wds, then it gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn.",
             "catastropheOutcome": false,
             "cardValueRequirement": 12,
             "cardColourRequirement": 2
@@ -13222,7 +13367,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "2e0d027d-2222-4de3-a6ea-c35210114936",
@@ -13326,7 +13472,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "3c1913ca-377d-4df9-970d-da4c7d8d7a5c",
@@ -13430,7 +13577,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "01652708-0ada-4456-a03f-6a478da7363f",
@@ -13553,7 +13701,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "89fc4ec0-c810-4b53-a8d7-f3275ddbfb70",
@@ -13644,7 +13793,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "b711afd2-11ef-4214-a2f8-38dbf8ebf054",
@@ -13700,7 +13850,7 @@
         "range": null,
         "modelId": "b711afd2-11ef-4214-a2f8-38dbf8ebf054",
         "energyCost": null,
-        "description": "When an enemy targets this character with an action, the active enemy model must suffer 1 Wd or the action is cancelled. If the active enemy model is slain by this, the\naction is also cancelled.",
+        "description": "When an enemy targets this character with an action, the active enemy model must suffer 1 Wd or the action is cancelled. If the active enemy model is slain by this, the action is also cancelled.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -13763,7 +13913,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "c48c2fc8-24a2-4c14-ba5a-ec4c259fa966",
@@ -13894,7 +14045,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 3
   },
   {
     "id": "b5b516cb-5236-4cc7-8bce-d18185d6c1d7",
@@ -13998,7 +14150,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "0ee8d3d5-da8f-4fd1-b93b-e2a5709c2d40",
@@ -14151,7 +14304,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "057c12d9-97a7-4a2b-b61c-26857f683787",
@@ -14258,7 +14412,8 @@
       "risingAttackDamage": 3
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "00aa30fa-3119-4499-9aef-4ec6d8b1514c",
@@ -14360,7 +14515,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "3a984368-f9eb-4d93-ac1a-78e905b3c631",
@@ -14462,7 +14618,8 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "4ce2180b-94e6-4da2-a599-efed26981c10",
@@ -14569,7 +14726,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "a5934f3e-1bb2-4e55-89e4-5edb05ee1ff2",
@@ -14613,7 +14771,7 @@
         "range": null,
         "modelId": "a5934f3e-1bb2-4e55-89e4-5edb05ee1ff2",
         "energyCost": null,
-        "description": "Each time this model causes one or more Wds to an enemy, it gains 1 energy. Max. 3 times per turn.",
+        "description": "Each time this model causes one or more Wds to an enemy, it gains 1 energy. (Max - 3 times per turn.)",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -14700,14 +14858,15 @@
       "risingAttackDamage": 0
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "8bd17362-47c0-4b68-aea1-8c1fd3fdd1d5",
     "name": "Viktor Petty, Graverobber",
     "faction": "Shade,Dominion",
     "maxhp": 8,
-    "energyblips": "1,4,6",
+    "energyblips": "1,4,7",
     "keywords": "Human,Rogue",
     "charheadpath": null,
     "statcardpath": null,
@@ -14819,14 +14978,15 @@
       "risingAttackDamage": null
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "0a67af79-f120-4dc7-aaba-0a220f12bf4b",
     "name": "Viscount de Faulte",
     "faction": "Shade,Dominion",
     "maxhp": 11,
-    "energyblips": "1,4,6",
+    "energyblips": "1,4,7",
     "keywords": "Risen,Animal,Noble",
     "charheadpath": null,
     "statcardpath": null,
@@ -14923,7 +15083,8 @@
       "risingAttackDamage": 3
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "85698bfc-2a32-4761-b4d7-75b0b497b3a7",
@@ -15054,7 +15215,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "43311cb3-9637-4e02-a936-739078d4b077",
@@ -15144,7 +15306,8 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 1
   },
   {
     "id": "83f7ea11-36a9-45cd-b95d-a3d65bdbc015",
@@ -15259,7 +15422,8 @@
       "risingAttackDamage": 2
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   },
   {
     "id": "bf242853-7c92-4cbf-9ec5-aa8a185514d9",
@@ -15378,6 +15542,7 @@
       "risingAttackDamage": 1
     },
     "ModelRelations": [],
-    "yellowCircleMoves": []
+    "yellowCircleMoves": [],
+    "version": 2
   }
 ]

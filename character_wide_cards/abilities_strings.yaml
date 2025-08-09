@@ -4,7 +4,7 @@ Rally Cry:
   range: 8
   type: activated
   isPulse: true
-  textToRightInItalics: Once per game ◯.
+  textToRightInItalics: Once per game.
   activatedText: Energy on other friendly Humans within the pulse is restored up to the number of blue dots currently remaining on their health bar.
   arcaneOutcomes: null
 Shoot Pistol:
@@ -12,7 +12,7 @@ Shoot Pistol:
   range: 8
   type: arcane
   isPulse: false
-  textToRightInItalics: Once per game, unless reloaded ◯.
+  textToRightInItalics: Once per game, unless reloaded.
   activatedText: null
   arcaneOutcomes:
     - "gX: Target suffers X+1 Impact Dmg." # green x
@@ -23,7 +23,7 @@ Reload [Shoot Pistol]:
   type: activated
   isPulse: false
   textToRightInItalics: null
-  activatedText: The named ability can be used again. This ability cannot be used while this model is engaged.
+  activatedText: The named ability can be used again. (This ability cannot be used while this model is engaged.)
   arcaneOutcomes: null
 My Hero:
   cost: 2
@@ -50,7 +50,7 @@ Reload [Shoot Musket]:
   type: activated
   isPulse: false
   textToRightInItalics: null
-  activatedText: The named ability can be used again. This ability cannot be used while this model is engaged.
+  activatedText: The named ability can be used again. (This ability cannot be used while this model is engaged.)
   arcaneOutcomes: null
 
 Take Aim:
@@ -76,7 +76,7 @@ Shoot Musket:
   range: 12
   type: arcane
   isPulse: false
-  textToRightInItalics: Once per game, unless reloaded ◯.
+  textToRightInItalics: Once per game, unless reloaded.
   activatedText: null
   arcaneOutcomes:
     - "gX: Target suffers X+2 Impact Dmg." # green x
@@ -169,7 +169,7 @@ Drink Your Fill:
   range: 3
   type: activated
   isPulse: true
-  textToRightInItalics: Once per game ◯.
+  textToRightInItalics: Once per game.
   activatedText: Other friendly Gnomes within the pulse gain 1 energy. Enemy models within the pulse suffer 2 Wds.
   arcaneOutcomes: null
 
@@ -179,7 +179,7 @@ Reload [Shoot Crossbow]:
   type: activated
   isPulse: false
   textToRightInItalics: null
-  activatedText: The named ability can be used again. This ability cannot be used while this model is engaged.
+  activatedText: The named ability can be used again. (This ability cannot be used while this model is engaged.)
   arcaneOutcomes: null
 
 Brothers in Arms:
@@ -196,7 +196,7 @@ Shoot Crossbow:
   range: 14
   type: arcane
   isPulse: false
-  textToRightInItalics: Once per game, unless reloaded ◯.
+  textToRightInItalics: Once per game, unless reloaded.
   activatedText: null
   arcaneOutcomes:
     - "gX: Target suffers 2X Piercing Dmg then is moved 1” directly away." # green x
@@ -263,7 +263,7 @@ Sink Hole:
   textToRightInItalics: null
   activatedText: null
   arcaneOutcomes:
-    - "bX: Target suffers X Wds and gains [Slow: This model's Jog actions are limited to 2\"], until end of turn."
+    - "rX: Target suffers X Wds and gains [Slow: This model's Jog actions are limited to 2\"], until end of turn."
   catastrophe: This character suffers 2 Wds.
 
 Forgetfulness:
@@ -303,7 +303,8 @@ Fireblast:
   range: 8
   type: arcane
   isPulse: false
-  textToRightInItalics: This ability cannot be used while this model is engaged.
+  textToRightInItalics: null
+  arcaneSubText: This ability cannot be used while this model is engaged.
   activatedText: null
   arcaneOutcomes:
     - "bX: Target character suffers 2X Magical Dmg."
@@ -409,7 +410,7 @@ Ghastly Scream:
   textToRightInItalics: null
   activatedText: null
   arcaneOutcomes:
-    - "gX: Move target enemy X” directly away. If the enemy is in possession of at least one Moonstone it loses possession of one Moonstone it is carrying before moving. Place it in base contact with the enemy at depth '1'."
+    - "rX: Move target enemy X” directly away. If the enemy is in possession of at least one Moonstone it loses possession of one Moonstone it is carrying before moving. Place it in base contact with the enemy at depth '1'."
   catastrophe: This character suffers 2 Wds.
 Ear Splitting Screech:
   cost: 3
@@ -419,7 +420,7 @@ Ear Splitting Screech:
   textToRightInItalics: null
   activatedText: null
   arcaneOutcomes:
-    - "bX: Target suffers X-1 Wds and gains [Bleed: During the Discard Step, this character suffers 1 Wd then loses this ability.]."
+    - "rX: Target suffers X-1 Wds and gains [Bleed: During the Discard Step, this character suffers 1 Wd then loses this ability.]."
   catastrophe: This character suffers 2 Wds.
 
 "Dead Troll's Finger":
@@ -491,7 +492,7 @@ Reload [Blunderbuss]:
   type: activated
   isPulse: false
   textToRightInItalics: null
-  activatedText: The named ability can be used again. This ability cannot be used while this model is engaged.
+  activatedText: The named ability can be used again. (This ability cannot be used while this model is engaged.)
   arcaneOutcomes: null
   catastrophe: null
 Suckerpunch:
@@ -508,7 +509,7 @@ Blunderbuss:
   range: 4
   type: arcane
   isPulse: false
-  textToRightInItalics: Once per game, unless reloaded ◯.
+  textToRightInItalics: Once per game, unless reloaded.
   activatedText: null
   arcaneOutcomes:
     - "gX,bX: Target suffers X Impact Dmg."
@@ -529,7 +530,7 @@ Rallying Cry:
   range: 8
   type: activated
   isPulse: true
-  textToRightInItalics: Once per game ◯.
+  textToRightInItalics: Once per game.
   activatedText: Energy on other friendly Humans within the pulse is restored up to the number of blue dots currently remaining on their health bar.
   arcaneOutcomes: null
   catastrophe: null
@@ -539,7 +540,8 @@ Stone Song:
   range: 6
   type: arcane
   isPulse: false
-  textToRightInItalics: This ability is not modified by Cover.
+  textToRightInItalics: null
+  arcaneSubText: This ability is not modified by Cover.
   activatedText: null
   arcaneOutcomes:
     - "bX: Decrease target Moonstone's depth value by X, to a minimum of 1."
@@ -551,7 +553,7 @@ Reload [Faerie Fire Pistol]:
   type: activated
   isPulse: false
   textToRightInItalics: null
-  activatedText: The named ability can be used again. This ability cannot be used while this model is engaged.
+  activatedText: The named ability can be used again. (This ability cannot be used while this model is engaged.)
   arcaneOutcomes: null
   catastrophe: null
 Faerie Fire Pistol:
@@ -559,7 +561,7 @@ Faerie Fire Pistol:
   range: 8
   type: arcane
   isPulse: false
-  textToRightInItalics: Once per game, unless reloaded ◯.
+  textToRightInItalics: Once per game, unless reloaded.
   activatedText: null
   arcaneOutcomes:
     - "rX: Target suffers X Magical Dmg."
@@ -644,7 +646,7 @@ Fizzle-Pop:
   textToRightInItalics: null
   activatedText: null
   arcaneOutcomes:
-    - "gX: Target suffers X Magical Dmg then is moved 1” directly away."
+    - "rX: Target suffers X Magical Dmg then is moved 1” directly away."
   catastrophe: This model suffers 2 Wds.
 Butterfingers:
   cost: 2
@@ -684,7 +686,8 @@ Gone Fishin':
   type: arcane
   isPulse: false
   textToRightInItalics: null
-  activatedText: Resolve this action with +2 Arcane Stat if there is a Water Feature within 4” of this model.
+  activatedText: null
+  arcaneSubText: Resolve this action with +2 Arcane Stat if there is a Water Feature within 4” of this model.
   arcaneOutcomes:
     - "bX: Target restores X Wds."
   catastrophe: This model suffers 3 Wds.
@@ -712,7 +715,8 @@ Shoot Shortbow:
   range: 8
   type: arcane
   isPulse: false
-  textToRightInItalics: This ability cannot be used while this model is engaged.
+  textToRightInItalics: null
+  arcaneSubText: This ability cannot be used while this model is engaged.
   activatedText: null
   arcaneOutcomes:
     - "gX: Target suffers X Piercing Dmg."
@@ -1107,10 +1111,11 @@ Hunting Horn:
   range: 8
   type: arcane
   isPulse: false
-  textToRightInItalics: Once per turn. This ability cannot be used while this model is engaged.
+  textToRightInItalics: Once per turn.
+  arcaneSubText: This ability cannot be used while this model is engaged.
   activatedText: null
   arcaneOutcomes:
-    - "bX: Move target other friendly Faun X+1”."
+    - "rX: Move target other friendly Faun X+1”."
   catastrophe: The target is moved up to 3” by the resisting player.
 
 Perplex:
@@ -1138,7 +1143,8 @@ Shoot Bow:
   range: 10
   type: arcane
   isPulse: false
-  textToRightInItalics: This ability cannot be used while this model is engaged.
+  textToRightInItalics: null
+  arcaneSubText: This ability cannot be used while this model is engaged.
   activatedText: null
   arcaneOutcomes:
     - "gX: Target suffers X+1 Piercing Dmg."
@@ -1149,8 +1155,8 @@ Shoot Bow:
   range: 2
   type: activated
   isPulse: false
-  textToRightInItalics: Once per turn. This ability may only be used if this model is within a Water Feature.
-  activatedText: Target character suffers 2 Magical Dmg.
+  textToRightInItalics: Once per turn.
+  activatedText: Target character suffers 2 Magical Dmg. (This ability may only be used if this model is within a Water Feature.)
   arcaneOutcomes: null
   catastrophe: null
 
@@ -1192,7 +1198,7 @@ Paroxysm:
   range: 3
   type: activated
   isPulse: true
-  textToRightInItalics: Once per game ◯.
+  textToRightInItalics: Once per game.
   activatedText: All other models within 3” suffer 4 Magical Dmg then are moved 3” directly away.
   arcaneOutcomes: null
   catastrophe: null
@@ -1410,7 +1416,7 @@ Sewer Rat:
   range: null
   type: activated
   isPulse: false
-  textToRightInItalics: Once per game ◯.
+  textToRightInItalics: Once per game.
   activatedText: You may only play this ability if Muridae is inside a building. This character is Removed From Play. At the start of the next Replenish Step, return this character to play inside any building.
   arcaneOutcomes: null
   catastrophe: null
@@ -1431,7 +1437,8 @@ Summon Reinforcements:
   range: null
   type: arcane
   isPulse: false
-  textToRightInItalics: This action cannot bring a character into play if it is already in play.
+  textToRightInItalics: null
+  arcaneSubText: This action cannot bring a character into play if it is already in play.
   activatedText: null
   arcaneOutcomes:
     - "g1,r1: Place a new Soldier Psychopomp in base contact with this character."
@@ -1535,15 +1542,6 @@ Fire Cannon!:
     - "gX: Target character suffers 3X-1 Impact Dmg then is moved X” directly away."
   catastrophe: This model suffers 3 Wds. All other models within 2” suffer 3 Magical Dmg then are moved 1” directly away.
 
-Conductor:
-  cost: 1
-  range: 6
-  type: activated
-  isPulse: false
-  textToRightInItalics: null
-  activatedText: Target friendly Psychopomp immediately takes any action available to them irrespective of energy cost, excluding Jog. Increase the Psychopomp's Melee & Arcane Stat by +1 for each friendly Psychopomp in play for the duration of the action.
-  arcaneOutcomes: null
-  catastrophe: null
 Summon an Encore!:
   cost: 1
   range: null
@@ -1598,7 +1596,8 @@ Ancient Crossbow:
   range: 12
   type: arcane
   isPulse: false
-  textToRightInItalics: This ability cannot be used while this model is engaged.
+  textToRightInItalics: null
+  arcaneSubText: This ability cannot be used while this model is engaged.
   activatedText: null
   arcaneOutcomes:
     - "gX: Target suffers X+1 Piercing Dmg."
@@ -1629,8 +1628,8 @@ Yell Out Commands:
   range: 6
   type: activated
   isPulse: false
-  textToRightInItalics: You may only target each character once per turn.
-  activatedText: Move target friendly non-Noble 1”. If the target is a friendly Soldier move it 2” instead.
+  textToRightInItalics: null
+  activatedText: Move target friendly non-Noble 1”. If the target is a friendly Soldier move it 2” instead. (You may only target each character once per turn.)
   arcaneOutcomes: null
   catastrophe: null
 
@@ -1713,7 +1712,7 @@ Librarian's Scorn:
   textToRightInItalics: null
   activatedText: null
   arcaneOutcomes:
-    - "gX: Move target X” directly away, then it suffers X-1 Wds."
+    - "rX: Move target X” directly away, then it suffers X-1 Wds."
   catastrophe: This model suffers 3 Wds.
 
 Eat Me!:
@@ -1944,7 +1943,8 @@ Summon the Jackalope:
   range: null
   type: arcane
   isPulse: false
-  textToRightInItalics: This action can only be taken if there is no friendly Jackalope in play.
+  textToRightInItalics: null
+  arcaneSubText: This action can only be taken if there is no friendly Jackalope in play.
   activatedText: null
   arcaneOutcomes:
     - "g3,b3,r3: This character suffers 3 Wds. Place a new Jackalope in base contact. It has no energy but is considered a permanent additional character in your troupe and may activate this turn."
@@ -1985,7 +1985,7 @@ Bolt Thrower:
   range: 10
   type: arcane
   isPulse: false
-  textToRightInItalics: Once per game, unless reloaded ◯.
+  textToRightInItalics: Once per game, unless reloaded.
   arcaneSubText: This attack is not modified by Cover.
   activatedText: null
   arcaneOutcomes:
@@ -2034,14 +2034,12 @@ Second Hand Pistol:
 Goblin Mischief:
   cost: 2
   range: 6
-  type: arcane
+  type: activated
   isPulse: true
   textToRightInItalics: Once per turn.
-  activatedText: null
-  arcaneOutcomes:
-    - "gX: Gain +X energy."
-    - "rX: Gain +1 energy."
-  catastrophe: Suffer 2 Wds.
+  activatedText: "Deal an Arcane Card to each Goblin within the Pulse.\n  \n  \n  \n  \n  ."
+  arcaneOutcomes: null
+  catastrophe: null
 Goblin Luck:
   cost: 2
   range: 8
@@ -2068,7 +2066,7 @@ Meddle with Fate:
   range: null
   type: activated
   isPulse: false
-  textToRightInItalics: Once per game ◯.
+  textToRightInItalics: Once per game.
   activatedText: Draw 3 cards from the Arcane Deck for each Spirit in play. You may choose up to 3 of the cards to remove from the deck and place face down besides this character card. For each card removed this character suffers 2 Wds, then shuffle the remaining cards into the deck. If this character is slain, return all removed cards to the deck and shuffle.
   arcaneOutcomes: null
 
@@ -2080,7 +2078,7 @@ Puppeteer:
   textToRightInItalics: null
   activatedText: null
   arcaneOutcomes:
-    - "g2,b2: Target gains [Puppet: When Danica, Dusk Witch is active within 8” and Line of Sight, she may spend her energy to have this character perform actions available to them, excluding Jog. They count as friendly during the action.], until end of game."
+    - "g2,r2: Target gains [Puppet: When Danica, Dusk Witch is active within 8” and Line of Sight, she may spend her energy to have this character perform actions available to them, excluding Jog. They count as friendly during the action.], until end of game."
   catastrophe: This character suffers 4 Wds. The target gains +2 energy.
 
 Visions of the Past:
@@ -2111,7 +2109,8 @@ Summon the Forgotten King:
   range: null
   type: arcane
   isPulse: false
-  textToRightInItalics: This action can only be taken if your chosen faction is Leshavult and there is no friendly Echo of the Forgotten King in play.
+  textToRightInItalics: null
+  arcaneSubText: This action can only be taken if your chosen faction is Shades and there is no friendly Echo of the Forgotten King in play.
   activatedText: null
   arcaneOutcomes:
     - "g3,b3,r3: Place a new Echo of the Forgotten King in base contact; it is considered a permanent additional character in your troupe and may activate this turn. Then this model is slain."
@@ -2141,7 +2140,8 @@ Summon a Helping Hand:
   range: null
   type: arcane
   isPulse: false
-  textToRightInItalics: This action cannot bring a character into play if it is already in play.
+  textToRightInItalics: null
+  arcaneSubText: This action cannot bring a character into play if it is already in play.
   activatedText: null
   arcaneOutcomes:
     - "g1,b1,r1: Place a new Familiar Psychopomp in base contact with this character."
@@ -2175,7 +2175,7 @@ A Generous Offer:
   arcaneSubText: This attack is not modified by Evade Stat.
   activatedText: null
   arcaneOutcomes:
-    - "g2,b2: Target model loses possession of one Moonstone it is carrying and this character gains possession of that Moonstone."
+    - "g2,r2: Target model loses possession of one Moonstone it is carrying and this character gains possession of that Moonstone."
   catastrophe: This model suffers 2 Wds.
 Milkies:
   cost: 2
@@ -2207,7 +2207,7 @@ Merfolk Magic:
   type: activated
   isPulse: false
   textToRightInItalics: Once per turn.
-  activatedText: Place this model within target Water Feature. This ability may only be used if this model is within a Water Feature.
+  activatedText: Place this model within target Water Feature. (This ability may only be used if this model is within a Water Feature.)
   arcaneOutcomes: null
   catastrophe: null
 
@@ -2230,5 +2230,13 @@ Siren Song:
   textToRightInItalics: null
   activatedText: null
   arcaneOutcomes:
-    - "gX,bX,rX: Move target X+2” directly towards this model. Then, if the target is within 4” of a Water Feature it suffers 4 Magical Dmg."
+    - "bX: Move target X+2” directly towards this model. Then, if the target is within 4” of a Water Feature it suffers 4 Magical Dmg."
   catastrophe: The resisting player may move this model 2”.
+A Noble Challenge:
+  cost: 1
+  range: 1
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: This character makes a Melee Attack action with +3 Melee Stat against target enemy character. If the target of this action is a Noble reduce Dmg suffered by this character to ∅ for the duration of the action.
+  arcaneOutcomes: null
