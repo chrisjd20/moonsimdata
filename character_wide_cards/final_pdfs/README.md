@@ -1,4 +1,4 @@
-# Moonstone Wide Cards and Extras
+# Moonstone Wide Cards, Big Font Melee Cards, Custom Tokens, Custom Arcane Deck
 
 Sections:
 - [What’s in this folder](#whats-in-this-folder)
