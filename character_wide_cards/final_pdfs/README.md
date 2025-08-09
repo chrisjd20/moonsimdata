@@ -61,6 +61,8 @@ Cards are sliced from `ArcaneDeck.png` into 500×700 px frames (7×3), then laid
 
 If the standard and even the “visually impaired” melee decks are hard to read, this version uses extra-large text and cleaner layout.
 
+![Custom melee cards](./melee.png)
+
 - PDF: [moonstone_even_bigger_print_melee_cards.pdf.pdf](./moonstone_even_bigger_print_melee_cards.pdf.pdf)
 - Print at exact size (100%) for correct card dimensions.
 
@@ -69,6 +71,11 @@ If the standard and even the “visually impaired” melee decks are hard to rea
 Water features, wooded patches, and money bags/bags are included as a one-page token sheet.
 
 - PDF: [tokens_deck.pdf](./tokens_deck.pdf)
+
+![Water feature token](./WaterFeatureToken1alt.png)
+![Wooded patch token](./WoodedPatchToken1alt.png)
+![Money bag token](./moneybag.png)
+![Bags token](./bags.png)
 
 ---
 
