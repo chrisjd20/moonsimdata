@@ -63,10 +63,10 @@ Water features, wooded patches, and money bags/bags are included as a one-page t
 
 - PDF: [tokens_deck.pdf](./tokens_deck.pdf)
 
-![Water feature token](./WaterFeatureToken1alt.png)
-![Wooded patch token](./WoodedPatchToken1alt.png)
-![Money bag token](./moneybag.png)
-![Bags token](./bags.png)
+<img src="./WaterFeatureToken1alt.png" alt="Water feature token" width="200" />
+<img src="./WoodedPatchToken1alt.png" alt="Wooded patch token" width="200" />
+<img src="./moneybag.png" alt="Money bag token" width="150" />
+<img src="./bags.png" alt="Bags token" width="150" />
 
 ### Custom Arcane Deck
 
