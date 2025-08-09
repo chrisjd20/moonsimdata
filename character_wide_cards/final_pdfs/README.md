@@ -44,7 +44,7 @@ Filename ranges (the `<range>` suffix) indicate which character names are inside
 
 Photo shows an official Moonstone card (standard size), a printed tarot-size card in a sleeve, and a larger scaled print.
 
-All PNGs used to build these PDFs are in `../generated_wide_cards_with_left_text/`. See the images README: [generated_wide_cards_with_left_text/](../generated_wide_cards_with_left_text/).
+All PNGs used to build these PDFs are in `../generated_wide_cards_with_left_text/`. See the images README: [generated_wide_cards_with_left_text/](../generated_wide_cards_with_left_text/#moonstone-character-wide-cards--images).
 
 ![Demo: official card (left), tarot size in sleeve (middle), scaled-up version (right)](./demo.jpg)
 
