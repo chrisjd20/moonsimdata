@@ -4,9 +4,9 @@ Sections:
 - [What’s in this folder](#whats-in-this-folder)
 - [How to print](#how-to-print)
 - [Demo Images of Custom Character Cards](#demo-images-of-custom-character-cards)
-- [Custom Arcane Deck](#custom-arcane-deck)
 - [Custom Melee Cards](#custom-melee-cards)
 - [Custom Tokens](#custom-tokens)
+- [Custom Arcane Deck](#custom-arcane-deck)
 
 ### Moonstone Character Wide Cards — PDFs
 
@@ -48,15 +48,6 @@ All PNGs used to build these PDFs are in `../generated_wide_cards_with_left_text
 
 ![Demo: official card (left), tarot size in sleeve (middle), scaled-up version (right)](./demo.jpg)
 
-### Custom Arcane Deck
-
-- Deck PDF: [arcane_deck.pdf](./arcane_deck.pdf)
-- I wasn't a fan of the creepy goblin catastrophe art, so I made a custom catastrophe card featuring a cracking moonstone.
-
-![Custom catastrophe card (moonstone cracking)](./catastrophe.png)
-
-Cards are sliced from `ArcaneDeck.png` into 500×700 px frames (7×3), then laid out 3×2 per landscape Letter page at 63.5×88.9 mm each.
-
 ### Custom Melee Cards
 
 If the standard and even the “visually impaired” melee decks are hard to read, this version uses extra-large text and cleaner layout.
@@ -76,6 +67,15 @@ Water features, wooded patches, and money bags/bags are included as a one-page t
 ![Wooded patch token](./WoodedPatchToken1alt.png)
 ![Money bag token](./moneybag.png)
 ![Bags token](./bags.png)
+
+### Custom Arcane Deck
+
+- Deck PDF: [arcane_deck.pdf](./arcane_deck.pdf)
+- I wasn't a fan of the creepy goblin catastrophe art, so I made a custom catastrophe card featuring a cracking moonstone.
+
+![Custom catastrophe card (moonstone cracking)](./catastrophe.png)
+
+Cards are sliced from `ArcaneDeck.png` into 500×700 px frames (7×3), then laid out 3×2 per landscape Letter page at 63.5×88.9 mm each.
 
 ---
 
