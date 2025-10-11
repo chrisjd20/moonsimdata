@@ -106,8 +106,10 @@ Replace `[your-username]` with your GitHub username.
 
 1. **Search**: Type in search box to filter by name
 2. **Filter**: Use dropdown to filter by faction
-3. **Select**: Click character cards to toggle selection
-4. **Bulk Actions**: Use "Select All" or "Deselect All" buttons
+3. **Toggle Images**: Click "Show Images" to see character card thumbnails (optional)
+4. **View Full Size**: Click expand icon (⛶) or preview image to see full resolution
+5. **Select**: Click character cards to toggle selection
+6. **Bulk Actions**: Use "Select All" or "Deselect All" buttons
 
 ### Generating PDFs
 
@@ -134,9 +136,12 @@ For best results when printing:
 - ✅ No installation required
 - ✅ Works on desktop and mobile browsers
 - ✅ Filter by name or faction
+- ✅ Toggle image preview mode (on/off)
+- ✅ Expand any character to full-size view
 - ✅ Select only characters you want
-- ✅ Preview before generating
+- ✅ Preview PDF layout before generating
 - ✅ Multiple format support
+- ✅ Lazy loading for optimal performance
 - ✅ Images cached for faster subsequent generation
 - ✅ Matches Python script output exactly
 

@@ -336,7 +336,9 @@ For users who want to generate custom PDFs without running Python scripts, use t
 - Filter characters by name or faction
 - Select only the characters you want
 - Choose from 3 PDF formats (same as Python output)
-- Preview before generating
+- **Image preview mode** - Toggle to see character card thumbnails
+- **Expand to full size** - Click any character to view full resolution
+- Preview PDF layout before generating
 - No installation required
 
 ### Setup for GitHub Pages
@@ -360,10 +362,12 @@ For users who want to generate custom PDFs without running Python scripts, use t
 ### Usage
 1. Characters load automatically from `moonstone_data.json`
 2. Use search/filter to find characters
-3. Click cards to select/deselect (checkboxes)
-4. Choose PDF format(s) in right panel
-5. Click "Preview" to see first page layout
-6. Click "Generate PDFs" to download
+3. **(Optional)** Click "Show Images" to see character card thumbnails
+4. Click cards to select/deselect (checkboxes)
+5. Click expand icon (⛶) on any card to view full-size image
+6. Choose PDF format(s) in right panel
+7. Click "Preview" to see first page layout
+8. Click "Generate PDFs" to download
 
 ### Technical Details
 - **Bootstrap 5** for UI styling
