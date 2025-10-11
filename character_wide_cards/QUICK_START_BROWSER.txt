@@ -1,0 +1,84 @@
+========================================
+BROWSER PDF GENERATOR - QUICK START
+========================================
+
+✓ Created: card_generator.html
+✓ Documentation: BROWSER_SETUP.md
+
+NEXT STEPS:
+
+1. UPDATE CONFIGURATION
+   Edit: card_generator.html (line 199)
+   Change: const GITHUB_USER = 'your-username';
+   To:     const GITHUB_USER = 'your-actual-github-username';
+
+2. COMMIT AND PUSH
+   git add character_wide_cards/card_generator.html
+   git add character_wide_cards/BROWSER_SETUP.md
+   git commit -m "Add browser-based PDF generator"
+   git push origin main
+
+3. ENABLE GITHUB PAGES
+   - Go to GitHub repository → Settings → Pages
+   - Source: main branch, / (root) folder
+   - Save and wait 1-2 minutes
+
+4. ACCESS YOUR GENERATOR
+   URL: https://[your-username].github.io/moonsimdata/character_wide_cards/card_generator.html
+
+========================================
+FEATURES:
+========================================
+
+✓ Filter characters by name or faction
+✓ Select only the characters you want
+✓ Generate PDFs in 3 formats:
+  - Landscape 2x2 Tarot (120x70mm)
+  - Portrait 1x2 Scaled (90mm height)
+  - Native Pixel Size (1:1)
+✓ Preview before generating
+✓ Works entirely in browser (no Python needed)
+✓ Matches Python script output exactly
+
+========================================
+FILES CREATED:
+========================================
+
+character_wide_cards/
+├── card_generator.html       (26KB) - Main application
+├── BROWSER_SETUP.md          (5.2KB) - Setup guide
+└── QUICK_START_BROWSER.txt   (this file)
+
+========================================
+TESTING:
+========================================
+
+Local testing won't work due to CORS restrictions.
+You must use GitHub Pages to test.
+
+After deployment, test with:
+1. Load the page (wait for characters to load)
+2. Search for "Matilda" to test search
+3. Filter by "Commonwealth" to test faction filter
+4. Select 1-2 characters
+5. Click "Preview" to see layout
+6. Click "Generate PDFs" to download
+
+========================================
+TROUBLESHOOTING:
+========================================
+
+If images don't load:
+→ Verify GITHUB_USER is set correctly
+→ Ensure repository is PUBLIC
+→ Check browser console (F12) for errors
+
+If characters don't load:
+→ Verify moonstone_data.json exists
+→ Check JSON is valid
+→ Ensure repository is PUBLIC
+
+Full troubleshooting guide: See BROWSER_SETUP.md
+
+========================================
+

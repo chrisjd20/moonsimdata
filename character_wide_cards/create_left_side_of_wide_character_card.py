@@ -240,6 +240,8 @@ def parse_yaml_outcome(outcome_str: str) -> Tuple[str, int, str]:
     """Parse a YAML arcane outcome string like 'gX,bX: Target suffers X Dmg.'
     Returns (value_text, color_mask, description).
     color bitmask: green=1, blue=2, red=4.
+    
+    For multiple values of the same color (e.g. 'b2,b3'), returns "2 or 3".
     """
     s = normalize_quotes(outcome_str or "").strip()
     if ":" in s:
@@ -250,22 +252,28 @@ def parse_yaml_outcome(outcome_str: str) -> Tuple[str, int, str]:
     tokens = [t.strip() for t in left.split(",") if t.strip()]
     mask = 0
     value_text = "X"
-    first_val: str | None = None
+    values = []  # Collect all values
     for tok in tokens:
         if not tok:
             continue
         c = tok[0].lower()
         v = tok[1:].strip() or "X"
-        if first_val is None:
-            first_val = v
+        values.append(v)
         if c == "g":
             mask |= 1
         elif c == "b":
             mask |= 2
         elif c == "r":
             mask |= 4
-    if first_val is not None:
-        value_text = first_val
+    # Build value_text: join unique values with " or "
+    if values:
+        unique_values = []
+        seen = set()
+        for v in values:
+            if v not in seen:
+                unique_values.append(v)
+                seen.add(v)
+        value_text = " or ".join(unique_values)
     return value_text, mask, desc
 
 
@@ -629,26 +637,47 @@ def layout_and_draw_abilities(draw, abilities, yaml_map, area_x, area_y, area_w,
             pad_x = 3
             token_font_size = max(12, int(getattr(body_font, 'size', 18) - 2))
             token_font = get_font(token_font_size, bold=False)
-            tb = draw.textbbox((0, 0), val_text, font=token_font)
-            text_w = tb[2] - tb[0]
-            # Thinner badges: shorter and narrower background
-            token_h_est = max(min(line_h - 3, (tb[3] - tb[1]) + 8), (tb[3] - tb[1]) + 6)
-            token_w = max(text_w + pad_x * 2 - 2, token_h_est - 6)
+            
             punct_w = draw.textbbox((0, 0), ", ", font=body_font)[2]
             or_w = draw.textbbox((0, 0), " or ", font=body_font)[2]
             colon_w = draw.textbbox((0, 0), ": ", font=body_font)[2]
             cols = colors_for_code(color_code)
+            
             if not cols:
                 return draw.textbbox((0, 0), f"{val_text}: ", font=body_font)[2]
-            width = 0
-            for i in range(len(cols)):
-                width += token_w
-                if i < len(cols) - 2:
-                    width += punct_w
-                elif i == len(cols) - 2:
-                    width += or_w
-            width += colon_w
-            return width
+            
+            # Split value_text by " or " to handle multiple values like "2 or 3"
+            values = [v.strip() for v in val_text.split(" or ")]
+            
+            # If we have a single color and multiple values, calculate width for multiple tokens
+            if len(cols) == 1 and len(values) > 1:
+                width = 0
+                for i, val in enumerate(values):
+                    tb = draw.textbbox((0, 0), val, font=token_font)
+                    text_w = tb[2] - tb[0]
+                    token_h_est = max(min(line_h - 3, (tb[3] - tb[1]) + 8), (tb[3] - tb[1]) + 6)
+                    token_w = max(text_w + pad_x * 2 - 2, token_h_est - 6)
+                    width += token_w
+                    if i < len(values) - 1:
+                        width += or_w
+                width += colon_w
+                return width
+            else:
+                # Original logic: one token per color
+                tb = draw.textbbox((0, 0), val_text, font=token_font)
+                text_w = tb[2] - tb[0]
+                token_h_est = max(min(line_h - 3, (tb[3] - tb[1]) + 8), (tb[3] - tb[1]) + 6)
+                token_w = max(text_w + pad_x * 2 - 2, token_h_est - 6)
+                
+                width = 0
+                for i in range(len(cols)):
+                    width += token_w
+                    if i < len(cols) - 2:
+                        width += punct_w
+                    elif i == len(cols) - 2:
+                        width += or_w
+                width += colon_w
+                return width
 
         # Passive
         for a in passive:
@@ -869,14 +898,6 @@ def layout_and_draw_abilities(draw, abilities, yaml_map, area_x, area_y, area_w,
         token_font_size = max(12, int(getattr(font, 'size', 18) - 2))
         token_font = get_font(token_font_size, bold=False)
         token_bold_font = get_font(token_font_size, bold=True)
-        tb = shapes_draw.textbbox((0, 0), value_text, font=token_font)
-        tb_bold = shapes_draw.textbbox((0, 0), value_text, font=token_bold_font)
-        text_w = tb[2] - tb[0]
-        text_h = tb[3] - tb[1]
-        # Thinner and slightly shorter than line height
-        token_h = max(min(line_h - 3, text_h + pad_y * 2), text_h + pad_y * 2 - 1)
-        token_w = max(text_w + pad_x * 2 - 2, token_h - 6)
-        ty = y + (line_h - token_h) // 2
 
         cols = colors_for_code(color_code)
         if not cols:
@@ -885,23 +906,68 @@ def layout_and_draw_abilities(draw, abilities, yaml_map, area_x, area_y, area_w,
             text_draw.text((x, y), simple, fill=(0, 0, 0, 255), font=token_bold_font)
             sb = text_draw.textbbox((0, 0), simple, font=token_bold_font)
             return x + (sb[2] - sb[0])
-        for i, c in enumerate(cols):
-            rect = [x, ty, x + token_w, ty + token_h]
-            try:
-                shapes_draw.rounded_rectangle(rect, radius=radius, fill=suit_color(c))
-            except Exception:
-                shapes_draw.rectangle(rect, fill=suit_color(c))
-            # Center text precisely inside the token using the token_font
-            tx = x + (token_w - (tb_bold[2] - tb_bold[0])) // 2 - tb_bold[0]
-            ty_text = ty + (token_h - (tb_bold[3] - tb_bold[1])) // 2 - tb_bold[1]
-            text_draw.text((tx, ty_text), value_text, fill=white, font=token_bold_font)
-            x += token_w
-            if i < len(cols) - 2:
-                text_draw.text((x, y), ", ", fill=(0, 0, 0, 255), font=font)
-                x += text_draw.textbbox((0, 0), ", ", font=font)[2]
-            elif i == len(cols) - 2:
-                text_draw.text((x, y), " or ", fill=(0, 0, 0, 255), font=font)
-                x += text_draw.textbbox((0, 0), " or ", font=font)[2]
+        
+        # Split value_text by " or " to handle multiple values like "2 or 3"
+        values = [v.strip() for v in value_text.split(" or ")]
+        
+        # If we have a single color and multiple values, draw multiple tokens of that color
+        if len(cols) == 1 and len(values) > 1:
+            c = cols[0]
+            for i, val in enumerate(values):
+                # Calculate token size for this value
+                tb = shapes_draw.textbbox((0, 0), val, font=token_font)
+                tb_bold = shapes_draw.textbbox((0, 0), val, font=token_bold_font)
+                text_w = tb[2] - tb[0]
+                text_h = tb[3] - tb[1]
+                token_h = max(min(line_h - 3, text_h + pad_y * 2), text_h + pad_y * 2 - 1)
+                token_w = max(text_w + pad_x * 2 - 2, token_h - 6)
+                ty = y + (line_h - token_h) // 2
+                
+                # Draw token
+                rect = [x, ty, x + token_w, ty + token_h]
+                try:
+                    shapes_draw.rounded_rectangle(rect, radius=radius, fill=suit_color(c))
+                except Exception:
+                    shapes_draw.rectangle(rect, fill=suit_color(c))
+                
+                # Center text inside token
+                tx = x + (token_w - (tb_bold[2] - tb_bold[0])) // 2 - tb_bold[0]
+                ty_text = ty + (token_h - (tb_bold[3] - tb_bold[1])) // 2 - tb_bold[1]
+                text_draw.text((tx, ty_text), val, fill=white, font=token_bold_font)
+                x += token_w
+                
+                # Add " or " between tokens
+                if i < len(values) - 1:
+                    text_draw.text((x, y), " or ", fill=(0, 0, 0, 255), font=font)
+                    x += text_draw.textbbox((0, 0), " or ", font=font)[2]
+        else:
+            # Original logic: one token per color
+            tb = shapes_draw.textbbox((0, 0), value_text, font=token_font)
+            tb_bold = shapes_draw.textbbox((0, 0), value_text, font=token_bold_font)
+            text_w = tb[2] - tb[0]
+            text_h = tb[3] - tb[1]
+            token_h = max(min(line_h - 3, text_h + pad_y * 2), text_h + pad_y * 2 - 1)
+            token_w = max(text_w + pad_x * 2 - 2, token_h - 6)
+            ty = y + (line_h - token_h) // 2
+            
+            for i, c in enumerate(cols):
+                rect = [x, ty, x + token_w, ty + token_h]
+                try:
+                    shapes_draw.rounded_rectangle(rect, radius=radius, fill=suit_color(c))
+                except Exception:
+                    shapes_draw.rectangle(rect, fill=suit_color(c))
+                # Center text precisely inside the token using the token_font
+                tx = x + (token_w - (tb_bold[2] - tb_bold[0])) // 2 - tb_bold[0]
+                ty_text = ty + (token_h - (tb_bold[3] - tb_bold[1])) // 2 - tb_bold[1]
+                text_draw.text((tx, ty_text), value_text, fill=white, font=token_bold_font)
+                x += token_w
+                if i < len(cols) - 2:
+                    text_draw.text((x, y), ", ", fill=(0, 0, 0, 255), font=font)
+                    x += text_draw.textbbox((0, 0), ", ", font=font)[2]
+                elif i == len(cols) - 2:
+                    text_draw.text((x, y), " or ", fill=(0, 0, 0, 255), font=font)
+                    x += text_draw.textbbox((0, 0), " or ", font=font)[2]
+        
         text_draw.text((x, y), ": ", fill=(0, 0, 0, 255), font=font)
         x += text_draw.textbbox((0, 0), ": ", font=font)[2]
         return x

@@ -1,4 +1,166 @@
 
+The Faculty:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If Old Polly, Prof Boffinsworth & Flinders Memphis were taken in this troupe at the start of the game, this character gains Rogue, Animal & Machine keywords.
+
+Prognostication:
+  cost: null
+  range: 4
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: "Friendly Rogues within 4\" gain [Seen It All Before: If this character is attacker or defender in a round of melee, before each player selects their Melee Card, your opponent must reveal their hand.]"
+
+Wily Old Weasel:
+  cost: null
+  range: 6
+  type: passive
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: "If a friendly Rogue takes an Arcane action within 6\" you may reduce its energy cost by -1."
+
+Cockatrice Companion:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: When targeting an enemy character that has no energy with a Melee Attack or Petrifying Gaze action, increase any Dmg dealt by +1.
+
+Petrifying Gaze:
+  cost: 2
+  range: 4
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "rX: Target suffers X Magical Dmg then loses X energy."
+  catastrophe: This character suffers 3 Wds.
+
+Explorer's Handbook:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: When this character uses an Arcane Ability targeting a friendly Animal that is not at full health, you may reduce the energy cost by -1.
+
+Conservation:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If a friendly Animal within 4" and LoS suffers Dmg, you may have this character suffer all that Dmg instead.
+
+Symbiosis:
+  cost: 4
+  range: 8
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "b1: Target or this model gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn."
+    - "b2,b3: Target and this model gain Protection until end of turn."
+  catastrophe: Target and this model suffer 2 Wds.
+
+Bingy:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: When making a Reaction Step whilst engaged by an enemy, this model may spend (0) energy instead of (1). Once per turn.
+
+Boingy:
+  cost: 2
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: Place this model within 2" and LoS. This model cannot take Harvest actions until end of turn.
+  arcaneOutcomes: null
+  catastrophe: null
+
+Astrazan Tactics:
+  cost: 1
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: This character immediately takes a Melee Attack or Blunderbuss action against an enemy in range, without spending energy. In either case, increase any Dmg dealt by +2, then place this model within 1" of itself and LoS after resolving the attack.
+  arcaneOutcomes: null
+  catastrophe: null
+
+# Flinders Memphis abilities
+Augments:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+
+"Have You Tried Turning it Off and On Again?":
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+
+Overclock:
+  cost: 1
+  range: 4
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: Target other friendly Machine suffers 1 Wd, then may take any action available to them which would normally have an energy cost of (2). You may only target each character once per turn.
+  arcaneOutcomes: null
+  catastrophe: null
+
+"Gnomish Air Rifle":
+  cost: 2
+  range: 14
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  arcaneSubText: This ability cannot be used while this model is engaged.
+  activatedText: null
+  arcaneOutcomes:
+    - "gX: Target suffers X+1 Impact Dmg."
+  catastrophe: This character suffers 4 Wds.
+
 Rally Cry:
   cost: 0
   range: 8
@@ -2194,7 +2356,8 @@ Summon the Nursery:
   range: null
   type: arcane
   isPulse: false
-  textToRightInItalics: Once per turn. This action cannot bring a character into play if it is already in play.
+  textToRightInItalics: Once per turn.
+  arcaneSubText: This action cannot bring a character into play if it is already in play.
   activatedText: null
   arcaneOutcomes:
     - "g1: Place a new Sprog in base contact with this character."

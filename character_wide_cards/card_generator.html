@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonstone Card Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .character-card {
+            cursor: pointer;
+            transition: all 0.2s;
+            height: 100%;
+        }
+        .character-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .character-card.selected {
+            border: 3px solid #0d6efd;
+            background-color: #e7f1ff;
+        }
+        .character-grid {
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+        .faction-badge {
+            font-size: 0.75rem;
+        }
+        #loadingSpinner {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+        }
+        .preview-canvas {
+            border: 1px solid #dee2e6;
+            max-width: 100%;
+            height: auto;
+        }
+        .sticky-controls {
+            position: sticky;
+            top: 0;
+            background: white;
+            z-index: 100;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="loadingSpinner" class="d-none">
+        <div class="spinner-border text-primary" role="status" style="width: 4rem; height: 4rem;">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center mb-3">
+                    <i class="bi bi-file-earmark-pdf"></i> Moonstone Character Card Generator
+                </h1>
+                <p class="text-center text-muted mb-4">
+                    Select characters and generate custom PDFs in your browser
+                </p>
+            </div>
+        </div>
+
+        <div class="sticky-controls">
+            <div class="container-fluid">
+                <div class="row g-3 mb-3">
+                    <div class="col-md-4">
+                        <label class="form-label">Search Characters</label>
+                        <input type="text" id="searchInput" class="form-control" placeholder="Type character name...">
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label">Filter by Faction</label>
+                        <select id="factionFilter" class="form-select">
+                            <option value="all">All Factions</option>
+                            <option value="Commonwealth">Commonwealth</option>
+                            <option value="Dominion">Dominion</option>
+                            <option value="Leshavult">Leshavult</option>
+                            <option value="Shade">Shade</option>
+                            <option value="multi">Multi-Faction</option>
+                        </select>
+                    </div>
+                    <div class="col-md-5">
+                        <label class="form-label">Quick Actions</label>
+                        <div class="btn-group w-100" role="group">
+                            <button id="selectAllBtn" class="btn btn-outline-primary">
+                                <i class="bi bi-check-all"></i> Select All
+                            </button>
+                            <button id="deselectAllBtn" class="btn btn-outline-secondary">
+                                <i class="bi bi-x-circle"></i> Deselect All
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="alert alert-info mb-3">
+                            <strong id="selectionCount">0 selected</strong> out of <span id="totalCount">0</span> characters
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">Available Characters</h5>
+                    </div>
+                    <div class="card-body character-grid">
+                        <div id="characterContainer" class="row g-3">
+                            <!-- Characters will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card sticky-top" style="top: 1rem;">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">PDF Options</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="mb-3">Select Formats:</h6>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="checkbox" id="formatLandscape" checked>
+                            <label class="form-check-label" for="formatLandscape">
+                                <strong>Landscape 2x2 Tarot</strong><br>
+                                <small class="text-muted">120x70mm cards</small>
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="checkbox" id="formatPortrait">
+                            <label class="form-check-label" for="formatPortrait">
+                                <strong>Portrait 1x2 Scaled</strong><br>
+                                <small class="text-muted">90mm height</small>
+                            </label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="formatNative">
+                            <label class="form-check-label" for="formatNative">
+                                <strong>Native Pixel Size</strong><br>
+                                <small class="text-muted">1:1 scale</small>
+                            </label>
+                        </div>
+
+                        <hr>
+
+                        <div class="d-grid gap-2">
+                            <button id="previewBtn" class="btn btn-outline-primary">
+                                <i class="bi bi-eye"></i> Preview
+                            </button>
+                            <button id="generateBtn" class="btn btn-primary">
+                                <i class="bi bi-download"></i> Generate PDFs
+                            </button>
+                        </div>
+
+                        <div class="mt-3">
+                            <small class="text-muted">
+                                <strong>Note:</strong> Images are loaded from GitHub. First generation may take a moment.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preview Modal -->
+    <div class="modal fade" id="previewModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">PDF Preview - First Page</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <canvas id="previewCanvas" class="preview-canvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        // Configuration - Update these for your GitHub repo
+        const GITHUB_USER = 'chrisjd20';  // UPDATE THIS
+        const GITHUB_REPO = 'moonsimdata';
+        const GITHUB_BRANCH = 'main';
+        const BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/character_wide_cards`;
+
+        // Global state
+        let allCharacters = [];
+        let selectedCharacters = new Set();
+        let imageCache = new Map();
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            loadCharacterData();
+            setupEventListeners();
+        });
+
+        function setupEventListeners() {
+            document.getElementById('searchInput').addEventListener('input', filterCharacters);
+            document.getElementById('factionFilter').addEventListener('change', filterCharacters);
+            document.getElementById('selectAllBtn').addEventListener('click', selectAll);
+            document.getElementById('deselectAllBtn').addEventListener('click', deselectAll);
+            document.getElementById('generateBtn').addEventListener('click', generatePDFs);
+            document.getElementById('previewBtn').addEventListener('click', showPreview);
+        }
+
+        async function loadCharacterData() {
+            showSpinner(true);
+            try {
+                const response = await fetch(`${BASE_URL}/moonstone_data.json`);
+                if (!response.ok) throw new Error('Failed to load character data');
+                
+                const data = await response.json();
+                allCharacters = data
+                    .filter(char => char && char.name)
+                    .map(char => ({
+                        name: char.name,
+                        faction: char.faction || 'Unknown',
+                        id: char.id
+                    }))
+                    .sort((a, b) => a.name.localeCompare(b.name));
+
+                renderCharacters(allCharacters);
+                updateCounts();
+            } catch (error) {
+                alert('Error loading character data: ' + error.message);
+                console.error(error);
+            } finally {
+                showSpinner(false);
+            }
+        }
+
+        function renderCharacters(characters) {
+            const container = document.getElementById('characterContainer');
+            container.innerHTML = characters.map(char => {
+                const isMultiFaction = char.faction && char.faction.includes(',');
+                const factionBadgeClass = getFactionBadgeClass(char.faction);
+                
+                return `
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="card character-card" data-character="${char.name}">
+                            <div class="card-body p-2">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="char-${char.id}">
+                                    <label class="form-check-label w-100" for="char-${char.id}">
+                                        <div class="fw-bold">${char.name}</div>
+                                        <span class="badge ${factionBadgeClass} faction-badge">
+                                            ${char.faction}
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            // Add click handlers
+            container.querySelectorAll('.character-card').forEach(card => {
+                card.addEventListener('click', (e) => {
+                    if (e.target.type !== 'checkbox') {
+                        const checkbox = card.querySelector('input[type="checkbox"]');
+                        checkbox.checked = !checkbox.checked;
+                    }
+                    toggleCharacterSelection(card);
+                });
+            });
+
+            document.getElementById('totalCount').textContent = characters.length;
+        }
+
+        function getFactionBadgeClass(faction) {
+            if (!faction) return 'bg-secondary';
+            if (faction.includes(',')) return 'bg-info';
+            const factionMap = {
+                'Commonwealth': 'bg-primary',
+                'Dominion': 'bg-danger',
+                'Leshavult': 'bg-success',
+                'Shade': 'bg-dark'
+            };
+            return factionMap[faction] || 'bg-secondary';
+        }
+
+        function toggleCharacterSelection(card) {
+            const name = card.dataset.character;
+            const checkbox = card.querySelector('input[type="checkbox"]');
+            
+            if (checkbox.checked) {
+                selectedCharacters.add(name);
+                card.classList.add('selected');
+            } else {
+                selectedCharacters.delete(name);
+                card.classList.remove('selected');
+            }
+            updateCounts();
+        }
+
+        function filterCharacters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const faction = document.getElementById('factionFilter').value;
+
+            const filtered = allCharacters.filter(char => {
+                const matchesSearch = char.name.toLowerCase().includes(searchTerm);
+                const matchesFaction = faction === 'all' || 
+                    (faction === 'multi' && char.faction && char.faction.includes(',')) ||
+                    (faction !== 'multi' && char.faction && char.faction.includes(faction));
+                
+                return matchesSearch && matchesFaction;
+            });
+
+            renderCharacters(filtered);
+            
+            // Restore selections
+            document.querySelectorAll('.character-card').forEach(card => {
+                const name = card.dataset.character;
+                const checkbox = card.querySelector('input[type="checkbox"]');
+                if (selectedCharacters.has(name)) {
+                    checkbox.checked = true;
+                    card.classList.add('selected');
+                }
+            });
+        }
+
+        function selectAll() {
+            document.querySelectorAll('.character-card').forEach(card => {
+                const name = card.dataset.character;
+                const checkbox = card.querySelector('input[type="checkbox"]');
+                checkbox.checked = true;
+                card.classList.add('selected');
+                selectedCharacters.add(name);
+            });
+            updateCounts();
+        }
+
+        function deselectAll() {
+            document.querySelectorAll('.character-card').forEach(card => {
+                const checkbox = card.querySelector('input[type="checkbox"]');
+                checkbox.checked = false;
+                card.classList.remove('selected');
+            });
+            selectedCharacters.clear();
+            updateCounts();
+        }
+
+        function updateCounts() {
+            document.getElementById('selectionCount').textContent = selectedCharacters.size + ' selected';
+        }
+
+        async function loadImage(characterName) {
+            if (imageCache.has(characterName)) {
+                return imageCache.get(characterName);
+            }
+
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.crossOrigin = 'anonymous';
+                
+                const safeName = characterName.replace(/\//g, '_').replace(/\\/g, '_');
+                const imageUrl = `${BASE_URL}/generated_wide_cards_with_left_text/${safeName}_wide_card_with_text.png`;
+                
+                img.onload = () => {
+                    imageCache.set(characterName, img);
+                    resolve(img);
+                };
+                
+                img.onerror = () => {
+                    console.error('Failed to load image:', imageUrl);
+                    reject(new Error(`Failed to load image for ${characterName}`));
+                };
+                
+                img.src = imageUrl;
+            });
+        }
+
+        async function generatePDFs() {
+            if (selectedCharacters.size === 0) {
+                alert('Please select at least one character');
+                return;
+            }
+
+            const formats = [];
+            if (document.getElementById('formatLandscape').checked) formats.push('landscape');
+            if (document.getElementById('formatPortrait').checked) formats.push('portrait');
+            if (document.getElementById('formatNative').checked) formats.push('native');
+
+            if (formats.length === 0) {
+                alert('Please select at least one format');
+                return;
+            }
+
+            showSpinner(true);
+
+            try {
+                const selectedChars = Array.from(selectedCharacters).sort();
+                
+                for (const format of formats) {
+                    await generatePDFForFormat(selectedChars, format);
+                }
+
+                alert('PDF generation complete!');
+            } catch (error) {
+                alert('Error generating PDFs: ' + error.message);
+                console.error(error);
+            } finally {
+                showSpinner(false);
+            }
+        }
+
+        async function generatePDFForFormat(characterNames, format) {
+            const { jsPDF } = window.jspdf;
+            let doc, pageSize, orientation, cardsPerPage, layout;
+
+            // Match Python script dimensions
+            const mmToPt = 2.83465;  // 1mm = 2.83465 points
+            const inchToPt = 72;     // 1 inch = 72 points
+
+            if (format === 'landscape') {
+                orientation = 'landscape';
+                pageSize = [11 * inchToPt, 8.5 * inchToPt]; // Letter landscape
+                cardsPerPage = 4; // 2x2 grid
+                layout = {
+                    cols: 2,
+                    rows: 2,
+                    cardWidth: 120 * mmToPt,
+                    cardHeight: 70 * mmToPt,
+                    gutterX: 5 * mmToPt,
+                    gutterY: 5 * mmToPt
+                };
+            } else if (format === 'portrait') {
+                orientation = 'portrait';
+                pageSize = [8.5 * inchToPt, 11 * inchToPt]; // Letter portrait
+                cardsPerPage = 2; // 1x2 grid
+                const scale = 90.0 / 70.0;
+                layout = {
+                    cols: 1,
+                    rows: 2,
+                    cardWidth: 120 * scale * mmToPt,
+                    cardHeight: 90 * mmToPt,
+                    gutterX: 5 * mmToPt,
+                    gutterY: 5 * mmToPt
+                };
+            } else { // native
+                orientation = 'landscape';
+                cardsPerPage = 1;
+                layout = { cols: 1, rows: 1 };
+            }
+
+            doc = new jsPDF({ orientation, unit: 'pt', format: pageSize });
+
+            // Load all images first
+            const images = await Promise.all(
+                characterNames.map(name => loadImage(name).catch(() => null))
+            );
+
+            let pageStarted = false;
+
+            for (let i = 0; i < images.length; i++) {
+                const img = images[i];
+                if (!img) continue;
+
+                const pageIndex = Math.floor(i / cardsPerPage);
+                const positionInPage = i % cardsPerPage;
+
+                if (positionInPage === 0 && pageStarted) {
+                    doc.addPage(pageSize, orientation);
+                }
+                pageStarted = true;
+
+                if (format === 'native') {
+                    // Native: page size matches image
+                    doc.setPageSize([img.width, img.height]);
+                    doc.addImage(img, 'PNG', 0, 0, img.width, img.height);
+                } else {
+                    // Calculate position in grid
+                    const col = positionInPage % layout.cols;
+                    const row = Math.floor(positionInPage / layout.cols);
+
+                    const totalWidth = (layout.cols * layout.cardWidth) + ((layout.cols - 1) * layout.gutterX);
+                    const totalHeight = (layout.rows * layout.cardHeight) + ((layout.rows - 1) * layout.gutterY);
+                    
+                    const leftMargin = (pageSize[0] - totalWidth) / 2;
+                    const bottomMargin = (pageSize[1] - totalHeight) / 2;
+
+                    const x = leftMargin + col * (layout.cardWidth + layout.gutterX);
+                    // Y coordinate: flip from bottom-origin (PDF) to top-origin (canvas)
+                    const y = pageSize[1] - bottomMargin - (row + 1) * layout.cardHeight - row * layout.gutterY;
+
+                    doc.addImage(img, 'PNG', x, y, layout.cardWidth, layout.cardHeight);
+                }
+            }
+
+            const formatName = format === 'landscape' ? 'tarot_120x70mm_2x2_landscape' :
+                              format === 'portrait' ? 'scaled_height_90mm_1x2_portrait' :
+                              'native_pixel_size_1up';
+            
+            doc.save(`moonstone_cards_${formatName}.pdf`);
+        }
+
+        async function showPreview() {
+            if (selectedCharacters.size === 0) {
+                alert('Please select at least one character');
+                return;
+            }
+
+            const format = document.getElementById('formatLandscape').checked ? 'landscape' :
+                          document.getElementById('formatPortrait').checked ? 'portrait' : 
+                          document.getElementById('formatNative').checked ? 'native' : null;
+
+            if (!format) {
+                alert('Please select at least one format');
+                return;
+            }
+
+            showSpinner(true);
+
+            try {
+                const selectedChars = Array.from(selectedCharacters).sort();
+                const firstChars = selectedChars.slice(0, format === 'landscape' ? 4 : format === 'portrait' ? 2 : 1);
+                
+                const images = await Promise.all(
+                    firstChars.map(name => loadImage(name).catch(() => null))
+                );
+
+                const canvas = document.getElementById('previewCanvas');
+                const ctx = canvas.getContext('2d');
+
+                // Set canvas size based on format
+                if (format === 'landscape') {
+                    canvas.width = 792;  // 11 inches
+                    canvas.height = 612; // 8.5 inches
+                } else if (format === 'portrait') {
+                    canvas.width = 612;
+                    canvas.height = 792;
+                } else {
+                    canvas.width = images[0]?.width || 1200;
+                    canvas.height = images[0]?.height || 700;
+                }
+
+                ctx.fillStyle = 'white';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                // Draw preview
+                await drawPreviewCards(ctx, images, format, canvas.width, canvas.height);
+
+                const modal = new bootstrap.Modal(document.getElementById('previewModal'));
+                modal.show();
+            } catch (error) {
+                alert('Error generating preview: ' + error.message);
+                console.error(error);
+            } finally {
+                showSpinner(false);
+            }
+        }
+
+        function drawPreviewCards(ctx, images, format, canvasWidth, canvasHeight) {
+            const mmToPx = 2.83465;
+            
+            if (format === 'landscape') {
+                const layout = {
+                    cols: 2, rows: 2,
+                    cardWidth: 120 * mmToPx,
+                    cardHeight: 70 * mmToPx,
+                    gutterX: 5 * mmToPx,
+                    gutterY: 5 * mmToPx
+                };
+                
+                const totalWidth = (layout.cols * layout.cardWidth) + ((layout.cols - 1) * layout.gutterX);
+                const totalHeight = (layout.rows * layout.cardHeight) + ((layout.rows - 1) * layout.gutterY);
+                const leftMargin = (canvasWidth - totalWidth) / 2;
+                const topMargin = (canvasHeight - totalHeight) / 2;
+
+                images.forEach((img, i) => {
+                    if (!img) return;
+                    const col = i % 2;
+                    const row = Math.floor(i / 2);
+                    const x = leftMargin + col * (layout.cardWidth + layout.gutterX);
+                    const y = topMargin + row * (layout.cardHeight + layout.gutterY);
+                    ctx.drawImage(img, x, y, layout.cardWidth, layout.cardHeight);
+                });
+            } else if (format === 'portrait') {
+                const scale = 90.0 / 70.0;
+                const layout = {
+                    cols: 1, rows: 2,
+                    cardWidth: 120 * scale * mmToPx,
+                    cardHeight: 90 * mmToPx,
+                    gutterY: 5 * mmToPx
+                };
+                
+                const totalHeight = (layout.rows * layout.cardHeight) + (layout.gutterY);
+                const leftMargin = (canvasWidth - layout.cardWidth) / 2;
+                const topMargin = (canvasHeight - totalHeight) / 2;
+
+                images.forEach((img, i) => {
+                    if (!img) return;
+                    const x = leftMargin;
+                    const y = topMargin + i * (layout.cardHeight + layout.gutterY);
+                    ctx.drawImage(img, x, y, layout.cardWidth, layout.cardHeight);
+                });
+            } else {
+                if (images[0]) {
+                    ctx.drawImage(images[0], 0, 0, canvasWidth, canvasHeight);
+                }
+            }
+        }
+
+        function showSpinner(show) {
+            document.getElementById('loadingSpinner').classList.toggle('d-none', !show);
+        }
+    </script>
+</body>
+</html>
+
