@@ -145,7 +145,7 @@ Overclock:
   type: activated
   isPulse: false
   textToRightInItalics: null
-  activatedText: Target other friendly Machine suffers 1 Wd, then may take any action available to them which would normally have an energy cost of (2). You may only target each character once per turn.
+  activatedText: Target other friendly Machine suffers 1 Wd, then may take any action available to them which would normally have an energy cost of (2). (You may only target each character once per turn.)
   arcaneOutcomes: null
   catastrophe: null
 
@@ -275,6 +275,17 @@ Blinding Powder:
     - "bX: Reduce target's Melee and Arcane stats by 2X until end of turn." # blue x (treating as arcane scaling)
   catastrophe: This model loses all energy.
 
+Bludgeon:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If this character deals Slicing or Piercing Melee Dmg, reduce the Dmg to ∅. If this character deals Impact Melee Dmg, increase the Dmg dealt by +1.
+
 Intimidate:
   cost: 1
   range: 4
@@ -350,7 +361,7 @@ Brothers in Arms:
   type: activated
   isPulse: false
   textToRightInItalics: null
-  activatedText: Target other friendly Militia gains +1 Arcane stat and +1 Melee stat until end of turn. Then, the target may discard 1 energy to give this character +1 Arcane stat and +1 Melee stat until end of turn.
+  activatedText: Target other friendly Militia gains +1 Arcane stat and +2 Melee stat until end of turn. Then, the target may discard 1 energy to give this character +1 Arcane stat and +2 Melee stat until end of turn. (You may only target each character once per turn.)
   arcaneOutcomes: null
 
 Shoot Crossbow:
@@ -472,6 +483,39 @@ Fireblast:
     - "bX: Target character suffers 2X Magical Dmg."
   catastrophe: This ability cannot be used for the remainder of the game. All models within a 3” pulse suffer 4 Magical Dmg.
 
+Lance:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If this character deals Slicing Melee Dmg, reduce the Dmg dealt to ∅. If this character deals Piercing Dmg, increase the Dmg dealt by +1.
+
+Jousting Shield:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: Reduce Piercing and Impact Dmg suffered by -1.
+
+Digger:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: All models within a 3" pulse suffer 2 Magical Dmg.
+  description: When this model takes a Harvest action on a Moonstone, flip an Arcane Card and reduce the Depth Value by X, where X is the value of the card.
+
 Foul Gases:
   cost: 2
   range: 2
@@ -564,6 +608,17 @@ Remove Necklace:
   arcaneOutcomes: null
   catastrophe: null
 
+Älskling:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: Reduce all Dmg this character would suffer by -1 for each other friendly Gnome or Animal within 4", to a maximum of -2.
+
 Ghastly Scream:
   cost: 4
   range: 6
@@ -572,7 +627,7 @@ Ghastly Scream:
   textToRightInItalics: null
   activatedText: null
   arcaneOutcomes:
-    - "rX: Move target enemy X” directly away. If the enemy is in possession of at least one Moonstone it loses possession of one Moonstone it is carrying before moving. Place it in base contact with the enemy at depth '1'."
+    - "rX: Move target enemy X\" directly away. If the enemy is in possession of at least one Moonstone it loses possession of one Moonstone it is carrying before moving. Place it in base contact with the enemy at depth '1'."
   catastrophe: This character suffers 2 Wds.
 Ear Splitting Screech:
   cost: 3
@@ -696,6 +751,39 @@ Rallying Cry:
   activatedText: Energy on other friendly Humans within the pulse is restored up to the number of blue dots currently remaining on their health bar.
   arcaneOutcomes: null
   catastrophe: null
+
+Tough Skin:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: Reduce all Dmg suffered by -1.
+
+Granite Fists:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If this character deals Impact Melee Dmg, increase the Dmg dealt by +2.
+
+Calcify:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: At the end of the Replenish Step you may have one enemy engaged by this model lose 1 energy.
 
 Stone Song:
   cost: 1
@@ -1096,6 +1184,17 @@ Dizzly Spell:
     - "rX: Target loses one Active Ability of your choice until end of turn."
   catastrophe: This model suffers 1 Wd.
 
+Divine Intervention:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: When an enemy targets this character with an Arcane Ability, or uses an Arcane Ability within 4" of this model, if your resist hand includes two or more Catastrophe cards, you may reveal them to cancel the ability and inflict the catastrophe result on the active character.
+
 Natural Order:
   cost: 1
   range: 4
@@ -1259,13 +1358,35 @@ Wither:
     - "rX: Target suffers X+1 Magical Dmg."
   catastrophe: This model suffers 3 Wds.
 
+Felling Axe:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If this character deals Impact Melee Dmg, increase the Dmg dealt by +2.
+
+Guerilla Tactician:
+  cost: null
+  range: 6
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: "Other friendly Fauns within 6\" gain +1 Melee Stat and [Swift: When making a Reaction Step while engaged by an enemy, this model may move 2\" instead of the usual 1\". Once per turn.]"
+
 Furious Charge:
   cost: 1
   range: 4
   type: activated
   isPulse: false
   textToRightInItalics: null
-  activatedText: Move this model 3” directly towards target enemy model. If this character's next action this turn is a Melee Attack against the same target then it deals +1 Dmg.
+  activatedText: Move this model 3" directly towards target enemy model. If this character's next action this turn is a Melee Attack against the same target then it deals +1 Dmg.
   arcaneOutcomes: null
   catastrophe: null
 Hunting Horn:
@@ -1290,13 +1411,23 @@ Perplex:
   arcaneOutcomes: null
   catastrophe: null
 
+Burrowing Claws (3):
+  cost: 3
+  range: null
+  type: activated
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: This model gains possession of one Moonstone it is in base contact with regardless of its depth value. This ability cannot be used while this model is engaged.
+  arcaneOutcomes: null
+  catastrophe: null
+
 Hop:
   cost: 2
   range: null
   type: activated
   isPulse: false
   textToRightInItalics: Once per turn.
-  activatedText: Move this model 4”. You may move freely over intervening obstacles and models provided bases do not overlap at the end of the move.
+  activatedText: Move this model 4". You may move freely over intervening obstacles and models provided bases do not overlap at the end of the move.
   arcaneOutcomes: null
   catastrophe: null
 
@@ -1679,6 +1810,17 @@ Black Powder Bomb:
     - "gX: Target suffers X+1 Magical Dmg. Other models within 2” of the target suffer X Magical Dmg."
   catastrophe: All models within 2” suffer 2 Wds.
 
+Expel:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: Whenever any character suffers a Catastrophe, after resolving the action, draw an Arcane card for each Catastrophe suffered. Look, then place it face down besides this character card. At any point you can add the removed card to your Arcane or Arcane Resist Hand. If you do then at the end of the action, or if this character is slain, shuffle the card back into the Arcane Deck. This character can hold a maximum number of cards at any time equal to the current turn number; if an additional card is drawn, choose a card to shuffle back into the Arcane Deck.
+
 Malachite Ritual:
   cost: 3
   range: 8
@@ -1687,11 +1829,11 @@ Malachite Ritual:
   textToRightInItalics: null
   activatedText: null
   arcaneOutcomes:
-    - "gX: Target within 2” of a Tree or Wooded Patch gains X energy."
-    - "bX: Target non-Spirit heals X+1 Wds."
+    - "gX: Target within 2\" of a Tree or Wooded Patch gains X energy."
+    - "bX: Target heals X+1 Wds."
     - "rX: Target suffers X Wds. Spirits suffer an additional 1 Wd."
   arcaneSubText: Whilst resolving, ignore passive abilities of other characters.
-  catastrophe: This model and Spirits within 6” suffer 2 Wds.
+  catastrophe: This model and Spirits within 6\" suffer 2 Wds.
 
 Fire Cannon!:
   cost: 2
@@ -1701,7 +1843,7 @@ Fire Cannon!:
   textToRightInItalics: null
   activatedText: null
   arcaneOutcomes:
-    - "gX: Target character suffers 3X-1 Impact Dmg then is moved X” directly away."
+    - "gX: Target character suffers 3X-1 Impact Dmg then is moved X\" directly away."
   catastrophe: This model suffers 3 Wds. All other models within 2” suffer 3 Magical Dmg then are moved 1” directly away.
 
 Summon an Encore!:
@@ -1836,6 +1978,17 @@ Replace Necklace:
   arcaneOutcomes: null
   catastrophe: null
 
+Poking Stick:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If this character deals Slicing Melee Dmg, reduce the Dmg dealt to ∅.
+
 Plunder:
   cost: 1
   range: 2
@@ -1950,6 +2103,17 @@ Rule the Roost:
   activatedText: Target Goblin suffers 2 Wds, gains 2 energy and activates immediately after this character's activation ends. If the target has already activated, then this is a bonus activation, otherwise this counts as the target's activation for the turn.
   arcaneOutcomes: null
   catastrophe: null
+
+Rub It Better:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: When this model causes 1 or more Wds to an enemy, a friendly Human or Cleric within 4" of this model may restore 1 Wd.
 "Gimme!!":
   cost: 1
   range: 2
@@ -2045,9 +2209,21 @@ Giant Whisperer:
   type: activated
   isPulse: false
   textToRightInItalics: null
-  activatedText: Move target Giant 1”.
+  activatedText: Move target Giant 1".
   arcaneOutcomes: null
   catastrophe: null
+
+Glaive:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If this character deals Slicing or Piercing Melee Dmg, increase the Dmg dealt by +1.
+
 "Where'd You Come From!?":
   cost: 2
   range: 6
@@ -2283,7 +2459,7 @@ Drain Life:
   type: activated
   isPulse: false
   textToRightInItalics: Once per turn.
-  activatedText: Target other friendly character is slain. If the target wasn't a Psychopomp then the next time this character uses Reanimate this turn, reduce its energy cost to (0) and gain +2 Arcane Stat for the duration of the action.
+  activatedText: Target other friendly Spirit or Risen is slain. The next time this character uses Reanimate this turn, reduce its energy cost to (0) and gain +2 Arcane Stat for the duration of the action.
   arcaneOutcomes: null
   catastrophe: null
 
@@ -2293,7 +2469,7 @@ Necrotic Salve:
   type: activated
   isPulse: false
   textToRightInItalics: Once per turn.
-  activatedText: Target friendly character restores 1 Wd. If at least one friendly model was slain this turn, the target also gains +1 energy.
+  activatedText: Target friendly character restores 1 Wd. If the target is a Noble and at least one friendly model was slain this turn, the target also gains +1 energy.
   arcaneOutcomes: null
   catastrophe: null
 
@@ -2363,7 +2539,19 @@ Summon the Nursery:
     - "g1: Place a new Sprog in base contact with this character."
     - "b1: Place a new Pookie in base contact with this character."
     - "r1: Place a new Urchin in base contact with this character."
-  catastrophe: This model and Babelings within 6” suffer 2 Wds.
+  catastrophe: This model and Babelings within 6" suffer 2 Wds.
+
+Summon from the Depths:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: "When this model is deployed or enters play, you may place a new friendly Aquatic Psychopomp in base contact. If deployed, this must be in the deployment zone as normal. This cannot bring a character into play if it is already in play."
+
 Merfolk Magic:
   cost: 2
   range: 10
@@ -2403,3 +2591,242 @@ A Noble Challenge:
   textToRightInItalics: Once per turn.
   activatedText: This character makes a Melee Attack action with +3 Melee Stat against target enemy character. If the target of this action is a Noble reduce Dmg suffered by this character to ∅ for the duration of the action.
   arcaneOutcomes: null
+
+Link to the Past:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If a friendly Danica, Dusk Witch was taken in this troupe at the start of the game then this character gains +1 Arcane Stat and reduces the energy cost of the first Arcane Ability targeting a Witch in a turn by -1.
+
+Link to the Future:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If a friendly Zorya, Dawn Witch was taken in this troupe at the start of the game then this character restores 2 Wds at the start of the Replenish Step.
+
+Link to the Present:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If a friendly Antonia, Noonday Witch was taken in this troupe at the start of the game then this character gains +1 energy during each Replenish Step.
+
+Mesmerising:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: Enemy models engaged by this character must discard 1 energy before they can declare a Jog, Step or Reaction Step.
+
+Swift:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: When making a Reaction Step while engaged by an enemy, this model may move 2" instead of the usual 1".
+
+"Constant Bickering":
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: This character suffers 3 Wds.
+  description: When this character activates, flip an Arcane card. This character gains X energy, where X is the value on the flipped card.
+
+"Cleaver & Club":
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: If this character deals Impact or Slicing Melee Dmg, increase the Dmg dealt by +2.
+
+"Natural Padding":
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: Reduce Impact Dmg suffered by -2.
+
+"Two Heads are Better than One":
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: During a round of Melee, after cards are drawn but before they are revealed, you may discard 1 energy to play 2 different cards. If you do, after cards are revealed you may choose which card is used. The other card is discarded.
+
+"Up, Up & Away":
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: This character may move freely over all terrain and other models during Jog and Step actions, provided it does not end the move with the base overlapping another model or barrier terrain. It cannot take the Harvest action or the Melee Attack action, cannot be targeted by Melee Attack actions and does not engage enemy models or become engaged by enemy models. It does not block LoS, provide Cover, gain bonuses for elevation, or suffer from Falling. When targeted by Arcane actions, this character does not benefit from Cover.
+
+Slow:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: "This model's Jog actions are limited to 2\"."
+
+"My Boys":
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: "Reduce all Dmg this character would suffer by -1 for each other friendly Gnome within 4\", to a maximum of -2."
+
+"Luck Charms":
+  cost: null
+  range: 4
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: "Other friendly Gnomes within 4\" gain +1 Melee Stat and +1 Arcane Stat."
+
+"Mother's Love":
+  cost: 1
+  range: 10
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: "Move 2\" directly towards target Gnome, then the target moves 2\" directly towards this model and restores 2 Wds."
+  arcaneOutcomes: null
+  catastrophe: null
+
+"Mother's Wrath":
+  cost: 1
+  range: 3
+  type: activated
+  isPulse: true
+  textToRightInItalics: Once per game.
+  activatedText: "This action can only be taken if engaged by an enemy. Other friendly Gnomes within the pulse gain 1 energy. Enemy models within the pulse suffer 2 Wds."
+  arcaneOutcomes: null
+  catastrophe: null
+
+Resonance:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: "Friendly Spirits within 8\" have a resist hand of +2 cards when targeted by an enemy Arcane Ability."
+
+"Slip through the Deadlands":
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: "Friendly Spirits within 8\" gain [Blink: When making a Step action, this model may be placed within 1\" of itself instead of moving 1\". Once per turn]."
+
+"Incorporeal Form":
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: "When this character activates it may discard 1 energy. If it does, this character reduces all non-Magical Dmg suffered to ∅ and may move freely over models and terrain during Jog actions but cannot take Harvest actions, until end of turn."
+
+Oceanic:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+  description: "This model's Jog actions are limited to 2\" but may be made freely over Water Features."
+
+"Merfolk Magic":
+  cost: 2
+  range: 10
+  type: activated
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  activatedText: "Place this model within 2\" and LoS. This model cannot take Harvest actions until end of turn."
+  arcaneOutcomes: null
+  catastrophe: null
+
+"Torrential Surge":
+  cost: 2
+  range: null
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Place a 50mm Diameter Water Feature within 3X\" and LoS on open ground. This remains in place until end of game. A maximum of 3 Water Features may be placed by this troupe, if a fourth is placed you must choose and remove a Water Feature you created earlier this game."
+  catastrophe: This model suffers 2 Wds.
+
+"Siren Song":
+  cost: 3
+  range: 12
+  type: arcane
+  isPulse: false
+  textToRightInItalics: null
+  activatedText: null
+  arcaneOutcomes:
+    - "bX: Move target X+2\" directly towards this model. Then, if the target is within 2\" of a Water Feature it suffers 4 Magical Dmg."
+  catastrophe: This model suffers 3 Wds.

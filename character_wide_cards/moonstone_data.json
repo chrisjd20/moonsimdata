@@ -950,7 +950,7 @@
     "faction": "Leshavult",
     "maxhp": 8,
     "energyblips": "1,2,4",
-    "keywords": "Spirit",
+    "keywords": "Spirit, Witch",
     "charheadpath": null,
     "statcardpath": null,
     "signaturemovepath": null,
@@ -974,7 +974,7 @@
         "range": null,
         "modelId": "34d5c62b-824d-4c5b-9703-24934e51df9d",
         "energyCost": null,
-        "description": " If a friendly Danica, Dusk Witch is in play then this character gains +1 Arcane Stat.",
+        "description": "If a friendly Danica, Dusk Witch was taken in this troupe at the start of the game then this character gains +1 Arcane Stat and reduces the energy cost of the first Arcane Ability targeting a Witch in a turn by -1.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -1087,7 +1087,7 @@
       "Falling Swing",
       "Rising Attack"
     ],
-    "version": 2
+    "version": 3
   },
   {
     "id": "54564d71-f101-497c-8515-4dfdd0ac52ca",
@@ -2469,7 +2469,7 @@
         "range": null,
         "modelId": "ebdc6f24-77ac-4544-b3b4-4d57bfca00e7",
         "energyCost": null,
-        "description": "Models engaged by this character during the Replenish Step generate -1 energy.",
+        "description": "At the end of the Replenish Step you may have one enemy engaged by this model lose 1 energy.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -2478,7 +2478,7 @@
     "SignatureMove": {
       "id": "7c6d8f7b-40d4-4d14-82f7-3b7fd71e35bb",
       "name": "Crushing Embrace",
-      "extraText": "This attack deals ∅ damage against models which are further than 1” away.",
+      "extraText": "This attack deals ∅ damage against models which are further than 1\" away.",
       "parryType": 0,
       "damageType": 4,
       "upgradeFor": 2,
@@ -2492,7 +2492,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 4
+    "version": 5
   },
   {
     "id": "4b1a42ff-4aa6-4ebe-8b73-52c6c62d0931",
@@ -2780,7 +2780,7 @@
         "range": null,
         "modelId": "f99da925-6af3-4c7a-8c52-0d4aab0ed8af",
         "energyCost": null,
-        "description": "This character may Jog freely over Water Feature terrain and gains +2 energy during the Replenish Step if any part of its base is within a Water Feature.",
+        "description": "This character may Jog over Water Features and gains +1 energy during the Replenish Step if any part of its base is within a Water Feature.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -2847,7 +2847,7 @@
       "damageType": 8,
       "upgradeFor": 4,
       "thrustDamage": 3,
-      "endStepEffect": "If the enemy is slain, and this character is not slain, then this character recovers all Wds and all energy.",
+      "endStepEffect": "If the enemy is slain, and this character is not slain, then this character restores all Wds and all energy.",
       "lowGuardDamage": null,
       "highGuardDamage": 2,
       "sweepingCutDamage": 2,
@@ -2856,7 +2856,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 2
+    "version": 3
   },
   {
     "id": "f32527b5-6d3d-408e-ba00-8d048737ca7a",
@@ -4002,7 +4002,7 @@
     "faction": "Leshavult",
     "maxhp": 7,
     "energyblips": "1,3",
-    "keywords": "Spirit",
+    "keywords": "Spirit, Witch",
     "charheadpath": null,
     "statcardpath": null,
     "signaturemovepath": null,
@@ -4026,7 +4026,7 @@
         "range": null,
         "modelId": "3e744701-d87b-4dd8-9241-70f80c690f3e",
         "energyCost": null,
-        "description": "If a friendly Zorya, Dawn Witch is in play then this character restores 2 Wds at the start of the Replenish Step.",
+        "description": "If a friendly Zorya, Dawn Witch was taken in this troupe at the start of the game then this character restores 2 Wds at the start of the Replenish Step.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -4105,7 +4105,7 @@
     "SignatureMove": {
       "id": "5af425c8-b2e5-4d3a-811b-c30ec78da952",
       "name": "Illusion",
-      "extraText": "Reduce Dmg suffered to ∅.",
+      "extraText": null,
       "parryType": 63,
       "damageType": 0,
       "upgradeFor": 2,
@@ -4119,7 +4119,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 1
+    "version": 2
   },
   {
     "id": "fdf673a6-6a0c-4d0c-99a3-4b28c227a89c",
@@ -4394,7 +4394,7 @@
     "faction": "Dominion,Commonwealth",
     "maxhp": 14,
     "energyblips": "6",
-    "keywords": "Giant",
+    "keywords": "Giant, Mercenary",
     "charheadpath": "",
     "statcardpath": "",
     "signaturemovepath": null,
@@ -4468,7 +4468,7 @@
       "damageType": 4,
       "upgradeFor": 4,
       "thrustDamage": 1,
-      "endStepEffect": "If the enemy suffered 1 or more Wds during this round of Melee and has an Evade Stat of -1 or lower, then it is Removed From Play.",
+      "endStepEffect": "If the enemy suffered 1 or more Wds during this round of Melee and has an Evade Stat of -1 or lower, then it is Removed From Play",
       "lowGuardDamage": null,
       "highGuardDamage": null,
       "sweepingCutDamage": 1,
@@ -4477,7 +4477,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 2
+    "version": 3
   },
   {
     "id": "d26da9de-80aa-4944-a4d9-9c58a20a3fab",
@@ -4509,7 +4509,7 @@
         "range": null,
         "modelId": "d26da9de-80aa-4944-a4d9-9c58a20a3fab",
         "energyCost": null,
-        "description": " If this character deals Slicing Melee Dmg, reduce the Dmg dealt to ∅. If this character deals Piercing Dmg, increase the Dmg dealt by +1.",
+        "description": "If this character deals Slicing Melee Dmg, reduce the Dmg dealt to ∅. If this character deals Piercing Dmg, increase the Dmg dealt by +1.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -4518,10 +4518,10 @@
         "id": "16f936bb-a2b2-4ba1-80a3-5d66629dd79c",
         "name": "Chaaarge!!",
         "pulse": false,
-        "range": null,
+        "range": 6,
         "modelId": "d26da9de-80aa-4944-a4d9-9c58a20a3fab",
-        "energyCost": null,
-        "description": "Move this model 4” directly towards target enemy model. If this character's next action this turn is a Melee Attack against the same target it deals +2 Dmg.",
+        "energyCost": 2,
+        "description": "Move this model 4\" directly towards target enemy model. If this character's next action this turn is a Melee Attack against the same target it deals +2 Dmg.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -4533,14 +4533,14 @@
         "range": null,
         "modelId": "d26da9de-80aa-4944-a4d9-9c58a20a3fab",
         "energyCost": null,
-        "description": "When this model takes a Harvest action, flip an Arcane Card and reduce the Depth Value by X, where X is the value of the card. Catastrophe: All models within a 3” pulse suffer 2 Magical Dmg.",
+        "description": "When this model takes a Harvest action on a Moonstone, flip an Arcane Card and reduce the Depth Value by X, where X is the value of the card. Catastrophe: All models within a 3\" pulse suffer 2 Magical Dmg.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": [
           {
             "id": "faabdfc7-d09f-401f-83df-54010477bc50",
             "abilityId": "7324a1a1-31bd-44de-af1a-e7b93457a0da",
-            "outcomeText": "Catastrophe: All models within a 3” pulse suffer 2 Magical Dmg.",
+            "outcomeText": "Catastrophe: All models within a 3\" pulse suffer 2 Magical Dmg.",
             "catastropheOutcome": true,
             "cardValueRequirement": 0,
             "cardColourRequirement": 0
@@ -4554,7 +4554,7 @@
         "range": null,
         "modelId": "d26da9de-80aa-4944-a4d9-9c58a20a3fab",
         "energyCost": null,
-        "description": " Reduce Piercing and Impact Dmg suffered by -1.",
+        "description": "Reduce Piercing and Impact Dmg suffered by -1.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -4562,7 +4562,7 @@
       {
         "id": "0d3f85ca-2e83-4109-af42-75fbe6e5ac54",
         "name": "Foul Gases",
-        "pulse": false,
+        "pulse": true,
         "range": 2,
         "modelId": "d26da9de-80aa-4944-a4d9-9c58a20a3fab",
         "energyCost": 2,
@@ -4575,10 +4575,10 @@
     "SignatureMove": {
       "id": "492a69a0-715b-4838-8c3d-f7e851c33ea5",
       "name": "Ankle Biter",
-      "extraText": "This attack deals ∅ damage against models which are further than 1” away.",
-      "parryType": 63,
+      "extraText": "This attack deals ∅ damage against models which are further than 1\" away.",
+      "parryType": 0,
       "damageType": 4,
-      "upgradeFor": 4,
+      "upgradeFor": 2,
       "thrustDamage": 3,
       "endStepEffect": null,
       "lowGuardDamage": null,
@@ -4589,7 +4589,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 2
+    "version": 3
   },
   {
     "id": "ace8c93d-bfcd-4fcf-80e3-ecdab5880eb9",
@@ -5915,12 +5915,12 @@
       },
       {
         "id": "37c65360-a4c6-4a2b-a89b-cb286d81c7a5",
-        "name": "Spiteful",
+        "name": "Rub It Better",
         "pulse": false,
         "range": null,
         "modelId": "babe0916-3f66-43f4-9ca7-d796ec524322",
         "energyCost": null,
-        "description": "When this model causes 1 or more Wds to an enemy, it restores 1 Wd.",
+        "description": "When this model causes 1 or more Wds to an enemy, a friendly Human or Cleric within 4\" of this model may restore 1 Wd.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -5957,17 +5957,17 @@
       "parryType": 0,
       "damageType": 4,
       "upgradeFor": 3,
-      "thrustDamage": 0,
+      "thrustDamage": 1,
       "endStepEffect": "If this character was not slain then it restores 1 Wd.",
       "lowGuardDamage": null,
-      "highGuardDamage": 0,
+      "highGuardDamage": 1,
       "sweepingCutDamage": 0,
-      "fallingSwingDamage": 0,
+      "fallingSwingDamage": 1,
       "risingAttackDamage": 0
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 1
+    "version": 2
   },
   {
     "id": "1bcebd15-79f8-4f86-820a-4f4976f76f74",
@@ -6336,7 +6336,7 @@
         "range": null,
         "modelId": "ca161ec3-8c53-4143-8d2e-eeba2325a333",
         "energyCost": null,
-        "description": "This character may move freely over all terrain and other models during Jog and Step actions, provided it does not end the move with the base overlapping another model or barrier terrain. It cannot take the Harvest action or the Melee Attack action, cannot be targeted by Melee Attack actions and does not engage enemy models or become engaged by enemy models. It does not block LoS, provide Cover, or suffer from Falling. When targeted by Arcane actions, this character does not benefit from Cover.",
+        "description": "This character may move freely over all terrain and other models during Jog and Step actions, provided it does not end the move with the base overlapping another model or barrier terrain. It cannot take the Harvest action or the Melee Attack action, cannot be targeted by Melee Attack actions and does not engage enemy models or become engaged by enemy models. It does not block LoS, provide Cover, gain bonuses for elevation, or suffer from Falling. When targeted by Arcane actions, this character does not benefit from Cover.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -6361,14 +6361,14 @@
         "range": 10,
         "modelId": "ca161ec3-8c53-4143-8d2e-eeba2325a333",
         "energyCost": 1,
-        "description": "This attack is not modified by Cover.",
+        "description": "Once per game, unless reloaded.",
         "oncePerGame": true,
         "oncePerTurn": false,
         "ArcaneOutcome": [
           {
             "id": "b896b4b0-19c0-4298-9e2a-5147f69bcac2",
             "abilityId": "273e178d-70a8-4cd2-9968-c073ba870aa8",
-            "outcomeText": "Target suffers X+2 Piercing Dmg then is moved 1\" directly away",
+            "outcomeText": "Target suffers X+2 Piercing Dmg then is moved 1\" directly away.",
             "catastropheOutcome": false,
             "cardValueRequirement": 48,
             "cardColourRequirement": 1
@@ -6381,7 +6381,8 @@
             "cardValueRequirement": 0,
             "cardColourRequirement": 0
           }
-        ]
+        ],
+        "additionalText": "This attack is not modified by Cover."
       },
       {
         "id": "db8535fd-d380-42e1-8260-ef141e53aa0d",
@@ -6397,7 +6398,7 @@
           {
             "id": "25408c32-2a42-406e-931f-0956c55a3500",
             "abilityId": "db8535fd-d380-42e1-8260-ef141e53aa0d",
-            "outcomeText": "All other models within the pulse suffer X+1 Magical Dmg then are moved X\" directly away.",
+            "outcomeText": "All other models within the pulse, suffer X+1 Magical Dmg then are moved X\" directly away.",
             "catastropheOutcome": false,
             "cardValueRequirement": 48,
             "cardColourRequirement": 1
@@ -6430,7 +6431,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 2
+    "version": 3
   },
   {
     "id": "5b319a3d-d166-433c-8ed6-67265bb3eb29",
@@ -6538,7 +6539,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 2
+    "version": 3
   },
   {
     "id": "c731299b-8f95-4c76-8297-c05ec490e723",
@@ -6787,41 +6788,16 @@
     "compendiumNumber": 106,
     "Ability": [
       {
-        "id": "863e145d-c996-42bc-a8b6-54bb52d9fba0",
-        "name": "Reanimate",
+        "id": "9364c458-8886-4a7f-954e-56416953f8ac",
+        "name": "Drain Life",
         "pulse": false,
-        "range": null,
+        "range": 4,
         "modelId": "bbd9fd06-68f8-4d7e-bc48-cc140406d81b",
-        "energyCost": 3,
-        "description": null,
+        "energyCost": 2,
+        "description": "Target other friendly Spirit or Risen is slain. The next time this character uses Reanimate this turn, reduce its energy cost to (0) and gain +2 Arcane Stat for the duration of the action.",
         "oncePerGame": false,
-        "oncePerTurn": false,
-        "ArcaneOutcome": [
-          {
-            "id": "12cd0c91-4eef-430e-a347-45b859662f34",
-            "abilityId": "863e145d-c996-42bc-a8b6-54bb52d9fba0",
-            "outcomeText": null,
-            "catastropheOutcome": false,
-            "cardValueRequirement": 0,
-            "cardColourRequirement": 1
-          },
-          {
-            "id": "4939ca33-fe52-42f0-82e6-5ea51cbd1053",
-            "abilityId": "863e145d-c996-42bc-a8b6-54bb52d9fba0",
-            "outcomeText": "Place a friendly slain model in base contact with this model. Restore half its health rounding up. It has no energy but may activate this turn.",
-            "catastropheOutcome": false,
-            "cardValueRequirement": 16,
-            "cardColourRequirement": 1
-          },
-          {
-            "id": "09d5e281-a0f6-4880-b604-457172488eff",
-            "abilityId": "863e145d-c996-42bc-a8b6-54bb52d9fba0",
-            "outcomeText": "This model suffers 4 Wds.",
-            "catastropheOutcome": true,
-            "cardValueRequirement": 0,
-            "cardColourRequirement": 0
-          }
-        ]
+        "oncePerTurn": true,
+        "ArcaneOutcome": []
       },
       {
         "id": "3777ea04-2b6c-4379-8454-eccc89543e1f",
@@ -6830,7 +6806,7 @@
         "range": 4,
         "modelId": "bbd9fd06-68f8-4d7e-bc48-cc140406d81b",
         "energyCost": 1,
-        "description": "Target friendly character restores 1 Wd. If at least one friendly model was slain this turn, the target also gains +1 energy.",
+        "description": "Target friendly character restores 1 Wd. If the target is a Noble and at least one friendly model was slain this turn, the target also gains +1 energy.",
         "oncePerGame": false,
         "oncePerTurn": true,
         "ArcaneOutcome": []
@@ -6847,41 +6823,58 @@
         "oncePerTurn": false,
         "ArcaneOutcome": [
           {
+            "id": "b4b7514d-fe9a-4312-a14c-a2d3516a40df",
+            "abilityId": "3c525c86-1900-4cd9-83f4-c70f5e8f37cd",
+            "outcomeText": "Place a new Familiar Psychopomp in base contact with this character.",
+            "catastropheOutcome": false,
+            "cardValueRequirement": 1,
+            "cardColourRequirement": 7
+          },
+          {
             "id": "ba924c2f-9c36-4174-8353-eb1502113c26",
             "abilityId": "3c525c86-1900-4cd9-83f4-c70f5e8f37cd",
             "outcomeText": "This model suffers 3 Wds.",
             "catastropheOutcome": true,
             "cardValueRequirement": 0,
             "cardColourRequirement": 0
-          },
-          {
-            "id": "b4b7514d-fe9a-4312-a14c-a2d3516a40df",
-            "abilityId": "3c525c86-1900-4cd9-83f4-c70f5e8f37cd",
-            "outcomeText": "Place a new Familiar Psychopomp in base contact with this character.",
-            "catastropheOutcome": false,
-            "cardValueRequirement": 0,
-            "cardColourRequirement": 1
           }
         ]
       },
       {
-        "id": "9364c458-8886-4a7f-954e-56416953f8ac",
-        "name": "Drain Life",
+        "id": "863e145d-c996-42bc-a8b6-54bb52d9fba0",
+        "name": "Reanimate",
         "pulse": false,
-        "range": 4,
+        "range": null,
         "modelId": "bbd9fd06-68f8-4d7e-bc48-cc140406d81b",
-        "energyCost": 2,
-        "description": "Target other friendly character is slain. If the target wasn't a Psychopomp then the next time this character uses Reanimate this turn, reduce its energy cost to (0) and gain +2 Arcane Stat for the duration of the action.",
+        "energyCost": 3,
+        "description": null,
         "oncePerGame": false,
-        "oncePerTurn": true,
-        "ArcaneOutcome": []
+        "oncePerTurn": false,
+        "ArcaneOutcome": [
+          {
+            "id": "4939ca33-fe52-42f0-82e6-5ea51cbd1053",
+            "abilityId": "863e145d-c996-42bc-a8b6-54bb52d9fba0",
+            "outcomeText": "Place a friendly slain model in base contact with this model. Restore half its health rounding up. It has no energy but may activate this turn.",
+            "catastropheOutcome": false,
+            "cardValueRequirement": 2,
+            "cardColourRequirement": 7
+          },
+          {
+            "id": "09d5e281-a0f6-4880-b604-457172488eff",
+            "abilityId": "863e145d-c996-42bc-a8b6-54bb52d9fba0",
+            "outcomeText": "This model suffers 4 Wds.",
+            "catastropheOutcome": true,
+            "cardValueRequirement": 0,
+            "cardColourRequirement": 0
+          }
+        ]
       }
     ],
     "SignatureMove": {
       "id": "de25d92e-834f-4e40-ab67-3f3fb3b3d9cb",
       "name": "Raise the Banner!",
       "extraText": "Reduce Dmg suffered by -1.",
-      "parryType": 0,
+      "parryType": 63,
       "damageType": 0,
       "upgradeFor": 0,
       "thrustDamage": null,
@@ -6909,7 +6902,7 @@
       }
     ],
     "yellowCircleMoves": [],
-    "version": 1
+    "version": 2
   },
   {
     "id": "ad5e2a3d-29f6-4205-b8ff-238508b6b7d8",
@@ -7445,7 +7438,7 @@
         "range": null,
         "modelId": "0fe0c1df-68f4-44fb-b5d0-2d38c8fb796c",
         "energyCost": null,
-        "description": "If this character deals Piercing Melee Dmg, reduce the Dmg dealt to ∅. If this character deals Impact Melee Dmg, increase the Dmg dealt by +2.",
+        "description": "If this character deals Impact Melee Dmg, increase the Dmg dealt by +2.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -7509,7 +7502,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 1
+    "version": 2
   },
   {
     "id": "43aaf65c-8abc-43dc-8e0e-fed2ba15a917",
@@ -7821,8 +7814,8 @@
         "pulse": false,
         "range": null,
         "modelId": "68d2fdd3-a2b7-44fa-8bc4-842a5a9141ba",
-        "energyCost": null,
-        "description": "The first time each turn this character performs a Harvest action, you may reduce the depth value by 2, instead of 1.",
+        "energyCost": 3,
+        "description": "This model gains possession of one Moonstone it is in base contact with regardless of its depth value. This ability cannot be used while this model is engaged.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -7868,12 +7861,12 @@
     "SignatureMove": {
       "id": "7f21e8b6-8836-4fd2-821a-4d2d8513a88d",
       "name": "Gore",
-      "extraText": "This attack deals ∅ damage against models which are further than 1” away.",
+      "extraText": "This attack deals ∅ damage against models which are further than 1\" away.",
       "parryType": 63,
       "damageType": 2,
       "upgradeFor": 4,
       "thrustDamage": 2,
-      "endStepEffect": "Move the enemy model 1”.",
+      "endStepEffect": "Move the enemy model 1\" directly away from this model.",
       "lowGuardDamage": 0,
       "highGuardDamage": 2,
       "sweepingCutDamage": 1,
@@ -7882,7 +7875,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 2
+    "version": 3
   },
   {
     "id": "d7cb3777-70c7-4a71-a05e-f5890fa7c9dd",
@@ -8256,7 +8249,7 @@
         "range": null,
         "modelId": "0b7ace83-616b-42f9-ab8e-48ed1a5a32fc",
         "energyCost": null,
-        "description": "Reduce all Dmg this character would suffer by -1 for each other friendly Gnome or Animal within 4”, to a maximum of -3.",
+        "description": "Reduce all Dmg this character would suffer by -1 for each other friendly Gnome or Animal within 4\", to a maximum of -2.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -8337,7 +8330,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 3
+    "version": 4
   },
   {
     "id": "ced3a312-6a90-448c-abb9-8f505ad2a06f",
@@ -9587,7 +9580,7 @@
         "range": 3,
         "modelId": "1f3c8b13-3b58-49ae-aa05-4c6f66ed06ef",
         "energyCost": 1,
-        "description": "Other friendly Gnomes within the pulse gain 1 energy. Enemy models within the pulse suffer 2 Wds.",
+        "description": "This action can only be taken if engaged by an enemy. Other friendly Gnomes within the pulse gain 1 energy. Enemy models within the pulse suffer 2 Wds.",
         "oncePerGame": true,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -9628,7 +9621,7 @@
         "range": null,
         "modelId": "1f3c8b13-3b58-49ae-aa05-4c6f66ed06ef",
         "energyCost": null,
-        "description": "Reduce all Dmg this character would suffer by -1 for each other friendly Gnome within 4”, to a maximum of -3.",
+        "description": "Reduce all Dmg this character would suffer by -1 for each other friendly Gnome within 4\", to a maximum of -2.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -9652,7 +9645,7 @@
         "range": null,
         "modelId": "1f3c8b13-3b58-49ae-aa05-4c6f66ed06ef",
         "energyCost": null,
-        "description": "Other friendly Gnomes within 4” gain +1 Melee stat, +1 Arcane stat and reduce Magical Dmg suffered by -1.",
+        "description": "Other friendly Gnomes within 4\" gain +1 Melee Stat and +1 Arcane Stat.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -9666,7 +9659,7 @@
       "damageType": 0,
       "upgradeFor": 5,
       "thrustDamage": null,
-      "endStepEffect": " If this model is still alive, swap the positions of this model and a friendly model within 4”.",
+      "endStepEffect": "If this character is not slain, swap the positions of this model and a friendly model within 4\".",
       "lowGuardDamage": null,
       "highGuardDamage": null,
       "sweepingCutDamage": null,
@@ -9675,7 +9668,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 2
+    "version": 3
   },
   {
     "id": "c1cf0b03-9fb3-4c3c-8cd4-2c6ab03fa190",
@@ -9713,13 +9706,25 @@
         "ArcaneOutcome": []
       },
       {
+        "id": "4c2dcf20-3844-44b8-a275-f5810f51c89d",
+        "name": "Slip through the Deadlands",
+        "pulse": false,
+        "range": null,
+        "modelId": "c1cf0b03-9fb3-4c3c-8cd4-2c6ab03fa190",
+        "energyCost": null,
+        "description": "Friendly Spirits within 8\" gain [Blink: When making a Step action, this model may be placed within 1\" of itself instead of moving 1\". Once per turn].",
+        "oncePerGame": false,
+        "oncePerTurn": false,
+        "ArcaneOutcome": []
+      },
+      {
         "id": "3be4ab8d-c728-4af9-b185-0d20f47f44b2",
         "name": "Incorporeal Form",
         "pulse": false,
         "range": null,
         "modelId": "c1cf0b03-9fb3-4c3c-8cd4-2c6ab03fa190",
         "energyCost": null,
-        "description": "When this character activates it may discard 1 energy. If it does, this character reduces all non-Magical Dmg suffered to ∅ and may ignore other models and terrain during Jog actions but cannot take Harvest actions, until end of turn.",
+        "description": "When this character activates it may discard 1 energy. If it does, this character reduces all non-Magical Dmg suffered to ∅ and may move freely over models and terrain during Jog actions but cannot take Harvest actions, until end of turn.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -9731,7 +9736,7 @@
         "range": 8,
         "modelId": "c1cf0b03-9fb3-4c3c-8cd4-2c6ab03fa190",
         "energyCost": 3,
-        "description": "If at least one friendly model was slain this turn resolve this attack with +2 Arcane Stat.",
+        "description": "If at least one friendly model was slain this turn resolve this action with +2 Arcane Stat.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": [
@@ -9760,7 +9765,7 @@
         "range": null,
         "modelId": "c1cf0b03-9fb3-4c3c-8cd4-2c6ab03fa190",
         "energyCost": 3,
-        "description": "",
+        "description": null,
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": [
@@ -9781,18 +9786,6 @@
             "cardColourRequirement": 0
           }
         ]
-      },
-      {
-        "id": "4c2dcf20-3844-44b8-a275-f5810f51c89d",
-        "name": "Slip through the Deadlands",
-        "pulse": false,
-        "range": null,
-        "modelId": "c1cf0b03-9fb3-4c3c-8cd4-2c6ab03fa190",
-        "energyCost": null,
-        "description": " Friendly Spirits within 8\" gain [Blink: When making a Step action, this model may be placed within 1\" of itself instead of moving 1\". Once per turn].",
-        "oncePerGame": false,
-        "oncePerTurn": false,
-        "ArcaneOutcome": []
       }
     ],
     "SignatureMove": {
@@ -9812,7 +9805,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 1
+    "version": 2
   },
   {
     "id": "3c8cfe38-b441-43d6-98df-5b75439bcffe",
@@ -10101,21 +10094,9 @@
         "range": 2,
         "modelId": "d23eb6e6-df16-4045-b28a-e789cff5dd24",
         "energyCost": 1,
-        "description": "All other models within the pulse move 1” directly away.",
+        "description": "All other models within the pulse move 1\" directly away.",
         "oncePerGame": false,
         "oncePerTurn": true,
-        "ArcaneOutcome": []
-      },
-      {
-        "id": "8f5942ab-0dfa-4ec1-9b05-993742b4661b",
-        "name": "Weakling",
-        "pulse": false,
-        "range": null,
-        "modelId": "d23eb6e6-df16-4045-b28a-e789cff5dd24",
-        "energyCost": null,
-        "description": "Reduce all Melee Dmg this character deals by -1. Harvest actions cost this model +1 energy.",
-        "oncePerGame": false,
-        "oncePerTurn": false,
         "ArcaneOutcome": []
       },
       {
@@ -10239,7 +10220,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 2
+    "version": 3
   },
   {
     "id": "a31f9301-6064-4047-91e2-b3140b6bf486",
@@ -11071,18 +11052,6 @@
     "compendiumNumber": 63,
     "Ability": [
       {
-        "id": "31672cc5-b503-49cf-b458-4b1f5bce0be7",
-        "name": "Look of Innocence",
-        "pulse": false,
-        "range": null,
-        "modelId": "2c836ba3-fdc6-4b98-b67a-5e3fd123c997",
-        "energyCost": null,
-        "description": "When an enemy targets this character with an action, the active enemy model must discard 1 energy or the action is cancelled.",
-        "oncePerGame": false,
-        "oncePerTurn": false,
-        "ArcaneOutcome": []
-      },
-      {
         "id": "0470c290-ae4a-4a52-8c72-d86ec42d7c63",
         "name": "Valhalla!!",
         "pulse": false,
@@ -11148,11 +11117,11 @@
       "id": "f3a613d7-786e-4bf4-aa8b-bfe76cc21dcb",
       "name": "Fetch!",
       "extraText": null,
-      "parryType": 0,
+      "parryType": 63,
       "damageType": 0,
       "upgradeFor": 5,
       "thrustDamage": null,
-      "endStepEffect": "Choose a friendly Norse or friendly Young Jack within 4\" of the enemy model. Move the chosen friendly character 3\" directly towards the enemy. If the chosen friendly character is now engaging the enemy then this model may move 3\" directly away from the enemy model.",
+      "endStepEffect": "Choose a friendly Norse or friendly Young Jack within 4\" of the enemy model and move them 3\" directly towards the enemy. If the chosen character is now engaging the enemy then this model may move 3\" directly away from the enemy.",
       "lowGuardDamage": null,
       "highGuardDamage": null,
       "sweepingCutDamage": null,
@@ -11161,7 +11130,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 1
+    "version": 2
   },
   {
     "id": "52b69c3b-94b6-4a16-877a-991aaa8ddbaa",
@@ -11800,46 +11769,16 @@
     "compendiumNumber": 68,
     "Ability": [
       {
-        "id": "b7a1672d-d50a-4bca-80ea-0b7f7ccc00d6",
-        "name": "Reload [Shoot Crossbow]",
+        "id": "7733cbd6-b8a0-4609-973b-24639254d39f",
+        "name": "Slow",
         "pulse": false,
         "range": null,
         "modelId": "887c1786-5a90-4ccb-a330-dd270cfdb5a8",
-        "energyCost": 2,
-        "description": "The named ability can be used again. This ability cannot be used while this model is engaged.",
+        "energyCost": null,
+        "description": "This model's Jog actions are limited to 2\".",
         "oncePerGame": false,
         "oncePerTurn": false,
-        "ArcaneOutcome": [],
-        "additionalText": "The named ability can be used again. This ability cannot be used while this model is engaged."
-      },
-      {
-        "id": "676146c2-0002-4d41-9c06-095e65aa6e85",
-        "name": "Shoot Crossbow",
-        "pulse": false,
-        "range": 14,
-        "modelId": "887c1786-5a90-4ccb-a330-dd270cfdb5a8",
-        "energyCost": 1,
-        "description": null,
-        "oncePerGame": true,
-        "oncePerTurn": false,
-        "ArcaneOutcome": [
-          {
-            "id": "fbe49140-5245-48f1-96d6-e1a31985a2bb",
-            "abilityId": "676146c2-0002-4d41-9c06-095e65aa6e85",
-            "outcomeText": "The Reload ability cannot be used for the remainder of the game.",
-            "catastropheOutcome": true,
-            "cardValueRequirement": 0,
-            "cardColourRequirement": 0
-          },
-          {
-            "id": "a1f8cb1c-4f11-4786-ad6f-84c4b1d907cb",
-            "abilityId": "676146c2-0002-4d41-9c06-095e65aa6e85",
-            "outcomeText": "Target suffers 2X Piercing Dmg then is moved 1” directly away",
-            "catastropheOutcome": false,
-            "cardValueRequirement": 48,
-            "cardColourRequirement": 1
-          }
-        ]
+        "ArcaneOutcome": []
       },
       {
         "id": "122f3a3b-ccf9-46e5-9187-6f4faf6cdc50",
@@ -11854,39 +11793,68 @@
         "ArcaneOutcome": []
       },
       {
+        "id": "b7a1672d-d50a-4bca-80ea-0b7f7ccc00d6",
+        "name": "Reload [Shoot Crossbow]",
+        "pulse": false,
+        "range": null,
+        "modelId": "887c1786-5a90-4ccb-a330-dd270cfdb5a8",
+        "energyCost": 2,
+        "description": "The named ability can be used again. This ability cannot be used while this model is engaged.",
+        "oncePerGame": false,
+        "oncePerTurn": false,
+        "ArcaneOutcome": []
+      },
+      {
         "id": "03ebfe40-8d77-422d-b866-0664b2835da2",
         "name": "Brothers in Arms",
         "pulse": false,
         "range": 4,
         "modelId": "887c1786-5a90-4ccb-a330-dd270cfdb5a8",
         "energyCost": 1,
-        "description": "Target other friendly Militia gains +1 Arcane stat and +1 Melee stat until end of turn. Then, the target may discard 1 energy to give this character +1 Arcane stat and +1 melee stat until end of turn.",
+        "description": "Target other friendly Militia gains +1 Arcane stat and +2 Melee stat until end of turn. Then, the target may discard 1 energy to give this character +1 Arcane stat and +2 Melee stat until end of turn. You may only target each character once per turn.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
       },
       {
-        "id": "7733cbd6-b8a0-4609-973b-24639254d39f",
-        "name": "Slow",
+        "id": "676146c2-0002-4d41-9c06-095e65aa6e85",
+        "name": "Shoot Crossbow",
         "pulse": false,
-        "range": null,
+        "range": 14,
         "modelId": "887c1786-5a90-4ccb-a330-dd270cfdb5a8",
-        "energyCost": null,
-        "description": "This model's Jog actions are limited to 2”.",
-        "oncePerGame": false,
+        "energyCost": 1,
+        "description": "Once per game, unless reloaded.",
+        "oncePerGame": true,
         "oncePerTurn": false,
-        "ArcaneOutcome": []
+        "ArcaneOutcome": [
+          {
+            "id": "a1f8cb1c-4f11-4786-ad6f-84c4b1d907cb",
+            "abilityId": "676146c2-0002-4d41-9c06-095e65aa6e85",
+            "outcomeText": "Target suffers 2X Piercing Dmg then is moved 1\" directly away.",
+            "catastropheOutcome": false,
+            "cardValueRequirement": 48,
+            "cardColourRequirement": 1
+          },
+          {
+            "id": "fbe49140-5245-48f1-96d6-e1a31985a2bb",
+            "abilityId": "676146c2-0002-4d41-9c06-095e65aa6e85",
+            "outcomeText": "The Reload ability cannot be used for the remainder of the game.",
+            "catastropheOutcome": true,
+            "cardValueRequirement": 0,
+            "cardColourRequirement": 0
+          }
+        ]
       }
     ],
     "SignatureMove": {
       "id": "bf2c02be-cfcd-4613-87a8-73a4ac05e7b6",
       "name": "Tactical Retreat",
-      "extraText": "Reduce Dmg suffered by -1",
-      "parryType": 0,
+      "extraText": "Reduce Dmg suffered by -1.",
+      "parryType": 63,
       "damageType": 0,
       "upgradeFor": 0,
       "thrustDamage": null,
-      "endStepEffect": "This model may move 2”.",
+      "endStepEffect": "This model may move 2\".",
       "lowGuardDamage": null,
       "highGuardDamage": null,
       "sweepingCutDamage": null,
@@ -11895,7 +11863,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 2
+    "version": 3
   },
   {
     "id": "24192bfb-2cab-42d0-bb27-302c19f7fb7b",
@@ -11909,7 +11877,7 @@
     "signaturemovepath": null,
     "signatureMoveId": "93dbc549-f13c-4ced-8204-6f16cefbc66e",
     "melee": 2,
-    "range": 1,
+    "range": 2,
     "arcane": 5,
     "evade": 0,
     "baseSize": 0,
@@ -12013,7 +11981,7 @@
       "extraText": "Reduce Dmg suffered by -2.",
       "parryType": 63,
       "damageType": 0,
-      "upgradeFor": 5,
+      "upgradeFor": 0,
       "thrustDamage": null,
       "endStepEffect": null,
       "lowGuardDamage": null,
@@ -12024,7 +11992,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 2
+    "version": 3
   },
   {
     "id": "e18c4371-180d-4027-9beb-ea06aca9076c",
@@ -12493,13 +12461,25 @@
     "compendiumNumber": 112,
     "Ability": [
       {
-        "id": "719fe554-e792-46af-bbcb-5f4d44af3b43",
+        "id": "c8dfe1f4-b1e7-4192-b84f-9075a6d69865",
+        "name": "Oceanic",
+        "pulse": false,
+        "range": null,
+        "modelId": "f779e449-852b-4f41-9958-ff5110959d9d",
+        "energyCost": null,
+        "description": "This model's Jog actions are limited to 2\" but may be made freely over Water Features.",
+        "oncePerGame": false,
+        "oncePerTurn": false,
+        "ArcaneOutcome": []
+      },
+      {
+        "id": "senara-summon-depths-0001",
         "name": "Summon from the Depths",
         "pulse": false,
         "range": null,
         "modelId": "f779e449-852b-4f41-9958-ff5110959d9d",
         "energyCost": null,
-        "description": "When this model is deployed or enters play, you may place a new friendly Aquatic Psychopomp in base contact. (If deployed, this must be in the deployment zone as normal. This cannot bring a character into play if it is already in play.)",
+        "description": "When this model is deployed or enters play, you may place a new friendly Aquatic Psychopomp in base contact. If deployed, this must be in the deployment zone as normal. This cannot bring a character into play if it is already in play.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -12511,7 +12491,7 @@
         "range": 10,
         "modelId": "f779e449-852b-4f41-9958-ff5110959d9d",
         "energyCost": 2,
-        "description": "Place this model within target Water Feature. This ability may only be used if this model is within a Water Feature.",
+        "description": "Place this model within target Water Feature. (This ability may only be used if this model is within a Water Feature.)",
         "oncePerGame": false,
         "oncePerTurn": true,
         "ArcaneOutcome": []
@@ -12559,7 +12539,7 @@
           {
             "id": "5051ddf0-27ab-47ef-9711-5108168acbbe",
             "abilityId": "745d2f56-b4c0-4522-aa4c-3ae861a5ad15",
-            "outcomeText": "Move target X+2\" directly towards this model. Then, if the target is within 4\" of a Water Feature it suffers 4 Magical Dmg",
+            "outcomeText": "Move target X+2\" directly towards this model. Then, if the target is within 2\" of a Water Feature it suffers 4 Magical Dmg.",
             "catastropheOutcome": false,
             "cardValueRequirement": 12,
             "cardColourRequirement": 2
@@ -12567,24 +12547,12 @@
           {
             "id": "e51ea249-6c97-45a5-8982-24aa4c50111a",
             "abilityId": "745d2f56-b4c0-4522-aa4c-3ae861a5ad15",
-            "outcomeText": "The resisting player may move this model 2\".",
+            "outcomeText": "This model suffers 3 Wds.",
             "catastropheOutcome": true,
             "cardValueRequirement": 0,
             "cardColourRequirement": 0
           }
         ]
-      },
-      {
-        "id": "c8dfe1f4-b1e7-4192-b84f-9075a6d69865",
-        "name": "Oceanic",
-        "pulse": false,
-        "range": null,
-        "modelId": "f779e449-852b-4f41-9958-ff5110959d9d",
-        "energyCost": null,
-        "description": "This model's Jog actions are limited to 2\" but may be made freely over Water Features.",
-        "oncePerGame": false,
-        "oncePerTurn": false,
-        "ArcaneOutcome": []
       }
     ],
     "SignatureMove": {
@@ -12596,23 +12564,15 @@
       "upgradeFor": 3,
       "thrustDamage": 2,
       "endStepEffect": null,
-      "lowGuardDamage": null,
-      "highGuardDamage": null,
+      "lowGuardDamage": 0,
+      "highGuardDamage": 0,
       "sweepingCutDamage": 2,
       "fallingSwingDamage": 3,
       "risingAttackDamage": 3
     },
-    "ModelRelations": [
-      {
-        "id": 11,
-        "childModel": "efa4e895-a827-4c8c-b047-dad641cba2b3",
-        "parentModel": "f779e449-852b-4f41-9958-ff5110959d9d",
-        "relatedName": "Summon Jeremy",
-        "relationType": 1
-      }
-    ],
+    "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 1
+    "version": 2
   },
   {
     "id": "0a017529-c64e-4082-ae0f-a06405ba41cf",
@@ -13868,7 +13828,7 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 1
+    "version": 2
   },
   {
     "id": "2e0d027d-2222-4de3-a6ea-c35210114936",
@@ -15931,12 +15891,12 @@
     "faction": "Leshavult",
     "maxhp": 8,
     "energyblips": "1,3,5",
-    "keywords": "Spirit",
+    "keywords": "Spirit, Witch",
     "charheadpath": null,
     "statcardpath": null,
     "signaturemovepath": null,
     "signatureMoveId": "c15fbffc-7a53-444d-8925-187e7146de54",
-    "melee": 4,
+    "melee": 5,
     "range": 1,
     "arcane": 2,
     "evade": -1,
@@ -15955,7 +15915,7 @@
         "range": null,
         "modelId": "bf242853-7c92-4cbf-9ec5-aa8a185514d9",
         "energyCost": null,
-        "description": "If a friendly Antonia, Noonday Witch is in play then this character gains +1 energy during the Replenish Step.",
+        "description": "If a friendly Antonia, Noonday Witch was taken in this troupe at the start of the game then this character gains +1 energy during each Replenish Step.",
         "oncePerGame": false,
         "oncePerTurn": false,
         "ArcaneOutcome": []
@@ -15979,7 +15939,7 @@
         "range": null,
         "modelId": "bf242853-7c92-4cbf-9ec5-aa8a185514d9",
         "energyCost": null,
-        "description": "When making a Reaction Step while engaged by an enemy, this model may move 2” instead of the usual 1”.",
+        "description": "When making a Reaction Step while engaged by an enemy, this model may move 2\" instead of the usual 1\". Once per turn.",
         "oncePerGame": false,
         "oncePerTurn": true,
         "ArcaneOutcome": []
@@ -15991,7 +15951,7 @@
         "range": 8,
         "modelId": "bf242853-7c92-4cbf-9ec5-aa8a185514d9",
         "energyCost": 2,
-        "description": "Target other friendly character immediately suffers one Catastrophe printed on their card. If it requires a target, you may choose any target that meets the ability's requirements.",
+        "description": "Target other friendly character immediately suffers one Catastrophe printed on their card. If it requires a target, you may choose any target that meets the ability's requirements. Once per turn.",
         "oncePerGame": false,
         "oncePerTurn": true,
         "ArcaneOutcome": []
@@ -16034,7 +15994,7 @@
       "damageType": 7,
       "upgradeFor": 0,
       "thrustDamage": 1,
-      "endStepEffect": "Move this model 1\" directly towards the enemy.",
+      "endStepEffect": "This model may move 1\".",
       "lowGuardDamage": null,
       "highGuardDamage": 2,
       "sweepingCutDamage": 2,
@@ -16043,6 +16003,6 @@
     },
     "ModelRelations": [],
     "yellowCircleMoves": [],
-    "version": 2
+    "version": 3
   }
 ]
