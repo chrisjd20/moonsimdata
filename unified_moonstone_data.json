@@ -7439,7 +7439,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Abra Cadaverous/AbraCadaverous.webp",
+      "headFileName": "characters/Abra Cadaverous/AbraCad.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Abra Cadaverous_wide_card_with_text.png",
       "signatureMoveId": "d6896e88-8df0-4b6e-8c57-d209e4d0fe85",
       "abilities": {
@@ -7612,7 +7612,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Anya Bartol/AnyaBartol.webp",
+      "headFileName": "characters/Anya Bartol/Head-Anya-Bartol.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Anya Bartol_wide_card_with_text.png",
       "signatureMoveId": "174b6443-f053-4f1d-a01a-a8bfa9af18e8",
       "abilities": {
@@ -7700,7 +7700,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Barnakelle/Barnakelle.webp",
+      "headFileName": "characters/Barnakelle/Barnakelle_Head.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Barnakelle_wide_card_with_text.png",
       "signatureMoveId": "efb10611-d7d0-4a90-b87a-9d55d4d2a232",
       "abilities": {
@@ -7744,7 +7744,7 @@
         "Falling Swing",
         "Sweeping Cut"
       ],
-      "headFileName": "characters/Baron Von Fancyhat/BaronVonFancyhat.webp",
+      "headFileName": "characters/Baron Von Fancyhat/Head-Baron-Von-Fancyhat.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Baron Von Fancyhat_wide_card_with_text.png",
       "signatureMoveId": "95650ea5-b422-41ef-a1d3-80ed4e145a7e",
       "abilities": {
@@ -7831,7 +7831,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Belladonna/Belladonna.webp",
+      "headFileName": "characters/Belladonna/Head-Belladonna.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Belladonna_wide_card_with_text.png",
       "signatureMoveId": "bf1688c9-4817-420a-8856-32354f61dcbd",
       "abilities": {
@@ -7873,7 +7873,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Billy/Billy.webp",
+      "headFileName": "characters/Billy/Head-Billy.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Billy_wide_card_with_text.png",
       "signatureMoveId": "e9471f76-bd2a-4643-90c5-5d2d61f214c6",
       "abilities": {
@@ -8041,7 +8041,7 @@
       },
       "version": 5,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Boulder/Boulder.webp",
+      "headFileName": "characters/Boulder/Head-Boulder.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Boulder_wide_card_with_text.png",
       "signatureMoveId": "7c6d8f7b-40d4-4d14-82f7-3b7fd71e35bb",
       "abilities": {
@@ -8080,7 +8080,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Brave Sir Pidge/BraveSirPidge.webp",
+      "headFileName": "characters/Brave Sir Pidge/Pidge.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Brave Sir Pidge_wide_card_with_text.png",
       "signatureMoveId": "73c2e0ec-58d1-4209-a910-07245f2901a6",
       "abilities": {
@@ -8164,7 +8164,7 @@
       },
       "version": 3,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Bristlenose/Bristlenose.webp",
+      "headFileName": "characters/Bristlenose/Head-Bristlenose.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Bristlenose_wide_card_with_text.png",
       "signatureMoveId": "fba0ee11-1015-4499-9b12-af6f58dfc7bb",
       "abilities": {
@@ -8206,7 +8206,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Brother Daniel/BrotherDaniel.webp",
+      "headFileName": "characters/Brother Daniel/Head-Brother-Daniel.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Brother Daniel_wide_card_with_text.png",
       "signatureMoveId": "646864f1-ca8f-4ad8-8851-d95801acd624",
       "abilities": {
@@ -8248,7 +8248,7 @@
       },
       "version": 3,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Brunhilde/Brunhilde.webp",
+      "headFileName": "characters/Brunhilde/Head-Brunhilde.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Brunhilde_wide_card_with_text.png",
       "signatureMoveId": "a899a757-3184-4a75-b492-d2fae406ea6a",
       "abilities": {
@@ -8289,7 +8289,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Butterfingers/Butterfingers.webp",
+      "headFileName": "characters/Butterfingers/Head-Butterfingers.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Butterfingers_wide_card_with_text.png",
       "signatureMoveId": "baba76bf-7c59-48ec-a4c6-a0ae94c4b791",
       "abilities": {
@@ -8332,7 +8332,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Chezapeaky/Chezapeaky.webp",
+      "headFileName": "characters/Chezapeaky/Chezapeaky_Head.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Chezapeaky_wide_card_with_text.png",
       "signatureMoveId": "08971624-1664-4268-a825-1cdad8416572",
       "abilities": {
@@ -8373,7 +8373,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Chubs/Chubs.webp",
+      "headFileName": "characters/Chubs/Head-Chubs.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Chubs_wide_card_with_text.png",
       "signatureMoveId": "f4da5514-9dd1-46c6-986d-661433cb0552",
       "abilities": {
@@ -8458,7 +8458,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Commodore Delahaye/CommodoreDelehaye.webp",
+      "headFileName": "characters/Commodore Delahaye/CommodoreDelehaye_Head.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Commodore Delahaye_wide_card_with_text.png",
       "signatureMoveId": "d6c97f5a-05d5-4871-880c-3092969dc1cb",
       "abilities": {
@@ -8583,7 +8583,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Danica, Dusk Witch/Danica.webp",
+      "headFileName": "characters/Danica, Dusk Witch/Head-Danica-Dusk-Witch.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Danica, Dusk Witch_wide_card_with_text.png",
       "signatureMoveId": "5af425c8-b2e5-4d3a-811b-c30ec78da952",
       "abilities": {
@@ -8830,7 +8830,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Echo of the Forgotten King/EchoOfTheForgottenKing.webp",
+      "headFileName": "characters/Echo of the Forgotten King/ForgottenKing.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Echo of the Forgotten King_wide_card_with_text.png",
       "signatureMoveId": "b602525c-c512-4561-9c3c-bbd909dd0718",
       "abilities": {
@@ -8919,7 +8919,7 @@
       "yellowCircleMoves": [
         "Thrust"
       ],
-      "headFileName": "characters/Eric, the Enlightened/EricTheEnlightened.webp",
+      "headFileName": "characters/Eric, the Enlightened/Eric-Leshavult.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Eric, the Enlightened_wide_card_with_text.png",
       "signatureMoveId": "b5cc7935-d250-4fc3-a003-a0b0e06ee9ee",
       "abilities": {
@@ -9081,7 +9081,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Flintlock/Flintlock.webp",
+      "headFileName": "characters/Flintlock/Head-Flintlock.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Flintlock_wide_card_with_text.png",
       "signatureMoveId": "30fa4220-29db-44aa-83ce-5eb2886ee4d1",
       "abilities": {
@@ -9126,7 +9126,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Foxglove/Foxglove.webp",
+      "headFileName": "characters/Foxglove/Head-Foxglove.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Foxglove_wide_card_with_text.png",
       "signatureMoveId": "bd89a899-c163-49d2-beee-105b62312f67",
       "abilities": {
@@ -9168,7 +9168,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Fraya/Fraya.webp",
+      "headFileName": "characters/Fraya/Head-Fraya.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Fraya_wide_card_with_text.png",
       "signatureMoveId": "1f829ca5-3b6d-4741-837e-bd6e23da97f3",
       "abilities": {
@@ -9251,7 +9251,7 @@
       },
       "version": 3,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Fritz/Fritz.webp",
+      "headFileName": "characters/Fritz/Head-Fritz.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Fritz_wide_card_with_text.png",
       "signatureMoveId": "d2751d3c-8e95-4c19-bd77-573c6b9a2f63",
       "abilities": {
@@ -9290,7 +9290,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Gertrude, the Faerie Hunter/Gertrude.webp",
+      "headFileName": "characters/Gertrude, the Faerie Hunter/Head-Gertrude-The-Faerie-Hunter.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Gertrude, the Faerie Hunter_wide_card_with_text.png",
       "signatureMoveId": "e0e5474d-b5fc-45dd-8385-396aa4905cd1",
       "abilities": {
@@ -9332,7 +9332,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Gloom/Gloom.webp",
+      "headFileName": "characters/Gloom/Head-Gloom.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Gloom_wide_card_with_text.png",
       "signatureMoveId": "64d9ba40-092f-497e-8e6e-589ccc8ab256",
       "abilities": {
@@ -9376,7 +9376,7 @@
       },
       "version": 3,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Gnomish Airship/GnomishAirship.webp",
+      "headFileName": "characters/Gnomish Airship/Head-Gnomish-Airship.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Gnomish Airship_wide_card_with_text.png",
       "signatureMoveId": "c441de9d-4fb0-4250-8e2c-e3cd86c3412e",
       "abilities": {
@@ -9459,7 +9459,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Gotchgut/Gotchgut.webp",
+      "headFileName": "characters/Gotchgut/Head-Gotchgut.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Gotchgut_wide_card_with_text.png",
       "signatureMoveId": "c84e62a9-1b2b-4298-ae50-16a15ae278c8",
       "abilities": {
@@ -9498,7 +9498,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Gradock/Gradock.webp",
+      "headFileName": "characters/Gradock/Head-Gradock.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Gradock_wide_card_with_text.png",
       "signatureMoveId": "3c1b0779-c421-43ff-b6b0-42a5c4276d8a",
       "abilities": {
@@ -9542,7 +9542,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Greymair/Greymair.webp",
+      "headFileName": "characters/Greymair/Graymair.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Greymair_wide_card_with_text.png",
       "signatureMoveId": "de25d92e-834f-4e40-ab67-3f3fb3b3d9cb",
       "abilities": {
@@ -9583,7 +9583,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Grub/stat-Grub.webp",
+      "headFileName": "characters/Grub/head-Grub.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Grub_wide_card_with_text.png",
       "signatureMoveId": "037effd3-1eb8-4966-acae-660cb98d2458",
       "abilities": {
@@ -9669,7 +9669,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Gwendoline, Leshavult Priestess/Gwendoline.webp",
+      "headFileName": "characters/Gwendoline, Leshavult Priestess/Head-Gwendoline-Leshavult-Priestess.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Gwendoline, Leshavult Priestess_wide_card_with_text.png",
       "signatureMoveId": "47342c90-820e-4b4f-80db-1de63b077cd0",
       "abilities": {
@@ -9712,7 +9712,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Herbert Growbottom/HerbertGrowbottom.webp",
+      "headFileName": "characters/Herbert Growbottom/Head-Herbert-Growbottom.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Herbert Growbottom_wide_card_with_text.png",
       "signatureMoveId": "813cd89d-917a-4ebc-9c2f-7343465e5279",
       "abilities": {
@@ -9755,7 +9755,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Hoff/Hoff.webp",
+      "headFileName": "characters/Hoff/Head-Hoff.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Hoff_wide_card_with_text.png",
       "signatureMoveId": "5b3dfea5-2712-4be9-afe6-7fc86f455933",
       "abilities": {
@@ -9837,7 +9837,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Iris & Hellebore/IrisAndHellebore.webp",
+      "headFileName": "characters/Iris & Hellebore/IrisAndHerebore.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Iris & Hellebore_wide_card_with_text.png",
       "signatureMoveId": "13a40511-8686-49cb-9c6b-cc290fa38186",
       "abilities": {
@@ -9878,7 +9878,7 @@
       },
       "version": 3,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Jackalope/Jackalope.webp",
+      "headFileName": "characters/Jackalope/Head-Jackalope.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Jackalope_wide_card_with_text.png",
       "signatureMoveId": "7f21e8b6-8836-4fd2-821a-4d2d8513a88d",
       "abilities": {
@@ -9921,7 +9921,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Jayda/Jayda.webp",
+      "headFileName": "characters/Jayda/Head-Jayda.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Jayda_wide_card_with_text.png",
       "signatureMoveId": "b201510a-0bb2-49d2-9aa0-81a9136f66eb",
       "abilities": {
@@ -10003,7 +10003,7 @@
       "yellowCircleMoves": [
         "Rising Attack"
       ],
-      "headFileName": "characters/Jerry Heir/JerryHeir.webp",
+      "headFileName": "characters/Jerry Heir/Jerry.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Jerry Heir_wide_card_with_text.png",
       "signatureMoveId": "a6542444-94ba-4a9e-b1e2-8a8483f82141",
       "abilities": {
@@ -10044,7 +10044,7 @@
       },
       "version": 4,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Joanna, Nordic Princess/Joanna.webp",
+      "headFileName": "characters/Joanna, Nordic Princess/Head-Joanna-Nordic-Princess.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Joanna, Nordic Princess_wide_card_with_text.png",
       "signatureMoveId": "61d18ef6-d477-48b0-92e9-d0a1338074b8",
       "abilities": {
@@ -10169,7 +10169,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Kaufman/Kaufman.webp",
+      "headFileName": "characters/Kaufman/Head-Kaufman.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Kaufman_wide_card_with_text.png",
       "signatureMoveId": "50ce11f0-7a21-48ad-86d0-a412f925a40a",
       "abilities": {
@@ -10209,7 +10209,7 @@
       },
       "version": 3,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Kavanagh, the Jongler/Kavanaugh.webp",
+      "headFileName": "characters/Kavanagh, the Jongler/Head-Kavanagh-the-Jongleur.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Kavanagh, the Jongler_wide_card_with_text.png",
       "signatureMoveId": "5230c787-3058-46bd-a098-85be7615ce8e",
       "abilities": {
@@ -10292,7 +10292,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Knoll/stat-Knoll.webp",
+      "headFileName": "characters/Knoll/head-Knoll.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Knoll_wide_card_with_text.png",
       "signatureMoveId": "1d803948-4382-4f00-8482-260f236189cb",
       "abilities": {
@@ -10331,7 +10331,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Lampy Darkson/LampyDarkson.webp",
+      "headFileName": "characters/Lampy Darkson/Lampy.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Lampy Darkson_wide_card_with_text.png",
       "signatureMoveId": "e2c7d951-0a03-483f-a7da-ea9494ca5103",
       "abilities": {
@@ -10374,7 +10374,7 @@
       "version": 1,
       "yellowCircleMoves": [],
       "overlayImage": "liv_overlay.png",
-      "headFileName": "characters/Liv/stat-Liv.webp",
+      "headFileName": "characters/Liv/head-Liv.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Liv_wide_card_with_text.png",
       "signatureMoveId": "7faee8be-0573-4d4d-a871-7c76c2735f43",
       "abilities": {
@@ -10455,7 +10455,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Loubard/Loubard.webp",
+      "headFileName": "characters/Loubard/Head-Loubard.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Loubard_wide_card_with_text.png",
       "signatureMoveId": "5433cdc0-490c-4eec-8b55-0b6f06acaf77",
       "abilities": {
@@ -10623,7 +10623,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Morris/Morris.webp",
+      "headFileName": "characters/Morris/Head-Morris.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Morris_wide_card_with_text.png",
       "signatureMoveId": "04ebbdbf-0637-4b7e-9388-fc7eb5f0a042",
       "abilities": {
@@ -10666,7 +10666,7 @@
       },
       "version": 3,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Mr Toodles/MrToodles.webp",
+      "headFileName": "characters/Mr Toodles/Head-Mr-Toodles.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Mr Toodles_wide_card_with_text.png",
       "signatureMoveId": "ea08c071-c170-4a13-ab70-360f13ec0f46",
       "abilities": {
@@ -10704,7 +10704,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Murder Bunny/MurderBunny-1.webp",
+      "headFileName": "characters/Murder Bunny/Head-Murder-Bunny.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Murder Bunny_wide_card_with_text.png",
       "signatureMoveId": "3b7ca26a-eb54-4ae6-8523-704a60ffc04d",
       "abilities": {
@@ -10745,7 +10745,7 @@
       },
       "version": 3,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Muridae/Muridae.webp",
+      "headFileName": "characters/Muridae/Head-Muridae.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Muridae_wide_card_with_text.png",
       "signatureMoveId": "cebf5769-948f-483c-a153-f1015698e75d",
       "abilities": {
@@ -10787,7 +10787,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Nanny/stat-Nanny.webp",
+      "headFileName": "characters/Nanny/head-Nanny.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Nanny_wide_card_with_text.png",
       "signatureMoveId": "af99cd73-9ad1-4a5f-8cee-928b09d31470",
       "abilities": {
@@ -10956,7 +10956,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Olim/stat-Olim.webp",
+      "headFileName": "characters/Olim/head-Olim.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Olim_wide_card_with_text.png",
       "signatureMoveId": "f3a613d7-786e-4bf4-aa8b-bfe76cc21dcb",
       "abilities": {
@@ -10996,7 +10996,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Peggy/stat-Peggy.webp",
+      "headFileName": "characters/Peggy/head-Peggy.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Peggy_wide_card_with_text.png",
       "signatureMoveId": "7a3c5c03-6286-4b32-aff4-9d1930eedd99",
       "abilities": {
@@ -11037,7 +11037,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Pookie/stat-Pookie.webp",
+      "headFileName": "characters/Pookie/head-Pookie.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Pookie_wide_card_with_text.png",
       "signatureMoveId": "43b64707-ed9d-4590-8ebe-07ae98771cb9",
       "abilities": {
@@ -11162,7 +11162,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Quack/Quack.webp",
+      "headFileName": "characters/Quack/Head-Quack.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Quack_wide_card_with_text.png",
       "signatureMoveId": "1c70e8da-ee94-4006-8a76-3f93da6b521a",
       "abilities": {
@@ -11205,7 +11205,7 @@
       },
       "version": 3,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Quarrel/Quarrel.webp",
+      "headFileName": "characters/Quarrel/Head-Quarrel.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Quarrel_wide_card_with_text.png",
       "signatureMoveId": "bf2c02be-cfcd-4613-87a8-73a4ac05e7b6",
       "abilities": {
@@ -11286,7 +11286,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Ribald/Ribald.webp",
+      "headFileName": "characters/Ribald/Head-Ribald.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Ribald_wide_card_with_text.png",
       "signatureMoveId": "c56d7e7a-5104-4355-9026-bd3919992981",
       "abilities": {
@@ -11406,7 +11406,7 @@
       },
       "version": 4,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Seasick Stu/SeasickStu.webp",
+      "headFileName": "characters/Seasick Stu/Head-Seasick-Stu.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Seasick Stu_wide_card_with_text.png",
       "signatureMoveId": "445073c0-87b2-4932-89e6-f6fa5a96b9cb",
       "abilities": {
@@ -11489,7 +11489,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Serif/stat-Serif.webp",
+      "headFileName": "characters/Serif/head-Serif.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Serif_wide_card_with_text.png",
       "signatureMoveId": "e113e515-6aa8-4e6c-9c92-f3129f1d39f0",
       "abilities": {
@@ -11531,7 +11531,7 @@
       "version": 3,
       "yellowCircleMoves": [],
       "overlayImage": "ShabbaroOn_overlay.png",
-      "headFileName": "characters/ShabbaroOn/Shabbaroon.webp",
+      "headFileName": "characters/ShabbaroOn/Head-Shabaroon.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/ShabbaroOn_wide_card_with_text.png",
       "signatureMoveId": "745d74d7-2a66-4472-b438-6236f3381476",
       "abilities": {
@@ -11574,7 +11574,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Silvertongue/Silvertongue.webp",
+      "headFileName": "characters/Silvertongue/Head-Silvertongue.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Silvertongue_wide_card_with_text.png",
       "signatureMoveId": "6209c4d3-a36f-4e17-8af5-82b2b6e50c86",
       "abilities": {
@@ -11657,7 +11657,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Sir Hogswash/SirHogswash.webp",
+      "headFileName": "characters/Sir Hogswash/Head-Sir-Hogswash.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Sir Hogswash_wide_card_with_text.png",
       "signatureMoveId": "66470247-2367-426d-b990-07292515613a",
       "abilities": {
@@ -11778,7 +11778,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Striga Anya/stat-StrigaAnya.webp",
+      "headFileName": "characters/Striga Anya/head-StrigaAnya.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Striga Anya_wide_card_with_text.png",
       "signatureMoveId": "bd1fa273-e1fa-4227-be37-3c96516bc64b",
       "abilities": {
@@ -11904,7 +11904,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Tabby, the Librarian/Tabby.webp",
+      "headFileName": "characters/Tabby, the Librarian/Head-The-Librarian.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Tabby, the Librarian_wide_card_with_text.png",
       "signatureMoveId": "b3011812-bfcb-4de9-9e19-2c23833e06be",
       "abilities": {
@@ -11943,7 +11943,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Teacake of Torment/TeakcakeOfTorment.webp",
+      "headFileName": "characters/Teacake of Torment/Teacake.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Teacake of Torment_wide_card_with_text.png",
       "signatureMoveId": "5577f8c6-5182-4bd4-bce3-6830e143b0ca",
       "abilities": {
@@ -11986,7 +11986,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Teetoe/TeeToe.webp",
+      "headFileName": "characters/Teetoe/Head-Teetoe.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Teetoe_wide_card_with_text.png",
       "signatureMoveId": "5817602c-676e-44c6-9d9b-129b395304b1",
       "abilities": {
@@ -12067,7 +12067,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/The Beast/TheBeast.webp",
+      "headFileName": "characters/The Beast/Head-The-Beast.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/The Beast_wide_card_with_text.png",
       "signatureMoveId": "52b79176-154f-439e-9c82-5f1b59cae525",
       "abilities": {
@@ -12107,7 +12107,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/The Duchess/TheDuchess.webp",
+      "headFileName": "characters/The Duchess/Duches.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/The Duchess_wide_card_with_text.png",
       "signatureMoveId": "4445205e-3fcf-431f-b284-6d55b74fc8cc",
       "abilities": {
@@ -12150,7 +12150,7 @@
       },
       "version": 3,
       "yellowCircleMoves": [],
-      "headFileName": "characters/The Fencer/TheFencer.webp",
+      "headFileName": "characters/The Fencer/Head-The-Fencer.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/The Fencer_wide_card_with_text.png",
       "signatureMoveId": "854f99c4-86cd-4e20-9ea5-d048c8fc0958",
       "abilities": {
@@ -12354,7 +12354,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Urchin/stat-Urchin.webp",
+      "headFileName": "characters/Urchin/head-Urchin.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Urchin_wide_card_with_text.png",
       "signatureMoveId": "05bc90ed-631e-4466-a7ad-5f70721338c1",
       "abilities": {
@@ -12437,7 +12437,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Vicious Syd/ViciousSyd.webp",
+      "headFileName": "characters/Vicious Syd/Head-Vicious-Syd.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Vicious Syd_wide_card_with_text.png",
       "signatureMoveId": "3a049366-1f6a-43a0-a22c-4506d832b437",
       "abilities": {
@@ -12524,7 +12524,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Viscount de Faulte/ViscountDeFaulte.webp",
+      "headFileName": "characters/Viscount de Faulte/Viscount.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Viscount de Faulte_wide_card_with_text.png",
       "signatureMoveId": "16557732-3bb4-4bbf-b277-e1b7704384e7",
       "abilities": {
@@ -12567,7 +12567,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Wasp/Wasp.webp",
+      "headFileName": "characters/Wasp/Head-Wasp.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Wasp_wide_card_with_text.png",
       "signatureMoveId": "f22205ad-d2a6-481d-b531-47e9949047cd",
       "abilities": {
@@ -12611,7 +12611,7 @@
       },
       "version": 1,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Wendigo/Wendigo.webp",
+      "headFileName": "characters/Wendigo/Head-Wendigo.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Wendigo_wide_card_with_text.png",
       "signatureMoveId": "1b2b15fa-d7fb-4df3-88c7-7ae314825f77",
       "abilities": {
@@ -12652,7 +12652,7 @@
       },
       "version": 2,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Young Jack/YoungJack.webp",
+      "headFileName": "characters/Young Jack/Head-Young-Jack.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Young Jack_wide_card_with_text.png",
       "signatureMoveId": "6da7d0a3-af72-4cc9-ad3e-3e2a1e1f4593",
       "abilities": {
@@ -12693,7 +12693,7 @@
       },
       "version": 3,
       "yellowCircleMoves": [],
-      "headFileName": "characters/Zorya, Dawn Witch/Zorya.webp",
+      "headFileName": "characters/Zorya, Dawn Witch/Head-Zorya-Dawn-Witch.webp",
       "statCardFileName": "character_wide_cards/generated_wide_cards_with_left_text/Zorya, Dawn Witch_wide_card_with_text.png",
       "signatureMoveId": "c15fbffc-7a53-444d-8925-187e7146de54",
       "abilities": {
