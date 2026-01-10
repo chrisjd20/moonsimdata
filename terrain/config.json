@@ -5,8 +5,11 @@
       "overlayWidth": 644,
       "overlayHeight": 549,
       "flying": true,
+      "dangerous": false,
+      "physicalSize": 152.39999999999998,
       "colors": [
-        "#FF6B6B"
+        "#C77DFF",
+        "#483D8B"
       ]
     },
     "barrel.png": {
@@ -14,8 +17,10 @@
       "overlayWidth": 55,
       "overlayHeight": 61,
       "flying": false,
+      "dangerous": false,
+      "physicalSize": 15.239999999999998,
       "colors": [
-        "#FFA94D"
+        "#FFCA3A"
       ]
     },
     "RockyGround.png": {
@@ -23,8 +28,10 @@
       "overlayWidth": 880,
       "overlayHeight": 768,
       "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
       "colors": [
-        "#FFA94D"
+        "#FFCA3A"
       ]
     },
     "SpikeTrap.png": {
@@ -32,8 +39,10 @@
       "overlayWidth": 482,
       "overlayHeight": 452,
       "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
       "colors": [
-        "#FF6B6B"
+        "#EF5350"
       ]
     },
     "barrel1.png": {
@@ -41,8 +50,10 @@
       "overlayWidth": 314,
       "overlayHeight": 207,
       "flying": false,
+      "dangerous": false,
+      "physicalSize": 20.32,
       "colors": [
-        "#FFA94D"
+        "#FFCA3A"
       ]
     },
     "barrel2.png": {
@@ -50,8 +61,10 @@
       "overlayWidth": 239,
       "overlayHeight": 247,
       "flying": false,
+      "dangerous": false,
+      "physicalSize": 15.239999999999998,
       "colors": [
-        "#FFA94D"
+        "#FFCA3A"
       ]
     },
     "barrel3.png": {
@@ -59,8 +72,10 @@
       "overlayWidth": 169,
       "overlayHeight": 245,
       "flying": false,
+      "dangerous": false,
+      "physicalSize": 15.239999999999998,
       "colors": [
-        "#FFA94D"
+        "#FFCA3A"
       ]
     },
     "barrel4.png": {
@@ -68,24 +83,1173 @@
       "overlayWidth": 177,
       "overlayHeight": 236,
       "flying": false,
+      "dangerous": false,
+      "physicalSize": 15.239999999999998,
       "colors": [
-        "#FFA94D"
+        "#FFCA3A"
       ]
     },
     "bush1.png": {
-      "overlay": null,
+      "overlay": "bush1_overlay.png",
       "overlayWidth": 147,
       "overlayHeight": 140,
       "flying": true,
-      "colors": []
+      "dangerous": false,
+      "physicalSize": 25.4,
+      "colors": [
+        "#6BCB77",
+        "#C77DFF"
+      ]
     },
     "bush2.png": {
       "overlay": "bush2_overlay.png",
       "overlayWidth": 284,
       "overlayHeight": 252,
       "flying": true,
+      "dangerous": false,
+      "physicalSize": 50.8,
+      "colors": [
+        "#6BCB77",
+        "#C77DFF"
+      ]
+    },
+    "bush3.png": {
+      "overlay": "bush3_overlay.png",
+      "overlayWidth": 292,
+      "overlayHeight": 261,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 44.449999999999996,
       "colors": []
+    },
+    "bush4.png": {
+      "overlay": "bush4_overlay.png",
+      "overlayWidth": 330,
+      "overlayHeight": 341,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 38.099999999999994,
+      "colors": []
+    },
+    "chest1.png": {
+      "overlay": "chest1_overlay.png",
+      "overlayWidth": 780,
+      "overlayHeight": 780,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 30.479999999999997,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "chest2.png": {
+      "overlay": "chest2_overlay.png",
+      "overlayWidth": 253,
+      "overlayHeight": 297,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 27.94,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "chest3.png": {
+      "overlay": "chest3_overlay.png",
+      "overlayWidth": 269,
+      "overlayHeight": 195,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 30.479999999999997,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "chest4.png": {
+      "overlay": "chest4_overlay.png",
+      "overlayWidth": 235,
+      "overlayHeight": 155,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 30.479999999999997,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "chest5.png": {
+      "overlay": "chest5_overlay.png",
+      "overlayWidth": 244,
+      "overlayHeight": 164,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 27.94,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "church1.png": {
+      "overlay": "church1_overlay.png",
+      "overlayWidth": 621,
+      "overlayHeight": 953,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 177.79999999999998,
+      "colors": [
+        "#C77DFF",
+        "#483D8B"
+      ]
+    },
+    "cottage.png": {
+      "overlay": "cottage_overlay.png",
+      "overlayWidth": 723,
+      "overlayHeight": 682,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 177.79999999999998,
+      "colors": [
+        "#C77DFF",
+        "#483D8B"
+      ]
+    },
+    "crate1.png": {
+      "overlay": "crate1_overlay.png",
+      "overlayWidth": 249,
+      "overlayHeight": 256,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 19.049999999999997,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "crypt1.png": {
+      "overlay": "crypt1_overlay.png",
+      "overlayWidth": 312,
+      "overlayHeight": 433,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 203.2,
+      "colors": []
+    },
+    "crypt2.png": {
+      "overlay": "crypt2_overlay.png",
+      "overlayWidth": 80,
+      "overlayHeight": 108,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 30.479999999999997,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "crypt3.png": {
+      "overlay": "crypt3_overlay.png",
+      "overlayWidth": 75,
+      "overlayHeight": 106,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 27.94,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "crypt4.png": {
+      "overlay": "crypt4_overlay.png",
+      "overlayWidth": 213,
+      "overlayHeight": 385,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#C77DFF",
+        "#483D8B"
+      ]
+    },
+    "fence1.png": {
+      "overlay": "fence1_overlay.png",
+      "overlayWidth": 446,
+      "overlayHeight": 104,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "fence2.png": {
+      "overlay": "fence2_overlay.png",
+      "overlayWidth": 518,
+      "overlayHeight": 102,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "fence3.png": {
+      "overlay": "fence3_overlay.png",
+      "overlayWidth": 980,
+      "overlayHeight": 98,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 152.39999999999998,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "fence4.png": {
+      "overlay": "fence4_overlay.png",
+      "overlayWidth": 2000,
+      "overlayHeight": 98,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 152.39999999999998,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "fence5.png": {
+      "overlay": "fence5_overlay.png",
+      "overlayWidth": 1322,
+      "overlayHeight": 454,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "fence6.png": {
+      "overlay": "fence6_overlay.png",
+      "overlayWidth": 2601,
+      "overlayHeight": 453,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "gnarledTree.png": {
+      "overlay": "gnarledTree_overlay.png",
+      "overlayWidth": 911,
+      "overlayHeight": 747,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 152.39999999999998,
+      "colors": [
+        "#6BCB77",
+        "#C77DFF"
+      ]
+    },
+    "gravestone1.png": {
+      "overlay": "gravestone1_overlay.png",
+      "overlayWidth": 159,
+      "overlayHeight": 287,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 38.099999999999994,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "gravestone2.png": {
+      "overlay": "gravestone2_overlay.png",
+      "overlayWidth": 152,
+      "overlayHeight": 256,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 33.019999999999996,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "gravestone3.png": {
+      "overlay": "gravestone3_overlay.png",
+      "overlayWidth": 194,
+      "overlayHeight": 259,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 35.559999999999995,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "gravestone4.png": {
+      "overlay": "gravestone4_overlay.png",
+      "overlayWidth": 161,
+      "overlayHeight": 252,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 12.7,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "gravestone5.png": {
+      "overlay": "gravestone5_overlay.png",
+      "overlayWidth": 117,
+      "overlayHeight": 191,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 15.239999999999998,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "gravestone6.png": {
+      "overlay": "gravestone6_overlay.png",
+      "overlayWidth": 135,
+      "overlayHeight": 208,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 19.049999999999997,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "gravestone7.png": {
+      "overlay": "gravestone7_overlay.png",
+      "overlayWidth": 108,
+      "overlayHeight": 177,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 20.32,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "gravestone8.png": {
+      "overlay": "gravestone8_overlay.png",
+      "overlayWidth": 130,
+      "overlayHeight": 208,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 15.239999999999998,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "gravestone9.png": {
+      "overlay": "gravestone9_overlay.png",
+      "overlayWidth": 130,
+      "overlayHeight": 192,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 26.416,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "house2.png": {
+      "overlay": "house2_overlay.png",
+      "overlayWidth": 776,
+      "overlayHeight": 852,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 304.79999999999995,
+      "colors": [
+        "#C77DFF",
+        "#483D8B"
+      ]
+    },
+    "house3.png": {
+      "overlay": "house3_overlay.png",
+      "overlayWidth": 486,
+      "overlayHeight": 482,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 177.79999999999998,
+      "colors": [
+        "#C77DFF",
+        "#483D8B"
+      ]
+    },
+    "house5.png": {
+      "overlay": "house5_overlay.png",
+      "overlayWidth": 818,
+      "overlayHeight": 599,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 152.39999999999998,
+      "colors": [
+        "#C77DFF",
+        "#483D8B"
+      ]
+    },
+    "house6.png": {
+      "overlay": "house6_overlay.png",
+      "overlayWidth": 952,
+      "overlayHeight": 747,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 177.79999999999998,
+      "colors": [
+        "#C77DFF",
+        "#483D8B"
+      ]
+    },
+    "lake1.png": {
+      "overlay": "lake1_overlay.png",
+      "overlayWidth": 994,
+      "overlayHeight": 989,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 177.79999999999998,
+      "colors": [
+        "#45B7D1"
+      ]
+    },
+    "lake2.png": {
+      "overlay": "lake2_overlay.png",
+      "overlayWidth": 868,
+      "overlayHeight": 897,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 228.6,
+      "colors": [
+        "#45B7D1"
+      ]
+    },
+    "lake3.png": {
+      "overlay": "lake3_overlay.png",
+      "overlayWidth": 1024,
+      "overlayHeight": 1024,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 228.6,
+      "colors": [
+        "#45B7D1"
+      ]
+    },
+    "lake4.png": {
+      "overlay": "lake4_overlay.png",
+      "overlayWidth": 839,
+      "overlayHeight": 1024,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 152.39999999999998,
+      "colors": [
+        "#45B7D1"
+      ]
+    },
+    "lantern.png": {
+      "overlay": "lantern_overlay.png",
+      "overlayWidth": 600,
+      "overlayHeight": 600,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 25.4,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "log1.png": {
+      "overlay": "log1_overlay.png",
+      "overlayWidth": 843,
+      "overlayHeight": 602,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 55.88,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "log2.png": {
+      "overlay": "log2_overlay.png",
+      "overlayWidth": 927,
+      "overlayHeight": 273,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "log3.png": {
+      "overlay": "log3_overlay.png",
+      "overlayWidth": 404,
+      "overlayHeight": 287,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 38.099999999999994,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "log4.png": {
+      "overlay": "log4_overlay.png",
+      "overlayWidth": 791,
+      "overlayHeight": 207,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 81.28,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "magicwell.png": {
+      "overlay": "magicwell_overlay.png",
+      "overlayWidth": 650,
+      "overlayHeight": 650,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 127,
+      "colors": [
+        "#45B7D1"
+      ]
+    },
+    "river1.png": {
+      "overlay": "river1_overlay.png",
+      "overlayWidth": 1893,
+      "overlayHeight": 462,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 25,
+      "colors": [
+        "#45B7D1"
+      ]
+    },
+    "river3.png": {
+      "overlay": "river3_overlay.png",
+      "overlayWidth": 1755,
+      "overlayHeight": 872,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 203.2,
+      "colors": [
+        "#45B7D1"
+      ]
+    },
+    "river5.png": {
+      "overlay": "river5_overlay.png",
+      "overlayWidth": 780,
+      "overlayHeight": 2048,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 203.2,
+      "colors": [
+        "#45B7D1"
+      ]
+    },
+    "rock1.png": {
+      "overlay": "rock1_overlay.png",
+      "overlayWidth": 283,
+      "overlayHeight": 473,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "rock2.png": {
+      "overlay": "rock2_overlay.png",
+      "overlayWidth": 355,
+      "overlayHeight": 320,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "rock3.png": {
+      "overlay": "rock3_overlay.png",
+      "overlayWidth": 300,
+      "overlayHeight": 318,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 63.5,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "rock4.png": {
+      "overlay": "rock4_overlay.png",
+      "overlayWidth": 192,
+      "overlayHeight": 173,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 25.4,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "rock5.png": {
+      "overlay": "rock5_overlay.png",
+      "overlayWidth": 221,
+      "overlayHeight": 222,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 38.099999999999994,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "rock6.png": {
+      "overlay": "rock6_overlay.png",
+      "overlayWidth": 304,
+      "overlayHeight": 231,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 50.8,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "rocks1.png": {
+      "overlay": "rocks1_overlay.png",
+      "overlayWidth": 536,
+      "overlayHeight": 499,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 101.6,
+      "colors": [
+        "#C77DFF",
+        "#FFCA3A"
+      ]
+    },
+    "ruin2.png": {
+      "overlay": "ruin2_overlay.png",
+      "overlayWidth": 171,
+      "overlayHeight": 130,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 25.4,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "ruin3.png": {
+      "overlay": "ruin3_overlay.png",
+      "overlayWidth": 153,
+      "overlayHeight": 290,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 38.099999999999994,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "ruin4.png": {
+      "overlay": "ruin4_overlay.png",
+      "overlayWidth": 157,
+      "overlayHeight": 123,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 38.099999999999994,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "ruin5.png": {
+      "overlay": "ruin5_overlay.png",
+      "overlayWidth": 314,
+      "overlayHeight": 499,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 127,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "ruins.png": {
+      "overlay": "ruins_overlay.png",
+      "overlayWidth": 511,
+      "overlayHeight": 508,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 152.39999999999998,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "statue.png": {
+      "overlay": "statue_overlay.png",
+      "overlayWidth": 172,
+      "overlayHeight": 466,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 50.8,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "statue1.png": {
+      "overlay": "statue1_overlay.png",
+      "overlayWidth": 408,
+      "overlayHeight": 734,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 50.8,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "stonewall.png": {
+      "overlay": "stonewall_overlay.png",
+      "overlayWidth": 867,
+      "overlayHeight": 184,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "stonewall10.png": {
+      "overlay": "stonewall10_overlay.png",
+      "overlayWidth": 360,
+      "overlayHeight": 63,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "stonewall11.png": {
+      "overlay": "stonewall11_overlay.png",
+      "overlayWidth": 350,
+      "overlayHeight": 64,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "stonewall2.png": {
+      "overlay": "stonewall2_overlay.png",
+      "overlayWidth": 1684,
+      "overlayHeight": 175,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 152.39999999999998,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "stonewall3.png": {
+      "overlay": "stonewall3_overlay.png",
+      "overlayWidth": 813,
+      "overlayHeight": 345,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 101.6,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "stonewall4.png": {
+      "overlay": "stonewall4_overlay.png",
+      "overlayWidth": 632,
+      "overlayHeight": 316,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 101.6,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "stonewall5.png": {
+      "overlay": "stonewall5_overlay.png",
+      "overlayWidth": 771,
+      "overlayHeight": 105,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "stonewall6.png": {
+      "overlay": "stonewall6_overlay.png",
+      "overlayWidth": 222,
+      "overlayHeight": 67,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 50.8,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "stonewall7.png": {
+      "overlay": "stonewall7_overlay.png",
+      "overlayWidth": 392,
+      "overlayHeight": 59,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "stonewall8.png": {
+      "overlay": "stonewall8_overlay.png",
+      "overlayWidth": 339,
+      "overlayHeight": 58,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 68.58,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "stonewall9.png": {
+      "overlay": "stonewall9_overlay.png",
+      "overlayWidth": 29,
+      "overlayHeight": 243,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 12.7,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "table1.png": {
+      "overlay": "table1_overlay.png",
+      "overlayWidth": 550,
+      "overlayHeight": 329,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "table2.png": {
+      "overlay": "table2_overlay.png",
+      "overlayWidth": 92,
+      "overlayHeight": 364,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 12.7,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "table2_chair.png": {
+      "overlay": "table2_chair_overlay.png",
+      "overlayWidth": 57,
+      "overlayHeight": 130,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 10.16,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "table3.png": {
+      "overlay": "table3_overlay.png",
+      "overlayWidth": 318,
+      "overlayHeight": 105,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 50.8,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "table3_chair.png": {
+      "overlay": "table3_chair_overlay.png",
+      "overlayWidth": 122,
+      "overlayHeight": 60,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 17.779999999999998,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "temple.png": {
+      "overlay": "temple_overlay.png",
+      "overlayWidth": 338,
+      "overlayHeight": 430,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 127,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "tower1.png": {
+      "overlay": "tower1_overlay.png",
+      "overlayWidth": 191,
+      "overlayHeight": 411,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#C77DFF",
+        "#483D8B"
+      ]
+    },
+    "tower2.png": {
+      "overlay": "tower2_overlay.png",
+      "overlayWidth": 344,
+      "overlayHeight": 396,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 101.6,
+      "colors": []
+    },
+    "tower4.png": {
+      "overlay": "tower4_overlay.png",
+      "overlayWidth": 354,
+      "overlayHeight": 618,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 101.6,
+      "colors": []
+    },
+    "townhouse1.png": {
+      "overlay": "townhouse1_overlay.png",
+      "overlayWidth": 707,
+      "overlayHeight": 674,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 177.79999999999998,
+      "colors": []
+    },
+    "townhouse2.png": {
+      "overlay": "townhouse2_overlay.png",
+      "overlayWidth": 630,
+      "overlayHeight": 873,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 114.3,
+      "colors": []
+    },
+    "townhouse4.png": {
+      "overlay": "townhouse4_overlay.png",
+      "overlayWidth": 878,
+      "overlayHeight": 968,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 203.2,
+      "colors": []
+    },
+    "townhouse5.png": {
+      "overlay": "townhouse5_overlay.png",
+      "overlayWidth": 706,
+      "overlayHeight": 672,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 177.79999999999998,
+      "colors": [
+        "#C77DFF",
+        "#483D8B"
+      ]
+    },
+    "townhouse6.png": {
+      "overlay": "townhouse6_overlay.png",
+      "overlayWidth": 551,
+      "overlayHeight": 762,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 127,
+      "colors": [
+        "#C77DFF",
+        "#483D8B"
+      ]
+    },
+    "tree1.png": {
+      "overlay": "tree1_overlay.png",
+      "overlayWidth": 393,
+      "overlayHeight": 372,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 127,
+      "colors": [
+        "#6BCB77",
+        "#C77DFF"
+      ]
+    },
+    "tree2.png": {
+      "overlay": "tree2_overlay.png",
+      "overlayWidth": 298,
+      "overlayHeight": 256,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 101.6,
+      "colors": [
+        "#6BCB77",
+        "#C77DFF"
+      ]
+    },
+    "tree3.png": {
+      "overlay": "tree3_overlay.png",
+      "overlayWidth": 315,
+      "overlayHeight": 343,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#6BCB77",
+        "#C77DFF"
+      ]
+    },
+    "tree4.png": {
+      "overlay": "tree4_overlay.png",
+      "overlayWidth": 271,
+      "overlayHeight": 280,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 88.89999999999999,
+      "colors": [
+        "#6BCB77",
+        "#C77DFF"
+      ]
+    },
+    "tree5.png": {
+      "overlay": "tree5_overlay.png",
+      "overlayWidth": 255,
+      "overlayHeight": 255,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 127,
+      "colors": [
+        "#6BCB77",
+        "#C77DFF"
+      ]
+    },
+    "tree6.png": {
+      "overlay": "tree6_overlay.png",
+      "overlayWidth": 300,
+      "overlayHeight": 292,
+      "flying": true,
+      "dangerous": false,
+      "physicalSize": 152.39999999999998,
+      "colors": [
+        "#6BCB77",
+        "#C77DFF"
+      ]
+    },
+    "wagon1.png": {
+      "overlay": "wagon1_overlay.png",
+      "overlayWidth": 717,
+      "overlayHeight": 722,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 101.6,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "wagon2.png": {
+      "overlay": "wagon2_overlay.png",
+      "overlayWidth": 298,
+      "overlayHeight": 566,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 63.5,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "walledge1.png": {
+      "overlay": "walledge1_overlay.png",
+      "overlayWidth": 325,
+      "overlayHeight": 344,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "walledge2.png": {
+      "overlay": "walledge2_overlay.png",
+      "overlayWidth": 300,
+      "overlayHeight": 314,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "walledge3.png": {
+      "overlay": "walledge3_overlay.png",
+      "overlayWidth": 302,
+      "overlayHeight": 316,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#FFCA3A"
+      ]
+    },
+    "well.png": {
+      "overlay": "well_overlay.png",
+      "overlayWidth": 376,
+      "overlayHeight": 370,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 127,
+      "colors": [
+        "#45B7D1"
+      ]
+    },
+    "well2.png": {
+      "overlay": "well2_overlay.png",
+      "overlayWidth": 455,
+      "overlayHeight": 424,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 76.19999999999999,
+      "colors": [
+        "#45B7D1"
+      ]
     }
   },
-  "backgrounds": {}
+  "backgrounds": {
+    "4waystreetbuildings3.png": {
+      "overlay": "4waystreetbuildings3_overlay.png",
+      "overlayWidth": 1024,
+      "overlayHeight": 1024,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 25,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "citystreet1.png": {
+      "overlay": "citystreet1_overlay.png",
+      "overlayWidth": 1024,
+      "overlayHeight": 1024,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 25,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "citystreet2.png": {
+      "overlay": "citystreet2_overlay.png",
+      "overlayWidth": 1024,
+      "overlayHeight": 1024,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 25,
+      "colors": [
+        "#C77DFF"
+      ]
+    },
+    "citystreet3.png": {
+      "overlay": "citystreet3_overlay.png",
+      "overlayWidth": 1024,
+      "overlayHeight": 1024,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 25,
+      "colors": [
+        "#C77DFF",
+        "#483D8B"
+      ]
+    }
+  }
 }

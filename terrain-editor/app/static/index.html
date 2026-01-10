@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terrain Overlay Editor</title>
-    <link rel="stylesheet" href="/static/style.css?v=9">
+    <link rel="stylesheet" href="/static/style.css?v=11">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -155,6 +155,51 @@
 
             <!-- Right Sidebar - Tools & Settings -->
             <aside class="sidebar sidebar-right">
+                
+                <!-- Terrain Types Presets -->
+                <div class="panel">
+                    <div class="panel-header">
+                        <h3>Terrain Types</h3>
+                    </div>
+                    <div class="terrain-presets">
+                        <button class="preset-btn" data-color="#6BCB77" data-label="Wooded Patch">
+                            <span class="color-dot" style="background-color: #6BCB77"></span>
+                            Wooded Patch
+                        </button>
+                        <button class="preset-btn" data-color="#45B7D1" data-label="Water Feature">
+                            <span class="color-dot" style="background-color: #45B7D1"></span>
+                            Water Feature
+                        </button>
+                        <button class="preset-btn" data-color="#FFCA3A" data-label="Obstacle">
+                            <span class="color-dot" style="background-color: #FFCA3A"></span>
+                            Obstacle
+                        </button>
+                        <button class="preset-btn" data-color="#C77DFF" data-label="Barrier">
+                            <span class="color-dot" style="background-color: #C77DFF"></span>
+                            Barrier
+                        </button>
+                        <button class="preset-btn" data-color="#483D8B" data-label="Building">
+                            <span class="color-dot" style="background-color: #483D8B"></span>
+                            Building
+                        </button>
+                        <button class="preset-btn" data-color="#EF5350" data-label="Dangerous">
+                            <span class="color-dot" style="background-color: #EF5350"></span>
+                            Dangerous
+                        </button>
+                    </div>
+                    
+                    <button id="togglePaletteBtn" class="toggle-palette-btn">
+                        <span>Show Full Palette</span>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" class="arrow-icon">
+                            <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    
+                    <div class="color-palette hidden" id="colorPalette">
+                        <!-- Colors generated dynamically -->
+                    </div>
+                </div>
+
                 <!-- Overlay Settings -->
                 <div class="panel">
                     <div class="panel-header">
@@ -192,16 +237,7 @@
                     </div>
                 </div>
 
-                <!-- Color Palette -->
-                <div class="panel">
-                    <div class="panel-header">
-                        <h3>Highlight Colors</h3>
-                    </div>
-                    <div class="color-palette" id="colorPalette">
-                        <!-- Colors generated dynamically -->
-                    </div>
-                </div>
-
+                <!-- Color Palette (Removed, merged into top panel) -->
 
                 <!-- Object Info -->
                 <div class="panel">
@@ -233,9 +269,30 @@
                     <div class="panel-header">
                         <h3>Properties</h3>
                     </div>
+                    <div class="settings-grid">
+                        <div class="setting-row">
+                            <label title="Physical width in game at default rotation">Game Width (mm)</label>
+                            <input type="number" id="sizeMm" value="25" min="1" max="1294" class="number-input">
+                            <span class="setting-unit">mm</span>
+                        </div>
+                        <div class="setting-row">
+                            <label title="Physical width in game at default rotation">Game Width (in)</label>
+                            <input type="number" id="sizeIn" value="1" min="0.04" max="51" step="0.1" class="number-input">
+                            <span class="setting-unit">in</span>
+                        </div>
+                        <div class="setting-row full-width">
+                            <input type="range" id="sizeSlider" min="1" max="1294" value="25" class="slider slider-wide">
+                        </div>
+                    </div>
                     <div class="toggle-row">
                         <label for="flyingToggle">Flying Object</label>
                         <button class="toggle-btn" id="flyingToggle" data-active="false">
+                            <span class="toggle-slider"></span>
+                        </button>
+                    </div>
+                    <div class="toggle-row">
+                        <label for="dangerousToggle">Dangerous Object</label>
+                        <button class="toggle-btn" id="dangerousToggle" data-active="false">
                             <span class="toggle-slider"></span>
                         </button>
                     </div>
@@ -246,6 +303,6 @@
 
     <div class="toast-container" id="toastContainer"></div>
 
-    <script src="/static/editor.js?v=9"></script>
+    <script src="/static/editor.js?v=15"></script>
 </body>
 </html>

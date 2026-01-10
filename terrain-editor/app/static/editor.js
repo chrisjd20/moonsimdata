@@ -46,6 +46,8 @@ class TerrainEditor {
         
         // Object properties
         this.isFlying = false;
+        this.isDangerous = false;
+        this.physicalSize = 25; // in mm
         
         // Undo/Redo history
         this.history = [];
@@ -57,19 +59,21 @@ class TerrainEditor {
         
         // Extended color palette - pleasing, diverse colors
         this.highlightColors = [
-            // Warm tones
-            '#FF6B6B', '#FF8E72', '#FFA94D', '#FFD93D',
-            // Cool tones  
-            '#6BCB77', '#4ECDC4', '#45B7D1', '#5E60CE',
-            // Purple/Pink
+            // Standard Preset Colors (in order of buttons)
+            '#6BCB77', // Wooded Patch
+            '#45B7D1', // Water Feature
+            '#FFCA3A', // Obstacle
+            '#C77DFF', // Barrier (Lighter Purple)
+            '#483D8B', // Building (Deep Purple)
+            '#EF5350', // Dangerous
+            
+            // Additional colors
+            '#FF8E72', '#FFA94D', '#FFD93D',
+            '#4ECDC4', '#45B7D1', '#5E60CE',
             '#9B5DE5', '#F15BB5', '#FF70A6', '#E056FD',
-            // Earth tones
             '#D4A574', '#A8D8B9', '#98C1D9', '#B8B8D1',
-            // Neon accents
             '#00F5D4', '#00BBF9', '#FEE440', '#F72585',
-            // Pastels
             '#FFEAA7', '#DFE6E9', '#A29BFE', '#FD79A8',
-            // Rich colors
             '#E17055', '#00CEC9', '#6C5CE7', '#FDCB6E',
         ];
         
@@ -105,11 +109,34 @@ class TerrainEditor {
     
     selectColor(color, swatch) {
         document.querySelectorAll('.color-swatch').forEach(s => s.classList.remove('selected'));
-        swatch.classList.add('selected');
+        if (swatch) swatch.classList.add('selected');
+        
+        // Also update preset buttons
+        document.querySelectorAll('.preset-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.color.toLowerCase() === color.toLowerCase());
+        });
+        
         this.currentColor = color;
     }
     
     setupEventListeners() {
+        // Preset Buttons
+        document.querySelectorAll('.preset-btn').forEach(btn => {
+            btn.addEventListener('click', () => this.selectColor(btn.dataset.color, null));
+        });
+        
+        // Toggle Palette Button
+        const togglePaletteBtn = document.getElementById('togglePaletteBtn');
+        const colorPalette = document.getElementById('colorPalette');
+        if (togglePaletteBtn && colorPalette) {
+            togglePaletteBtn.addEventListener('click', () => {
+                const isHidden = colorPalette.classList.contains('hidden');
+                colorPalette.classList.toggle('hidden');
+                togglePaletteBtn.classList.toggle('expanded', isHidden);
+                togglePaletteBtn.querySelector('span').textContent = isHidden ? 'Hide Full Palette' : 'Show Full Palette';
+            });
+        }
+        
         // Tab buttons
         document.querySelectorAll('.tab-btn').forEach(btn => {
             btn.addEventListener('click', () => this.switchTab(btn.dataset.tab));
@@ -210,6 +237,41 @@ class TerrainEditor {
         
         // Flying toggle
         document.getElementById('flyingToggle').addEventListener('click', () => this.toggleFlying());
+        
+        // Dangerous toggle
+        document.getElementById('dangerousToggle').addEventListener('click', () => this.toggleDangerous());
+        
+        // Physical Size Controls
+        const sizeMm = document.getElementById('sizeMm');
+        const sizeIn = document.getElementById('sizeIn');
+        const sizeSlider = document.getElementById('sizeSlider');
+        
+        if (sizeMm && sizeIn && sizeSlider) {
+            // Update from mm input
+            sizeMm.addEventListener('input', (e) => {
+                let val = parseFloat(e.target.value) || 0;
+                this.physicalSize = val;
+                sizeIn.value = (val / 25.4).toFixed(2);
+                sizeSlider.value = val;
+            });
+            
+            // Update from inch input
+            sizeIn.addEventListener('input', (e) => {
+                let val = parseFloat(e.target.value) || 0;
+                let mm = val * 25.4;
+                this.physicalSize = mm;
+                sizeMm.value = Math.round(mm);
+                sizeSlider.value = mm;
+            });
+            
+            // Update from slider
+            sizeSlider.addEventListener('input', (e) => {
+                let val = parseFloat(e.target.value);
+                this.physicalSize = val;
+                sizeMm.value = val;
+                sizeIn.value = (val / 25.4).toFixed(2);
+            });
+        }
         
         // Canvas drawing events
         this.overlayCanvas.addEventListener('mousedown', (e) => this.startDrawing(e));
@@ -430,13 +492,26 @@ class TerrainEditor {
         });
         
         const itemConfig = this.config[this.currentItemType][asset.name] || {};
-        this.overlayWidth = itemConfig.overlayWidth || this.itemImage.width + 100;
-        this.overlayHeight = itemConfig.overlayHeight || this.itemImage.height + 100;
+        // Default to object size (match object) if not set in config
+        this.overlayWidth = itemConfig.overlayWidth || this.itemImage.width;
+        this.overlayHeight = itemConfig.overlayHeight || this.itemImage.height;
         this.isFlying = itemConfig.flying || false;
+        this.isDangerous = itemConfig.dangerous || false;
+        this.physicalSize = itemConfig.physicalSize || 25;
         
         document.getElementById('overlayWidth').value = this.overlayWidth;
         document.getElementById('overlayHeight').value = this.overlayHeight;
         this.updateFlyingToggle();
+        this.updateDangerousToggle();
+        
+        // Update physical size controls
+        const sizeMm = document.getElementById('sizeMm');
+        const sizeIn = document.getElementById('sizeIn');
+        const sizeSlider = document.getElementById('sizeSlider');
+        
+        if (sizeMm) sizeMm.value = Math.round(this.physicalSize);
+        if (sizeIn) sizeIn.value = (this.physicalSize / 25.4).toFixed(2);
+        if (sizeSlider) sizeSlider.value = this.physicalSize;
         
         this.setupCanvas();
         
@@ -568,6 +643,16 @@ class TerrainEditor {
     updateFlyingToggle() {
         const btn = document.getElementById('flyingToggle');
         btn.dataset.active = this.isFlying ? 'true' : 'false';
+    }
+    
+    toggleDangerous() {
+        this.isDangerous = !this.isDangerous;
+        this.updateDangerousToggle();
+    }
+    
+    updateDangerousToggle() {
+        const btn = document.getElementById('dangerousToggle');
+        if (btn) btn.dataset.active = this.isDangerous ? 'true' : 'false';
     }
     
     matchObjectSize() {
@@ -912,6 +997,8 @@ class TerrainEditor {
             overlayWidth: this.overlayWidth,
             overlayHeight: this.overlayHeight,
             flying: this.isFlying,
+            dangerous: this.isDangerous,
+            physicalSize: this.physicalSize,
             colors: Array.from(this.usedColors)
         };
         

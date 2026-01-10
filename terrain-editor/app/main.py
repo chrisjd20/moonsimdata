@@ -116,6 +116,8 @@ def get_item_config(item_type, item_name):
         'overlayWidth': 400,
         'overlayHeight': 400,
         'flying': False,
+        'dangerous': False,
+        'physicalSize': 25,
         'colors': []
     })
     return jsonify(item_config)
@@ -136,6 +138,8 @@ def save_overlay():
     overlay_width = data.get('overlayWidth', 400)
     overlay_height = data.get('overlayHeight', 400)
     flying = data.get('flying', False)
+    dangerous = data.get('dangerous', False)
+    physical_size = data.get('physicalSize', 25)
     colors = data.get('colors', [])
     
     if not item_name:
@@ -170,6 +174,8 @@ def save_overlay():
         'overlayWidth': overlay_width,
         'overlayHeight': overlay_height,
         'flying': flying,
+        'dangerous': dangerous,
+        'physicalSize': physical_size,
         'colors': colors
     }
     
