@@ -1,0 +1,91 @@
+{
+  "objects": {
+    "House1.png": {
+      "overlay": "House1_overlay.png",
+      "overlayWidth": 644,
+      "overlayHeight": 549,
+      "flying": true,
+      "colors": [
+        "#FF6B6B"
+      ]
+    },
+    "barrel.png": {
+      "overlay": "barrel_overlay.png",
+      "overlayWidth": 55,
+      "overlayHeight": 61,
+      "flying": false,
+      "colors": [
+        "#FFA94D"
+      ]
+    },
+    "RockyGround.png": {
+      "overlay": "RockyGround_overlay.png",
+      "overlayWidth": 880,
+      "overlayHeight": 768,
+      "flying": false,
+      "colors": [
+        "#FFA94D"
+      ]
+    },
+    "SpikeTrap.png": {
+      "overlay": "SpikeTrap_overlay.png",
+      "overlayWidth": 482,
+      "overlayHeight": 452,
+      "flying": false,
+      "colors": [
+        "#FF6B6B"
+      ]
+    },
+    "barrel1.png": {
+      "overlay": "barrel1_overlay.png",
+      "overlayWidth": 314,
+      "overlayHeight": 207,
+      "flying": false,
+      "colors": [
+        "#FFA94D"
+      ]
+    },
+    "barrel2.png": {
+      "overlay": "barrel2_overlay.png",
+      "overlayWidth": 239,
+      "overlayHeight": 247,
+      "flying": false,
+      "colors": [
+        "#FFA94D"
+      ]
+    },
+    "barrel3.png": {
+      "overlay": "barrel3_overlay.png",
+      "overlayWidth": 169,
+      "overlayHeight": 245,
+      "flying": false,
+      "colors": [
+        "#FFA94D"
+      ]
+    },
+    "barrel4.png": {
+      "overlay": "barrel4_overlay.png",
+      "overlayWidth": 177,
+      "overlayHeight": 236,
+      "flying": false,
+      "colors": [
+        "#FFA94D"
+      ]
+    },
+    "bush1.png": {
+      "overlay": null,
+      "overlayWidth": 147,
+      "overlayHeight": 140,
+      "flying": true,
+      "colors": []
+    },
+    "bush2.png": {
+      "overlay": "bush2_overlay.png",
+      "overlayWidth": 284,
+      "overlayHeight": 252,
+      "flying": true,
+      "colors": []
+    }
+  },
+  "backgrounds": {}
+}

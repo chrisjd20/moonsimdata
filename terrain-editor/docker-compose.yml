@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  terrain-editor:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ../terrain:/terrain
+      - ./app:/app/app
+    environment:
+      - FLASK_ENV=development
+      - TERRAIN_PATH=/terrain
