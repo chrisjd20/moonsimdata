@@ -1236,7 +1236,8 @@
       "dangerous": false,
       "physicalSize": 25,
       "colors": [
-        "#C77DFF"
+        "#C77DFF",
+        "#FFCA3A"
       ]
     },
     "citystreet3.png": {
@@ -1247,8 +1248,8 @@
       "dangerous": false,
       "physicalSize": 25,
       "colors": [
-        "#C77DFF",
-        "#483D8B"
+        "#FFCA3A",
+        "#C77DFF"
       ]
     }
   }
