@@ -133,14 +133,12 @@
     },
     "chest1.png": {
       "overlay": "chest1_overlay.png",
-      "overlayWidth": 780,
-      "overlayHeight": 780,
+      "overlayWidth": 1024,
+      "overlayHeight": 1024,
       "flying": false,
       "dangerous": false,
       "physicalSize": 30.479999999999997,
-      "colors": [
-        "#FFCA3A"
-      ]
+      "colors": []
     },
     "chest2.png": {
       "overlay": "chest2_overlay.png",
