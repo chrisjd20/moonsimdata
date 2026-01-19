@@ -1570,6 +1570,28 @@ Trollish Remedies:
     - "gX: Increase the range of Lampy's Light by +X” until end of turn."
   catastrophe: This character loses the Lampy's Light ability until end of turn.
 
+Manipulate the Runes:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: Once per turn.
+  description: After resolving an Arcane action this model initiated but before shuffling the Arcane Deck, you may set aside any cards from your hand that weren't played. After shuffling the Arcane Deck, put any number of the set aside cards on the top of the deck in any order and put the remainder on the bottom of the deck in any order.
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+
+Reading the Runes:
+  cost: null
+  range: null
+  type: passive
+  isPulse: false
+  textToRightInItalics: null
+  description: "When this character activates, you may guess a card (colour and number, or Catastrophe) then flip an Arcane Card. If you guessed correctly, apply the following effect: gX: Choose a friendly Norse model within 8\" to gain [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn. bX: Choose a model within 8\" to restore X+1 Wds. pX: Choose a model within 8\" to suffer X Magical Dmg."
+  activatedText: null
+  arcaneOutcomes: null
+  catastrophe: null
+
 Runes of Power:
   cost: 1
   range: 8
@@ -2377,7 +2399,7 @@ Goblin Mischief:
   type: activated
   isPulse: true
   textToRightInItalics: Once per turn.
-  activatedText: "Deal an Arcane Card to each Goblin within the Pulse.\n  \n  \n  \n  \n  ."
+  activatedText: "Deal an Arcane Card to each Goblin within the Pulse. They receive the following effects (shuffle them back in after): gX: Gain +X energy. pX: Gain +1 energy. Catastrophe: Suffer 2 Wds."
   arcaneOutcomes: null
   catastrophe: null
 Goblin Luck:
