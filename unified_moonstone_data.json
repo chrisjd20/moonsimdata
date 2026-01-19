@@ -4676,10 +4676,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X Magical Dmg then loses X energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4697,10 +4701,14 @@
         "subtext": "This ability cannot be used while this model is engaged.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X+1 Impact Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4717,10 +4725,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target restores X+1 Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4737,22 +4749,34 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "1",
-            "cardColourRequirement": 2,
             "outcomeText": "Target or this model gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": 1
+              }
+            ]
           },
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 2,
             "outcomeText": "Target and this model gain Protection until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": 2
+              }
+            ]
           },
           {
-            "cardValueRequirement": "3",
-            "cardColourRequirement": 2,
             "outcomeText": "Target and this model gain Protection until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": 3
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4770,10 +4794,18 @@
         "textToRightInItalics": "Once per game, unless reloaded.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 3,
             "outcomeText": "Target suffers X Impact Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              },
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4790,10 +4822,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target restores X Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4809,10 +4845,22 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 7,
             "outcomeText": "Place a friendly slain model in base contact with this model. Restore half its health rounding up. It has no energy but may activate this turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 2
+              },
+              {
+                "color": "blue",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4829,10 +4877,22 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 7,
             "outcomeText": "Move target 4\" directly towards this model.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 2
+              },
+              {
+                "color": "blue",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4850,22 +4910,34 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target loses X energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target gains X energy and its Arcane stat is reduced by X until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target's Melee stat is increased by +X until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4882,10 +4954,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target suffers X Magical Dmg and gains [Slow: This model's Jog actions are limited to 2\"], until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4902,10 +4978,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Move target 2X\" directly towards this character. Then, if the target is within 2\" of this character they suffer 4 Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4922,10 +5002,18 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "3",
-            "cardColourRequirement": 6,
             "outcomeText": "Target suffers an amount of Wds equal to the number of Wds they have currently suffered.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": 3
+              },
+              {
+                "color": "pink",
+                "value": 3
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4942,10 +5030,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Move target enemy X\" directly away. If the enemy is in possession of at least one Moonstone it loses possession of one Moonstone it is carrying before moving. Place it in base contact with the enemy at depth '1'.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4962,10 +5054,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X-1 Wds and gains [Bleed: During the Discard Step, this character suffers 1 Wd then loses this ability.].",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -4983,10 +5079,14 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target Pirate or Troll gains X energy and suffers -X Arcane stat until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5004,10 +5104,14 @@
         "textToRightInItalics": "Once per game, unless reloaded.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X+1 Impact Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5024,10 +5128,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target suffers X+1 Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5044,22 +5152,34 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target enemy loses X energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target enemy suffers X Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Move target enemy up to 2X\". Then you may have the target take a Melee Attack action controlled by you. They count as friendly during the Melee Attack action.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5075,10 +5195,18 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 5,
             "outcomeText": "Move this model 2X\".",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              },
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5095,10 +5223,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers 2X Impact Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5115,10 +5247,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Move target enemy model 2X\" directly towards this model.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5134,10 +5270,22 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 7,
             "outcomeText": "Place a new friendly Murder Bunny in base contact with this character.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 2
+              },
+              {
+                "color": "blue",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5154,10 +5302,22 @@
         "subtext": "This action can only be taken if there is no friendly Jackalope in play.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "3",
-            "cardColourRequirement": 7,
             "outcomeText": "This character suffers 3 Wds. Place a new Jackalope in base contact. It has no energy but is considered a permanent additional character in your troupe and may activate this turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 3
+              },
+              {
+                "color": "blue",
+                "value": 3
+              },
+              {
+                "color": "pink",
+                "value": 3
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5175,10 +5335,14 @@
         "subtext": "This ability is not modified by Cover.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Decrease target Moonstone's depth value by X, to a minimum of 1.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5196,10 +5360,14 @@
         "textToRightInItalics": "Once per game, unless reloaded.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5217,16 +5385,24 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target character restores X Wds then loses X Energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target other Pirate gains X Energy then suffers X Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5243,10 +5419,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target character suffers X+1 Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5263,10 +5443,14 @@
         "pulse": true,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "All friendly characters within the pulse restore X Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5282,10 +5466,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Choose a model within 3\" and LoS of this character. Then choose another model within 3X\" and LoS of this character. Place the first model within 3\" of the second model.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5302,10 +5490,22 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "3",
-            "cardColourRequirement": 7,
             "outcomeText": "Target loses possession of 1 Moonstone they are carrying. Place it in base contact with the target with a depth value of '1'.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 3
+              },
+              {
+                "color": "blue",
+                "value": 3
+              },
+              {
+                "color": "pink",
+                "value": 3
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5322,10 +5522,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X Magical Dmg then is moved 1\" directly away.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5343,22 +5547,34 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X Piercing Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target suffers 1 Wd then is moved X\" directly away.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target cannot take the Jog action until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5376,10 +5592,14 @@
         "subtext": "Resolve this action with +2 Arcane Stat if there is a Water Feature within 4\" of this model.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target restores X Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5397,10 +5617,14 @@
         "subtext": "This ability cannot be used while this model is engaged.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X Piercing Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5418,10 +5642,14 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target loses X energy. A friendly model within 8\" and LoS of this model gains that much energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5438,10 +5666,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target enemy suffers X Wds. A friendly model within 8\" and LoS of this model restores that many Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5458,10 +5690,22 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "3",
-            "cardColourRequirement": 7,
             "outcomeText": "Target loses possession of one Moonstone they are carrying and this model gains possession of that Moonstone.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 3
+              },
+              {
+                "color": "blue",
+                "value": 3
+              },
+              {
+                "color": "pink",
+                "value": 3
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5478,10 +5722,18 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 6,
             "outcomeText": "Target suffers 2 Impact Dmg. If this character has already used the Pinch ability this turn, increase this Dmg by +1.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5498,10 +5750,18 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 5,
             "outcomeText": "Target gains [Puppet: When Danica, Dusk Witch is active within 8\" and Line of Sight, she may spend her energy to have this character perform actions available to them, excluding Jog. They count as friendly during the action.], until end of game.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5518,10 +5778,18 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "3",
-            "cardColourRequirement": 5,
             "outcomeText": "Target restores all Wds and all energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 3
+              },
+              {
+                "color": "pink",
+                "value": 3
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5540,16 +5808,24 @@
         "subtext": "This attack is not modified by Evade Stat.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target gains Weakling until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target with Weakling or Feeble loses all energy and gains +X Evade Stat until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5567,10 +5843,14 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target loses X energy. Then distribute that much energy amongst Faerie(s) within 6\" of the target.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5587,10 +5867,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X+1 Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5607,16 +5891,24 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Choose another model within 8\", this model gains one of its keywords until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "This character, or a model within 4\" which shares a keyword with this character, gains +1 energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5633,16 +5925,24 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target restores X+1 Wds, then if the target shares a keyword with this character move it X-1\".",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X Magical Dmg, then if the target shares a keyword with this character move it X\".",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5660,10 +5960,14 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X+1 Magical Dmg or X+2 Magical Dmg if the target is not at full health.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5681,16 +5985,24 @@
         "subtext": "This attack is not modified by Evade Stat or Cover and may only be used if this model has the Enchanted Javelin ability.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X+1 Piercing Dmg. After resolving this action, this model loses Enchanted Javelin until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "This character may discard 2 energy. If it does, all other models within 4\" suffer X+1 Piercing Dmg then are moved X\" directly away. Then, after resolving this action, this model loses Enchanted Javelin until end of game.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5707,10 +6019,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target Soldier or Noble restores X Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5728,10 +6044,14 @@
         "subtext": "This ability cannot be used while this model is engaged.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target character suffers 2X Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5749,10 +6069,14 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target model gains +1 Arcane Stat until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5770,10 +6094,14 @@
         "textToRightInItalics": "Once per game, unless reloaded.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X+2 Impact Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5790,10 +6118,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5810,10 +6142,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers 2X Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5830,10 +6166,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target loses one Active Ability of your choice until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5849,10 +6189,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Place this model within 2X\".",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5869,10 +6213,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X+1 Magical Dmg and gets -1 Evade Stat until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5891,10 +6239,14 @@
         "subtext": "This attack is not modified by Cover.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X+2 Piercing Dmg then is moved 1\" directly away.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5911,10 +6263,14 @@
         "pulse": true,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "All other models within the pulse suffer X+1 Magical Dmg then are moved X\" directly away.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5932,10 +6288,14 @@
         "subtext": "This attack is not modified by Cover.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X Impact Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5953,10 +6313,14 @@
         "subtext": "This attack is not modified by Evade Stat or Cover.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X Piercing Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5973,10 +6337,22 @@
         "subtext": "This action cannot bring a character into play if it is already in play.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "1",
-            "cardColourRequirement": 7,
             "outcomeText": "Place a new Familiar Psychopomp in base contact with this character.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 1
+              },
+              {
+                "color": "blue",
+                "value": 1
+              },
+              {
+                "color": "pink",
+                "value": 1
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -5994,10 +6370,14 @@
         "subtext": "This attack is not modified by Evade Stat or Cover.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target suffers X Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6014,10 +6394,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Move target enemy X+2\" directly towards any friendly Treefolk. Then the target suffers 1 Wd for each Wooded Patch within 4\" of it.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6034,10 +6418,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target friendly model restores X+1 Wds, then move it X\".",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6054,10 +6442,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Move target X+2\" directly towards this character.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6073,10 +6465,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Place a 50mm Diameter Wooded Patch within 3X\" and LoS on open ground. This remains in place until end of game. A maximum of 3 Wooded Patches may be placed by this troupe, if a fourth is placed you must choose and remove a Wooded Patch you created earlier this game.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6093,10 +6489,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X+1 Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6115,10 +6515,14 @@
         "subtext": "This ability cannot be used while this model is engaged.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Move target other friendly Faun X+1\".",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6135,10 +6539,22 @@
         "subtext": "This action can only be taken if your chosen faction is Shades and there is no friendly Echo of the Forgotten King in play.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "3",
-            "cardColourRequirement": 7,
             "outcomeText": "Place a new Echo of the Forgotten King in base contact; it is considered a permanent additional character in your troupe and may activate this turn. Then this model is slain.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 3
+              },
+              {
+                "color": "blue",
+                "value": 3
+              },
+              {
+                "color": "pink",
+                "value": 3
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6155,22 +6571,34 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target Human or Noble gains +1 energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target Risen or Noble restores X Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target Elrich or Noble restores X Wds or gains +1 energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6188,10 +6616,14 @@
         "subtext": "This ability cannot be used while this model is engaged.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X+1 Piercing Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6208,10 +6640,22 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 7,
             "outcomeText": "Target enemy without Frightened gains [Frightened: At the start of the Discard Step, the player that used Stage Fright flips an Arcane Card then moves this model up to X+1\". Catastrophe: Move 0\"], until this character is slain.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 2
+              },
+              {
+                "color": "blue",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6228,10 +6672,14 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "This character gains X+1 energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6249,10 +6697,14 @@
         "subtext": "This attack is not modified by Cover.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target within 3\" of a Tree or Wooded Patch terrain suffers X Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6269,10 +6721,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target other model and this character suffer X Impact Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6289,10 +6745,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target restores X+1 Wds and gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6311,10 +6771,18 @@
         "subtext": "This attack is not modified by Evade Stat.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 5,
             "outcomeText": "Target model loses possession of one Moonstone it is carrying and this character gains possession of that Moonstone.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6332,22 +6800,34 @@
         "textToRightInItalics": "Once Per Turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target restores 3X-1 Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target Troll gains [Tough as Old Boots: At the start of the Replenish Step this model restores 2 Wds.], until end of game.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X Wds, then gains +1 energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6364,10 +6844,14 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Increase the range of Lampy's Light by +X\" until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6384,16 +6868,24 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target restores X Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X-1 Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6410,10 +6902,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Move target model X+1\".",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6430,10 +6926,22 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 7,
             "outcomeText": "Move target 2\" directly towards this model.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 2
+              },
+              {
+                "color": "blue",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6451,10 +6959,22 @@
         "subtext": "If at least one friendly model was slain this turn resolve this attack with +2 Arcane Stat.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 7,
             "outcomeText": "Target gains [Horrified: During the Discard Step, this character suffers 2 Wds.], until this character is slain.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 2
+              },
+              {
+                "color": "blue",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6470,10 +6990,18 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 5,
             "outcomeText": "Place this model within X+1\".",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              },
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6491,10 +7019,22 @@
         "subtext": "This attack is not modified by Evade Stat.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "3",
-            "cardColourRequirement": 7,
             "outcomeText": "Target suffers an amount of Wds equal to half the number of Wds they currently have remaining, rounded up.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 3
+              },
+              {
+                "color": "blue",
+                "value": 3
+              },
+              {
+                "color": "pink",
+                "value": 3
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6511,10 +7051,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X Wds and gains [Slow: This model's Jog actions are limited to 2\"], until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6532,10 +7076,18 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 6,
             "outcomeText": "Target model must discard half its energy rounding up, then it restores 2 Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6553,22 +7105,34 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target is moved X\" directly away.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target gains X+1 energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6585,16 +7149,24 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target friendly character restores X Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target friendly character gains +1 energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6612,22 +7184,34 @@
         "subtext": "This action cannot bring a character into play if it is already in play.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "1",
-            "cardColourRequirement": 1,
             "outcomeText": "Place a new Sprog in base contact with this character.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
           },
           {
-            "cardValueRequirement": "1",
-            "cardColourRequirement": 2,
             "outcomeText": "Place a new Pookie in base contact with this character.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": 1
+              }
+            ]
           },
           {
-            "cardValueRequirement": "1",
-            "cardColourRequirement": 4,
             "outcomeText": "Place a new Urchin in base contact with this character.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": 1
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6644,10 +7228,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X Impact Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6664,10 +7252,18 @@
         "subtext": "This action cannot bring a character into play if it is already in play.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "1",
-            "cardColourRequirement": 5,
             "outcomeText": "Place a new Soldier Psychopomp in base contact with this character.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 1
+              },
+              {
+                "color": "pink",
+                "value": 1
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6684,16 +7280,24 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target restores X+1 Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target Norse or Gnome gains +1 energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6710,10 +7314,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target restores X+1 Wds and suffers -2 Arcane Stat until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6731,10 +7339,14 @@
         "subtext": "This attack is not modified by Evade Stat.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X+1 Magical Dmg. Other models within 2\" of the target suffer X Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6751,10 +7363,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Reduce target's Melee and Arcane stats by 2X until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6772,10 +7388,14 @@
         "textToRightInItalics": "Once per game, unless reloaded.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers 2X Piercing Dmg then is moved 1\" directly away.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6793,22 +7413,34 @@
         "subtext": "Whilst resolving, ignore passive abilities of other characters.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target within 2\" of a Tree or Wooded Patch gains X energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target heals X+1 Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target suffers X Wds. Spirits suffer an additional 1 Wd.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6825,10 +7457,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target character suffers 3X-1 Impact Dmg then is moved X\" directly away.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6845,10 +7481,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target loses X energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6865,10 +7505,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Move other target model X\" directly away.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6884,10 +7528,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Place a 50mm Diameter Water Feature within 3X\" and LoS on open ground. This remains in place until end of game. A maximum of 3 Water Features may be placed by this troupe, if a fourth is placed you must choose and remove a Water Feature you created earlier this game.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6904,10 +7552,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Move target X+2\" directly towards this model. Then, if the target is within 2\" of a Water Feature it suffers 4 Magical Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6925,10 +7577,14 @@
         "subtext": "This ability cannot be used while this model is engaged.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X+1 Piercing Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6945,10 +7601,18 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "3",
-            "cardColourRequirement": 6,
             "outcomeText": "Restore all wounds and energy of target Goblin, then place it within 8\" of this model.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": 3
+              },
+              {
+                "color": "pink",
+                "value": 3
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6965,10 +7629,22 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "3",
-            "cardColourRequirement": 7,
             "outcomeText": "Target enemy or Goblin immediately suffers one Catastrophe printed on their card. If it requires a target, you may choose any target that meets the ability's requirements.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 3
+              },
+              {
+                "color": "blue",
+                "value": 3
+              },
+              {
+                "color": "pink",
+                "value": 3
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -6986,10 +7662,14 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target friendly Faerie gains X energy and restores 1 Wd.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7006,10 +7686,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target gains [Deadwood Cursed: During the Discard Step, this character and all models friendly to this character within 3\" suffer 1 Wd.], until this character is slain.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7026,10 +7710,22 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 7,
             "outcomeText": "Target loses 1 Passive Ability of your choice until end of turn and this model gains that ability.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 2
+              },
+              {
+                "color": "blue",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7046,10 +7742,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target model suffers X-1 Wds, then it gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7066,10 +7766,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Move target X\" directly away, then it suffers X-1 Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7087,22 +7791,34 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target model suffers -1 Melee Stat until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "Target model suffers -1 Arcane Stat until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Move target model X\" directly away.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7119,10 +7835,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Target other character suffers X Wds. Then, for each Wd lost, choose a friendly model within 8\" and LoS of this model to restore 1 Wd and gain 1 energy. The same friendly model may be chosen multiple times.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7139,10 +7859,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Reduce all Melee Dmg dealt by target by -X until the end of the turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7159,10 +7883,22 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "2",
-            "cardColourRequirement": 7,
             "outcomeText": "Target discards all energy and suffers 1 Wd.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": 2
+              },
+              {
+                "color": "blue",
+                "value": 2
+              },
+              {
+                "color": "pink",
+                "value": 2
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7179,10 +7915,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 1,
             "outcomeText": "Target suffers X Piercing Dmg.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "green",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7199,10 +7939,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "Place this model anywhere in base contact with target enemy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7219,16 +7963,24 @@
         "textToRightInItalics": "Once per turn.",
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 2,
             "outcomeText": "This model restores X Wds.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "blue",
+                "value": "X"
+              }
+            ]
           },
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "This model gains X energy.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
@@ -7244,10 +7996,14 @@
         "pulse": false,
         "arcaneOutcomes": [
           {
-            "cardValueRequirement": "X",
-            "cardColourRequirement": 4,
             "outcomeText": "This character's Melee Attacks deal +X Dmg until end of turn.",
-            "catastropheOutcome": false
+            "catastropheOutcome": false,
+            "requirements": [
+              {
+                "color": "pink",
+                "value": "X"
+              }
+            ]
           },
           {
             "catastropheOutcome": true,
