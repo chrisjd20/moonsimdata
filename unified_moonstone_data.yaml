@@ -4261,7 +4261,11 @@ Abilities:
         cardColourRequirement: 2
         outcomeText: 'Target or this model gains [Protection: The first time this character would suffer Dmg, reduce that Dmg to ∅], until end of turn.'
         catastropheOutcome: false
-      - cardValueRequirement: 2 or 3
+      - cardValueRequirement: '2'
+        cardColourRequirement: 2
+        outcomeText: Target and this model gain Protection until end of turn.
+        catastropheOutcome: false
+      - cardValueRequirement: '3'
         cardColourRequirement: 2
         outcomeText: Target and this model gain Protection until end of turn.
         catastropheOutcome: false
