@@ -1737,7 +1737,7 @@
         "name": "Augments",
         "type": "passive",
         "pulse": false,
-        "description": "",
+        "description": "Friendly characters with Reload [...] gain the Machine keyword.",
         "oncePerTurn": false,
         "oncePerGame": false
       },
@@ -1746,7 +1746,7 @@
         "name": "Have You Tried Turning it Off and On Again?",
         "type": "passive",
         "pulse": false,
-        "description": "",
+        "description": "After a friendly Machine draws an Arcane Hand, they may suffer 1 Wd, shuffle the hand back into the Arcane Deck and redraw the same number of cards (Resist Hand is unchanged). Once per turn.",
         "oncePerTurn": false,
         "oncePerGame": false
       },
