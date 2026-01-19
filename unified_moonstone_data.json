@@ -4765,13 +4765,7 @@
               {
                 "color": "blue",
                 "value": 2
-              }
-            ]
-          },
-          {
-            "outcomeText": "Target and this model gain Protection until end of turn.",
-            "catastropheOutcome": false,
-            "requirements": [
+              },
               {
                 "color": "blue",
                 "value": 3
