@@ -12,6 +12,9 @@ Sections:
 
 These PDFs contain easy-to-read, single-sided “wide” character cards for Moonstone. Each card shows a character’s core stats and signature moves on one side so you don’t need to flip cards during play.
 
+Generate your own custom PDFs in the browser:
+[Moonstone card generator](https://chrisjd20.github.io/moonsimdata/character_wide_cards/card_generator.html)
+
 - Moonstone: [moonstonethegame.com](https://www.moonstonethegame.com/)
 - Official downloads (original cards, rules, etc.): [moonstonethegame.com/downloads](https://www.moonstonethegame.com/downloads)
 
