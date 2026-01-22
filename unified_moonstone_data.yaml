@@ -457,7 +457,7 @@ SignatureMoves:
   492a69a0-715b-4838-8c3d-f7e851c33ea5:
     id: 492a69a0-715b-4838-8c3d-f7e851c33ea5
     name: Ankle Biter
-    upgradeFor: 2
+    upgradeFor: 4
     damageType: 4
     highGuardDamage: 3
     fallingSwingDamage: 3
@@ -2861,10 +2861,27 @@ Abilities:
       pulse: false
       description: "When this character activates, you may guess a card (colour and
         number, or Catastrophe) then flip an Arcane Card. If you guessed correctly,
-        apply the following effect: gX: Choose a friendly Norse model within 8\" to
-        gain [Protection: The first time this character would suffer Dmg, reduce that
-        Dmg to ∅], until end of turn. bX: Choose a model within 8\" to restore X+1
-        Wds. pX: Choose a model within 8\" to suffer X Magical Dmg."
+        apply the following effect:"
+      arcaneOutcomes:
+      - outcomeText: 'Choose a friendly Norse model within 8" to gain [Protection:
+          The first time this character would suffer Dmg, reduce that Dmg to ∅], until
+          end of turn.'
+        catastropheOutcome: false
+        requirements:
+        - color: green
+          value: X
+      - outcomeText: Choose a model within 8" to restore X+1 Wds.
+        catastropheOutcome: false
+        requirements:
+        - color: blue
+          value: X
+      - outcomeText: Choose a model within 8" to suffer X Magical Dmg.
+        catastropheOutcome: false
+        requirements:
+        - color: pink
+          value: X
+      - outcomeText: All models within 2" suffer 2 Magical Dmg.
+        catastropheOutcome: true
       oncePerTurn: false
       oncePerGame: false
     df61e757-cf3d-4dfc-8689-291678053e69:
@@ -4544,9 +4561,21 @@ Abilities:
       range: 6
       pulse: true
       textToRightInItalics: Once per turn.
-      description: "Deal an Arcane Card to each Goblin within the Pulse. They receive
-        the following effects (shuffle them back in after): gX: Gain +X energy. pX:
-        Gain +1 energy. Catastrophe: Suffer 2 Wds."
+      description: "Deal an Arcane Card to each Goblin within the Pulse."
+      subtext: "They receive the following effects ["
+      arcaneOutcomes:
+      - outcomeText: Gain +X energy.
+        catastropheOutcome: false
+        requirements:
+        - color: green
+          value: X
+      - outcomeText: Gain +1 energy.
+        catastropheOutcome: false
+        requirements:
+        - color: pink
+          value: X
+      - outcomeText: Suffer 2 Wds], then shuffle the cards back into the Arcane Deck.
+        catastropheOutcome: true
     65b2901f-1cd7-440a-b68f-25ed57fab6fa:
       id: 65b2901f-1cd7-440a-b68f-25ed57fab6fa
       name: Mind Control
@@ -9456,7 +9485,6 @@ Characters:
       baseSize: 0
     version: 1
     yellowCircleMoves: []
-    overlayImage: liv_overlay.png
     headFileName: characters/Liv/head-Liv.webp
     statCardFileName: 
       character_wide_cards/generated_wide_cards_with_left_text/Liv_wide_card_with_text.png
@@ -10407,7 +10435,6 @@ Characters:
       baseSize: 0
     version: 3
     yellowCircleMoves: []
-    overlayImage: ShabbaroOn_overlay.png
     headFileName: characters/ShabbaroOn/Head-Shabaroon.webp
     statCardFileName: 
       character_wide_cards/generated_wide_cards_with_left_text/ShabbaroOn_wide_card_with_text.png
