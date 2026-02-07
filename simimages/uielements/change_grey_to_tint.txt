@@ -1,0 +1,5 @@
+┌──(admuser㉿wkstation5)-[~/github/asoiaf-game/asoiaf-simulator/assets/images/ui]
+└─$ convert play_grey.png -colorspace Gray outgray.png
+
+┌──(admuser㉿wkstation5)-[~/github/asoiaf-game/asoiaf-simulator/assets/images/ui]
+└─$ convert outgray.png -fill green -tint 100 play_card.png
