@@ -1201,6 +1201,27 @@
       "colors": [
         "#45B7D1"
       ]
+    },
+    "watchtower.png": {
+      "overlay": "watchtower_overlay.png",
+      "overlayWidth": 974,
+      "overlayHeight": 879,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 25,
+      "colors": [
+        "#FF2DA6",
+        "#C77DFF"
+      ]
+    },
+    "gallows.png": {
+      "overlay": "gallows_overlay.png",
+      "overlayWidth": 1794,
+      "overlayHeight": 1186,
+      "flying": false,
+      "dangerous": false,
+      "physicalSize": 25,
+      "colors": []
     }
   },
   "backgrounds": {
@@ -1233,10 +1254,7 @@
       "flying": false,
       "dangerous": false,
       "physicalSize": 25,
-      "colors": [
-        "#C77DFF",
-        "#FFCA3A"
-      ]
+      "colors": []
     },
     "citystreet3.png": {
       "overlay": "citystreet3_overlay.png",

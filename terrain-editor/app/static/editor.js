@@ -65,6 +65,7 @@ class TerrainEditor {
             '#FFCA3A', // Obstacle
             '#C77DFF', // Barrier (Lighter Purple)
             '#483D8B', // Building (Deep Purple)
+            '#FF2DA6', // Falling (Neon Pink)
             '#EF5350', // Dangerous
             
             // Additional colors
